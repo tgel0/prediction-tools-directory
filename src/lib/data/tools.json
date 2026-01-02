@@ -1,0 +1,30 @@
+[
+    {
+        "id": "polymarket",
+        "name": "Polymarket",
+        "slug": "polymarket",
+        "description": "The world's largest decentralized prediction market. Trade on politics, crypto, sports, and more based on real-world events.",
+        "category": "Platform",
+        "url": "https://polymarket.com",
+        "tags": [
+            "Crypto",
+            "Decentralized",
+            "Polygon"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "kalshi",
+        "name": "Kalshi",
+        "slug": "kalshi",
+        "description": "The first federally regulated prediction market in the US. Trade on event contracts defined by the CFTC.",
+        "category": "Platform",
+        "url": "https://kalshi.com",
+        "tags": [
+            "Regulated",
+            "US",
+            "Fiat"
+        ],
+        "isPromoted": false
+    }
+]
