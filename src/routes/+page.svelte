@@ -20,9 +20,10 @@
 <div class="space-y-12">
     <div class="text-center space-y-4 py-8">
         <h1
-            class="text-4xl md:text-6xl font-black font-sans tracking-tight text-white uppercase"
+            class="text-3xl sm:text-5xl md:text-6xl font-black font-sans tracking-tighter text-white uppercase leading-tight sm:leading-none"
         >
-            PREDICTIONTOOLS.<span class="text-neon-green">DIRECTORY</span>
+            <span class="block">PREDICTIONTOOLS</span>
+            <span class="text-neon-green">.DIRECTORY</span>
         </h1>
         <p class="text-xl text-gray-400 max-w-2xl mx-auto font-mono">
             The definitive index of tools, platforms, and analytics for the
