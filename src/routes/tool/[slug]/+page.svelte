@@ -99,6 +99,7 @@
                 </p>
             </div>
 
+            <!--
             <div class="border-t border-terminal-slate pt-8">
                 <h3
                     class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-4"
@@ -115,6 +116,7 @@
                     {/each}
                 </div>
             </div>
+            -->
         </div>
     </div>
 </div>

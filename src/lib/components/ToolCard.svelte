@@ -82,9 +82,11 @@
         {tool.description}
     </p>
 
+    <!-- 
     <div class="flex flex-wrap gap-2 mt-auto">
         {#each tool.tags as tag}
             <span class="text-xs text-dim-gray font-mono">#{tag}</span>
         {/each}
-    </div>
+    </div> 
+    -->
 </div>

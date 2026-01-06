@@ -3,7 +3,7 @@
         "id": "polymarket",
         "name": "Polymarket",
         "slug": "polymarket",
-        "description": "The world's largest decentralized prediction market. Trade on politics, crypto, sports, and more based on real-world events.",
+        "description": "A decentralized prediction market platform that enables individuals to speculate on the outcomes of future real-world events. Built on the Polygon blockchain, it offers transparent, peer-to-peer trading across politics, sports, and economics.",
         "category": "Platform",
         "url": "https://polymarket.com",
         "tags": [
@@ -17,7 +17,7 @@
         "id": "kalshi",
         "name": "Kalshi",
         "slug": "kalshi",
-        "description": "The first federally regulated prediction market in the US. Trade on event contracts defined by the CFTC.",
+        "description": "The first federally regulated exchange in the United States dedicated specifically to trading on the outcome of real-world events. Regulated by the CFTC, Kalshi allows users to purchase 'event contracts' on everything from economic indicators to entertainment results.",
         "category": "Platform",
         "url": "https://kalshi.com",
         "tags": [
