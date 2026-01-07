@@ -73,7 +73,7 @@
     </div>
 
     <h3
-        class="text-xl font-bold text-white font-sans mb-2 group-hover:text-neon-green transition-colors"
+        class="text-xl font-black uppercase tracking-tight text-white font-sans mb-2 group-hover:text-neon-green transition-colors"
     >
         <a href="/tool/{tool.slug}" class="focus:outline-none">
             <span class="absolute inset-0" aria-hidden="true" />
@@ -81,7 +81,7 @@
         </a>
     </h3>
 
-    <p class="text-gray-400 text-sm mb-6 flex-grow leading-relaxed">
+    <p class="text-gray-400 text-sm mb-6 flex-grow leading-relaxed font-mono">
         {tool.shortDescription}
     </p>
 

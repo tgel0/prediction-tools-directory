@@ -46,7 +46,7 @@
                 <div>
                     <div class="flex items-center space-x-3 mb-2">
                         <h1
-                            class="text-4xl md:text-5xl font-bold text-white font-sans tracking-tight"
+                            class="text-4xl md:text-5xl font-black uppercase text-white font-sans tracking-tight"
                         >
                             {tool.name}
                         </h1>
@@ -119,7 +119,7 @@
             </div>
 
             <div class="prose prose-invert prose-lg max-w-none mb-12">
-                <p class="text-gray-300 leading-relaxed text-lg">
+                <p class="text-gray-300 leading-relaxed text-lg font-mono">
                     {tool.description}
                 </p>
             </div>
