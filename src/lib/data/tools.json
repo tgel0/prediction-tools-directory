@@ -3,9 +3,11 @@
         "id": "polymarket",
         "name": "Polymarket",
         "slug": "polymarket",
+        "shortDescription": "Decentralized prediction market on Polygon for real-world events.",
         "description": "A decentralized prediction market platform that enables individuals to speculate on the outcomes of future real-world events. Built on the Polygon blockchain, it offers transparent, peer-to-peer trading across politics, sports, and economics.",
         "category": "Platform",
         "url": "https://polymarket.com",
+        "xUrl": "https://x.com/Polymarket",
         "tags": [
             "Crypto",
             "Decentralized",
@@ -17,13 +19,47 @@
         "id": "kalshi",
         "name": "Kalshi",
         "slug": "kalshi",
+        "shortDescription": "First federally regulated event contract exchange in the US.",
         "description": "The first federally regulated exchange in the United States dedicated specifically to trading on the outcome of real-world events. Regulated by the CFTC, Kalshi allows users to purchase 'event contracts' on everything from economic indicators to entertainment results.",
         "category": "Platform",
         "url": "https://kalshi.com",
+        "xUrl": "https://x.com/Kalshi",
         "tags": [
             "Regulated",
             "US",
             "Fiat"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "opinion-trade",
+        "name": "Opinion.trade",
+        "slug": "opinion-trade",
+        "shortDescription": "Decentralized prediction market and oracle protocol on BNB Chain.",
+        "description": "A decentralized prediction market and oracle protocol that allows users to trade 'Yes/No' contracts on real-world events. Features an AI oracle, on-chain order book, and an incentive system for liquidity providers.",
+        "category": "Platform",
+        "url": "https://opinion.trade",
+        "xUrl": "https://x.com/opinionlabxyz",
+        "tags": [
+            "Crypto",
+            "BNB Chain",
+            "DeFi"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "predict-fun",
+        "name": "Predict.fun",
+        "slug": "predict-fun",
+        "shortDescription": "Blast-native prediction market with yield-generating positions.",
+        "description": "A Blast-native prediction market leveraging Layer 2 capabilities to offer yield on positions. Users can trade on politics, sports, and crypto while earning native yield and points towards potential airdrops.",
+        "category": "Platform",
+        "url": "https://predict.fun",
+        "xUrl": "https://x.com/predictdotfun",
+        "tags": [
+            "Crypto",
+            "Blast L2",
+            "Yield"
         ],
         "isPromoted": false
     }

@@ -70,27 +70,52 @@
                     </div>
                 </div>
 
-                <a
-                    href={tool.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium text-terminal-black bg-neon-green hover:bg-neon-green/90 transition-colors shadow-lg shadow-neon-green/20 font-mono"
-                >
-                    VISIT WEBSITE
-                    <svg
-                        class="ml-2 -mr-1 h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
+                <div class="flex flex-wrap gap-4">
+                    <a
+                        href="{tool.url}{tool.url.includes('?')
+                            ? '&'
+                            : '?'}utm_source=predictiontools.directory"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium text-terminal-black bg-neon-green hover:bg-neon-green/90 transition-colors shadow-lg shadow-neon-green/20 font-mono"
                     >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                        />
-                    </svg>
-                </a>
+                        VISIT WEBSITE
+                        <svg
+                            class="ml-2 -mr-1 h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                            />
+                        </svg>
+                    </a>
+
+                    {#if tool.xUrl}
+                        <a
+                            href={tool.xUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center justify-center px-6 py-3 border border-terminal-slate text-base font-medium text-white bg-terminal-black hover:bg-terminal-slate/20 transition-colors font-mono"
+                            aria-label="Follow on X"
+                        >
+                            <svg
+                                class="h-5 w-5 mr-2"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                                />
+                            </svg>
+                            FOLLOW ON X
+                        </a>
+                    {/if}
+                </div>
             </div>
 
             <div class="prose prose-invert prose-lg max-w-none mb-12">

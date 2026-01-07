@@ -2,6 +2,7 @@
     export let tool: {
         name: string;
         slug: string;
+        shortDescription: string;
         description: string;
         category: string;
         tags: string[];
@@ -47,10 +48,12 @@
         </div>
         <!-- External Link Icon -->
         <a
-            href={tool.url}
+            href="{tool.url}{tool.url.includes('?')
+                ? '&'
+                : '?'}utm_source=predictiontools.directory"
             target="_blank"
             rel="noreferrer"
-            class="text-gray-500 hover:text-white transition-colors"
+            class="relative z-10 text-gray-500 hover:text-white transition-colors"
             aria-label="Visit Website"
         >
             <svg
@@ -79,7 +82,7 @@
     </h3>
 
     <p class="text-gray-400 text-sm mb-6 flex-grow leading-relaxed">
-        {tool.description}
+        {tool.shortDescription}
     </p>
 
     <!-- 
