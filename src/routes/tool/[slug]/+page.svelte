@@ -41,7 +41,7 @@
 
         <div class="relative z-10">
             <div
-                class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8"
+                class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-8"
             >
                 <div>
                     <div class="flex items-center space-x-3 mb-2">

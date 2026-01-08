@@ -33,13 +33,13 @@
     },
     {
         "id": "opinion-trade",
-        "name": "Opinion.trade",
+        "name": "Opinion",
         "slug": "opinion-trade",
         "shortDescription": "Decentralized prediction market and oracle protocol on BNB Chain.",
         "description": "A decentralized prediction market and oracle protocol that allows users to trade 'Yes/No' contracts on real-world events. Features an AI oracle, on-chain order book, and an incentive system for liquidity providers.",
         "category": "Platform",
         "url": "https://opinion.trade",
-        "xUrl": "https://x.com/opinionlabxyz",
+        "xUrl": "https://x.com/opinionlabsxyz",
         "tags": [
             "Crypto",
             "BNB Chain",
@@ -49,7 +49,7 @@
     },
     {
         "id": "predict-fun",
-        "name": "Predict.fun",
+        "name": "Predict",
         "slug": "predict-fun",
         "shortDescription": "Blast-native prediction market with yield-generating positions.",
         "description": "A Blast-native prediction market leveraging Layer 2 capabilities to offer yield on positions. Users can trade on politics, sports, and crypto while earning native yield and points towards potential airdrops.",
@@ -60,6 +60,86 @@
             "Crypto",
             "Blast L2",
             "Yield"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "limitless",
+        "name": "Limitless",
+        "slug": "limitless",
+        "shortDescription": "Decentralized prediction market with daily outcome payouts.",
+        "description": "A decentralized prediction market platform that allows users to trade on the outcome of future events. Limitless differentiates itself with features like daily payouts for certain markets and a focus on user experience.",
+        "category": "Platform",
+        "url": "https://limitless.exchange",
+        "xUrl": "https://x.com/trylimitless",
+        "tags": [
+            "Crypto",
+            "Decentralized",
+            "Daily Payouts"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "probable",
+        "name": "Probable",
+        "slug": "probable",
+        "shortDescription": "Crypto-native prediction platform on BNB Chain with zero trading fees.",
+        "description": "A crypto-native prediction platform built on the BNB Chain using a 'Simple Shares Mechanism'. Probable Markets offers zero trading fees (gas sponsored by the platform) and transparent on-chain settlement for trades using USDT.",
+        "category": "Platform",
+        "url": "https://probable.markets",
+        "xUrl": "https://x.com/0xProbable",
+        "tags": [
+            "Crypto",
+            "BNB Chain",
+            "Zero Fees"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "pizzint-watch",
+        "name": "PizzINT.watch",
+        "slug": "pizzint-watch",
+        "shortDescription": "Real-time Pentagon pizza order volume tracker for geopolitical intelligence.",
+        "description": "An unconventional OSINT dashboard that tracks pizza order volume at the Pentagon's nearest Dominos. Based on the 'Pizza Meter' theory, it attempts to correlate late-night pizza spikes with potential geopolitical crises or military operations.",
+        "category": "Analytics",
+        "url": "https://www.pizzint.watch",
+        "xUrl": "https://x.com/pizzintwatch",
+        "tags": [
+            "OSINT",
+            "Alternative Data",
+            "Geopolitics"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "prediction-hunt",
+        "name": "Prediction Hunt",
+        "slug": "prediction-hunt",
+        "shortDescription": "Aggregator tracking live odds from Kalshi, Polymarket, and PredictIt.",
+        "description": "A prediction market aggregator and arbitrage tool that tracks live odds across major platforms like Kalshi, Polymarket, and PredictIt. It provides real-time market analysis, identifying arbitrage opportunities and trending markets.",
+        "category": "Analytics",
+        "url": "https://predictionhunt.com",
+        "xUrl": "https://x.com/PredictionHunt",
+        "tags": [
+            "Arbitrage",
+            "Aggregator",
+            "Multi-platform"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "probex",
+        "name": "ProbEx",
+        "slug": "probex",
+        "shortDescription": "Real-time prediction markets intelligence with AI-powered news analysis.",
+        "description": "An intelligence dashboard that tracks live odds from Kalshi and Polymarket, enhanced with AI-powered news analysis to provide context for market movements.",
+        "category": "Analytics",
+        "url": "https://probex.markets",
+        "xUrl": "https://x.com/ProbabilityEx",
+        "tags": [
+            "AI",
+            "News",
+            "Analytics"
         ],
         "isPromoted": false
     }

@@ -20,10 +20,29 @@
             <span class="block">PREDICTIONTOOLS</span>
             <span class="text-neon-green">.DIRECTORY</span>
         </h1>
-        <p class="text-xl text-gray-400 max-w-2xl mx-auto font-mono">
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto font-mono mb-2">
             The definitive index of tools, platforms, and analytics for the
             prediction market ecosystem.
         </p>
+        <a
+            href="https://x.com/predictiontools"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center space-x-2 bg-terminal-black hover:bg-terminal-slate/50 text-white font-mono text-xs uppercase px-4 py-2 border border-terminal-slate rounded-full transition-all hover:border-neon-green group"
+        >
+            <svg
+                class="h-3 w-3 fill-current text-gray-400 group-hover:text-white transition-colors"
+                viewBox="0 0 24 24"
+            >
+                <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                />
+            </svg>
+            <span
+                class="text-gray-300 group-hover:text-neon-green transition-colors"
+                >Follow on X</span
+            >
+        </a>
     </div>
 
     <div class="relative w-full">

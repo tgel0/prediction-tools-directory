@@ -24,6 +24,11 @@
         >
         <a href="/terms" class="hover:text-neon-blue transition-colors">Terms</a
         >
+        <a
+          href="mailto:hi@predictiontools.directory"
+          class="hover:text-neon-green transition-colors"
+          >hi@predictiontools.directory</a
+        >
       </div>
     </div>
   </footer>
