@@ -142,5 +142,53 @@
             "Analytics"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "predictshark",
+        "name": "Predict Shark Analytics",
+        "slug": "predictshark",
+        "shortDescription": "Real-time analytics, live feeds, and trader tracking for Polymarket.",
+        "description": "A comprehensive analytics suite for Polymarket featuring real-time activity feeds, trending market data, and detailed trader profiles. It allows users to monitor market movements and track top-performing traders.",
+        "category": "Analytics",
+        "url": "https://predictshark.io",
+        "xUrl": "https://x.com/predictshark",
+        "tags": [
+            "Analytics",
+            "Polymarket",
+            "Live Feed"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polysights",
+        "name": "Polysights",
+        "slug": "polysights",
+        "shortDescription": "Analytics and category filters for Polymarket and other prediction markets.",
+        "description": "An analytics platform offering AI-driven insights, category filters, and data visualization for prediction markets. It helps users analyze trends across politics, sports, crypto, and more.",
+        "category": "Analytics",
+        "url": "https://polysights.xyz",
+        "xUrl": "https://x.com/Polysights",
+        "tags": [
+            "Analytics",
+            "AI",
+            "Data Visualization"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polyfactual",
+        "name": "Polyfactual",
+        "slug": "polyfactual",
+        "shortDescription": "AI-powered research and intelligence platform for prediction markets.",
+        "description": "Provides real-time market intelligence, news analysis, and risk assessments using machine learning. Features tools like 'Insider Finder' to track trader behavior and market movements.",
+        "category": "Analytics",
+        "url": "https://polyfactual.com",
+        "xUrl": "https://x.com/polyfactual",
+        "tags": [
+            "AI Research",
+            "Market Intelligence",
+            "Risk Analysis"
+        ],
+        "isPromoted": false
     }
 ]

@@ -12,6 +12,14 @@
     });
 </script>
 
+<svelte:head>
+    <title>Prediction Market Directory | Best Tools & Platforms</title>
+    <meta
+        name="description"
+        content="Discover the best prediction market tools, platforms, and analytics. Compare top services like Polymarket, Kalshi, and specialized analytics dashboards."
+    />
+</svelte:head>
+
 <div class="space-y-12">
     <div class="text-center space-y-4 py-8">
         <h1
