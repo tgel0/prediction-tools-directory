@@ -122,6 +122,14 @@
                 <p class="text-gray-300 leading-relaxed text-lg font-mono">
                     {tool.description}
                 </p>
+                <div
+                    class="mt-8 flex items-center space-x-2 text-sm text-gray-500 font-mono italic"
+                >
+                    <span
+                        class="inline-block w-2 h-2 rounded-full bg-neon-green/50 animate-pulse"
+                    ></span>
+                    <span>More data indexing in progress...</span>
+                </div>
             </div>
 
             <!--

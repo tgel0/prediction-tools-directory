@@ -26,7 +26,15 @@
             class="text-3xl sm:text-5xl md:text-6xl font-black font-sans tracking-tighter text-white uppercase leading-tight sm:leading-none"
         >
             <span class="block">PREDICTIONTOOLS</span>
-            <span class="text-neon-green">.DIRECTORY</span>
+            <span
+                class="text-neon-green flex items-center justify-center gap-3"
+            >
+                .DIRECTORY
+                <span
+                    class="text-xs md:text-sm bg-neon-green text-black px-2 py-0.5 rounded font-mono font-bold align-middle tracking-normal transform -translate-y-1"
+                    >ALPHA</span
+                >
+            </span>
         </h1>
         <p class="text-xl text-gray-400 max-w-2xl mx-auto font-mono mb-2">
             The definitive index of tools, platforms, and analytics for the
