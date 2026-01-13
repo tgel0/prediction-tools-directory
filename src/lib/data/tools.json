@@ -190,5 +190,85 @@
             "Risk Analysis"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "polym-trade",
+        "name": "Polym.trade",
+        "slug": "polym-trade",
+        "shortDescription": "Mobile-first trading terminal with advanced UI for Polymarket.",
+        "description": "A dedicated trading terminal for Polymarket designed with a mobile-first approach. It features real-time market data, AI-powered insights, and an intuitive interface optimized for on-the-go trading.",
+        "category": "Trading Terminal",
+        "url": "https://polym.trade",
+        "xUrl": "https://x.com/polymtrade",
+        "tags": [
+            "Trading Terminal",
+            "Mobile First",
+            "Advanced UI"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "thetradefox",
+        "name": "The Trade Fox",
+        "slug": "thetradefox",
+        "shortDescription": "Institutional-grade aggregator and prime brokerage for prediction markets.",
+        "description": "An aggregator and prime brokerage solution offering unified access to multiple prediction markets. It provides advanced trading tools, leverage options, and aggregated insights for serious traders.",
+        "category": "Trading Terminal",
+        "url": "https://thetradefox.com",
+        "xUrl": "https://x.com/tradefoxai",
+        "tags": [
+            "Aggregator",
+            "Prime Brokerage",
+            "Leverage"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "betmoar",
+        "name": "Betmoar",
+        "slug": "betmoar",
+        "shortDescription": "Pro-trading interface with UMA oracle insights and trader tracking.",
+        "description": "A comprehensive trading interface for Polymarket power users. Features include advanced market analytics, trader profiling, real-time news integration, and deep insights into UMA oracle resolutions.",
+        "category": "Trading Terminal",
+        "url": "https://www.betmoar.fun",
+        "xUrl": "https://x.com/betmoardotfun",
+        "tags": [
+            "Trading Terminal",
+            "UMA Oracle",
+            "Trader Tracking"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "synthesis",
+        "name": "SynthesisTrade",
+        "slug": "synthesis",
+        "shortDescription": "Advanced trading terminal for prediction markets with focus on liquidity.",
+        "description": "A sophisticated trading interface for prediction markets offering advanced tools for liquidity analysis, price discovery, and rapid execution.",
+        "category": "Trading Terminal",
+        "url": "https://synthesis.trade",
+        "xUrl": "https://x.com/SynthesisTrade",
+        "tags": [
+            "Trading Terminal",
+            "Liquidity Analysis",
+            "Execution"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "stand-trade",
+        "name": "Stand.trade",
+        "slug": "stand-trade",
+        "shortDescription": "Market scanner and opportunity highway for Polymarket traders.",
+        "description": "An advanced trading terminal featuring a powerful 'Discover' engine to filter markets by volume, liquidity, and specific events. Includes tools for finding alpha and tracking market opportunities.",
+        "category": "Trading Terminal",
+        "url": "https://www.stand.trade",
+        "xUrl": "https://x.com/StandDOTtrade",
+        "tags": [
+            "Market Scanner",
+            "Opportunity Finder",
+            "Alpha Gen"
+        ],
+        "isPromoted": false
     }
 ]
