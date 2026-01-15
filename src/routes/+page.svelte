@@ -85,27 +85,65 @@
         />
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {#each filteredTools as tool (tool.id)}
-            <ToolCard {tool} />
-        {/each}
-    </div>
-
-    {#if filteredTools.length === 0}
-        <div
-            class="text-center py-20 border border-dashed border-terminal-slate rounded-lg"
-        >
-            <p class="text-gray-500 font-mono text-lg">
-                No tools found matching your criteria.
-            </p>
-            <button
-                class="mt-4 text-neon-green hover:underline font-mono"
-                on:click={() => {
-                    searchQuery = "";
-                }}
-            >
-                Clear filters
-            </button>
+    {#if searchQuery}
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {#each filteredTools as tool (tool.id)}
+                <ToolCard {tool} />
+            {/each}
         </div>
+
+        {#if filteredTools.length === 0}
+            <div
+                class="text-center py-20 border border-dashed border-terminal-slate rounded-lg"
+            >
+                <p class="text-gray-500 font-mono text-lg">
+                    No tools found matching your criteria.
+                </p>
+                <button
+                    class="mt-4 text-neon-green hover:underline font-mono"
+                    on:click={() => {
+                        searchQuery = "";
+                    }}
+                >
+                    Clear filters
+                </button>
+            </div>
+        {/if}
+    {:else}
+        {#each ["Platform", "Analytics", "Trading Terminal"] as category}
+            {@const categoryTools = tools.filter(
+                (t) => t.category === category,
+            )}
+            {#if categoryTools.length > 0}
+                <div class="space-y-6">
+                    <div
+                        class="flex items-center justify-between border-b border-terminal-slate pb-4"
+                    >
+                        <h2
+                            class="text-2xl font-black text-white uppercase tracking-tight flex items-center"
+                        >
+                            <span class="text-neon-green mr-2">#</span
+                            >{category}s
+                        </h2>
+                        <a
+                            href="/category/{category
+                                .toLowerCase()
+                                .replace(/ /g, '-')}"
+                            class="text-sm font-mono text-gray-500 hover:text-neon-green transition-colors uppercase"
+                        >
+                            View all
+                        </a>
+                    </div>
+
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    >
+                        {#each categoryTools as tool (tool.id)}
+                            <ToolCard {tool} />
+                        {/each}
+                    </div>
+                </div>
+            {/if}
+        {/each}
     {/if}
 </div>

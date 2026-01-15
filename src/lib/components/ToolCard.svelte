@@ -25,7 +25,7 @@
 </script>
 
 <div
-    class="group relative bg-terminal-dark border border-terminal-slate p-6 rounded-none hover:border-gray-500 transition-all duration-300 flex flex-col h-full {tool.isPromoted
+    class="group relative bg-terminal-dark border border-terminal-slate p-6 rounded-none hover:border-neon-green hover:shadow-[0_0_15px_rgba(0,255,65,0.3)] hover:-translate-y-1 transition-all duration-300 flex flex-col h-full {tool.isPromoted
         ? 'border-l-4 border-l-neon-green'
         : ''}"
 >

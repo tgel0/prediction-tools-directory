@@ -270,5 +270,21 @@
             "Alpha Gen"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "polydata",
+        "name": "Polydata",
+        "slug": "polydata",
+        "shortDescription": "Advanced analytics dashboard for Polymarket volume, OI, and leaderboards.",
+        "description": "A comprehensive analytics platform for Polymarket that tracks volume, open interest, trader leaderboards, and wallet activity. It provides deep insights into the Polymarket ecosystem and builder activity.",
+        "category": "Analytics",
+        "url": "https://www.polydata.cc",
+        "xUrl": "https://x.com/polydata_cc",
+        "tags": [
+            "Analytics",
+            "Polymarket",
+            "Leaderboard"
+        ],
+        "isPromoted": false
     }
 ]
