@@ -286,5 +286,53 @@
             "Leaderboard"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "fireplace",
+        "name": "Fireplace",
+        "slug": "fireplace",
+        "shortDescription": "Social prediction market aggregator turning news into betting opportunities.",
+        "description": "A social-first prediction market aggregator that allows users to bet on headlines and engage with friends. It aggregates markets from various platforms like Polymarket, offering a unified and social betting experience.",
+        "category": "Analytics",
+        "url": "https://fireplace.gg",
+        "xUrl": "https://x.com/fireplacegg",
+        "tags": [
+            "Aggregator",
+            "Social",
+            "News"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "pigeon-trade",
+        "name": "Pigeon",
+        "slug": "pigeon-trade",
+        "shortDescription": "AI quant platform for automated prediction market strategies.",
+        "description": "An AI-driven quantitative trading platform for prediction markets. It offers automated strategies, portfolio management, and advanced research tools for crypto, sports, and current events.",
+        "category": "Trading Terminal",
+        "url": "https://pigeon.trade",
+        "xUrl": "https://x.com/pigeon_trade",
+        "tags": [
+            "AI Quant",
+            "Auto-Trading",
+            "Strategies"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "copytrade",
+        "name": "CopyTrade",
+        "slug": "copytrade",
+        "shortDescription": "Copy trading platform mirroring top Polymarket traders.",
+        "description": "A dedicated copy trading interface for Polymarket, allowing users to automatically mirror the moves of profitable traders. Features include real-time wallet tracking and leaderboard analysis.",
+        "category": "Trading Terminal",
+        "url": "https://www.copytrade.gg",
+        "xUrl": "https://x.com/copytrade_gg",
+        "tags": [
+            "Copy Trading",
+            "Leaderboard",
+            "Automation"
+        ],
+        "isPromoted": false
     }
 ]
