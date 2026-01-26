@@ -334,5 +334,69 @@
             "Automation"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "kalshinomics",
+        "name": "Kalshinomics",
+        "slug": "kalshinomics",
+        "shortDescription": "Advanced Prediction Market Analytics.",
+        "description": "Prediction markets, simplified. Clean tables, fast filters, curated markets. Optimized interface to showcase important trades and analytics.",
+        "category": "Analytics",
+        "url": "https://kalshinomics.com",
+        "xUrl": "https://x.com/Kalshinomics",
+        "tags": [
+            "Analytics",
+            "Filters",
+            "Curated Markets"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "betonwars",
+        "name": "BetOnWars",
+        "slug": "betonwars",
+        "shortDescription": "The World's First Online War Room.",
+        "description": "Real-time OSINT from 280+ sources in 15+ languages. Track wars, trade predictions, follow insiders. Where information becomes profit.",
+        "category": "Analytics",
+        "url": "https://www.betonwars.fun",
+        "xUrl": "https://x.com/BetOnWars",
+        "tags": [
+            "OSINT",
+            "Geopolitics",
+            "War Predictions"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "arbbets",
+        "name": "ArbBets",
+        "slug": "arbbets",
+        "shortDescription": "Prediction Markets Arbitrage and +EV opportunities scanner.",
+        "description": "We scan thousands of markets to help you spot arbitrage and +EV opportunities. Tools include Prediction Markets Screener, Arbitrage Scanner, Positive EV Plays, and API access.",
+        "category": "Analytics",
+        "url": "https://getarbitragebets.com",
+        "xUrl": "https://x.com/ArbBets20",
+        "tags": [
+            "Arbitrage",
+            "Scanner",
+            "Positive EV"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "kiyotaka",
+        "name": "Kiyotaka",
+        "slug": "kiyotaka",
+        "shortDescription": "AI-powered prediction market analysis.",
+        "description": "An AI analytics tool for prediction markets offering automated strategies and deep market insights.",
+        "category": "Analytics",
+        "url": "https://kiyotaka.ai",
+        "xUrl": "https://x.com/kiyotaka_ai",
+        "tags": [
+            "AI",
+            "Analytics",
+            "Prediction Market"
+        ],
+        "isPromoted": false
     }
 ]
