@@ -431,55 +431,5 @@
             "Decentralized"
         ],
         "isPromoted": false
-    },
-    {
-        "id": "mantis",
-        "name": "MANTIS",
-        "slug": "mantis",
-        "shortDescription": "Decentralized AI-driven financial forecasting.",
-        "description": "A Bittensor prediction subnet (Subnet 123) that turns miners' encrypted, time-locked embeddings into price-direction signals for assets like BTC/ETH.",
-        "category": "Analytics",
-        "url": "https://github.com/Barbariandev/mantis-subnet",
-        "xUrl": "https://x.com/Barbarian7676",
-        "tags": [
-            "AI",
-            "Bittensor",
-            "Financial Forecasting"
-        ],
-        "isPromoted": false
-    },
-    {
-        "id": "precog",
-        "name": "Precog",
-        "slug": "precog",
-        "shortDescription": "High-frequency Bitcoin forecasting subnet.",
-        "description": "Precog (Subnet 55) is a high-frequency Bitcoin forecasting subnet on Bittensor that predicts price movements using decentralized AI models.",
-        "category": "Analytics",
-        "url": "https://coinmetrics.io",
-        "xUrl": "https://x.com/CM_Precog",
-        "tags": [
-            "AI",
-            "Bittensor",
-            "Bitcoin",
-            "CoinMetrics"
-        ],
-        "isPromoted": false
-    },
-    {
-        "id": "bitquant",
-        "name": "BitQuant",
-        "slug": "bitquant",
-        "shortDescription": "Decentralized network for crypto market analysis.",
-        "description": "BitQuant (Subnet 15) provides real-time crypto market analysis and DeFi insights. Miners compete to produce quantitative analysis that is turned into chat-driven actions.",
-        "category": "Analytics",
-        "url": "https://bitquant.io",
-        "xUrl": "https://x.com/OpenGradient",
-        "tags": [
-            "AI",
-            "Bittensor",
-            "DeFi",
-            "Crypto Analysis"
-        ],
-        "isPromoted": false
     }
 ]
