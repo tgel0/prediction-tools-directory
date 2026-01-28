@@ -465,22 +465,6 @@
         "isPromoted": false
     },
     {
-        "id": "azuro",
-        "name": "Azuro",
-        "slug": "azuro",
-        "shortDescription": "Liquidity layer and infrastructure for on-chain predictions.",
-        "description": "A decentralized liquidity layer for on-chain predictions. It provides tooling and infrastructure for developers to build prediction market dApps without seeding their own liquidity.",
-        "category": "Platform",
-        "url": "https://azuro.org",
-        "xUrl": "https://x.com/azuroprotocol",
-        "tags": [
-            "Infrastructure",
-            "Liquidity",
-            "Developer Tools"
-        ],
-        "isPromoted": false
-    },
-    {
         "id": "hedgehog",
         "name": "Hedgehog",
         "slug": "hedgehog",
@@ -493,22 +477,6 @@
             "Solana",
             "Crypto",
             "Fast Execution"
-        ],
-        "isPromoted": false
-    },
-    {
-        "id": "thales",
-        "name": "Thales",
-        "slug": "thales",
-        "shortDescription": "Parimutuel prediction markets on Optimism and Arbitrum.",
-        "description": "A decentralized parimutuel markets protocol on Optimism and Arbitrum. It allows users to trade on sports, crypto assets, and other events with gamified experiences.",
-        "category": "Platform",
-        "url": "https://thalesmarket.io",
-        "xUrl": "https://x.com/thalesmarket",
-        "tags": [
-            "Optimism",
-            "Arbitrum",
-            "DeFi"
         ],
         "isPromoted": false
     }
