@@ -398,5 +398,38 @@
             "Prediction Market"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "oddpool",
+        "name": "Oddpool",
+        "slug": "oddpool",
+        "shortDescription": "The Bloomberg for prediction markets.",
+        "description": "Aggregates live cross-venue odds, spreads, arbitrage opportunities, historical price data, market depth, economic indicators, and analytics across Polymarket, Kalshi, CME, and more.",
+        "category": "Analytics",
+        "url": "https://www.oddpool.com",
+        "xUrl": "https://x.com/oddpool_alerts",
+        "tags": [
+            "Analytics",
+            "Arbitrage",
+            "Aggregator"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "sportstensor",
+        "name": "Sportstensor",
+        "slug": "sportstensor",
+        "shortDescription": "Decentralized AI network for sports prediction on Bittensor.",
+        "description": "A decentralized artificial intelligence network designed for sports prediction that operates as Subnet 41 on the Bittensor blockchain. It aggregates numerous independent forecasts into a single, more accurate meta-model.",
+        "category": "Platform",
+        "url": "https://www.sportstensor.com",
+        "xUrl": "https://x.com/sportstensor",
+        "tags": [
+            "AI",
+            "Bittensor",
+            "Sports",
+            "Decentralized"
+        ],
+        "isPromoted": false
     }
 ]
