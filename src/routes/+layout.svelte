@@ -29,6 +29,9 @@
           class="hover:text-neon-green transition-colors"
           >hi@predictiontools.directory</a
         >
+        <a href="/sitemap.xml" class="hover:text-neon-blue transition-colors"
+          >Sitemap</a
+        >
       </div>
     </div>
   </footer>

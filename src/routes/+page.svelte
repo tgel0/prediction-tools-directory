@@ -18,6 +18,7 @@
         name="description"
         content="Discover the best prediction market tools, platforms, and analytics. Compare top services like Polymarket, Kalshi, and specialized analytics dashboards."
     />
+    <link rel="canonical" href="https://predictiontools.directory/" />
 </svelte:head>
 
 <div class="space-y-12">
