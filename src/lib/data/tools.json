@@ -431,5 +431,53 @@
             "Decentralized"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "manifold",
+        "name": "Manifold",
+        "slug": "manifold",
+        "shortDescription": "Play-money prediction market with user-created markets.",
+        "description": "A play-money prediction market platform where users can trade on any topic, create their own markets, and compete on leaderboards. It uses 'Mana' as a currency which can be redeemed for charitable donations.",
+        "category": "Platform",
+        "url": "https://manifold.markets",
+        "xUrl": "https://x.com/ManifoldMarkets",
+        "tags": [
+            "Play Money",
+            "User Generated",
+            "Social"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "zeitgeist",
+        "name": "Zeitgeist",
+        "slug": "zeitgeist",
+        "shortDescription": "Decentralized prediction market protocol on Polkadot.",
+        "description": "A decentralized prediction market protocol built on Polkadot/Kusama. It features a futarchy governance model and an SDK for building prediction market applications.",
+        "category": "Platform",
+        "url": "https://zeitgeist.pm",
+        "xUrl": "https://x.com/ZeitgeistPM",
+        "tags": [
+            "Polkadot",
+            "Decentralized",
+            "Futarchy"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "hedgehog",
+        "name": "Hedgehog",
+        "slug": "hedgehog",
+        "shortDescription": "Prediction markets on Solana with high-speed execution.",
+        "description": "A prediction market platform on Solana that allows users to bet on real-world events including crypto, politics, and sports. Features 'Versus' and 'Classic' trading modes.",
+        "category": "Platform",
+        "url": "https://hedgehog.markets",
+        "xUrl": "https://x.com/HedgehogMarket",
+        "tags": [
+            "Solana",
+            "Crypto",
+            "Fast Execution"
+        ],
+        "isPromoted": false
     }
 ]
