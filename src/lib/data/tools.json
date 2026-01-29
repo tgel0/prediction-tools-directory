@@ -479,5 +479,85 @@
             "Fast Execution"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "augur",
+        "name": "Augur",
+        "slug": "augur",
+        "shortDescription": "Decentralized, trustless prediction market protocol on Ethereum.",
+        "description": "The original decentralized prediction market protocol built on Ethereum. It allows users to create their own markets on any topic and trade without a central authority.",
+        "category": "Platform",
+        "url": "https://augur.net",
+        "xUrl": "https://x.com/AugurProject",
+        "tags": [
+            "Ethereum",
+            "Decentralized",
+            "Protocol"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "forecast-trader",
+        "name": "IBKR ForecastTrader",
+        "slug": "forecast-trader",
+        "shortDescription": "Regulated forecast contracts from Interactive Brokers.",
+        "description": "A regulated platform by Interactive Brokers offering forecast contracts on political, economic, and climate events. It provides a secure environment for trading real-world outcomes.",
+        "category": "Platform",
+        "url": "https://forecasttrader.interactivebrokers.com",
+        "xUrl": "https://x.com/IBKR",
+        "tags": [
+            "Regulated",
+            "US",
+            "TradFi"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "thales",
+        "name": "Thales Market",
+        "slug": "thales",
+        "shortDescription": "Parimutuel prediction markets on Optimism and Arbitrum.",
+        "description": "A decentralized protocol offering parimutuel markets, which means liquidity is pooled and shared among winners. It operates on Optimism, Arbitrum, and Base, utilizing Chainlink oracles for settlement.",
+        "category": "Platform",
+        "url": "https://thalesmarket.io",
+        "xUrl": "https://x.com/thalesmarket",
+        "tags": [
+            "DeFi",
+            "Parimutuel",
+            "Optimism"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "sx-bet",
+        "name": "SX Bet",
+        "slug": "sx-bet",
+        "shortDescription": "Largest blockchain sports betting exchange.",
+        "description": "A peer-to-peer sports betting exchange built on the SX Network. It offers deep liquidity, low fees, and non-custodial betting on a wide range of sports. Users can earn SX tokens through 'Bet Mining'.",
+        "category": "Platform",
+        "url": "https://sx.bet",
+        "xUrl": "https://x.com/SX_Bet",
+        "tags": [
+            "Sports",
+            "Crypto",
+            "Exchange"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "azuro",
+        "name": "Azuro",
+        "slug": "azuro",
+        "shortDescription": "Liquidity layer and infrastructure for on-chain predictions.",
+        "description": "A decentralized DAO and protocol that provides the infrastructure and liquidity for prediction markets. It uses a unique 'Liquidity Tree' model to allow developers to build betting apps on top of its shared liquidity.",
+        "category": "Platform",
+        "url": "https://azuro.org",
+        "xUrl": "https://x.com/azuroprotocol",
+        "tags": [
+            "Infrastructure",
+            "Liquidity",
+            "DAO"
+        ],
+        "isPromoted": false
     }
 ]
