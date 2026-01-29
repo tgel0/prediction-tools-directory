@@ -124,7 +124,9 @@
                             class="text-2xl font-black text-white uppercase tracking-tight flex items-center"
                         >
                             <span class="text-neon-green mr-2">#</span
-                            >{category}s
+                            >{category.endsWith("s")
+                                ? category
+                                : category + "s"}
                         </h2>
                         <a
                             href="/category/{category

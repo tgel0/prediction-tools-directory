@@ -9,7 +9,12 @@ export const load: PageLoad = ({ params }) => {
         throw error(404, 'Tool not found');
     }
 
+    const relatedTools = tools
+        .filter((t) => t.category === tool.category && t.id !== tool.id)
+        .slice(0, 3);
+
     return {
-        tool
+        tool,
+        relatedTools
     };
 };
