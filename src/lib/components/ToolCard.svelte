@@ -76,7 +76,7 @@
         class="text-xl font-black uppercase tracking-tight text-white font-sans mb-2 group-hover:text-neon-green transition-colors"
     >
         <a href="/tool/{tool.slug}" class="focus:outline-none">
-            <span class="absolute inset-0" aria-hidden="true" />
+            <span class="absolute inset-0" aria-hidden="true"></span>
             {tool.name}
         </a>
     </h3>
