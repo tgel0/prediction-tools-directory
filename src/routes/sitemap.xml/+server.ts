@@ -1,5 +1,7 @@
 import tools from '$lib/data/tools.json';
 
+export const prerender = true;
+
 export async function GET() {
     const site = 'https://predictiontools.directory';
     const pages = [
