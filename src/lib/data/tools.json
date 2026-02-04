@@ -559,5 +559,245 @@
             "DAO"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "pmx-trade",
+        "name": "PMX",
+        "slug": "pmx-trade",
+        "shortDescription": "Telegram trading bot for Polymarket.",
+        "description": "Telegram-native trading bot that lets you trade and copy-trade Polymarket positions from chat.",
+        "category": "Trading Terminal",
+        "url": "https://pmx.trade",
+        "xUrl": "https://x.com/pmx_trade",
+        "tags": [
+            "Telegram",
+            "Bot",
+            "Copy Trading"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "okbet",
+        "name": "OkBet",
+        "slug": "okbet",
+        "shortDescription": "Social Telegram terminal for prediction markets.",
+        "description": "Telegram terminal for Polymarket and Kalshi with social and copy-trading features built into groups.",
+        "category": "Analytics",
+        "url": "https://okbet.trade",
+        "xUrl": "https://x.com/tryokbet",
+        "tags": [
+            "Telegram",
+            "Social",
+            "Analytics"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "parsec",
+        "name": "Parsec",
+        "slug": "parsec",
+        "shortDescription": "Advanced analytics and AI assistant for Polymarket.",
+        "description": "Advanced Polymarket search and analytics with filters, summaries, and an AI assistant.",
+        "category": "Analytics",
+        "url": "https://parsec.fi",
+        "xUrl": "https://x.com/parsec_finance",
+        "tags": [
+            "Analytics",
+            "AI",
+            "Search"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "hashdive",
+        "name": "HashDive",
+        "slug": "hashdive",
+        "shortDescription": "Deep market and wallet analytics for Polymarket.",
+        "description": "Deep Polymarket market and wallet analytics including PnL, positions, scoring, and trends.",
+        "category": "Analytics",
+        "url": "https://hashdive.com",
+        "xUrl": "https://x.com/hash_dive",
+        "tags": [
+            "Wallet Tracking",
+            "PnL",
+            "Research"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "predicting-top",
+        "name": "PredictingTop",
+        "slug": "predicting-top",
+        "shortDescription": "Leaderboard for top prediction market traders.",
+        "description": "Cross-platform prediction-market trader leaderboard for performance tracking.",
+        "category": "Analytics",
+        "url": "https://predicting.top",
+        "xUrl": "https://x.com/predictingtop",
+        "tags": [
+            "Leaderboard",
+            "Cross-platform",
+            "Performance"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polyalert",
+        "name": "PolyAlert",
+        "slug": "polyalert",
+        "shortDescription": "Real-time alerts and portfolio tracking.",
+        "description": "Portfolio and PnL tracking with real-time alerts for price moves and whale trades.",
+        "category": "Analytics",
+        "url": "https://polyalerthub.com",
+        "xUrl": "https://x.com/PolyAlertHub",
+        "tags": [
+            "Alerts",
+            "Portfolio",
+            "Whale Tracking"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "predictfolio",
+        "name": "PredictFolio",
+        "slug": "predictfolio",
+        "shortDescription": "Portfolio benchmarking and performance tracking.",
+        "description": "Trader-focused portfolio benchmarking to track wallet performance and compare vs top traders.",
+        "category": "Analytics",
+        "url": "http://predictfolio.com",
+        "xUrl": "https://x.com/PredictFolio",
+        "tags": [
+            "Portfolio",
+            "Benchmarking",
+            "Tracking"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polycool",
+        "name": "PolyCool",
+        "slug": "polycool",
+        "shortDescription": "Smart wallet tracking and analysis.",
+        "description": "Smart wallet tracker and copy-trading style tooling to follow insider and smart wallets.",
+        "category": "Analytics",
+        "url": "https://polycool.live",
+        "xUrl": "https://x.com/PolycoolApp",
+        "tags": [
+            "Wallet Tracking",
+            "Insiders",
+            "Copy Trading"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "brosonpm",
+        "name": "BrosOnPM",
+        "slug": "brosonpm",
+        "shortDescription": "Lightweight wallet stats and trade tracker.",
+        "description": "Lightweight tracker that surfaces trades, win rates, and whale-style wallet stats for Polymarket accounts.",
+        "category": "Analytics",
+        "url": "https://brosonpm.trade",
+        "xUrl": "https://x.com/BrosOnPM",
+        "tags": [
+            "Stats",
+            "Win Rate",
+            "Whale Tracking"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "goldsky",
+        "name": "Goldsky",
+        "slug": "goldsky",
+        "shortDescription": "Real-time data indexing for Polymarket.",
+        "description": "Data indexing and streams for Polymarket datasets like orders, fills, OI, balances, and positions.",
+        "category": "",
+        "url": "https://goldsky.com",
+        "xUrl": "https://x.com/goldskyio",
+        "tags": [
+            "API",
+            "Data",
+            "Infrastructure"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "adjacent-news",
+        "name": "Adjacent News",
+        "slug": "adjacent-news",
+        "shortDescription": "News and data API for prediction markets.",
+        "description": "Prediction-market-driven news and API layer for market data, context, and multi-platform coverage.",
+        "category": "Analytics",
+        "url": "https://adj.news",
+        "xUrl": "https://x.com/AdjacentNews",
+        "tags": [
+            "News",
+            "API",
+            "Context"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "forcazt",
+        "name": "Forcazt",
+        "slug": "forcazt",
+        "shortDescription": "Cross-platform analytics and data aggregation.",
+        "description": "Prediction-market analytics and aggregation layer with routing and data pipelines.",
+        "category": "Analytics",
+        "url": "https://forcazt.xyz",
+        "xUrl": "https://x.com/forcazt_xyz",
+        "tags": [
+            "Aggregation",
+            "Routing",
+            "Cross-platform"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polyrouter",
+        "name": "PolyRouter",
+        "slug": "polyrouter",
+        "shortDescription": "Unified API aggregator for prediction markets.",
+        "description": "Unified API aggregator that standardizes prediction market data across multiple venues.",
+        "category": "",
+        "url": "https://polyrouter.io",
+        "xUrl": "https://x.com/polyrouter",
+        "tags": [
+            "API",
+            "Aggregator",
+            "Dev Tools"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "matchr",
+        "name": "Matchr",
+        "slug": "matchr",
+        "shortDescription": "Best-price search and arbitrage detection.",
+        "description": "Best-price search and routing across markets with arbitrage detection.",
+        "category": "Analytics",
+        "url": "https://matchr.xyz",
+        "xUrl": "https://x.com/matchrxyz",
+        "tags": [
+            "Arbitrage",
+            "Routing",
+            "Best Price"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polyscalping",
+        "name": "PolyScalping",
+        "slug": "polyscalping",
+        "shortDescription": "Scalping and arbitrage opportunities detector.",
+        "description": "Real-time Polymarket scalping and arbitrage detector with alerts and ROI calculators.",
+        "category": "Analytics",
+        "url": "https://polyscalping.org",
+        "xUrl": "https://x.com/PolyScalping",
+        "tags": [
+            "Scalping",
+            "Arbitrage",
+            "Alerts"
+        ],
+        "isPromoted": false
     }
 ]
