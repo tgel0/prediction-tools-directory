@@ -1,20 +1,9 @@
 <script lang="ts">
-    import { page } from "$app/stores";
-    import tools from "$lib/data/tools.json";
+    import type { PageData } from "./$types";
     import ToolCard from "$lib/components/ToolCard.svelte";
 
-    $: categorySlug = $page.params.slug;
-
-    // Helper to format slug back to Title Case or display name
-    $: categoryName =
-        tools.find(
-            (t) => t.category.toLowerCase().replace(/ /g, "-") === categorySlug,
-        )?.category || categorySlug.replace(/-/g, " ");
-
-    $: filteredTools = tools.filter(
-        (tool) =>
-            tool.category.toLowerCase().replace(/ /g, "-") === categorySlug,
-    );
+    export let data: PageData;
+    $: ({ categoryName, filteredTools, categorySlug } = data);
 </script>
 
 <svelte:head>
@@ -23,6 +12,7 @@
         name="description"
         content="Best prediction market {categoryName} including tools, platforms, and analytics."
     />
+    <link rel="canonical" href="https://predictiontools.directory/category/{categorySlug}" />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

@@ -35,6 +35,7 @@
 <svelte:head>
     <title>{tool.name} - predictiontools.directory</title>
     <meta name="description" content={tool.description} />
+    <link rel="canonical" href="https://predictiontools.directory/tool/{tool.slug}" />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto">

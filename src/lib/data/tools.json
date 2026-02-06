@@ -710,7 +710,7 @@
         "slug": "goldsky",
         "shortDescription": "Real-time data indexing for Polymarket.",
         "description": "Data indexing and streams for Polymarket datasets like orders, fills, OI, balances, and positions.",
-        "category": "",
+        "category": "Infrastructure",
         "url": "https://goldsky.com",
         "xUrl": "https://x.com/goldskyio",
         "tags": [
@@ -758,7 +758,7 @@
         "slug": "polyrouter",
         "shortDescription": "Unified API aggregator for prediction markets.",
         "description": "Unified API aggregator that standardizes prediction market data across multiple venues.",
-        "category": "",
+        "category": "Infrastructure",
         "url": "https://polyrouter.io",
         "xUrl": "https://x.com/polyrouter",
         "tags": [

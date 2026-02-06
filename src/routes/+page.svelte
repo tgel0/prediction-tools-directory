@@ -111,7 +111,7 @@
             </div>
         {/if}
     {:else}
-        {#each ["Platform", "Analytics", "Trading Terminal"] as category}
+        {#each ["Platform", "Analytics", "Trading Terminal", "Infrastructure"] as category}
             {@const categoryTools = tools.filter(
                 (t) => t.category === category,
             )}
