@@ -799,5 +799,53 @@
             "Alerts"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "chance",
+        "name": "Chance",
+        "slug": "chance",
+        "shortDescription": "Unified platform to discover, evaluate & trade across prediction markets.",
+        "description": "A unified platform that empowers you to discover, evaluate & trade across every prediction market, all from a single, enhanced interface.",
+        "category": "Trading Terminal",
+        "url": "https://chance.markets",
+        "xUrl": "https://x.com/Chance_",
+        "tags": [
+            "Aggregator",
+            "Unified",
+            "Trading Terminal"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polytale",
+        "name": "PolyTale",
+        "slug": "polytale",
+        "shortDescription": "AI-powered Polymarket intelligence platform and Twitter agent.",
+        "description": "An intelligent AI agent delivering smart trading insights & analysis across all markets. It operates as a prediction market research AI agent on Twitter, providing real-time market insights and whale tracking.",
+        "category": "Analytics",
+        "url": "https://polytale.live",
+        "xUrl": "https://x.com/polytaleai",
+        "tags": [
+            "AI",
+            "Twitter Agent",
+            "Research"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "nevua-markets",
+        "name": "Nevua Markets",
+        "slug": "nevua-markets",
+        "shortDescription": "Real-time alerts & watchlists from Telegram & Discord.",
+        "description": "Offers lightweight alert systems focused on keyword-based market tracking. Users create personalized watchlists for topics or individuals and receive instant alerts when related markets update via Telegram, Discord, webhooks, or browser notifications.",
+        "category": "Analytics",
+        "url": "https://nevua.markets",
+        "xUrl": "https://x.com/NevuaMarkets",
+        "tags": [
+            "Alerts",
+            "Watchlist",
+            "Real-time"
+        ],
+        "isPromoted": false
     }
 ]
