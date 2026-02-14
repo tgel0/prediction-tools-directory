@@ -1,6 +1,7 @@
 <script lang="ts">
     import tools from "$lib/data/tools.json";
     import ToolCard from "$lib/components/ToolCard.svelte";
+    import { CATEGORIES, categoryToSlug } from "$lib/data/schema";
 
     let searchQuery = "";
 
@@ -111,7 +112,7 @@
             </div>
         {/if}
     {:else}
-        {#each ["Platform", "Analytics", "Trading Terminal", "Infrastructure"] as category}
+        {#each CATEGORIES as category}
             {@const categoryTools = tools.filter(
                 (t) => t.category === category,
             )}
@@ -129,9 +130,7 @@
                                 : category + "s"}
                         </h2>
                         <a
-                            href="/category/{category
-                                .toLowerCase()
-                                .replace(/ /g, '-')}"
+                            href="/category/{categoryToSlug(category)}"
                             class="text-sm font-mono text-gray-500 hover:text-neon-green transition-colors uppercase"
                         >
                             View all

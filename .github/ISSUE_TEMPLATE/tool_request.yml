@@ -25,11 +25,16 @@ body:
       options:
         - Platform
         - Analytics
-        - Terminal
-        - News/Education
-        - Bot/Automation
+        - Trading Terminal
+        - Infrastructure
     validations:
       required: true
+
+  - type: input
+    id: x_url
+    attributes:
+      label: X Profile URL
+      placeholder: https://x.com/...
 
   - type: textarea
     id: description

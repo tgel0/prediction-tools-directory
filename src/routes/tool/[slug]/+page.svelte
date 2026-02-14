@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import type { PageData } from "./$types";
     import ToolCard from "$lib/components/ToolCard.svelte";
+    import { categoryToSlug } from "$lib/data/schema";
 
     export let data: PageData;
     $: ({ tool, relatedTools } = data);
@@ -52,9 +53,7 @@
             <li class="flex items-center space-x-2">
                 <span>/</span>
                 <a
-                    href="/category/{tool.category
-                        .toLowerCase()
-                        .replace(/ /g, '-')}"
+                    href="/category/{categoryToSlug(tool.category)}"
                     class="hover:text-white transition-colors uppercase"
                 >
                     {tool.category}

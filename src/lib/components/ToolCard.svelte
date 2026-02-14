@@ -1,14 +1,7 @@
 <script lang="ts">
-    export let tool: {
-        name: string;
-        slug: string;
-        shortDescription: string;
-        description: string;
-        category: string;
-        tags: string[];
-        isPromoted?: boolean;
-        url: string;
-    };
+    import type { Tool } from "$lib/data/schema";
+
+    export let tool: Tool;
 
     function getCategoryColor(category: string) {
         switch (category.toLowerCase()) {
@@ -16,8 +9,10 @@
                 return "text-neon-blue border-neon-blue";
             case "analytics":
                 return "text-gold border-gold";
-            case "terminal":
+            case "trading terminal":
                 return "text-neon-green border-neon-green";
+            case "infrastructure":
+                return "text-cyan-300 border-cyan-300";
             default:
                 return "text-gray-400 border-gray-400";
         }

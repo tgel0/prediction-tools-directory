@@ -12,8 +12,10 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
+		"validate:data": "node scripts/validate-tools.mjs",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"ci": "npm run validate:data && npm run check && npm run build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",
@@ -25,8 +27,5 @@
 		"tailwindcss": "^3.4.9",
 		"typescript": "^5.9.3",
 		"vite": "^7.2.6"
-	},
-	"dependencies": {
-		"firebase": "^12.7.0"
 	}
 }

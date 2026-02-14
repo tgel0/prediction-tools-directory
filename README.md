@@ -38,9 +38,11 @@ Alternatively, you can [Open an Issue](https://github.com/tgel0/prediction-tools
   "id": "tool-slug",
   "name": "Tool Name",
   "slug": "tool-slug",
+  "shortDescription": "One-line summary for cards...",
   "description": "Brief description...",
-  "category": "Platform | Analytics | Terminal | News/Education | Bot/Automation",
+  "category": "Platform | Analytics | Trading Terminal | Infrastructure",
   "url": "https://...",
+  "xUrl": "https://x.com/handle",
   "tags": ["Tag1", "Tag2"],
   "isPromoted": false
 }

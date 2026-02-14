@@ -1,4 +1,5 @@
 import tools from '$lib/data/tools.json';
+import { categoryToSlug } from '$lib/data/schema';
 
 export const prerender = true;
 
@@ -31,7 +32,7 @@ export async function GET() {
             .map(
                 (category) => `
     <url>
-        <loc>${site}/category/${category.toLowerCase().replace(/ /g, '-')}</loc>
+        <loc>${site}/category/${categoryToSlug(category)}</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

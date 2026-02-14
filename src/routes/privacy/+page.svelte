@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { PRIVACY_LAST_UPDATED } from "$lib/legal";
+</script>
+
 <svelte:head>
     <title>Privacy Policy - predictiontools.directory</title>
 </svelte:head>
@@ -13,7 +17,7 @@
         <div
             class="prose prose-invert prose-lg max-w-none font-mono text-gray-400"
         >
-            <p>Last updated: {new Date().toLocaleDateString()}</p>
+            <p>Last updated: {PRIVACY_LAST_UPDATED}</p>
 
             <h3>1. Introduction</h3>
             <p>
