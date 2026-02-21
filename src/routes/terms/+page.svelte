@@ -4,6 +4,10 @@
 
 <svelte:head>
     <title>Terms of Service - predictiontools.directory</title>
+    <meta
+        name="description"
+        content="Read the terms of service for predictiontools.directory. Understand the guidelines and disclaimers for using our prediction market tool directory."
+    />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4 py-8">

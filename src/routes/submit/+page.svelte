@@ -4,6 +4,10 @@
 
 <svelte:head>
     <title>Submit a Tool - predictiontools.directory</title>
+    <meta
+        name="description"
+        content="Contribute to the Prediction Market Directory by submitting a new tool, platform, or analytics service. Learn how to open a GitHub PR or issue."
+    />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4">

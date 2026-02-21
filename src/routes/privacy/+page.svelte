@@ -4,6 +4,10 @@
 
 <svelte:head>
     <title>Privacy Policy - predictiontools.directory</title>
+    <meta
+        name="description"
+        content="Read the privacy policy for predictiontools.directory. Learn how we protect your data using privacy-friendly tools like Plausible Analytics."
+    />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4 py-8">

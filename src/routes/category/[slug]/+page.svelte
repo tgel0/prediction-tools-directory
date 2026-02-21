@@ -10,9 +10,14 @@
     <title>{categoryName} Tools | Prediction Market Directory</title>
     <meta
         name="description"
-        content="Best prediction market {categoryName} including tools, platforms, and analytics."
+        content="Explore the best {filteredTools.length > 0
+            ? filteredTools.length
+            : ''} prediction market {categoryName.toLowerCase()}s, including comprehensive tools, platforms, and actionable analytics tailored for traders."
     />
-    <link rel="canonical" href="https://predictiontools.directory/category/{categorySlug}" />
+    <link
+        rel="canonical"
+        href="https://predictiontools.directory/category/{categorySlug}"
+    />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -40,12 +45,26 @@
         <h1
             class="text-4xl md:text-5xl font-black uppercase text-white font-sans tracking-tight mb-4"
         >
-            <span class="text-neon-green">#</span>{categoryName}
+            <span class="text-neon-green">#</span>{categoryName.endsWith("s")
+                ? categoryName
+                : categoryName + "s"}
         </h1>
-        <p class="text-xl text-gray-400 font-mono">
+        <p class="text-xl text-gray-400 font-mono mb-4">
             {filteredTools.length}
             {filteredTools.length === 1 ? "tool" : "tools"} in this category
         </p>
+        <div class="prose prose-invert max-w-3xl">
+            <p class="text-gray-300 text-lg">
+                Discover the top-rated tools and resources in the <strong
+                    >{categoryName}</strong
+                >
+                category specifically curated for the prediction market
+                ecosystem. Whether you're looking to optimize your strategies,
+                find edge in new markets, or streamline your trading workflows,
+                these hand-picked {categoryName.toLowerCase()} solutions provide
+                the capabilities you need.
+            </p>
+        </div>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
