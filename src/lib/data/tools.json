@@ -847,5 +847,117 @@
             "Real-time"
         ],
         "isPromoted": false
+    },
+    {
+        "id": "polyterminal-x",
+        "name": "PolyTerminalX",
+        "slug": "polyterminal-x",
+        "shortDescription": "Professional trading desk interface for Polymarket.",
+        "description": "Built for speed and feels much more like a professional trading desk.",
+        "category": "Trading Terminal",
+        "url": "https://x.com/PolyTerminalX",
+        "xUrl": "https://x.com/PolyTerminalX",
+        "tags": [
+            "Trading Terminal",
+            "Professional",
+            "Speed"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "robin",
+        "name": "Robin",
+        "slug": "robin",
+        "shortDescription": "Yield-bearing prediction market platform.",
+        "description": "Yield-bearing prediction market platform enabling users to earn DeFi yields on Polymarket positions through automated capital deployment and delta-neutral strategies.",
+        "category": "Platform",
+        "url": "https://robin.markets",
+        "xUrl": "https://x.com/robinmarketsxyz",
+        "tags": [
+            "DeFi",
+            "Yield",
+            "Automation"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "markium",
+        "name": "Markium",
+        "slug": "markium",
+        "shortDescription": "Data analytics and trading platform for prediction markets.",
+        "description": "Comprehensive data analytics and trading platform for prediction markets that provides market aggregation, wallet analytics, leaderboards, and watchlist alerts.",
+        "category": "Trading Terminal",
+        "url": "https://markiumpro.com",
+        "xUrl": "https://x.com/markiumpro",
+        "tags": [
+            "Analytics",
+            "Trading",
+            "Leaderboard"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "prediedge",
+        "name": "Prediedge",
+        "slug": "prediedge",
+        "shortDescription": "Real-time analytics and whale tracking.",
+        "description": "Real-time analytics and whale tracking platform for Polymarket and Kalshi, spotlighting large trades, insider activity, and market signals.",
+        "category": "Analytics",
+        "url": "https://prediedge.com",
+        "xUrl": "https://x.com/prediedge",
+        "tags": [
+            "Whale Tracking",
+            "Analytics",
+            "Signals"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polysimplr",
+        "name": "Polysimplr",
+        "slug": "polysimplr",
+        "shortDescription": "User-friendly Polymarket interface with AI chat.",
+        "description": "A user-friendly Polymarket interface with AI-powered chat and analysis—making prediction markets more accessible for all.",
+        "category": "Trading Terminal",
+        "url": "https://www.polysimplr.com",
+        "xUrl": "https://x.com/polysimplr",
+        "tags": [
+            "Interface",
+            "AI",
+            "Chat"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "polynoob",
+        "name": "PolyNoob",
+        "slug": "polynoob",
+        "shortDescription": "Beginner-friendly encyclopedia for Polymarket.",
+        "description": "Beginner-friendly encyclopedia and guide for navigating Polymarket prediction markets with strategies, trader insights, and educational content.",
+        "category": "Analytics",
+        "url": "https://polynoob.com",
+        "xUrl": "https://x.com/Polynoob_",
+        "tags": [
+            "Education",
+            "Guide",
+            "Beginner"
+        ],
+        "isPromoted": false
+    },
+    {
+        "id": "tonyblairxbt",
+        "name": "TonyBlairXBT",
+        "slug": "tonyblairxbt",
+        "shortDescription": "Technical analysis of big trades.",
+        "description": "Breaks down the tape and explains the technical side of the big trades.",
+        "category": "Analytics",
+        "url": "https://x.com/tonyblairxbt",
+        "xUrl": "https://x.com/tonyblairxbt",
+        "tags": [
+            "Technical Analysis",
+            "Education",
+            "Commentary"
+        ],
+        "isPromoted": false
     }
 ]
