@@ -118,7 +118,7 @@
         "shortDescription": "Aggregator tracking live odds from Kalshi, Polymarket, and PredictIt.",
         "description": "A prediction market aggregator and arbitrage tool that tracks live odds across major platforms like Kalshi, Polymarket, and PredictIt. It provides real-time market analysis, identifying arbitrage opportunities and trending markets.",
         "category": "Analytics",
-        "url": "https://predictionhunt.com",
+        "url": "https://www.predictionhunt.com/",
         "xUrl": "https://x.com/PredictionHunt",
         "tags": [
             "Arbitrage",
@@ -166,7 +166,7 @@
         "shortDescription": "Analytics and category filters for Polymarket and other prediction markets.",
         "description": "An analytics platform offering AI-driven insights, category filters, and data visualization for prediction markets. It helps users analyze trends across politics, sports, crypto, and more.",
         "category": "Analytics",
-        "url": "https://polysights.xyz",
+        "url": "https://www.polysights.xyz/",
         "xUrl": "https://x.com/Polysights",
         "tags": [
             "Analytics",
@@ -182,7 +182,7 @@
         "shortDescription": "AI-powered research and intelligence platform for prediction markets.",
         "description": "Provides real-time market intelligence, news analysis, and risk assessments using machine learning. Features tools like 'Insider Finder' to track trader behavior and market movements.",
         "category": "Analytics",
-        "url": "https://polyfactual.com",
+        "url": "https://www.polyfactual.com/",
         "xUrl": "https://x.com/polyfactual",
         "tags": [
             "AI Research",
@@ -471,7 +471,7 @@
         "shortDescription": "Prediction markets on Solana with high-speed execution.",
         "description": "A prediction market platform on Solana that allows users to bet on real-world events including crypto, politics, and sports. Features 'Versus' and 'Classic' trading modes.",
         "category": "Platform",
-        "url": "https://hedgehog.markets",
+        "url": "https://www.hedgehog.markets/",
         "xUrl": "https://x.com/HedgehogMarket",
         "tags": [
             "Solana",
@@ -663,7 +663,7 @@
         "shortDescription": "Portfolio benchmarking and performance tracking.",
         "description": "Trader-focused portfolio benchmarking to track wallet performance and compare vs top traders.",
         "category": "Analytics",
-        "url": "http://predictfolio.com",
+        "url": "https://predictfolio.com/",
         "xUrl": "https://x.com/PredictFolio",
         "tags": [
             "Portfolio",
@@ -759,7 +759,7 @@
         "shortDescription": "Unified API aggregator for prediction markets.",
         "description": "Unified API aggregator that standardizes prediction market data across multiple venues.",
         "category": "Infrastructure",
-        "url": "https://polyrouter.io",
+        "url": "https://www.polyrouter.io/",
         "xUrl": "https://x.com/polyrouter",
         "tags": [
             "API",
@@ -775,7 +775,7 @@
         "shortDescription": "Best-price search and arbitrage detection.",
         "description": "Best-price search and routing across markets with arbitrage detection.",
         "category": "Analytics",
-        "url": "https://matchr.xyz",
+        "url": "https://www.matchr.xyz/",
         "xUrl": "https://x.com/matchrxyz",
         "tags": [
             "Arbitrage",
@@ -823,7 +823,7 @@
         "shortDescription": "AI-powered Polymarket intelligence platform and Twitter agent.",
         "description": "An intelligent AI agent delivering smart trading insights & analysis across all markets. It operates as a prediction market research AI agent on Twitter, providing real-time market insights and whale tracking.",
         "category": "Analytics",
-        "url": "https://polytale.live",
+        "url": "https://www.polytale.live/",
         "xUrl": "https://x.com/polytaleai",
         "tags": [
             "AI",
