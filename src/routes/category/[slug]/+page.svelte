@@ -18,6 +18,37 @@
         rel="canonical"
         href="https://predictiontools.directory/category/{categorySlug}"
     />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{categoryName} Tools | Prediction Market Directory" />
+    <meta property="og:description" content="Explore the best prediction market {categoryName.toLowerCase()} tools, platforms, and analytics tailored for traders." />
+    <meta property="og:url" content="https://predictiontools.directory/category/{categorySlug}" />
+    <meta property="og:image" content="https://predictiontools.directory/og-image.png" />
+    <meta property="og:site_name" content="predictiontools.directory" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@predictiontools" />
+    <meta name="twitter:title" content="{categoryName} Tools | Prediction Market Directory" />
+    <meta name="twitter:description" content="Explore the best prediction market {categoryName.toLowerCase()} tools, platforms, and analytics tailored for traders." />
+    <meta name="twitter:image" content="https://predictiontools.directory/og-image.png" />
+
+    <!-- JSON-LD -->
+    {@html `<script type="application/ld+json">${JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": categoryName + " Tools",
+        "description": "Best prediction market " + categoryName.toLowerCase() + " tools and services.",
+        "url": "https://predictiontools.directory/category/" + categorySlug,
+        "numberOfItems": filteredTools.length,
+        "itemListElement": filteredTools.map((t, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "name": t.name,
+            "url": "https://predictiontools.directory/tool/" + t.slug
+        }))
+    })}</script>`}
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

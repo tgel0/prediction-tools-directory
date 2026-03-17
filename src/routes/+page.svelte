@@ -20,6 +20,35 @@
         content="Discover the best prediction market tools, platforms, and analytics. Compare top services like Polymarket, Kalshi, and specialized analytics dashboards."
     />
     <link rel="canonical" href="https://predictiontools.directory/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Prediction Market Directory | Best Tools & Platforms" />
+    <meta property="og:description" content="Discover the best prediction market tools, platforms, and analytics. Compare top services like Polymarket, Kalshi, and specialized analytics dashboards." />
+    <meta property="og:url" content="https://predictiontools.directory/" />
+    <meta property="og:image" content="https://predictiontools.directory/og-image.png" />
+    <meta property="og:site_name" content="predictiontools.directory" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@predictiontools" />
+    <meta name="twitter:title" content="Prediction Market Directory | Best Tools & Platforms" />
+    <meta name="twitter:description" content="Discover the best prediction market tools, platforms, and analytics. Compare top services like Polymarket, Kalshi, and more." />
+    <meta name="twitter:image" content="https://predictiontools.directory/og-image.png" />
+
+    <!-- JSON-LD -->
+    {@html `<script type="application/ld+json">${JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Prediction Market Directory",
+        "url": "https://predictiontools.directory/",
+        "description": "The definitive index of tools, platforms, and analytics for the prediction market ecosystem.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://predictiontools.directory/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    })}</script>`}
 </svelte:head>
 
 <div class="space-y-12">

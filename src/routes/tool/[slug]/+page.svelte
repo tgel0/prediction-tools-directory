@@ -45,6 +45,32 @@
         rel="canonical"
         href="https://predictiontools.directory/tool/{tool.slug}"
     />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{tool.name} - Prediction Market Directory" />
+    <meta property="og:description" content={tool.description.length > 155 ? tool.description.substring(0, 152) + '...' : tool.description} />
+    <meta property="og:url" content="https://predictiontools.directory/tool/{tool.slug}" />
+    <meta property="og:image" content="https://predictiontools.directory/og-image.png" />
+    <meta property="og:site_name" content="predictiontools.directory" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@predictiontools" />
+    <meta name="twitter:title" content="{tool.name} - Prediction Market Directory" />
+    <meta name="twitter:description" content={tool.description.length > 155 ? tool.description.substring(0, 152) + '...' : tool.description} />
+    <meta name="twitter:image" content="https://predictiontools.directory/og-image.png" />
+
+    <!-- JSON-LD -->
+    {@html `<script type="application/ld+json">${JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": tool.name,
+        "description": tool.description,
+        "url": tool.url,
+        "applicationCategory": tool.category,
+        "operatingSystem": "Web"
+    })}</script>`}
 </svelte:head>
 
 <div class="max-w-4xl mx-auto">
