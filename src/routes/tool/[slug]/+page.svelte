@@ -25,9 +25,8 @@
     onMount(() => {
         if (tool.xUrl && typeof window !== "undefined") {
             const script = document.createElement("script");
-            script.src = "https://platform.twitter.com/widgets.js";
+            script.src = "https://xembed-20260323.web.app/widget.js";
             script.async = true;
-            script.charset = "utf-8";
             document.body.appendChild(script);
         }
     });
@@ -240,37 +239,7 @@
                     <div
                         class="bg-terminal-black rounded overflow-hidden min-h-[100px]"
                     >
-                        <a
-                            class="twitter-timeline"
-                            data-theme="dark"
-                            data-height="400"
-                            data-chrome="noheader nofooter noborders"
-                            href="https://twitter.com/{xUsername}"
-                        >
-                            <!-- This text shows as fallback if widget fails -->
-                        </a>
-                        <!-- Always-visible fallback link -->
-                        <div
-                            class="p-4 text-center border-t border-terminal-slate"
-                        >
-                            <a
-                                href="https://x.com/{xUsername}"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="inline-flex items-center text-gray-400 hover:text-neon-green transition-colors font-mono text-sm"
-                            >
-                                <svg
-                                    class="h-4 w-4 mr-2"
-                                    fill="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-                                    />
-                                </svg>
-                                Follow @{xUsername} on X
-                            </a>
-                        </div>
+                        <div class="xembed-timeline" data-handle={xUsername}></div>
                     </div>
                 </div>
             {/if}
