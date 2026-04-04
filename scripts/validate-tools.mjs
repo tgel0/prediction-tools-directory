@@ -53,7 +53,11 @@ for (const [index, tool] of tools.entries()) {
 	}
 
 	for (const field of requiredStringFields) {
-		if (typeof tool[field] !== 'string' || tool[field].trim().length === 0) {
+		if (field === 'category') {
+            if (typeof tool[field] !== 'string') {
+			    errors.push(`${label}: "${field}" must be a string`);
+            }
+		} else if (typeof tool[field] !== 'string' || tool[field].trim().length === 0) {
 			errors.push(`${label}: "${field}" must be a non-empty string`);
 		}
 	}
@@ -76,7 +80,7 @@ for (const [index, tool] of tools.entries()) {
 		}
 	}
 
-	if (!VALID_CATEGORIES.has(tool.category)) {
+	if (tool.category !== "" && !VALID_CATEGORIES.has(tool.category)) {
 		errors.push(`${label}: invalid category "${tool.category}"`);
 	}
 
