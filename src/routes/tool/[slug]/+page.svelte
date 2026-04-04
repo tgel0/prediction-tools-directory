@@ -83,6 +83,7 @@
                     >HOME</a
                 >
             </li>
+            {#if tool.category}
             <li class="flex items-center space-x-2">
                 <span>/</span>
                 <a
@@ -92,6 +93,7 @@
                     {tool.category}
                 </a>
             </li>
+            {/if}
             <li class="flex items-center space-x-2">
                 <span>/</span>
                 <span
@@ -130,11 +132,13 @@
                         {/if}
                     </div>
                     <div class="flex items-center space-x-4">
+                        {#if tool.category}
                         <span
                             class="text-sm font-mono text-neon-blue border border-neon-blue/30 px-2 py-0.5 rounded"
                         >
                             {tool.category}
                         </span>
+                        {/if}
                         <span class="text-gray-500 font-mono text-sm"
                             >Added recently</span
                         >
@@ -266,6 +270,7 @@
     </div>
 
     {#if relatedTools.length > 0}
+        {#if tool.category}
         <div class="mt-16 space-y-8">
             <div class="border-b border-terminal-slate pb-4">
                 <h2
@@ -285,5 +290,6 @@
                 {/each}
             </div>
         </div>
+        {/if}
     {/if}
 </div>
