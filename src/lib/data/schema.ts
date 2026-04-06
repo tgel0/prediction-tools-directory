@@ -19,6 +19,7 @@ export type Tool = {
 	xUrl: string;
 	tags: string[];
 	isPromoted?: boolean;
+	isActive?: boolean;
 };
 
 export const categoryToSlug = (category: string): string =>

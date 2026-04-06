@@ -10,6 +10,10 @@
             tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
             tool.description.toLowerCase().includes(searchQuery.toLowerCase());
         return matchesSearch;
+    }).sort((a, b) => {
+        if (a.isActive === false && b.isActive !== false) return 1;
+        if (a.isActive !== false && b.isActive === false) return -1;
+        return 0;
     });
 </script>
 
@@ -144,7 +148,11 @@
         {#each CATEGORIES as category}
             {@const categoryTools = tools.filter(
                 (t) => t.category === category,
-            )}
+            ).sort((a, b) => {
+                if (a.isActive === false && b.isActive !== false) return 1;
+                if (a.isActive !== false && b.isActive === false) return -1;
+                return 0;
+            })}
             {#if categoryTools.length > 0}
                 <div class="space-y-6">
                     <div
