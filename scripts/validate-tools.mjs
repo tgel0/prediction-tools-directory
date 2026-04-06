@@ -120,6 +120,10 @@ for (const [index, tool] of tools.entries()) {
 		errors.push(`${label}: "isPromoted" must be a boolean when provided`);
 	}
 
+	if (typeof tool.isActive !== 'undefined' && typeof tool.isActive !== 'boolean') {
+		errors.push(`${label}: "isActive" must be a boolean when provided`);
+	}
+
 	if (typeof tool.shortDescription === 'string' && tool.shortDescription.length > 120) {
 		warnings.push(`${label}: shortDescription is long (${tool.shortDescription.length} chars)`);
 	}

@@ -11,7 +11,12 @@ export const load: PageLoad = ({ params }) => {
         throw error(404, 'Category not found');
     }
 
-    const filteredTools = tools.filter((tool) => tool.category === categoryName);
+    const filteredTools = tools.filter((tool) => tool.category === categoryName)
+        .sort((a, b) => {
+            if (a.isActive === false && b.isActive !== false) return 1;
+            if (a.isActive !== false && b.isActive === false) return -1;
+            return 0;
+        });
 
     return {
         categoryName,
