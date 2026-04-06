@@ -35,8 +35,8 @@
         "id": "predict-fun",
         "name": "Predict",
         "slug": "predict-fun",
-        "shortDescription": "Blast-native prediction market with yield-generating positions.",
-        "description": "A Blast-native prediction market leveraging Layer 2 capabilities to offer yield on positions. Users can trade on politics, sports, and crypto while earning native yield and points towards potential airdrops.",
+        "shortDescription": "Blast-native prediction market with yield-generating positions. Acquired Probable in March 2026.",
+        "description": "A Blast-native prediction market leveraging Layer 2 capabilities to offer yield on positions. Users can trade on politics, sports, and crypto while earning native yield and points towards potential airdrops. In March 2026, Predict.fun acquired Probable, expanding its reach on BNB Chain.",
         "category": "Platform",
         "url": "https://predict.fun",
         "xUrl": "https://x.com/predictdotfun",
@@ -45,6 +45,7 @@
             "Blast L2",
             "Yield"
         ],
+        "isActive": true,
         "isPromoted": false
     },
     {
@@ -67,16 +68,18 @@
         "id": "probable",
         "name": "Probable",
         "slug": "probable",
-        "shortDescription": "Crypto-native prediction platform on BNB Chain with zero trading fees.",
-        "description": "A crypto-native, zero-fee prediction platform built on the BNB Chain using a CLOB trading system and UMA-based settlement. Probable Markets offers frictionless deposits and withdrawals, enabling users to forecast outcomes across crypto, sports, and global events.",
+        "shortDescription": "Crypto-native prediction platform on BNB Chain with zero trading fees. Acquired by Predict.fun in March 2026.",
+        "description": "A crypto-native, zero-fee prediction platform built on the BNB Chain using a CLOB trading system and UMA-based settlement. Probable Markets offers frictionless deposits and withdrawals, enabling users to forecast outcomes across crypto, sports, and global events. NOTE: Probable was acquired by Predict.fun in March 2026 and its users migrated to the Predict.fun platform.",
         "category": "Platform",
         "url": "https://probable.markets",
         "xUrl": "https://x.com/0xProbable",
         "tags": [
             "Crypto",
             "BNB Chain",
-            "Zero Fees"
+            "Zero Fees",
+            "Acquired"
         ],
+        "isActive": false,
         "isPromoted": false
     },
     {
@@ -580,16 +583,18 @@
         "id": "parsec",
         "name": "Parsec",
         "slug": "parsec",
-        "shortDescription": "Advanced analytics and AI assistant for Polymarket.",
-        "description": "Advanced Polymarket search and analytics with filters, summaries, and an AI assistant.",
+        "shortDescription": "Advanced analytics and AI assistant for Polymarket. SHUT DOWN February 2026.",
+        "description": "Advanced Polymarket search and analytics with filters, summaries, and an AI assistant. NOTE: Parsec shut down operations in February 2026 after five years. The platform is no longer available.",
         "category": "Analytics",
         "url": "https://parsec.fi",
         "xUrl": "https://x.com/parsec_finance",
         "tags": [
             "Analytics",
             "AI",
-            "Search"
+            "Search",
+            "Shut Down"
         ],
+        "isActive": false,
         "isPromoted": false
     },
     {
