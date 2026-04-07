@@ -796,7 +796,7 @@
         "shortDescription": "Unified platform to discover, evaluate & trade across prediction markets.",
         "description": "A unified platform that empowers you to discover, evaluate & trade across every prediction market, all from a single, enhanced interface.",
         "category": "Trading Terminal",
-        "url": "https://chance.markets",
+        "url": "https://chance.cc",
         "xUrl": "https://x.com/Chance_",
         "tags": [
             "Aggregator",
@@ -875,7 +875,7 @@
         "slug": "markium",
         "shortDescription": "Data analytics and trading platform for prediction markets.",
         "description": "Comprehensive data analytics and trading platform for prediction markets that provides market aggregation, wallet analytics, leaderboards, and watchlist alerts.",
-        "category": "Trading Terminal",
+        "category": "Analytics",
         "url": "https://markiumpro.com",
         "xUrl": "https://x.com/markiumpro",
         "tags": [
