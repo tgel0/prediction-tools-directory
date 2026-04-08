@@ -761,16 +761,18 @@
         "id": "matchr",
         "name": "Matchr",
         "slug": "matchr",
-        "shortDescription": "Cross-Platform Prediction Markets.",
-        "description": "Search and compare prediction markets across Polymarket and Kalshi. Find matched markets, compare odds, and track prices in real-time.",
+        "shortDescription": "Cross-Platform Prediction Markets. SHUT DOWN.",
+        "description": "Search and compare prediction markets across Polymarket and Kalshi. Find matched markets, compare odds, and track prices in real-time. NOTE: Matchr appears to be shut down as of April 2026 (HTTP 402).",
         "category": "Analytics",
         "url": "https://matchr.xyz",
         "xUrl": "https://x.com/matchrxyz",
         "tags": [
             "Arbitrage",
             "Routing",
-            "Best Price"
+            "Best Price",
+            "Shut Down"
         ],
+        "isActive": false,
         "isPromoted": false
     },
     {
