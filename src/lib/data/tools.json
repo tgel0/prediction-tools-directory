@@ -5,7 +5,7 @@
         "slug": "polymarket",
         "shortDescription": "Decentralized prediction market on Polygon for real-world events.",
         "description": "A decentralized prediction market platform that enables individuals to speculate on the outcomes of future real-world events. Built on the Polygon blockchain, it offers transparent, peer-to-peer trading across politics, sports, and economics.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://polymarket.com",
         "xUrl": "https://x.com/Polymarket",
         "tags": [
@@ -21,7 +21,7 @@
         "slug": "kalshi",
         "shortDescription": "First federally regulated event contract exchange in the US.",
         "description": "The first federally regulated exchange in the United States dedicated specifically to trading on the outcome of real-world events. Regulated by the CFTC, Kalshi allows users to purchase 'event contracts' on everything from economic indicators to entertainment results.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://kalshi.com",
         "xUrl": "https://x.com/Kalshi",
         "tags": [
@@ -37,7 +37,7 @@
         "slug": "predict-fun",
         "shortDescription": "Blast-native prediction market with yield-generating positions. Acquired Probable in March 2026.",
         "description": "A Blast-native prediction market leveraging Layer 2 capabilities to offer yield on positions. Users can trade on politics, sports, and crypto while earning native yield and points towards potential airdrops. In March 2026, Predict.fun acquired Probable, expanding its reach on BNB Chain.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://predict.fun",
         "xUrl": "https://x.com/predictdotfun",
         "tags": [
@@ -54,7 +54,7 @@
         "slug": "limitless",
         "shortDescription": "Decentralized prediction market with daily outcome payouts built on Base.",
         "description": "A decentralized prediction market platform built on the Base network that allows users to trade binary yes/no contracts on the outcome of future events. Limitless differentiates itself with short-term fast price markets, daily payouts, and instant settlements with no liquidation risk or hidden fees.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://limitless.exchange",
         "xUrl": "https://x.com/trylimitless",
         "tags": [
@@ -70,7 +70,7 @@
         "slug": "probable",
         "shortDescription": "Crypto-native prediction platform on BNB Chain with zero trading fees. Acquired by Predict.fun in March 2026.",
         "description": "A crypto-native, zero-fee prediction platform built on the BNB Chain using a CLOB trading system and UMA-based settlement. Probable Markets offers frictionless deposits and withdrawals, enabling users to forecast outcomes across crypto, sports, and global events. NOTE: Probable was acquired by Predict.fun in March 2026 and its users migrated to the Predict.fun platform.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://probable.markets",
         "xUrl": "https://x.com/0xProbable",
         "tags": [
@@ -88,7 +88,7 @@
         "slug": "pizzint-watch",
         "shortDescription": "Real-Time Military Tension Indicator.",
         "description": "The Pentagon Pizza Index (PizzINT) tracks real-time pizza shop popularity around the Pentagon as an unconventional OSINT indicator of military activity. Monitor the Pizza DEFCON level and discover when unusual activity might be brewing.",
-        "category": "Analytics",
+        "category": "Information & OSINT",
         "url": "https://www.pizzint.watch",
         "xUrl": "https://x.com/pizzintwatch",
         "tags": [
@@ -104,7 +104,7 @@
         "slug": "prediction-hunt",
         "shortDescription": "Compare Odds Across Every Platform.",
         "description": "Compare prediction market odds across Kalshi, Polymarket, PredictIt, and ProphetX. Live arbitrage alerts and cross-platform price comparison.",
-        "category": "Analytics",
+        "category": "Analysis Tools",
         "url": "https://predictionhunt.com",
         "xUrl": "https://x.com/PredictionHunt",
         "tags": [
@@ -120,7 +120,7 @@
         "slug": "probex",
         "shortDescription": "Real-time prediction markets intelligence with AI-powered news analysis.",
         "description": "An intelligence dashboard that tracks live odds from Kalshi and Polymarket, enhanced with AI-powered news analysis to provide context for market movements.",
-        "category": "Analytics",
+        "category": "Analysis Tools",
         "url": "https://probex.markets",
         "xUrl": "https://x.com/ProbabilityEx",
         "tags": [
@@ -136,7 +136,7 @@
         "slug": "predictshark",
         "shortDescription": "Real-time insights into Polymarket trading activity.",
         "description": "Real-time insights into Polymarket trading activity, market trends, and trader performance.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://predictshark.io",
         "xUrl": "https://x.com/predictshark",
         "tags": [
@@ -152,7 +152,7 @@
         "slug": "polysights",
         "shortDescription": "Intelligence and strategy layer for prediction markets.",
         "description": "Polysights is an analytics and execution platform focused on layering tools on top of the entire prediction market industry. It is building the ultimate intelligence and strategy layer for prediction markets.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://polysights.xyz",
         "xUrl": "https://x.com/Polysights",
         "tags": [
@@ -168,7 +168,7 @@
         "slug": "polyfactual",
         "shortDescription": "AI-Powered Prediction Market Research.",
         "description": "Premium interactive webapp for deep research on prediction markets.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://polyfactual.com",
         "xUrl": "https://x.com/polyfactual",
         "tags": [
@@ -184,7 +184,7 @@
         "slug": "polym-trade",
         "shortDescription": "Mobile-first Polymarket trading terminal with instant market access and AI insights.",
         "description": "Polym Trade is the first mobile trading terminal built specifically for Polymarket. Designed for mobile-first traders, the platform offers seamless market access, real-time data, and AI-powered insights to help users make informed decisions. With intuitive UI, smart trend analysis, and lightning-fast execution, it brings the full power of the leading decentralized prediction market to your fingertips.",
-        "category": "Trading Terminal",
+        "category": "Trading Terminals",
         "url": "https://polym.trade",
         "xUrl": "https://x.com/polymtrade",
         "tags": [
@@ -200,7 +200,7 @@
         "slug": "thetradefox",
         "shortDescription": "Institutional-grade aggregator and prime brokerage for Kalshi and Polymarket.",
         "description": "An aggregator and prime brokerage solution offering unified access to multiple prediction markets. It focuses on integrating multiple prediction markets, like Kalshi and Polymarket, into one single interface. The platform provides advanced trading tools, leverage options, and aggregated insights designed specifically for serious professional traders and institutional use.",
-        "category": "Trading Terminal",
+        "category": "Trading Terminals",
         "url": "https://thetradefox.com",
         "xUrl": "https://x.com/tradefoxai",
         "tags": [
@@ -216,7 +216,7 @@
         "slug": "betmoar",
         "shortDescription": "Pro-trading interface, UMA oracle dashboard, and Polymarket Discord bot.",
         "description": "A comprehensive professional trading interface and the dominant Discord bot for prediction market communities. It provides advanced market views with transaction analysis, an integrated news terminal built specifically for prediction markets with text-to-speech alerts, and a deep UMA dashboard that tracks unrevealed voters and disputed markets. As the official bot provider for Polymarket, Betmoar seamlessly integrates the trading experience directly into Discord servers.",
-        "category": "Trading Terminal",
+        "category": "AI Agents & Bots",
         "url": "https://www.betmoar.fun",
         "xUrl": "https://x.com/betmoardotfun",
         "tags": [
@@ -232,7 +232,7 @@
         "slug": "synthesis",
         "shortDescription": "Advanced trading terminal for prediction markets with focus on liquidity.",
         "description": "A sophisticated trading interface for prediction markets offering advanced tools for liquidity analysis, price discovery, and rapid execution.",
-        "category": "Trading Terminal",
+        "category": "Trading Terminals",
         "url": "https://synthesis.trade",
         "xUrl": "https://x.com/SynthesisTrade",
         "tags": [
@@ -248,7 +248,7 @@
         "slug": "stand-trade",
         "shortDescription": "Pro trading terminal with automated trades and real-time cross-platform feeds.",
         "description": "An advanced professional trading prediction market terminal bringing powerful tools to traders across both Polymarket and Kalshi. It features automated trades, real-time trade feeds, professional-style trading interfaces, and comprehensive wallet tracking all integrated into a single place to help you find alpha and maximize opportunities.",
-        "category": "Trading Terminal",
+        "category": "Trading Terminals",
         "url": "https://www.stand.trade",
         "xUrl": "https://x.com/StandDOTtrade",
         "tags": [
@@ -264,7 +264,7 @@
         "slug": "polydata",
         "shortDescription": "Advanced analytics dashboard for Polymarket volume, OI, and leaderboards.",
         "description": "A comprehensive analytics platform for Polymarket that tracks volume, open interest, trader leaderboards, and wallet activity. It provides deep insights into the Polymarket ecosystem and builder activity.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://www.polydata.cc",
         "xUrl": "https://x.com/polydata_cc",
         "tags": [
@@ -280,7 +280,7 @@
         "slug": "fireplace",
         "shortDescription": "Social prediction market aggregator turning news into betting opportunities.",
         "description": "A social-first prediction market aggregator that allows users to bet on headlines and engage with friends. It aggregates markets from various platforms like Polymarket, offering a unified and social betting experience.",
-        "category": "Analytics",
+        "category": "Information & OSINT",
         "url": "https://fireplace.gg",
         "xUrl": "https://x.com/fireplacegg",
         "tags": [
@@ -296,7 +296,7 @@
         "slug": "pigeon-trade",
         "shortDescription": "AI quant platform for automated prediction market strategies.",
         "description": "An AI-driven quantitative trading platform for prediction markets. It offers automated strategies, portfolio management, and advanced research tools for crypto, sports, and current events.",
-        "category": "Trading Terminal",
+        "category": "AI Agents & Bots",
         "url": "https://pigeon.trade",
         "xUrl": "https://x.com/pigeon_trade",
         "tags": [
@@ -312,7 +312,7 @@
         "slug": "copytrade",
         "shortDescription": "Copy trading platform mirroring top Polymarket traders across multiple categories.",
         "description": "A dedicated copy trading interface for Polymarket, allowing users to automatically mirror the moves of profitable traders. Features include a leader dashboard, watchlist tracking, real-time wallet insights, and comprehensive PnL monitoring (1D, 7D, 30D). Users can filter top performers by categories such as Politics, Sport, Crypto, and Culture to find the best strategies to replicate.",
-        "category": "Trading Terminal",
+        "category": "AI Agents & Bots",
         "url": "https://www.copytrade.gg",
         "xUrl": "https://x.com/copytrade_gg",
         "tags": [
@@ -328,7 +328,7 @@
         "slug": "kalshinomics",
         "shortDescription": "Prediction Markets, Simplified.",
         "description": "Real-time prediction market data, analytics, and trading insights. Track market trends, analyze trading patterns, and make informed decisions on Kalshi markets.",
-        "category": "Analytics",
+        "category": "Information & OSINT",
         "url": "https://kalshinomics.com",
         "xUrl": "https://x.com/Kalshinomics",
         "tags": [
@@ -344,7 +344,7 @@
         "slug": "betonwars",
         "shortDescription": "The World's First Online War Room.",
         "description": "Real-time OSINT from 280+ sources in 15+ languages. Track wars, trade predictions, follow insiders. Where information becomes profit. Join the War Room where smart money bets on geopolitics.",
-        "category": "Analytics",
+        "category": "Information & OSINT",
         "url": "https://www.betonwars.fun",
         "xUrl": "https://x.com/BetOnWars",
         "tags": [
@@ -360,7 +360,7 @@
         "slug": "arbbets",
         "shortDescription": "Prediction Markets Arbitrage & Positive EV Plays.",
         "description": "Prediction markets arbitrage finder. Find arbitrage opportunities across Polymarket, Kalshi, and Opinion prediction markets with API and data.",
-        "category": "Analytics",
+        "category": "Analysis Tools",
         "url": "https://getarbitragebets.com",
         "xUrl": "https://x.com/ArbBets20",
         "tags": [
@@ -376,7 +376,7 @@
         "slug": "kiyotaka",
         "shortDescription": "Advanced Trading Platform.",
         "description": "Advanced trading platform for professional traders with real-time analytics and automation.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://kiyotaka.ai",
         "xUrl": "https://x.com/kiyotaka_ai",
         "tags": [
@@ -392,7 +392,7 @@
         "slug": "oddpool",
         "shortDescription": "Compare Kalshi & Polymarket Odds in Real Time.",
         "description": "Compare real-time odds across Kalshi and Polymarket. Track prediction market prices, find arbitrage opportunities, and follow whale trades on every events.",
-        "category": "Analytics",
+        "category": "Analysis Tools",
         "url": "https://www.oddpool.com",
         "xUrl": "https://x.com/oddpool_alerts",
         "tags": [
@@ -408,7 +408,7 @@
         "slug": "sportstensor",
         "shortDescription": "Decentralized AI network for sports prediction on Bittensor.",
         "description": "A decentralized artificial intelligence network designed for sports prediction operating as Subnet 41 on the Bittensor blockchain. It aggregates numerous independent forecasts into a single, more accurate meta-model to discover predictable patterns in sports betting markets.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://www.sportstensor.com",
         "xUrl": "https://x.com/sportstensor",
         "tags": [
@@ -425,7 +425,7 @@
         "slug": "manifold",
         "shortDescription": "Play-money social prediction market with user-created markets.",
         "description": "A play-money social prediction market platform where users can trade on real-world events, create their own custom markets, and compete on leaderboards. It uses a virtual currency called 'Mana' which can be redeemed for charitable donations.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://manifold.markets",
         "xUrl": "https://x.com/ManifoldMarkets",
         "tags": [
@@ -441,7 +441,7 @@
         "slug": "zeitgeist",
         "shortDescription": "Decentralized prediction market and futarchy protocol on Polkadot.",
         "description": "An evolving decentralized prediction market and futarchy protocol built as a parachain on Polkadot/Kusama. It harnesses collective wisdom by enabling users to create and trade on prediction markets.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://zeitgeist.pm",
         "xUrl": "https://x.com/ZeitgeistPM",
         "tags": [
@@ -457,7 +457,7 @@
         "slug": "hedgehog",
         "shortDescription": "Permissionless prediction markets on Solana with high-speed execution.",
         "description": "A decentralized, permissionless prediction market platform on Solana that enables users to create, participate in, and trade on markets across categories like politics, sports, and crypto. It leverages Solana's high throughput for fast and cost-efficient interactions.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://hedgehog.markets",
         "xUrl": "https://x.com/HedgehogMarket",
         "tags": [
@@ -473,7 +473,7 @@
         "slug": "augur",
         "shortDescription": "Decentralized, trustless prediction market protocol on Ethereum.",
         "description": "The original decentralized prediction market protocol built on Ethereum. It allows users to create their own markets on any topic and trade without a central authority, serving as a foundational infrastructure for decentralized forecasting.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://augur.net",
         "xUrl": "https://x.com/AugurProject",
         "tags": [
@@ -489,7 +489,7 @@
         "slug": "forecast-trader",
         "shortDescription": "Regulated forecast contracts from Interactive Brokers.",
         "description": "A regulated platform by Interactive Brokers offering exchange-listed forecast and event contracts on political, economic, financial, and climate events. It provides a secure environment for trading real-world outcomes with limited risk.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://forecasttrader.interactivebrokers.com",
         "xUrl": "https://x.com/IBKR",
         "tags": [
@@ -505,7 +505,7 @@
         "slug": "thales",
         "shortDescription": "Parimutuel prediction markets on Optimism, Arbitrum, and Base.",
         "description": "A decentralized protocol offering parimutuel markets, enabling peer-to-peer prediction markets and sports betting on Ethereum L2s like Optimism, Arbitrum, and Base. It acts as a liquidity and settlement layer, utilizing Chainlink Data Feeds for trustless resolution.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://thalesmarket.io",
         "xUrl": "https://x.com/thalesmarket",
         "tags": [
@@ -521,7 +521,7 @@
         "slug": "sx-bet",
         "shortDescription": "Largest blockchain sports betting exchange with peer-to-peer trading.",
         "description": "A peer-to-peer sports betting exchange built on the SX Network. It offers deep liquidity, low fees, and non-custodial betting on a wide range of sports. Users can earn SX tokens through 'Bet Mining'.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://sx.bet",
         "xUrl": "https://x.com/SX_Bet",
         "tags": [
@@ -537,7 +537,7 @@
         "slug": "azuro",
         "shortDescription": "Liquidity layer and infrastructure for decentralized prediction markets.",
         "description": "A decentralized protocol providing the base layer infrastructure and liquidity for prediction markets on EVM-compatible chains. It uses a unique LiquidityTree system and vAMMs to support sports betting, attention markets, and other prediction apps seamlessly.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://azuro.org",
         "xUrl": "https://x.com/azuroprotocol",
         "tags": [
@@ -553,7 +553,7 @@
         "slug": "pmx-trade",
         "shortDescription": "High-speed Telegram trading bot for Polymarket and market tracking.",
         "description": "A fast and responsive Telegram-native trading bot that lets you effortlessly trade, copy-trade, and track Polymarket positions directly from chat. The interface includes easy filtering for active, resolved, and trending markets, enabling users to execute strategies securely and swiftly without needing to leave their messaging app.",
-        "category": "Trading Terminal",
+        "category": "AI Agents & Bots",
         "url": "https://pmx.trade",
         "xUrl": "https://x.com/pmx_trade",
         "tags": [
@@ -569,7 +569,7 @@
         "slug": "okbet",
         "shortDescription": "The multiplatform prediction market platform.",
         "description": "The multiplatform prediction market platform with social and copy-trading features built into groups.",
-        "category": "Analytics",
+        "category": "Platforms",
         "url": "https://okbet.trade",
         "xUrl": "https://x.com/tryokbet",
         "tags": [
@@ -585,7 +585,7 @@
         "slug": "parsec",
         "shortDescription": "Advanced analytics and AI assistant for Polymarket. SHUT DOWN February 2026.",
         "description": "Advanced Polymarket search and analytics with filters, summaries, and an AI assistant. NOTE: Parsec shut down operations in February 2026 after five years. The platform is no longer available.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://parsec.fi",
         "xUrl": "https://x.com/parsec_finance",
         "tags": [
@@ -603,7 +603,7 @@
         "slug": "hashdive",
         "shortDescription": "Powerful Polymarket Analytics platform.",
         "description": "Hashdive is a powerful Polymarket Analytics platform for deep market and wallet analytics including PnL, positions, scoring, and trends.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://hashdive.com",
         "xUrl": "https://x.com/hash_dive",
         "tags": [
@@ -619,7 +619,7 @@
         "slug": "predicting-top",
         "shortDescription": "Top Polymarket & Kalshi Traders Leaderboard.",
         "description": "Track the top prediction market traders on a live leaderboard. Compare real-time P&L performance, profit stats, and trading activity from Polymarket and Kalshi's best traders. Find top traders and their wallet addresses.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://predicting.top",
         "xUrl": "https://x.com/predictingtop",
         "tags": [
@@ -635,7 +635,7 @@
         "slug": "polyalert",
         "shortDescription": "Polymarket Alerts, Analytics & Paper Trading.",
         "description": "Get real-time Polymarket alerts and analytics for whale trades, insider activity, price movements & trader positions. Test your strategies with paper trading.",
-        "category": "Analytics",
+        "category": "AI Agents & Bots",
         "url": "https://polyalerthub.com",
         "xUrl": "https://x.com/PolyAlertHub",
         "tags": [
@@ -651,7 +651,7 @@
         "slug": "predictfolio",
         "shortDescription": "Polymarket Analytics by PredictFolio.",
         "description": "Discover top Polymarket traders, monitor real-time PnL, and benchmark your performance with PredictFolio's dashboards and editorial coverage.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "http://predictfolio.com",
         "xUrl": "https://x.com/PredictFolio",
         "tags": [
@@ -667,7 +667,7 @@
         "slug": "polycool",
         "shortDescription": "Copy Top Polymarket Traders in One Tap.",
         "description": "The mobile app to copy top Polymarket traders. Insider signals, smart feed, and one-tap trading.",
-        "category": "Analytics",
+        "category": "AI Agents & Bots",
         "url": "https://polycool.live",
         "xUrl": "https://x.com/PolycoolApp",
         "tags": [
@@ -683,7 +683,7 @@
         "slug": "brosonpm",
         "shortDescription": "Polymarket Track & Copy.",
         "description": "Track and copy large Polymarket prediction market trades in real-time. See what the whales are betting on. Lightweight tracker that surfaces trades, win rates, and whale-style wallet stats.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://brosonpm.trade",
         "xUrl": "https://x.com/BrosOnPM",
         "tags": [
@@ -699,7 +699,7 @@
         "slug": "goldsky",
         "shortDescription": "Real-time data indexing for Polymarket.",
         "description": "Data indexing and streams for Polymarket datasets like orders, fills, OI, balances, and positions.",
-        "category": "Infrastructure",
+        "category": "Infrastructure & APIs",
         "url": "https://goldsky.com",
         "xUrl": "https://x.com/goldskyio",
         "tags": [
@@ -715,7 +715,7 @@
         "slug": "adjacent-news",
         "shortDescription": "Forward Looking News.",
         "description": "Forward Looking News - Driven by Prediction Markets and Forecasting Platforms. API layer for market data, context, and multi-platform coverage.",
-        "category": "Analytics",
+        "category": "Information & OSINT",
         "url": "https://adj.news",
         "xUrl": "https://x.com/AdjacentNews",
         "tags": [
@@ -731,7 +731,7 @@
         "slug": "forcazt",
         "shortDescription": "Next-gen Prediction Market Platform.",
         "description": "Next-gen Prediction Market Platform. Prediction-market analytics and aggregation layer with routing and data pipelines.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://forcazt.xyz",
         "xUrl": "https://x.com/forcazt_xyz",
         "tags": [
@@ -747,7 +747,7 @@
         "slug": "polyrouter",
         "shortDescription": "Unified API aggregator for prediction markets.",
         "description": "Unified API aggregator that standardizes prediction market data across multiple venues.",
-        "category": "Infrastructure",
+        "category": "Infrastructure & APIs",
         "url": "https://polyrouter.io",
         "xUrl": "https://x.com/polyrouter",
         "tags": [
@@ -763,7 +763,7 @@
         "slug": "matchr",
         "shortDescription": "Cross-Platform Prediction Markets. SHUT DOWN.",
         "description": "Search and compare prediction markets across Polymarket and Kalshi. Find matched markets, compare odds, and track prices in real-time. NOTE: Matchr appears to be shut down as of April 2026 (HTTP 402).",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://matchr.xyz",
         "xUrl": "https://x.com/matchrxyz",
         "tags": [
@@ -781,7 +781,7 @@
         "slug": "polyscalping",
         "shortDescription": "Track scalping opportunities, spreads, and market data.",
         "description": "Track scalping opportunities, spreads, and market data on Polymarket in real-time with alerts and ROI calculators.",
-        "category": "Analytics",
+        "category": "Analysis Tools",
         "url": "https://polyscalping.org",
         "xUrl": "https://x.com/PolyScalping",
         "tags": [
@@ -797,7 +797,7 @@
         "slug": "chance",
         "shortDescription": "Unified platform to discover, evaluate & trade across prediction markets.",
         "description": "A unified platform that empowers you to discover, evaluate & trade across every prediction market, all from a single, enhanced interface.",
-        "category": "Trading Terminal",
+        "category": "Trading Terminals",
         "url": "https://chance.cc",
         "xUrl": "https://x.com/Chance_",
         "tags": [
@@ -813,7 +813,7 @@
         "slug": "polytale",
         "shortDescription": "AI Powered Polymarket Intelligence.",
         "description": "An intelligent AI agent delivering smart trading insights & analysis across all markets. It operates as a prediction market research AI agent on Twitter, providing real-time market insights and whale tracking.",
-        "category": "Analytics",
+        "category": "AI Agents & Bots",
         "url": "https://polytale.live",
         "xUrl": "https://x.com/polytaleai",
         "tags": [
@@ -829,7 +829,7 @@
         "slug": "nevua-markets",
         "shortDescription": "Prediction Markets Watchlists and Alerts.",
         "description": "Create Prediction Markets watchlists and get real-time alerts in Telegram, Discord, via Webhook, and more.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://nevua.markets",
         "xUrl": "https://x.com/NevuaMarkets",
         "tags": [
@@ -845,7 +845,7 @@
         "slug": "polyterminal-x",
         "shortDescription": "Professional trading desk interface for Polymarket.",
         "description": "Built for speed and feels much more like a professional trading desk.",
-        "category": "Trading Terminal",
+        "category": "Trading Terminals",
         "url": "https://x.com/PolyTerminalX",
         "xUrl": "https://x.com/PolyTerminalX",
         "tags": [
@@ -861,7 +861,7 @@
         "slug": "robin",
         "shortDescription": "Yield-bearing prediction market platform on Polymarket.",
         "description": "A yield-bearing prediction market platform enabling users to earn DeFi yields on Polymarket positions through automated capital deployment and delta-neutral strategies.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://robin.markets",
         "xUrl": "https://x.com/robinmarketsxyz",
         "tags": [
@@ -877,7 +877,7 @@
         "slug": "markium",
         "shortDescription": "Data analytics and trading platform for prediction markets.",
         "description": "Comprehensive data analytics and trading platform for prediction markets that provides market aggregation, wallet analytics, leaderboards, and watchlist alerts.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://markiumpro.com",
         "xUrl": "https://x.com/markiumpro",
         "tags": [
@@ -893,7 +893,7 @@
         "slug": "prediedge",
         "shortDescription": "Professional Polymarket Intelligence.",
         "description": "PrediEdge - Professional Polymarket intelligence. Track whale trades, unusual activity, and market movements before they happen.",
-        "category": "Analytics",
+        "category": "Market Intelligence",
         "url": "https://prediedge.com",
         "xUrl": "https://x.com/prediedge",
         "tags": [
@@ -909,7 +909,7 @@
         "slug": "polysimplr",
         "shortDescription": "AI-powered interface that simplifies and makes prediction markets accessible.",
         "description": "An intuitive, user-friendly Polymarket interface designed with powerful AI tools to make prediction markets more accessible for all. Trade smarter with AI-powered insights, simplified interfaces, real-time market intelligence, and dedicated chat functionality that helps both novices and pros discover and execute opportunities more efficiently.",
-        "category": "Trading Terminal",
+        "category": "Trading Terminals",
         "url": "https://www.polysimplr.com",
         "xUrl": "https://x.com/polysimplr",
         "tags": [
@@ -925,7 +925,7 @@
         "slug": "polynoob",
         "shortDescription": "The Ultimate Guide to Polymarket and Beyond.",
         "description": "PolyNoob is the ultimate guide to Polymarket and prediction markets. Discover glossaries, strategies, definitions, and news updates.",
-        "category": "Analytics",
+        "category": "Information & OSINT",
         "url": "https://polynoob.com",
         "xUrl": "https://x.com/Polynoob_",
         "tags": [
@@ -941,7 +941,7 @@
         "slug": "tonyblairxbt",
         "shortDescription": "Technical analysis of big trades.",
         "description": "Breaks down the tape and explains the technical side of the big trades.",
-        "category": "Analytics",
+        "category": "Information & OSINT",
         "url": "https://x.com/tonyblairxbt",
         "xUrl": "https://x.com/tonyblairxbt",
         "tags": [
@@ -957,7 +957,7 @@
         "slug": "opinion-trade",
         "shortDescription": "Decentralized prediction market and oracle protocol on BNB Chain.",
         "description": "A decentralized prediction market and oracle protocol that allows users to trade 'Yes/No' contracts on real-world events. Features an AI oracle, on-chain order book, and an incentive system for liquidity providers.",
-        "category": "Platform",
+        "category": "Platforms",
         "url": "https://opinion.trade",
         "xUrl": "https://x.com/opinionlabsxyz",
         "tags": [
