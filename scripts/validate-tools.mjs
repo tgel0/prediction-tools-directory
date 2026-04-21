@@ -6,10 +6,13 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const toolsPath = path.resolve(__dirname, '../src/lib/data/tools.json');
 
 const VALID_CATEGORIES = new Set([
-	'Platform',
-	'Analytics',
-	'Trading Terminal',
-	'Infrastructure'
+	'Platforms',
+	'Trading Terminals',
+	'AI Agents & Bots',
+	'Market Intelligence',
+	'Analysis Tools',
+	'Information & OSINT',
+	'Infrastructure & APIs'
 ]);
 
 const requiredStringFields = [
