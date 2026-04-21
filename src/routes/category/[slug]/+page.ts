@@ -1,5 +1,6 @@
 import { error } from '@sveltejs/kit';
 import tools from '$lib/data/tools.json';
+import categories from '$lib/data/categories.json';
 import { categoryToSlug, slugToCategory } from '$lib/data/schema';
 import type { PageLoad, EntryGenerator } from './$types';
 
@@ -18,14 +19,17 @@ export const load: PageLoad = ({ params }) => {
             return 0;
         });
 
+    const description = categories[categoryName] || `Discover the top-rated tools and resources in the ${categoryName} category specifically curated for the prediction market ecosystem.`;
+
     return {
         categoryName,
         filteredTools,
-        categorySlug
+        categorySlug,
+        description
     };
 };
 
 export const entries: EntryGenerator = () => {
-    const categories = [...new Set(tools.map((t) => t.category).filter((c) => c !== ''))];
-    return categories.map((c) => ({ slug: categoryToSlug(c) }));
+    const categoriesList = [...new Set(tools.map((t) => t.category).filter((c) => c !== ''))];
+    return categoriesList.map((c) => ({ slug: categoryToSlug(c) }));
 };

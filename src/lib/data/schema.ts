@@ -1,8 +1,11 @@
 export const CATEGORIES = [
-	'Platform',
-	'Analytics',
-	'Trading Terminal',
-	'Infrastructure'
+	'Platforms',
+	'Trading Terminals',
+	'AI Agents & Bots',
+	'Market Intelligence',
+	'Analysis Tools',
+	'Information & OSINT',
+	'Infrastructure & APIs'
 ] as const;
 
 export type ToolCategory = (typeof CATEGORIES)[number];

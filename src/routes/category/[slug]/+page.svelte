@@ -3,16 +3,14 @@
     import ToolCard from "$lib/components/ToolCard.svelte";
 
     export let data: PageData;
-    $: ({ categoryName, filteredTools, categorySlug } = data);
+    $: ({ categoryName, filteredTools, categorySlug, description } = data);
 </script>
 
 <svelte:head>
     <title>{categoryName} Tools | Prediction Market Directory</title>
     <meta
         name="description"
-        content="Explore the best {filteredTools.length > 0
-            ? filteredTools.length
-            : ''} prediction market {categoryName.toLowerCase()}s, including comprehensive tools, platforms, and actionable analytics tailored for traders."
+        content={description}
     />
     <link
         rel="canonical"
@@ -22,7 +20,7 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{categoryName} Tools | Prediction Market Directory" />
-    <meta property="og:description" content="Explore the best prediction market {categoryName.toLowerCase()} tools, platforms, and analytics tailored for traders." />
+    <meta property="og:description" content={description} />
     <meta property="og:url" content="https://predictiontools.directory/category/{categorySlug}" />
     <meta property="og:image" content="https://predictiontools.directory/og-image.png" />
     <meta property="og:site_name" content="predictiontools.directory" />
@@ -31,7 +29,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@predictiontools" />
     <meta name="twitter:title" content="{categoryName} Tools | Prediction Market Directory" />
-    <meta name="twitter:description" content="Explore the best prediction market {categoryName.toLowerCase()} tools, platforms, and analytics tailored for traders." />
+    <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content="https://predictiontools.directory/og-image.png" />
 
     <!-- JSON-LD -->
@@ -39,7 +37,7 @@
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": categoryName + " Tools",
-        "description": "Best prediction market " + categoryName.toLowerCase() + " tools and services.",
+        "description": description,
         "url": "https://predictiontools.directory/category/" + categorySlug,
         "numberOfItems": filteredTools.length,
         "itemListElement": filteredTools.map((t, i) => ({
@@ -86,14 +84,7 @@
         </p>
         <div class="prose prose-invert max-w-3xl">
             <p class="text-gray-300 text-lg">
-                Discover the top-rated tools and resources in the <strong
-                    >{categoryName}</strong
-                >
-                category specifically curated for the prediction market
-                ecosystem. Whether you're looking to optimize your strategies,
-                find edge in new markets, or streamline your trading workflows,
-                these hand-picked {categoryName.toLowerCase()} solutions provide
-                the capabilities you need.
+                {description}
             </p>
         </div>
     </div>
