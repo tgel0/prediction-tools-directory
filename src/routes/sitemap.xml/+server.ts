@@ -12,49 +12,39 @@ export async function GET() {
         '/terms'
     ];
 
-    // Get unique categories and format slugs
     const categories = [...new Set(tools.map(tool => tool.category))];
+
+    const urlEntries = [
+        ...pages.map(page => ({
+            loc: `${site}${page}`,
+            changefreq: 'daily',
+            priority: page === '/' ? '1.0' : '0.8'
+        })),
+        ...categories.map(category => ({
+            loc: `${site}/category/${categoryToSlug(category)}`,
+            changefreq: 'weekly',
+            priority: '0.8'
+        })),
+        ...tools.map(tool => ({
+            loc: `${site}/tool/${tool.slug}`,
+            changefreq: 'weekly',
+            priority: '0.9'
+        }))
+    ];
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    ${pages
-            .map(
-                (page) => `
-    <url>
-        <loc>${site}${page}</loc>
-        <changefreq>daily</changefreq>
-        <priority>${page === '/' ? '1.0' : '0.8'}</priority>
-    </url>
-    `
-            )
-            .join('')}
-    ${categories
-            .map(
-                (category) => `
-    <url>
-        <loc>${site}/category/${categoryToSlug(category)}</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    `
-            )
-            .join('')}
-    ${tools
-            .map(
-                (tool) => `
-    <url>
-        <loc>${site}/tool/${tool.slug}</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    `
-            )
-            .join('')}
+${urlEntries.map(entry => `  <url>
+    <loc>${entry.loc}</loc>
+    <changefreq>${entry.changefreq}</changefreq>
+    <priority>${entry.priority}</priority>
+  </url>`).join('\n')}
 </urlset>`;
 
     return new Response(sitemap, {
         headers: {
-            'Content-Type': 'application/xml'
+            'Content-Type': 'application/xml; charset=utf-8',
+            'Cache-Control': 'public, max-age=3600'
         }
     });
 }
