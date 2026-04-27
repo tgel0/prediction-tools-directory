@@ -3,6 +3,19 @@ import { categoryToSlug } from '$lib/data/schema';
 
 export const prerender = true;
 
+function escapeXml(unsafe: string) {
+    return unsafe.replace(/[<>&"']/g, (c) => {
+        switch (c) {
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '&': return '&amp;';
+            case '"': return '&quot;';
+            case "'": return '&apos;';
+            default: return c;
+        }
+    });
+}
+
 export async function GET() {
     const site = 'https://predictiontools.directory';
     const pages = [
@@ -35,7 +48,7 @@ export async function GET() {
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urlEntries.map(entry => `  <url>
-    <loc>${entry.loc}</loc>
+    <loc>${escapeXml(entry.loc)}</loc>
     <changefreq>${entry.changefreq}</changefreq>
     <priority>${entry.priority}</priority>
   </url>`).join('\n')}
