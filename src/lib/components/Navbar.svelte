@@ -22,7 +22,7 @@
       </div>
 
       <!-- Desktop Links -->
-      <div class="hidden sm:flex space-x-8">
+      <div class="hidden sm:flex space-x-8 items-center">
         <a
           href="/"
           class="text-gray-300 hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors font-mono {activeRoute ===
@@ -32,6 +32,23 @@
         >
           /DIRECTORY
         </a>
+        <div class="relative group">
+          <button 
+            class="text-gray-300 hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors font-mono flex items-center gap-1"
+          >
+            /CATEGORIES
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          <div class="absolute left-0 top-full hidden group-hover:block w-56 bg-terminal-black border border-terminal-slate shadow-xl rounded-md py-2 z-50">
+            <a href="/category/platforms" class="block px-4 py-2 text-xs font-mono text-gray-400 hover:text-neon-green hover:bg-terminal-slate/30 transition-colors">Platforms</a>
+            <a href="/category/trading-terminals" class="block px-4 py-2 text-xs font-mono text-gray-400 hover:text-neon-green hover:bg-terminal-slate/30 transition-colors">Trading Terminals</a>
+            <a href="/category/ai-agents-&-bots" class="block px-4 py-2 text-xs font-mono text-gray-400 hover:text-neon-green hover:bg-terminal-slate/30 transition-colors">AI Agents & Bots</a>
+            <a href="/category/market-intelligence" class="block px-4 py-2 text-xs font-mono text-gray-400 hover:text-neon-green hover:bg-terminal-slate/30 transition-colors">Market Intelligence</a>
+            <a href="/category/analysis-tools" class="block px-4 py-2 text-xs font-mono text-gray-400 hover:text-neon-green hover:bg-terminal-slate/30 transition-colors">Analysis Tools</a>
+            <a href="/category/information-&-osint" class="block px-4 py-2 text-xs font-mono text-gray-400 hover:text-neon-green hover:bg-terminal-slate/30 transition-colors">Information & OSINT</a>
+            <a href="/category/infrastructure-&-apis" class="block px-4 py-2 text-xs font-mono text-gray-400 hover:text-neon-green hover:bg-terminal-slate/30 transition-colors">Infrastructure & APIs</a>
+          </div>
+        </div>
         <a
           href="/submit"
           class="text-gray-300 hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors font-mono {activeRoute ===
