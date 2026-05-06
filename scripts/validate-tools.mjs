@@ -15,6 +15,10 @@ const VALID_CATEGORIES = new Set([
 	'Infrastructure & APIs'
 ]);
 
+const VALID_PRICING = new Set(['Free', 'Freemium', 'Paid', 'Custom']);
+const VALID_ACCESS = new Set(['Public', 'Waitlist', 'Invite-only']);
+const VALID_STATUS = new Set(['active', 'inactive', 'acquired', 'shut-down']);
+
 const requiredStringFields = [
 	'id',
 	'name',
@@ -129,6 +133,76 @@ for (const [index, tool] of tools.entries()) {
 
 	if (typeof tool.shortDescription === 'string' && tool.shortDescription.length > 120) {
 		warnings.push(`${label}: shortDescription is long (${tool.shortDescription.length} chars)`);
+	}
+
+	// Validate new fields
+
+	if (tool.pricing !== undefined && !VALID_PRICING.has(tool.pricing)) {
+		errors.push(`${label}: invalid pricing "${tool.pricing}" — must be one of: ${[...VALID_PRICING].join(', ')}`);
+	}
+
+	if (tool.access !== undefined && !VALID_ACCESS.has(tool.access)) {
+		errors.push(`${label}: invalid access "${tool.access}" — must be one of: ${[...VALID_ACCESS].join(', ')}`);
+	}
+
+	if (tool.status !== undefined && !VALID_STATUS.has(tool.status)) {
+		errors.push(`${label}: invalid status "${tool.status}" — must be one of: ${[...VALID_STATUS].join(', ')}`);
+	}
+
+	if (tool.blockchain !== undefined) {
+		if (!Array.isArray(tool.blockchain)) {
+			errors.push(`${label}: "blockchain" must be an array`);
+		} else {
+			for (const b of tool.blockchain) {
+				if (typeof b !== 'string' || b.trim().length === 0) {
+					errors.push(`${label}: all blockchain entries must be non-empty strings`);
+				}
+			}
+		}
+	}
+
+	if (tool.supportedMarkets !== undefined) {
+		if (!Array.isArray(tool.supportedMarkets)) {
+			errors.push(`${label}: "supportedMarkets" must be an array`);
+		} else {
+			for (const m of tool.supportedMarkets) {
+				if (typeof m !== 'string' || m.trim().length === 0) {
+					errors.push(`${label}: all supportedMarkets entries must be non-empty strings`);
+				}
+			}
+		}
+	}
+
+	if (tool.platform !== undefined) {
+		if (!Array.isArray(tool.platform)) {
+			errors.push(`${label}: "platform" must be an array`);
+		} else {
+			for (const p of tool.platform) {
+				if (typeof p !== 'string' || p.trim().length === 0) {
+					errors.push(`${label}: all platform entries must be non-empty strings`);
+				}
+			}
+		}
+	}
+
+	if (tool.features !== undefined) {
+		if (!Array.isArray(tool.features)) {
+			errors.push(`${label}: "features" must be an array`);
+		} else {
+			for (const f of tool.features) {
+				if (typeof f !== 'string' || f.trim().length === 0) {
+					errors.push(`${label}: all feature entries must be non-empty strings`);
+				}
+			}
+		}
+	}
+
+	if (tool.pricingDetails !== undefined && (typeof tool.pricingDetails !== 'string' || tool.pricingDetails.trim().length === 0)) {
+		errors.push(`${label}: "pricingDetails" must be a non-empty string when provided`);
+	}
+
+	if (tool.metadata !== undefined && (typeof tool.metadata !== 'object' || tool.metadata === null || Array.isArray(tool.metadata))) {
+		errors.push(`${label}: "metadata" must be a Record<string, string> when provided`);
 	}
 
 	counts[tool.category] = (counts[tool.category] || 0) + 1;

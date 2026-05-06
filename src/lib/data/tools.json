@@ -11,9 +11,38 @@
         "tags": [
             "Crypto",
             "Decentralized",
+            "Polygon",
+            "Binary Markets",
+            "Real-world Events",
+            "AMM"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Resolution fee (~2%) on winning positions. Standard Polygon gas fees.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
             "Polygon"
         ],
-        "isPromoted": false
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web",
+            "iOS",
+            "Android"
+        ],
+        "features": [
+            "Binary Markets",
+            "Order Book",
+            "Limit Orders",
+            "AMM Pools",
+            "Permissionless Market Creation",
+            "Fiat On-ramp",
+            "Referral Program"
+        ]
     },
     {
         "id": "kalshi",
@@ -27,9 +56,35 @@
         "tags": [
             "Regulated",
             "US",
-            "Fiat"
+            "Fiat",
+            "CFTC",
+            "Event Contracts"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free to sign up. 0.3% transaction fee per contract. API free for personal use.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Kalshi"
+        ],
+        "platform": [
+            "Web",
+            "iOS",
+            "Android"
+        ],
+        "features": [
+            "Binary Event Contracts",
+            "Order Book",
+            "Limit Orders",
+            "Market Orders",
+            "Portfolio Dashboard",
+            "P&L Tracking",
+            "API Access",
+            "KYC/AML Compliant"
+        ]
     },
     {
         "id": "predict-fun",
@@ -43,10 +98,33 @@
         "tags": [
             "Crypto",
             "Blast L2",
-            "Yield"
+            "Yield",
+            "Airdrop"
         ],
         "isActive": true,
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to trade. Yield generated on positions via Blast L2. Acquired Probable in March 2026.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Blast L2",
+            "BNB Chain"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Yield-bearing Positions",
+            "Blast Points",
+            "Market Trading",
+            "Airdrop Potential"
+        ]
     },
     {
         "id": "limitless",
@@ -60,9 +138,32 @@
         "tags": [
             "Crypto",
             "Decentralized",
-            "Daily Payouts"
+            "Daily Payouts",
+            "Base"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to trade. No hidden fees. Daily payout settlements with instant settlement.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Base"
+        ],
+        "supportedMarkets": [
+            "Limitless"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Binary Contracts",
+            "Daily Payouts",
+            "Instant Settlement",
+            "No Liquidation Risk",
+            "No Hidden Fees"
+        ]
     },
     {
         "id": "probable",
@@ -77,10 +178,34 @@
             "Crypto",
             "BNB Chain",
             "Zero Fees",
-            "Acquired"
+            "Acquired",
+            "CLOB"
         ],
         "isActive": false,
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Zero trading fees. Acquired by Predict.fun in March 2026.",
+        "access": "Public",
+        "status": "acquired",
+        "acquiredBy": "predict-fun",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "BNB Chain"
+        ],
+        "supportedMarkets": [
+            "Probable"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Zero Fee Trading",
+            "CLOB Trading",
+            "UMA Settlement",
+            "Crypto Markets",
+            "Sports Markets"
+        ]
     },
     {
         "id": "pizzint-watch",
@@ -94,9 +219,28 @@
         "tags": [
             "OSINT",
             "Alternative Data",
-            "Geopolitics"
+            "Geopolitics",
+            "Pizza Index"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free real-time military tension indicator.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "PizzINT"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "OSINT Indicator",
+            "Military Activity Tracking",
+            "Pizza DEFCON Level",
+            "Alternative Data"
+        ]
     },
     {
         "id": "prediction-hunt",
@@ -110,9 +254,31 @@
         "tags": [
             "Arbitrage",
             "Aggregator",
-            "Multi-platform"
+            "Multi-platform",
+            "Odds"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free cross-platform odds comparison and arbitrage alerts.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi",
+            "PredictIt",
+            "ProphetX"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Cross-platform Odds Comparison",
+            "Arbitrage Alerts",
+            "Price Tracking",
+            "Multi-platform Coverage"
+        ]
     },
     {
         "id": "probex",
@@ -126,9 +292,29 @@
         "tags": [
             "AI",
             "News",
-            "Analytics"
+            "Analytics",
+            "Dashboard"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free intelligence dashboard with AI-powered news analysis.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "AI News Analysis",
+            "Real-time Odds",
+            "Market Context",
+            "Cross-platform Dashboard"
+        ]
     },
     {
         "id": "predictshark",
@@ -142,9 +328,28 @@
         "tags": [
             "Analytics",
             "Polymarket",
-            "Live Feed"
+            "Live Feed",
+            "Trends"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Real-time Polymarket analytics dashboard.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Real-time Analytics",
+            "Market Trends",
+            "Trader Performance Tracking",
+            "Live Feed"
+        ]
     },
     {
         "id": "polysights",
@@ -158,9 +363,29 @@
         "tags": [
             "Analytics",
             "AI",
-            "Data Visualization"
+            "Data Visualization",
+            "Strategy"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Advanced analytics and strategy layer.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Analytics Dashboard",
+            "Data Visualization",
+            "Strategy Tools",
+            "Cross-platform Intel"
+        ]
     },
     {
         "id": "polyfactual",
@@ -174,9 +399,29 @@
         "tags": [
             "AI Research",
             "Market Intelligence",
-            "Risk Analysis"
+            "Risk Analysis",
+            "Premium"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Premium subscription for deep research features.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "AI-powered Research",
+            "Deep Market Analysis",
+            "Risk Analysis",
+            "Interactive Webapp"
+        ]
     },
     {
         "id": "polym-trade",
@@ -190,9 +435,28 @@
         "tags": [
             "Trading Terminal",
             "Mobile First",
-            "Advanced UI"
+            "Advanced UI",
+            "AI Insights"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Web app with mobile-first design.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Mobile-first Trading",
+            "Real-time Data",
+            "AI-powered Insights",
+            "Trend Analysis"
+        ]
     },
     {
         "id": "thetradefox",
@@ -206,9 +470,30 @@
         "tags": [
             "Aggregator",
             "Prime Brokerage",
-            "Leverage"
+            "Leverage",
+            "Institutional"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Custom pricing for professional/institutional users. Leverage options available.",
+        "access": "Invite-only",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Prime Brokerage",
+            "Leverage",
+            "Unified Cross-platform Access",
+            "Institutional Tools",
+            "Advanced Aggregation"
+        ]
     },
     {
         "id": "betmoar",
@@ -222,9 +507,32 @@
         "tags": [
             "Trading Terminal",
             "UMA Oracle",
-            "Trader Tracking"
+            "Trader Tracking",
+            "Discord Bot",
+            "News"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free tier with basic features. Premium subscription for advanced tools and alerts.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web",
+            "Discord"
+        ],
+        "features": [
+            "Discord Bot",
+            "UMA Oracle Dashboard",
+            "News Terminal",
+            "TTS Alerts",
+            "Transaction Analysis",
+            "Trader Tracking"
+        ]
     },
     {
         "id": "synthesis",
@@ -238,9 +546,29 @@
         "tags": [
             "Trading Terminal",
             "Liquidity Analysis",
-            "Execution"
+            "Execution",
+            "Cross-platform"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Advanced trading features available.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Liquidity Analysis",
+            "Price Discovery",
+            "Rapid Execution",
+            "Advanced Trading Interface"
+        ]
     },
     {
         "id": "stand-trade",
@@ -254,9 +582,30 @@
         "tags": [
             "Market Scanner",
             "Opportunity Finder",
-            "Alpha Gen"
+            "Alpha Gen",
+            "Cross-platform"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Professional trading features included.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Automated Trades",
+            "Real-time Trade Feeds",
+            "Wallet Tracking",
+            "Market Scanner",
+            "Opportunity Finder"
+        ]
     },
     {
         "id": "polydata",
@@ -270,9 +619,29 @@
         "tags": [
             "Analytics",
             "Polymarket",
-            "Leaderboard"
+            "Leaderboard",
+            "Volume"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free dashboard. Advanced metrics available.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Volume Tracking",
+            "Open Interest Tracking",
+            "Trader Leaderboards",
+            "Wallet Activity",
+            "Builder Tracking"
+        ]
     },
     {
         "id": "fireplace",
@@ -286,9 +655,28 @@
         "tags": [
             "Aggregator",
             "Social",
-            "News"
+            "News",
+            "Community"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free social prediction market aggregator.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Social Betting",
+            "News-based Markets",
+            "Friend Engagement",
+            "Market Aggregation"
+        ]
     },
     {
         "id": "pigeon-trade",
@@ -302,9 +690,29 @@
         "tags": [
             "AI Quant",
             "Auto-Trading",
-            "Strategies"
+            "Strategies",
+            "Portfolio"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Subscription-based AI quant platform. Pricing available on request.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "AI Quant Strategies",
+            "Automated Trading",
+            "Portfolio Management",
+            "Research Tools"
+        ]
     },
     {
         "id": "copytrade",
@@ -318,9 +726,30 @@
         "tags": [
             "Copy Trading",
             "Leaderboard",
-            "Automation"
+            "Automation",
+            "PnL"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free to browse. Premium features for automated copy trading.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Copy Trading",
+            "Leader Dashboard",
+            "Watchlist Tracking",
+            "Real-time Wallet Insights",
+            "PnL Monitoring",
+            "Category Filtering"
+        ]
     },
     {
         "id": "kalshinomics",
@@ -334,9 +763,29 @@
         "tags": [
             "Analytics",
             "Filters",
-            "Curated Markets"
+            "Curated Markets",
+            "Kalshi"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free real-time Kalshi market data and analytics.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-10",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Real-time Data",
+            "Market Filters",
+            "Curated Markets",
+            "Analytics",
+            "Trend Tracking"
+        ]
     },
     {
         "id": "betonwars",
@@ -350,9 +799,30 @@
         "tags": [
             "OSINT",
             "Geopolitics",
-            "War Predictions"
+            "War Predictions",
+            "Multi-source"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free OSINT aggregation. Premium for advanced war room features.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "OSINT Aggregation",
+            "280+ Sources",
+            "15+ Languages",
+            "Geopolitical Tracking",
+            "Insider Tracking"
+        ]
     },
     {
         "id": "arbbets",
@@ -366,9 +836,30 @@
         "tags": [
             "Arbitrage",
             "Scanner",
-            "Positive EV"
+            "Positive EV",
+            "API"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free arbitrage finder with API and data access.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi",
+            "Opinion"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Arbitrage Scanner",
+            "Positive EV Detection",
+            "API Access",
+            "Cross-platform Scanning"
+        ]
     },
     {
         "id": "kiyotaka",
@@ -382,9 +873,29 @@
         "tags": [
             "AI",
             "Analytics",
-            "Prediction Market"
+            "Prediction Market",
+            "Advance Trading"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Subscription-based advanced trading platform.",
+        "access": "Waitlist",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Real-time Analytics",
+            "Automation",
+            "Professional Trading Tools",
+            "Advanced Charts"
+        ]
     },
     {
         "id": "oddpool",
@@ -398,9 +909,29 @@
         "tags": [
             "Analytics",
             "Arbitrage",
-            "Aggregator"
+            "Aggregator",
+            "Whale"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free real-time odds comparison and whale tracking.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Real-time Odds Comparison",
+            "Arbitrage Detection",
+            "Whale Trade Tracking",
+            "Price Monitoring"
+        ]
     },
     {
         "id": "sportstensor",
@@ -415,9 +946,31 @@
             "AI",
             "Bittensor",
             "Sports",
-            "Decentralized"
+            "Decentralized",
+            "Meta-model"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Subnet on Bittensor network.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Bittensor"
+        ],
+        "supportedMarkets": [
+            "Sportstensor"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "AI Sports Prediction",
+            "Decentralized AI",
+            "Meta-model Aggregation",
+            "Bittensor Subnet 41"
+        ]
     },
     {
         "id": "manifold",
@@ -431,9 +984,31 @@
         "tags": [
             "Play Money",
             "User Generated",
-            "Social"
+            "Social",
+            "Charity"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Play-money virtual currency (Mana) redeemable for charitable donations.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Manifold"
+        ],
+        "platform": [
+            "Web",
+            "iOS",
+            "Android"
+        ],
+        "features": [
+            "User-created Markets",
+            "Play-money Trading",
+            "Leaderboards",
+            "Charitable Donations",
+            "Social Features"
+        ]
     },
     {
         "id": "zeitgeist",
@@ -447,9 +1022,32 @@
         "tags": [
             "Polkadot",
             "Decentralized",
-            "Futarchy"
+            "Futarchy",
+            "Parachain"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Gas fees on Polkadot/Kusama.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Polkadot",
+            "Kusama"
+        ],
+        "supportedMarkets": [
+            "Zeitgeist"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Decentralized Prediction Markets",
+            "Futarchy Protocol",
+            "Parachain",
+            "User-created Markets"
+        ]
     },
     {
         "id": "hedgehog",
@@ -463,9 +1061,32 @@
         "tags": [
             "Solana",
             "Crypto",
-            "Fast Execution"
+            "Fast Execution",
+            "Permissionless"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to trade. Solana gas fees apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Solana"
+        ],
+        "supportedMarkets": [
+            "Hedgehog"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Permissionless Markets",
+            "High-speed Execution",
+            "Crypto Markets",
+            "Politics Markets",
+            "Sports Markets"
+        ]
     },
     {
         "id": "augur",
@@ -479,9 +1100,31 @@
         "tags": [
             "Ethereum",
             "Decentralized",
-            "Protocol"
+            "Protocol",
+            "Oracle"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Ethereum gas fees required for on-chain interactions.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Ethereum"
+        ],
+        "supportedMarkets": [
+            "Augur"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Trustless Protocol",
+            "Permissionless Market Creation",
+            "Decentralized Oracle",
+            "Peer-to-peer Trading"
+        ]
     },
     {
         "id": "forecast-trader",
@@ -495,9 +1138,32 @@
         "tags": [
             "Regulated",
             "US",
-            "TradFi"
+            "TradFi",
+            "IBKR",
+            "Brokerage"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Requires Interactive Brokers account. Standard IBKR commission structure applies to forecast contracts.",
+        "access": "Invite-only",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "IBKR ForecastTrader"
+        ],
+        "platform": [
+            "Web",
+            "Desktop"
+        ],
+        "features": [
+            "Regulated Forecast Contracts",
+            "Limited Risk",
+            "Exchange-listed",
+            "Political Markets",
+            "Economic Markets",
+            "Climate Markets"
+        ]
     },
     {
         "id": "thales",
@@ -511,9 +1177,33 @@
         "tags": [
             "DeFi",
             "Parimutuel",
-            "Optimism"
+            "Optimism",
+            "Chainlink"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Gas fees on Optimism/Arbitrum/Base.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Optimism",
+            "Arbitrum",
+            "Base"
+        ],
+        "supportedMarkets": [
+            "Thales"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Parimutuel Markets",
+            "Peer-to-peer",
+            "Chainlink Data Feeds",
+            "Liquidity Layer"
+        ]
     },
     {
         "id": "sx-bet",
@@ -527,9 +1217,32 @@
         "tags": [
             "Sports",
             "Crypto",
-            "Exchange"
+            "Exchange",
+            "Bet Mining"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Low fees on peer-to-peer bets. SX token rewards via Bet Mining.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "SX Network"
+        ],
+        "supportedMarkets": [
+            "SX Bet"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Peer-to-peer Sports Betting",
+            "Deep Liquidity",
+            "Non-custodial",
+            "Bet Mining Rewards",
+            "Low Fees"
+        ]
     },
     {
         "id": "azuro",
@@ -543,9 +1256,32 @@
         "tags": [
             "Infrastructure",
             "Liquidity",
-            "DAO"
+            "DAO",
+            "vAMM"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Protocol fees apply per bet. Liquidity providers earn from betting volume.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "EVM Chains"
+        ],
+        "supportedMarkets": [
+            "Azuro"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "LiquidityTree",
+            "vAMM",
+            "Sports Betting",
+            "Attention Markets",
+            "Liquidity Provision"
+        ]
     },
     {
         "id": "pmx-trade",
@@ -559,9 +1295,30 @@
         "tags": [
             "Telegram",
             "Bot",
-            "Copy Trading"
+            "Copy Trading",
+            "Mobile"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free basic trading. Premium features for advanced copy trading and alerts.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Telegram",
+            "Web"
+        ],
+        "features": [
+            "Telegram Trading Bot",
+            "Copy Trading",
+            "Market Tracking",
+            "Market Filtering",
+            "Position Management"
+        ]
     },
     {
         "id": "okbet",
@@ -575,9 +1332,30 @@
         "tags": [
             "Telegram",
             "Social",
-            "Analytics"
+            "Analytics",
+            "Multi-platform"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Telegram-native platform.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Telegram"
+        ],
+        "features": [
+            "Multiplatform Access",
+            "Social Features",
+            "Copy Trading",
+            "Groups",
+            "Analytics"
+        ]
     },
     {
         "id": "parsec",
@@ -595,7 +1373,26 @@
             "Shut Down"
         ],
         "isActive": false,
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Was free. Platform shut down February 2026.",
+        "access": "Public",
+        "status": "shut-down",
+        "addedDate": "2026-03-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Market Search",
+            "Analytics",
+            "AI Assistant",
+            "Market Summaries",
+            "Filters"
+        ]
     },
     {
         "id": "hashdive",
@@ -609,9 +1406,29 @@
         "tags": [
             "Wallet Tracking",
             "PnL",
-            "Research"
+            "Research",
+            "Analytics"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free Polymarket analytics platform.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Wallet Analytics",
+            "PnL Tracking",
+            "Position Analysis",
+            "Scoring System",
+            "Trend Analysis"
+        ]
     },
     {
         "id": "predicting-top",
@@ -625,9 +1442,29 @@
         "tags": [
             "Leaderboard",
             "Cross-platform",
-            "Performance"
+            "Performance",
+            "PnL"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free leaderboard. Real-time trader performance tracking.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Trader Leaderboard",
+            "Cross-platform P&L",
+            "Wallet Address Tracking",
+            "Performance Stats"
+        ]
     },
     {
         "id": "polyalert",
@@ -641,9 +1478,29 @@
         "tags": [
             "Alerts",
             "Portfolio",
-            "Whale Tracking"
+            "Whale Tracking",
+            "Paper Trading"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free alerts. Premium tier for advanced analytics and paper trading.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Real-time Alerts",
+            "Whale Trade Tracking",
+            "Price Movement Alerts",
+            "Paper Trading",
+            "Portfolio Tracking"
+        ]
     },
     {
         "id": "predictfolio",
@@ -657,9 +1514,29 @@
         "tags": [
             "Portfolio",
             "Benchmarking",
-            "Tracking"
+            "Tracking",
+            "Editorial"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free analytics and editorial coverage.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-15",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Top Trader Discovery",
+            "Real-time PnL",
+            "Performance Benchmarking",
+            "Editorial Coverage",
+            "Dashboards"
+        ]
     },
     {
         "id": "polycool",
@@ -673,9 +1550,30 @@
         "tags": [
             "Wallet Tracking",
             "Insiders",
-            "Copy Trading"
+            "Copy Trading",
+            "Mobile"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. One-tap copy trading mobile app.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web",
+            "Mobile"
+        ],
+        "features": [
+            "Copy Trading",
+            "One-tap Trading",
+            "Insider Signals",
+            "Smart Feed",
+            "Mobile App"
+        ]
     },
     {
         "id": "brosonpm",
@@ -689,9 +1587,28 @@
         "tags": [
             "Stats",
             "Win Rate",
-            "Whale Tracking"
+            "Whale Tracking",
+            "Trades"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free whale tracking and copy trading insights.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Whale Trade Tracking",
+            "Win Rate Analysis",
+            "Trader Stats",
+            "Real-time Trades"
+        ]
     },
     {
         "id": "goldsky",
@@ -705,9 +1622,30 @@
         "tags": [
             "API",
             "Data",
-            "Infrastructure"
+            "Infrastructure",
+            "Indexing"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free tier available. Paid plans for higher volume and dedicated support.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Data Indexing",
+            "Real-time Streams",
+            "Orders Data",
+            "OI Data",
+            "Balances",
+            "Position Tracking"
+        ]
     },
     {
         "id": "adjacent-news",
@@ -721,9 +1659,29 @@
         "tags": [
             "News",
             "API",
-            "Context"
+            "Context",
+            "Forward-looking"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "API-based pricing. Contact for enterprise access.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "API Layer",
+            "Market Data",
+            "Multi-platform Coverage",
+            "News Context"
+        ]
     },
     {
         "id": "forcazt",
@@ -737,9 +1695,29 @@
         "tags": [
             "Aggregation",
             "Routing",
-            "Cross-platform"
+            "Cross-platform",
+            "Analytics"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free analytics and aggregation layer.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Market Aggregation",
+            "Data Pipelines",
+            "Cross-platform Routing",
+            "Analytics"
+        ]
     },
     {
         "id": "polyrouter",
@@ -753,9 +1731,30 @@
         "tags": [
             "API",
             "Aggregator",
-            "Dev Tools"
+            "Dev Tools",
+            "Standardization"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "API-based pricing for developers integrating prediction market data.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web",
+            "API"
+        ],
+        "features": [
+            "Unified API",
+            "Cross-platform Aggregation",
+            "Data Standardization",
+            "Developer Tools"
+        ]
     },
     {
         "id": "matchr",
@@ -773,7 +1772,26 @@
             "Shut Down"
         ],
         "isActive": false,
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Was free. Platform shut down as of April 2026 (HTTP 402).",
+        "access": "Public",
+        "status": "shut-down",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Cross-platform Search",
+            "Odds Comparison",
+            "Price Tracking",
+            "Arbitrage Discovery"
+        ]
     },
     {
         "id": "polyscalping",
@@ -787,9 +1805,28 @@
         "tags": [
             "Scalping",
             "Arbitrage",
-            "Alerts"
+            "Alerts",
+            "Spreads"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free scalping opportunity tracker with alerts.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-25",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Scalping Opportunities",
+            "Spread Tracking",
+            "Real-time Alerts",
+            "ROI Calculator"
+        ]
     },
     {
         "id": "chance",
@@ -803,9 +1840,29 @@
         "tags": [
             "Aggregator",
             "Unified",
-            "Trading Terminal"
+            "Trading Terminal",
+            "Discovery"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Unified discovery and trading platform.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Unified Trading",
+            "Cross-platform Discovery",
+            "Enhanced Interface",
+            "Market Evaluation"
+        ]
     },
     {
         "id": "polytale",
@@ -819,9 +1876,28 @@
         "tags": [
             "AI",
             "Twitter Agent",
-            "Research"
+            "Research",
+            "Analysis"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. AI agent provides market insights via Twitter.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-25",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Twitter"
+        ],
+        "features": [
+            "AI Agent",
+            "Real-time Market Insights",
+            "Whale Tracking",
+            "Twitter-based Analysis"
+        ]
     },
     {
         "id": "nevua-markets",
@@ -835,9 +1911,32 @@
         "tags": [
             "Alerts",
             "Watchlist",
-            "Real-time"
+            "Real-time",
+            "Multi-platform"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free basic alerts. Premium for advanced watchlists and more alert destinations.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-25",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web",
+            "Telegram",
+            "Discord"
+        ],
+        "features": [
+            "Market Watchlists",
+            "Real-time Alerts",
+            "Telegram Alerts",
+            "Discord Alerts",
+            "Webhook Support"
+        ]
     },
     {
         "id": "polyterminal-x",
@@ -851,9 +1950,27 @@
         "tags": [
             "Trading Terminal",
             "Professional",
-            "Speed"
+            "Speed",
+            "Polymarket"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Professional-level trading desk interface.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-03-20",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Professional Trading Desk",
+            "High-speed Execution",
+            "Advanced Order Types"
+        ]
     },
     {
         "id": "robin",
@@ -867,9 +1984,31 @@
         "tags": [
             "DeFi",
             "Yield",
-            "Automation"
+            "Automation",
+            "Polymarket"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Earn yield on Polymarket positions through DeFi strategies.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-04-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "Polygon"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Yield-bearing Positions",
+            "Delta-neutral Strategies",
+            "Automated Capital Deployment",
+            "DeFi Integration"
+        ]
     },
     {
         "id": "markium",
@@ -883,9 +2022,30 @@
         "tags": [
             "Analytics",
             "Trading",
-            "Leaderboard"
+            "Leaderboard",
+            "Watchlist"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free analytics dashboard with comprehensive features.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-04-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Market Aggregation",
+            "Wallet Analytics",
+            "Leaderboards",
+            "Watchlist Alerts",
+            "Trading Interface"
+        ]
     },
     {
         "id": "prediedge",
@@ -899,9 +2059,28 @@
         "tags": [
             "Whale Tracking",
             "Analytics",
-            "Signals"
+            "Signals",
+            "Intelligence"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free Polymarket intelligence and whale tracking.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-04-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Whale Trade Detection",
+            "Unusual Activity Alerts",
+            "Market Movement Tracking",
+            "Pro Intelligence"
+        ]
     },
     {
         "id": "polysimplr",
@@ -915,9 +2094,28 @@
         "tags": [
             "Interface",
             "AI",
-            "Chat"
+            "Chat",
+            "Simplified"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. AI-powered features included.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-04-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "AI-powered Insights",
+            "Simplified Interface",
+            "Real-time Intelligence",
+            "Chat Functionality"
+        ]
     },
     {
         "id": "polynoob",
@@ -931,9 +2129,29 @@
         "tags": [
             "Education",
             "Guide",
-            "Beginner"
+            "Beginner",
+            "Glossary"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free educational guide to Polymarket and prediction markets.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-04-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Educational Guide",
+            "Glossary",
+            "Strategies",
+            "News Updates",
+            "Beginner-friendly"
+        ]
     },
     {
         "id": "tonyblairxbt",
@@ -947,9 +2165,27 @@
         "tags": [
             "Technical Analysis",
             "Education",
-            "Commentary"
+            "Commentary",
+            "Twitter"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to follow. Educational trade analysis on X/Twitter.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-04-01",
+        "lastVerified": "2026-05-01",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Twitter"
+        ],
+        "features": [
+            "Trade Breakdowns",
+            "Technical Analysis",
+            "Educational Commentary"
+        ]
     },
     {
         "id": "opinion-trade",
@@ -963,8 +2199,30 @@
         "tags": [
             "Crypto",
             "BNB Chain",
-            "DeFi"
+            "DeFi",
+            "AI Oracle"
         ],
-        "isPromoted": false
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to trade. BNB Chain gas fees apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-04-01",
+        "lastVerified": "2026-05-01",
+        "blockchain": [
+            "BNB Chain"
+        ],
+        "supportedMarkets": [
+            "Opinion Trade"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "AI Oracle",
+            "On-chain Order Book",
+            "Liquidity Provider Incentives",
+            "Yes/No Contracts"
+        ]
     }
 ]

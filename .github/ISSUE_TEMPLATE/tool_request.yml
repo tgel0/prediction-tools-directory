@@ -23,10 +23,13 @@ body:
     attributes:
       label: Category
       options:
-        - Platform
-        - Analytics
-        - Trading Terminal
-        - Infrastructure
+        - Platforms
+        - Trading Terminals
+        - AI Agents & Bots
+        - Market Intelligence
+        - Analysis Tools
+        - Information & OSINT
+        - Infrastructure & APIs
     validations:
       required: true
 
@@ -40,12 +43,37 @@ body:
     id: description
     attributes:
       label: Description
-      description: A brief, objective description of what the tool does.
+      description: A 2-3 sentence description of what the tool does.
     validations:
       required: true
+
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing Model
+      options:
+        - Free
+        - Freemium
+        - Paid
+        - Custom
+
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access
+      options:
+        - Public
+        - Waitlist
+        - Invite-only
 
   - type: input
     id: tags
     attributes:
       label: Tags
       placeholder: e.g. Crypto, Data, Trading (comma separated)
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: e.g. Web, iOS, Android, Telegram, Discord
