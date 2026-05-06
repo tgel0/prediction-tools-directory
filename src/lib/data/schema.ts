@@ -23,6 +23,9 @@ export type Tool = {
 	tags: string[];
 	isPromoted?: boolean;
 	isActive?: boolean;
+	pricing?: string;
+	access?: string;
+	metadata?: Record<string, string>;
 };
 
 export const categoryToSlug = (category: string): string =>
