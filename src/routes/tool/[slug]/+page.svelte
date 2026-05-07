@@ -21,6 +21,41 @@
     // Extract X username from xUrl
     $: xUsername = tool.xUrl ? tool.xUrl.split("/").pop() : null;
 
+    // Pricing badge styling
+    function pricingStyle(pricing) {
+        switch (pricing?.toLowerCase()) {
+            case "free": return "bg-green-900/40 text-green-400 border-green-500/40";
+            case "freemium": return "bg-yellow-900/40 text-yellow-400 border-yellow-500/40";
+            case "paid": return "bg-blue-900/40 text-blue-400 border-blue-500/40";
+            case "custom": return "bg-purple-900/40 text-purple-400 border-purple-500/40";
+            default: return "bg-gray-800 text-gray-400 border-gray-600";
+        }
+    }
+
+    // Status badge styling
+    function statusStyle(status) {
+        switch (status?.toLowerCase()) {
+            case "active": return "bg-green-900/40 text-green-400";
+            case "inactive": return "bg-gray-700 text-gray-400";
+            case "acquired": return "bg-blue-900/40 text-blue-400";
+            case "shut-down": return "bg-red-900/40 text-red-400";
+            default: return "bg-gray-800 text-gray-400";
+        }
+    }
+
+    // Platform icon mapping (simple text + emoji)
+    const platformIcons = {
+        "Web": "🌐 Web",
+        "iOS": "📱 iOS",
+        "Android": "🤖 Android",
+        "Telegram": "✈️ Telegram",
+        "Discord": "💬 Discord",
+        "Twitter": "🐦 Twitter",
+        "Chrome": "🌍 Chrome",
+        "API": "🔌 API",
+        "CLI": "💻 CLI",
+    };
+
     // Load X widgets.js on mount
     onMount(() => {
         if (tool.xUrl && typeof window !== "undefined") {
@@ -131,7 +166,7 @@
                             </span>
                         {/if}
                     </div>
-                    <div class="flex items-center space-x-4">
+                    <div class="flex flex-wrap items-center gap-2">
                         {#if tool.category}
                         <span
                             class="text-sm font-mono text-neon-blue border border-neon-blue/30 px-2 py-0.5 rounded"
@@ -139,10 +174,34 @@
                             {tool.category}
                         </span>
                         {/if}
-                        <span class="text-gray-500 font-mono text-sm"
-                            >Added recently</span
+                        {#if tool.pricing}
+                        <span
+                            class="text-sm font-mono px-2 py-0.5 rounded border {pricingStyle(tool.pricing)}"
                         >
+                            {tool.pricing}
+                        </span>
+                        {/if}
+                        {#if tool.status}
+                        <span
+                            class="text-xs font-mono px-2 py-0.5 rounded {statusStyle(tool.status)}"
+                        >
+                            {tool.status === "shut-down" ? "SHUT DOWN" : tool.status.toUpperCase()}
+                        </span>
+                        {/if}
+                        {#if tool.websiteName}
+                        <span class="text-gray-500 font-mono text-sm">
+                            {tool.websiteName}
+                        </span>
+                        {/if}
                     </div>
+                    {#if tool.addedDate}
+                    <div class="mt-1 flex items-center gap-4 text-xs text-gray-500 font-mono">
+                        <span>Added {tool.addedDate}</span>
+                        {#if tool.lastVerified}
+                        <span>• Last verified {tool.lastVerified}</span>
+                        {/if}
+                    </div>
+                    {/if}
                 </div>
 
                 <div
@@ -219,27 +278,156 @@
                 </div>
             </div>
 
+            <!-- Description -->
             <div class="prose prose-invert prose-lg max-w-none mb-12">
                 <p class="text-gray-300 leading-relaxed text-lg font-mono">
                     {tool.description}
                 </p>
-                <div
-                    class="mt-8 flex items-center space-x-2 text-sm text-gray-500 font-mono italic"
-                >
-                    <span
-                        class="inline-block w-2 h-2 rounded-full bg-neon-green/50 animate-pulse"
-                    ></span>
-                    <span>More data indexing in progress...</span>
-                </div>
             </div>
 
+            <!-- Enriched Data Sections -->
+            <div class="space-y-8">
+
+                {#if tool.pricingDetails}
+                <div class="border-t border-terminal-slate pt-6">
+                    <h3
+                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                    >
+                        <span class="text-neon-green mr-2">$</span>Pricing Details
+                    </h3>
+                    <p class="text-gray-300 font-mono text-sm leading-relaxed">
+                        {tool.pricingDetails}
+                    </p>
+                </div>
+                {/if}
+
+                {#if tool.features && tool.features.length > 0}
+                <div class="border-t border-terminal-slate pt-6">
+                    <h3
+                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                    >
+                        <span class="text-neon-green mr-2">✦</span>Features
+                    </h3>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                        {#each tool.features as feature}
+                        <li class="flex items-start space-x-2 text-gray-300 font-mono text-sm">
+                            <span class="text-neon-green mt-0.5 shrink-0">›</span>
+                            <span>{feature}</span>
+                        </li>
+                        {/each}
+                    </ul>
+                </div>
+                {/if}
+
+                {#if tool.platform && tool.platform.length > 0}
+                <div class="border-t border-terminal-slate pt-6">
+                    <h3
+                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                    >
+                        <span class="text-neon-green mr-2">⬡</span>Platform
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        {#each tool.platform as p}
+                        <span
+                            class="px-3 py-1 bg-terminal-black border border-terminal-slate text-gray-300 font-mono text-xs rounded"
+                        >
+                            {platformIcons[p] || p}
+                        </span>
+                        {/each}
+                    </div>
+                </div>
+                {/if}
+
+                {#if tool.blockchain && tool.blockchain.length > 0}
+                <div class="border-t border-terminal-slate pt-6">
+                    <h3
+                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                    >
+                        <span class="text-neon-green mr-2">⧫</span>Blockchain
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        {#each tool.blockchain as chain}
+                        <span
+                            class="px-3 py-1 bg-purple-900/20 border border-purple-500/30 text-purple-300 font-mono text-xs rounded"
+                        >
+                            {chain}
+                        </span>
+                        {/each}
+                    </div>
+                </div>
+                {/if}
+
+                {#if tool.supportedMarkets && tool.supportedMarkets.length > 0}
+                <div class="border-t border-terminal-slate pt-6">
+                    <h3
+                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                    >
+                        <span class="text-neon-green mr-2">▣</span>Supported Markets
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        {#each tool.supportedMarkets as market}
+                        <span
+                            class="px-3 py-1 bg-cyan-900/20 border border-cyan-500/30 text-cyan-300 font-mono text-xs rounded"
+                        >
+                            {market}
+                        </span>
+                        {/each}
+                    </div>
+                </div>
+                {/if}
+
+                {#if tool.tags && tool.tags.length > 0}
+                <div class="border-t border-terminal-slate pt-6">
+                    <h3
+                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                    >
+                        <span class="text-neon-green mr-2">#</span>Tags
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        {#each tool.tags as tag}
+                        <span
+                            class="px-3 py-1 bg-terminal-black border border-terminal-slate text-gray-300 font-mono text-xs rounded hover:border-gray-500 transition-colors cursor-default"
+                        >
+                            #{tag}
+                        </span>
+                        {/each}
+                    </div>
+                </div>
+                {/if}
+
+                {#if tool.acquiredBy}
+                <div class="border-t border-terminal-slate pt-6">
+                    <h3
+                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                    >
+                        <span class="text-neon-green mr-2">⊚</span>Acquired
+                    </h3>
+                    <p class="text-gray-300 font-mono text-sm">
+                        Acquired by <span class="text-white font-bold">{tool.acquiredBy}</span>
+                    </p>
+                </div>
+                {/if}
+
+            </div>
+
+            <!-- X/Twitter Embed -->
             {#if xUsername}
-                <div class="border-t border-terminal-slate pt-8 mb-8">
+                <div class="border-t border-terminal-slate pt-8 mt-8 mb-8">
                     <h3
                         class="text-lg font-black text-white uppercase tracking-tight mb-4 flex items-center"
                     >
                         <span class="text-neon-green mr-2">#</span>LATEST FROM X
                     </h3>
+                    {#if tool.xHandle}
+                    <p class="text-gray-500 font-mono text-xs mb-4">
+                        <a
+                            href="https://x.com/{tool.xHandle}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-neon-green transition-colors"
+                        >@{tool.xHandle}</a>
+                    </p>
+                    {/if}
                     <div
                         class="bg-terminal-black rounded overflow-hidden min-h-[100px]"
                     >
@@ -247,25 +435,6 @@
                     </div>
                 </div>
             {/if}
-
-            <!--
-            <div class="border-t border-terminal-slate pt-8">
-                <h3
-                    class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-4"
-                >
-                    Tags
-                </h3>
-                <div class="flex flex-wrap gap-3">
-                    {#each tool.tags as tag}
-                        <span
-                            class="px-3 py-1 bg-terminal-black border border-terminal-slate text-gray-300 font-mono text-sm rounded hover:border-gray-500 transition-colors cursor-default"
-                        >
-                            #{tag}
-                        </span>
-                    {/each}
-                </div>
-            </div>
-            -->
         </div>
     </div>
 
