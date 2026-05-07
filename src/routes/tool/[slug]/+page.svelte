@@ -2,10 +2,13 @@
     import { onMount } from "svelte";
     import type { PageData } from "./$types";
     import ToolCard from "$lib/components/ToolCard.svelte";
-    import { categoryToSlug } from "$lib/data/schema";
+    import { categoryToSlug, type Tool } from "$lib/data/schema";
 
     export let data: PageData;
     $: ({ tool, relatedTools } = data);
+
+    // Cast from JSON union type to our full schema type
+    $: t = tool as unknown as Tool;
 
     let copied = false;
     async function copyToClipboard() {
@@ -19,10 +22,10 @@
     }
 
     // Extract X username from xUrl
-    $: xUsername = tool.xUrl ? tool.xUrl.split("/").pop() : null;
+    $: xUsername = t.xUrl ? t.xUrl.split("/").pop() : null;
 
     // Pricing badge styling
-    function pricingStyle(pricing) {
+    function pricingStyle(pricing: string | undefined) {
         switch (pricing?.toLowerCase()) {
             case "free": return "bg-green-900/40 text-green-400 border-green-500/40";
             case "freemium": return "bg-yellow-900/40 text-yellow-400 border-yellow-500/40";
@@ -33,7 +36,7 @@
     }
 
     // Status badge styling
-    function statusStyle(status) {
+    function statusStyle(status: string | undefined) {
         switch (status?.toLowerCase()) {
             case "active": return "bg-green-900/40 text-green-400";
             case "inactive": return "bg-gray-700 text-gray-400";
@@ -44,7 +47,7 @@
     }
 
     // Platform icon mapping (simple text + emoji)
-    const platformIcons = {
+    const platformIcons: Record<string, string> = {
         "Web": "🌐 Web",
         "iOS": "📱 iOS",
         "Android": "🤖 Android",
@@ -58,7 +61,7 @@
 
     // Load X widgets.js on mount
     onMount(() => {
-        if (tool.xUrl && typeof window !== "undefined") {
+        if (t.xUrl && typeof window !== "undefined") {
             const script = document.createElement("script");
             script.src = "https://xembed-20260323.web.app/widget.js";
             script.async = true;
@@ -68,41 +71,41 @@
 </script>
 
 <svelte:head>
-    <title>{tool.name} - predictiontools.directory</title>
+    <title>{t.name} - predictiontools.directory</title>
     <meta
         name="description"
-        content={tool.description.length > 155
-            ? tool.description.substring(0, 152) + "..."
-            : tool.description}
+        content={t.description.length > 155
+            ? t.description.substring(0, 152) + "..."
+            : t.description}
     />
     <link
         rel="canonical"
-        href="https://predictiontools.directory/tool/{tool.slug}"
+        href="https://predictiontools.directory/tool/{t.slug}"
     />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{tool.name} - Prediction Market Directory" />
-    <meta property="og:description" content={tool.description.length > 155 ? tool.description.substring(0, 152) + '...' : tool.description} />
-    <meta property="og:url" content="https://predictiontools.directory/tool/{tool.slug}" />
+    <meta property="og:title" content="{t.name} - Prediction Market Directory" />
+    <meta property="og:description" content={t.description.length > 155 ? t.description.substring(0, 152) + '...' : t.description} />
+    <meta property="og:url" content="https://predictiontools.directory/tool/{t.slug}" />
     <meta property="og:image" content="https://predictiontools.directory/og-image.png" />
     <meta property="og:site_name" content="predictiontools.directory" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@predictiontools" />
-    <meta name="twitter:title" content="{tool.name} - Prediction Market Directory" />
-    <meta name="twitter:description" content={tool.description.length > 155 ? tool.description.substring(0, 152) + '...' : tool.description} />
+    <meta name="twitter:title" content="{t.name} - Prediction Market Directory" />
+    <meta name="twitter:description" content={t.description.length > 155 ? t.description.substring(0, 152) + '...' : t.description} />
     <meta name="twitter:image" content="https://predictiontools.directory/og-image.png" />
 
     <!-- JSON-LD -->
     {@html `<script type="application/ld+json">${JSON.stringify({
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": tool.name,
-        "description": tool.description,
-        "url": tool.url,
-        "applicationCategory": tool.category,
+        "name": t.name,
+        "description": t.description,
+        "url": t.url,
+        "applicationCategory": t.category,
         "operatingSystem": "Web"
     })}</script>`}
 </svelte:head>
@@ -118,14 +121,14 @@
                     >HOME</a
                 >
             </li>
-            {#if tool.category}
+            {#if t.category}
             <li class="flex items-center space-x-2">
                 <span>/</span>
                 <a
-                    href="/category/{categoryToSlug(tool.category)}"
+                    href="/category/{categoryToSlug(t.category)}"
                     class="hover:text-white transition-colors uppercase"
                 >
-                    {tool.category}
+                    {t.category}
                 </a>
             </li>
             {/if}
@@ -133,7 +136,7 @@
                 <span>/</span>
                 <span
                     class="text-gray-500 uppercase truncate max-w-[100px] sm:max-w-none"
-                    >{tool.name}</span
+                    >{t.name}</span
                 >
             </li>
         </ol>
@@ -156,9 +159,9 @@
                         <h1
                             class="text-4xl md:text-5xl font-black uppercase text-white font-sans tracking-tight"
                         >
-                            {tool.name}
+                            {t.name}
                         </h1>
-                        {#if tool.isPromoted}
+                        {#if t.isPromoted}
                             <span
                                 class="bg-neon-green text-terminal-black text-xs font-bold px-2 py-1 rounded font-mono uppercase"
                             >
@@ -167,38 +170,38 @@
                         {/if}
                     </div>
                     <div class="flex flex-wrap items-center gap-2">
-                        {#if tool.category}
+                        {#if t.category}
                         <span
                             class="text-sm font-mono text-neon-blue border border-neon-blue/30 px-2 py-0.5 rounded"
                         >
-                            {tool.category}
+                            {t.category}
                         </span>
                         {/if}
-                        {#if tool.pricing}
+                        {#if t.pricing}
                         <span
-                            class="text-sm font-mono px-2 py-0.5 rounded border {pricingStyle(tool.pricing)}"
+                            class="text-sm font-mono px-2 py-0.5 rounded border {pricingStyle(t.pricing)}"
                         >
-                            {tool.pricing}
+                            {t.pricing}
                         </span>
                         {/if}
-                        {#if tool.status}
+                        {#if t.status}
                         <span
-                            class="text-xs font-mono px-2 py-0.5 rounded {statusStyle(tool.status)}"
+                            class="text-xs font-mono px-2 py-0.5 rounded {statusStyle(t.status)}"
                         >
-                            {tool.status === "shut-down" ? "SHUT DOWN" : tool.status.toUpperCase()}
+                            {t.status === "shut-down" ? "SHUT DOWN" : t.status.toUpperCase()}
                         </span>
                         {/if}
-                        {#if tool.websiteName}
+                        {#if t.websiteName}
                         <span class="text-gray-500 font-mono text-sm">
-                            {tool.websiteName}
+                            {t.websiteName}
                         </span>
                         {/if}
                     </div>
-                    {#if tool.addedDate}
+                    {#if t.addedDate}
                     <div class="mt-1 flex items-center gap-4 text-xs text-gray-500 font-mono">
-                        <span>Added {tool.addedDate}</span>
-                        {#if tool.lastVerified}
-                        <span>• Last verified {tool.lastVerified}</span>
+                        <span>Added {t.addedDate}</span>
+                        {#if t.lastVerified}
+                        <span>• Last verified {t.lastVerified}</span>
                         {/if}
                     </div>
                     {/if}
@@ -208,7 +211,7 @@
                     class="flex flex-col sm:flex-row lg:flex-col items-stretch lg:items-end gap-3 min-w-[200px]"
                 >
                     <a
-                        href="{tool.url}{tool.url.includes('?')
+                        href="{t.url}{t.url.includes('?')
                             ? '&'
                             : '?'}utm_source=predictiontools.directory"
                         target="_blank"
@@ -255,9 +258,9 @@
                         {/if}
                     </button>
 
-                    {#if tool.xUrl}
+                    {#if t.xUrl}
                         <a
-                            href={tool.xUrl}
+                            href={t.xUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             class="inline-flex items-center justify-center px-6 py-3 border border-terminal-slate text-base font-medium text-white bg-terminal-black hover:bg-terminal-slate/20 transition-colors font-mono w-full"
@@ -281,14 +284,14 @@
             <!-- Description -->
             <div class="prose prose-invert prose-lg max-w-none mb-12">
                 <p class="text-gray-300 leading-relaxed text-lg font-mono">
-                    {tool.description}
+                    {t.description}
                 </p>
             </div>
 
             <!-- Enriched Data Sections -->
             <div class="space-y-8">
 
-                {#if tool.pricingDetails}
+                {#if t.pricingDetails}
                 <div class="border-t border-terminal-slate pt-6">
                     <h3
                         class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
@@ -296,12 +299,12 @@
                         <span class="text-neon-green mr-2">$</span>Pricing Details
                     </h3>
                     <p class="text-gray-300 font-mono text-sm leading-relaxed">
-                        {tool.pricingDetails}
+                        {t.pricingDetails}
                     </p>
                 </div>
                 {/if}
 
-                {#if tool.features && tool.features.length > 0}
+                {#if t.features && t.features.length > 0}
                 <div class="border-t border-terminal-slate pt-6">
                     <h3
                         class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
@@ -309,7 +312,7 @@
                         <span class="text-neon-green mr-2">✦</span>Features
                     </h3>
                     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                        {#each tool.features as feature}
+                        {#each t.features as feature}
                         <li class="flex items-start space-x-2 text-gray-300 font-mono text-sm">
                             <span class="text-neon-green mt-0.5 shrink-0">›</span>
                             <span>{feature}</span>
@@ -319,7 +322,7 @@
                 </div>
                 {/if}
 
-                {#if tool.platform && tool.platform.length > 0}
+                {#if t.platform && t.platform.length > 0}
                 <div class="border-t border-terminal-slate pt-6">
                     <h3
                         class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
@@ -327,7 +330,7 @@
                         <span class="text-neon-green mr-2">⬡</span>Platform
                     </h3>
                     <div class="flex flex-wrap gap-2">
-                        {#each tool.platform as p}
+                        {#each t.platform as p}
                         <span
                             class="px-3 py-1 bg-terminal-black border border-terminal-slate text-gray-300 font-mono text-xs rounded"
                         >
@@ -338,7 +341,7 @@
                 </div>
                 {/if}
 
-                {#if tool.blockchain && tool.blockchain.length > 0}
+                {#if t.blockchain && t.blockchain.length > 0}
                 <div class="border-t border-terminal-slate pt-6">
                     <h3
                         class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
@@ -346,7 +349,7 @@
                         <span class="text-neon-green mr-2">⧫</span>Blockchain
                     </h3>
                     <div class="flex flex-wrap gap-2">
-                        {#each tool.blockchain as chain}
+                        {#each t.blockchain as chain}
                         <span
                             class="px-3 py-1 bg-purple-900/20 border border-purple-500/30 text-purple-300 font-mono text-xs rounded"
                         >
@@ -357,7 +360,7 @@
                 </div>
                 {/if}
 
-                {#if tool.supportedMarkets && tool.supportedMarkets.length > 0}
+                {#if t.supportedMarkets && t.supportedMarkets.length > 0}
                 <div class="border-t border-terminal-slate pt-6">
                     <h3
                         class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
@@ -365,7 +368,7 @@
                         <span class="text-neon-green mr-2">▣</span>Supported Markets
                     </h3>
                     <div class="flex flex-wrap gap-2">
-                        {#each tool.supportedMarkets as market}
+                        {#each t.supportedMarkets as market}
                         <span
                             class="px-3 py-1 bg-cyan-900/20 border border-cyan-500/30 text-cyan-300 font-mono text-xs rounded"
                         >
@@ -376,7 +379,7 @@
                 </div>
                 {/if}
 
-                {#if tool.tags && tool.tags.length > 0}
+                {#if t.tags && t.tags.length > 0}
                 <div class="border-t border-terminal-slate pt-6">
                     <h3
                         class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
@@ -384,7 +387,7 @@
                         <span class="text-neon-green mr-2">#</span>Tags
                     </h3>
                     <div class="flex flex-wrap gap-2">
-                        {#each tool.tags as tag}
+                        {#each t.tags as tag}
                         <span
                             class="px-3 py-1 bg-terminal-black border border-terminal-slate text-gray-300 font-mono text-xs rounded hover:border-gray-500 transition-colors cursor-default"
                         >
@@ -395,7 +398,7 @@
                 </div>
                 {/if}
 
-                {#if tool.acquiredBy}
+                {#if t.acquiredBy}
                 <div class="border-t border-terminal-slate pt-6">
                     <h3
                         class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
@@ -403,7 +406,7 @@
                         <span class="text-neon-green mr-2">⊚</span>Acquired
                     </h3>
                     <p class="text-gray-300 font-mono text-sm">
-                        Acquired by <span class="text-white font-bold">{tool.acquiredBy}</span>
+                        Acquired by <span class="text-white font-bold">{t.acquiredBy}</span>
                     </p>
                 </div>
                 {/if}
@@ -418,14 +421,14 @@
                     >
                         <span class="text-neon-green mr-2">#</span>LATEST FROM X
                     </h3>
-                    {#if tool.xHandle}
+                    {#if t.xHandle}
                     <p class="text-gray-500 font-mono text-xs mb-4">
                         <a
-                            href="https://x.com/{tool.xHandle}"
+                            href="https://x.com/{t.xHandle}"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="hover:text-neon-green transition-colors"
-                        >@{tool.xHandle}</a>
+                        >@{t.xHandle}</a>
                     </p>
                     {/if}
                     <div
@@ -439,17 +442,17 @@
     </div>
 
     {#if relatedTools.length > 0}
-        {#if tool.category}
+        {#if t.category}
         <div class="mt-16 space-y-8">
             <div class="border-b border-terminal-slate pb-4">
                 <h2
                     class="text-2xl font-black text-white uppercase tracking-tight flex items-center"
                 >
-                    <span class="text-neon-green mr-2">#</span>RELATED {tool.category.endsWith(
+                    <span class="text-neon-green mr-2">#</span>RELATED {t.category.endsWith(
                         "s",
                     )
-                        ? tool.category
-                        : tool.category + "s"}
+                        ? t.category
+                        : t.category + "s"}
                 </h2>
             </div>
 
