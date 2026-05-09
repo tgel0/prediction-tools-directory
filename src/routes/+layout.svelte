@@ -34,10 +34,5 @@
         >
       </div>
     </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 flex justify-center">
-      <a href="https://directoryhunt.org/" target="_blank" rel="noopener noreferrer" class="hover:opacity-80 transition-opacity">
-        <img src="https://directoryhunt.org/assets/Badges/featured-dark.svg" alt="Featured on DirectoryHunt.org" width="225" height="61" />
-      </a>
-    </div>
   </footer>
 </div>

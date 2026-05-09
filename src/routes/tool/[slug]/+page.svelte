@@ -46,7 +46,7 @@
         }
     }
 
-    // Platform icon mapping (simple text + emoji)
+    // Platform icon mapping
     const platformIcons: Record<string, string> = {
         "Web": "🌐 Web",
         "iOS": "📱 iOS",
@@ -110,7 +110,7 @@
     })}</script>`}
 </svelte:head>
 
-<div class="max-w-4xl mx-auto">
+<div class="max-w-6xl mx-auto">
     <nav
         class="flex mb-8 font-mono text-xs sm:text-sm tracking-tight"
         aria-label="Breadcrumb"
@@ -142,6 +142,7 @@
         </ol>
     </nav>
 
+    <!-- Header -->
     <div
         class="bg-terminal-dark border border-terminal-slate p-8 md:p-12 relative overflow-hidden"
     >
@@ -281,163 +282,200 @@
                 </div>
             </div>
 
-            <!-- Description -->
-            <div class="prose prose-invert prose-lg max-w-none mb-12">
-                <p class="text-gray-300 leading-relaxed text-lg font-mono">
-                    {t.description}
-                </p>
-            </div>
+            <!-- TWO-COLUMN LAYOUT: Main content + Sidebar -->
+            <div class="flex flex-col lg:flex-row gap-8">
+                <!-- LEFT COLUMN: Description, Features, Acquired, X Embed -->
+                <div class="flex-1 min-w-0 space-y-8">
 
-            <!-- Enriched Data Sections -->
-            <div class="space-y-8">
-
-                {#if t.pricingDetails}
-                <div class="border-t border-terminal-slate pt-6">
-                    <h3
-                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">$</span>Pricing Details
-                    </h3>
-                    <p class="text-gray-300 font-mono text-sm leading-relaxed">
-                        {t.pricingDetails}
-                    </p>
-                </div>
-                {/if}
-
-                {#if t.features && t.features.length > 0}
-                <div class="border-t border-terminal-slate pt-6">
-                    <h3
-                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">✦</span>Features
-                    </h3>
-                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                        {#each t.features as feature}
-                        <li class="flex items-start space-x-2 text-gray-300 font-mono text-sm">
-                            <span class="text-neon-green mt-0.5 shrink-0">›</span>
-                            <span>{feature}</span>
-                        </li>
-                        {/each}
-                    </ul>
-                </div>
-                {/if}
-
-                {#if t.platform && t.platform.length > 0}
-                <div class="border-t border-terminal-slate pt-6">
-                    <h3
-                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">⬡</span>Platform
-                    </h3>
-                    <div class="flex flex-wrap gap-2">
-                        {#each t.platform as p}
-                        <span
-                            class="px-3 py-1 bg-terminal-black border border-terminal-slate text-gray-300 font-mono text-xs rounded"
-                        >
-                            {platformIcons[p] || p}
-                        </span>
-                        {/each}
+                    <!-- Description -->
+                    <div class="prose prose-invert prose-lg max-w-none">
+                        <p class="text-gray-300 leading-relaxed text-lg font-mono">
+                            {t.description}
+                        </p>
                     </div>
-                </div>
-                {/if}
 
-                {#if t.blockchain && t.blockchain.length > 0}
-                <div class="border-t border-terminal-slate pt-6">
-                    <h3
-                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">⧫</span>Blockchain
-                    </h3>
-                    <div class="flex flex-wrap gap-2">
-                        {#each t.blockchain as chain}
-                        <span
-                            class="px-3 py-1 bg-purple-900/20 border border-purple-500/30 text-purple-300 font-mono text-xs rounded"
+                    {#if t.pricingDetails}
+                    <div class="border-t border-terminal-slate pt-6">
+                        <h3
+                            class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
                         >
-                            {chain}
-                        </span>
-                        {/each}
+                            <span class="text-neon-green mr-2">$</span>Pricing Details
+                        </h3>
+                        <p class="text-gray-300 font-mono text-sm leading-relaxed">
+                            {t.pricingDetails}
+                        </p>
                     </div>
-                </div>
-                {/if}
-
-                {#if t.supportedMarkets && t.supportedMarkets.length > 0}
-                <div class="border-t border-terminal-slate pt-6">
-                    <h3
-                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">▣</span>Supported Markets
-                    </h3>
-                    <div class="flex flex-wrap gap-2">
-                        {#each t.supportedMarkets as market}
-                        <span
-                            class="px-3 py-1 bg-cyan-900/20 border border-cyan-500/30 text-cyan-300 font-mono text-xs rounded"
-                        >
-                            {market}
-                        </span>
-                        {/each}
-                    </div>
-                </div>
-                {/if}
-
-                {#if t.tags && t.tags.length > 0}
-                <div class="border-t border-terminal-slate pt-6">
-                    <h3
-                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">#</span>Tags
-                    </h3>
-                    <div class="flex flex-wrap gap-2">
-                        {#each t.tags as tag}
-                        <span
-                            class="px-3 py-1 bg-terminal-black border border-terminal-slate text-gray-300 font-mono text-xs rounded hover:border-gray-500 transition-colors cursor-default"
-                        >
-                            #{tag}
-                        </span>
-                        {/each}
-                    </div>
-                </div>
-                {/if}
-
-                {#if t.acquiredBy}
-                <div class="border-t border-terminal-slate pt-6">
-                    <h3
-                        class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">⊚</span>Acquired
-                    </h3>
-                    <p class="text-gray-300 font-mono text-sm">
-                        Acquired by <span class="text-white font-bold">{t.acquiredBy}</span>
-                    </p>
-                </div>
-                {/if}
-
-            </div>
-
-            <!-- X/Twitter Embed -->
-            {#if xUsername}
-                <div class="border-t border-terminal-slate pt-8 mt-8 mb-8">
-                    <h3
-                        class="text-lg font-black text-white uppercase tracking-tight mb-4 flex items-center"
-                    >
-                        <span class="text-neon-green mr-2">#</span>LATEST FROM X
-                    </h3>
-                    {#if t.xHandle}
-                    <p class="text-gray-500 font-mono text-xs mb-4">
-                        <a
-                            href="https://x.com/{t.xHandle}"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="hover:text-neon-green transition-colors"
-                        >@{t.xHandle}</a>
-                    </p>
                     {/if}
-                    <div
-                        class="bg-terminal-black rounded overflow-hidden min-h-[100px]"
-                    >
-                        <div class="xembed-timeline" data-handle={xUsername}></div>
+
+                    {#if t.features && t.features.length > 0}
+                    <div class="border-t border-terminal-slate pt-6">
+                        <h3
+                            class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                        >
+                            <span class="text-neon-green mr-2">✦</span>Features
+                        </h3>
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {#each t.features as feature}
+                            <li class="flex items-start space-x-2 text-gray-300 font-mono text-sm">
+                                <span class="text-neon-green mt-0.5 shrink-0">›</span>
+                                <span>{feature}</span>
+                            </li>
+                            {/each}
+                        </ul>
+                    </div>
+                    {/if}
+
+                    {#if t.acquiredBy}
+                    <div class="border-t border-terminal-slate pt-6">
+                        <h3
+                            class="text-sm font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center"
+                        >
+                            <span class="text-neon-green mr-2">⊚</span>Acquired
+                        </h3>
+                        <p class="text-gray-300 font-mono text-sm">
+                            Acquired by <span class="text-white font-bold">{t.acquiredBy}</span>
+                        </p>
+                    </div>
+                    {/if}
+
+                    <!-- X/Twitter Embed -->
+                    {#if xUsername}
+                        <div class="border-t border-terminal-slate pt-8 mt-8">
+                            <h3
+                                class="text-lg font-black text-white uppercase tracking-tight mb-4 flex items-center"
+                            >
+                                <span class="text-neon-green mr-2">#</span>LATEST FROM X
+                            </h3>
+                            {#if t.xHandle}
+                            <p class="text-gray-500 font-mono text-xs mb-4">
+                                <a
+                                    href="https://x.com/{t.xHandle}"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="hover:text-neon-green transition-colors"
+                                >@{t.xHandle}</a>
+                            </p>
+                            {/if}
+                            <div
+                                class="bg-terminal-black rounded overflow-hidden min-h-[100px]"
+                            >
+                                <div class="xembed-timeline" data-handle={xUsername}></div>
+                            </div>
+                        </div>
+                    {/if}
+                </div>
+
+                <!-- RIGHT COLUMN: Quick Specs Sidebar Card -->
+                <div class="lg:w-72 shrink-0">
+                    <div class="bg-terminal-black border border-terminal-slate rounded-lg p-5 sticky top-8 space-y-5">
+                        <h3 class="text-sm font-mono text-gray-500 uppercase tracking-wider border-b border-terminal-slate pb-3">
+                            Quick Specs
+                        </h3>
+
+                        {#if t.pricing}
+                        <div>
+                            <span class="text-xs font-mono text-gray-500 uppercase block mb-1">Pricing</span>
+                            <span
+                                class="inline-block text-xs font-mono px-2 py-0.5 rounded border {pricingStyle(t.pricing)}"
+                            >
+                                {t.pricing}
+                                {#if t.pricingDetails}
+                                <span class="text-gray-500 ml-1">— {t.pricingDetails}</span>
+                                {/if}
+                            </span>
+                        </div>
+                        {/if}
+
+                        {#if t.status}
+                        <div>
+                            <span class="text-xs font-mono text-gray-500 uppercase block mb-1">Status</span>
+                            <span
+                                class="inline-block text-xs font-mono px-2 py-0.5 rounded {statusStyle(t.status)}"
+                            >
+                                {t.status === "shut-down" ? "SHUT DOWN" : t.status.toUpperCase()}
+                            </span>
+                        </div>
+                        {/if}
+
+                        {#if t.platform && t.platform.length > 0}
+                        <div>
+                            <span class="text-xs font-mono text-gray-500 uppercase block mb-1.5">Platform</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                {#each t.platform as p}
+                                <span
+                                    class="px-2 py-0.5 bg-terminal-dark border border-terminal-slate text-gray-300 font-mono text-xs rounded"
+                                >
+                                    {platformIcons[p] || p}
+                                </span>
+                                {/each}
+                            </div>
+                        </div>
+                        {/if}
+
+                        {#if t.blockchain && t.blockchain.length > 0}
+                        <div>
+                            <span class="text-xs font-mono text-gray-500 uppercase block mb-1.5">Blockchain</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                {#each t.blockchain as chain}
+                                <span
+                                    class="px-2 py-0.5 bg-purple-900/20 border border-purple-500/30 text-purple-300 font-mono text-xs rounded"
+                                >
+                                    {chain}
+                                </span>
+                                {/each}
+                            </div>
+                        </div>
+                        {/if}
+
+                        {#if t.supportedMarkets && t.supportedMarkets.length > 0}
+                        <div>
+                            <span class="text-xs font-mono text-gray-500 uppercase block mb-1.5">Supported Markets</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                {#each t.supportedMarkets as market}
+                                <span
+                                    class="px-2 py-0.5 bg-cyan-900/20 border border-cyan-500/30 text-cyan-300 font-mono text-xs rounded"
+                                >
+                                    {market}
+                                </span>
+                                {/each}
+                            </div>
+                        </div>
+                        {/if}
+
+                        {#if t.tags && t.tags.length > 0}
+                        <div>
+                            <span class="text-xs font-mono text-gray-500 uppercase block mb-1.5">Tags</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                {#each t.tags as tag}
+                                <span
+                                    class="px-2 py-0.5 bg-terminal-dark border border-terminal-slate text-gray-400 font-mono text-xs rounded"
+                                >
+                                    #{tag}
+                                </span>
+                                {/each}
+                            </div>
+                        </div>
+                        {/if}
+
+                        {#if t.addedDate || t.lastVerified}
+                        <div class="border-t border-terminal-slate pt-3">
+                            {#if t.addedDate}
+                            <div class="flex justify-between text-xs font-mono text-gray-500">
+                                <span>Added</span>
+                                <span class="text-gray-400">{t.addedDate}</span>
+                            </div>
+                            {/if}
+                            {#if t.lastVerified}
+                            <div class="flex justify-between text-xs font-mono text-gray-500 mt-1">
+                                <span>Last verified</span>
+                                <span class="text-gray-400">{t.lastVerified}</span>
+                            </div>
+                            {/if}
+                        </div>
+                        {/if}
                     </div>
                 </div>
-            {/if}
+            </div>
         </div>
     </div>
 

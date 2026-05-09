@@ -17,6 +17,28 @@
                 return "text-gray-400 border-gray-400";
         }
     }
+
+    function pricingStyle(pricing: string | undefined) {
+        switch (pricing?.toLowerCase()) {
+            case "free": return "bg-green-900/60 text-green-300 border-green-500/40";
+            case "freemium": return "bg-yellow-900/60 text-yellow-300 border-yellow-500/40";
+            case "paid": return "bg-blue-900/60 text-blue-300 border-blue-500/40";
+            case "custom": return "bg-purple-900/60 text-purple-300 border-purple-500/40";
+            default: return "bg-gray-800 text-gray-400 border-gray-600";
+        }
+    }
+
+    const platformBadge: Record<string, string> = {
+        "Web": "🌐",
+        "iOS": "📱",
+        "Android": "🤖",
+        "Telegram": "✈️",
+        "Discord": "💬",
+        "Twitter": "🐦",
+        "Chrome": "🌍",
+        "API": "🔌",
+        "CLI": "💻",
+    };
 </script>
 
 <div
@@ -33,6 +55,13 @@
             >
                 {tool.category}
             </span>
+            {#if tool.pricing}
+                <span
+                    class="text-xs font-mono px-2 py-0.5 border rounded {pricingStyle(tool.pricing)}"
+                >
+                    {tool.pricing}
+                </span>
+            {/if}
             {#if tool.isPromoted}
                 <span
                     class="text-xs font-mono text-terminal-black bg-neon-green px-2 py-0.5 rounded font-bold"
@@ -83,15 +112,17 @@
         </a>
     </h3>
 
-    <p class="text-gray-400 text-sm mb-6 flex-grow leading-relaxed font-mono">
+    <p class="text-gray-400 text-sm mb-4 flex-grow leading-relaxed font-mono">
         {tool.shortDescription}
     </p>
 
-    <!-- 
-    <div class="flex flex-wrap gap-2 mt-auto">
-        {#each tool.tags as tag}
-            <span class="text-xs text-dim-gray font-mono">#{tag}</span>
+    {#if tool.platform && tool.platform.length > 0}
+    <div class="flex flex-wrap gap-1.5 mb-1">
+        {#each tool.platform as p}
+            <span class="text-xs text-gray-500 font-mono" title={p}>
+                {platformBadge[p] || p}
+            </span>
         {/each}
-    </div> 
-    -->
+    </div>
+    {/if}
 </div>
