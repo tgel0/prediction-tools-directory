@@ -22,7 +22,8 @@ export async function GET() {
         '/',
         '/submit',
         '/privacy',
-        '/terms'
+        '/terms',
+        '/compare/polymarket-vs-kalshi'
     ];
 
     const categories = [...new Set(tools.map(tool => tool.category))];

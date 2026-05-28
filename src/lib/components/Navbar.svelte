@@ -32,6 +32,15 @@
         >
           /DIRECTORY
         </a>
+        <a
+          href="/compare/polymarket-vs-kalshi"
+          class="text-gray-300 hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors font-mono {activeRoute ===
+          '/compare/polymarket-vs-kalshi'
+            ? 'text-neon-blue'
+            : ''}"
+        >
+          /COMPARE
+        </a>
         <div class="relative group">
           <button 
             class="text-gray-300 hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors font-mono flex items-center gap-1"
@@ -132,6 +141,16 @@
         on:click={() => (isMenuOpen = false)}
       >
         /DIRECTORY
+      </a>
+      <a
+        href="/compare/polymarket-vs-kalshi"
+        class="block text-gray-300 hover:text-neon-blue px-3 py-4 text-base font-medium transition-colors font-mono {activeRoute ===
+        '/compare/polymarket-vs-kalshi'
+          ? 'text-neon-blue border-l-2 border-neon-blue pl-4'
+          : ''}"
+        on:click={() => (isMenuOpen = false)}
+      >
+        /COMPARE
       </a>
       <a
         href="/submit"
