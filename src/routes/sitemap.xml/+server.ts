@@ -25,6 +25,10 @@ export async function GET() {
         '/terms'
     ];
 
+    const compareSlugs = [
+        'polymarket-vs-kalshi'
+    ];
+
     const categories = [...new Set(tools.map(tool => tool.category))];
 
     const urlEntries = [
@@ -42,6 +46,11 @@ export async function GET() {
             loc: `${site}/tool/${tool.slug}`,
             changefreq: 'weekly',
             priority: '0.9'
+        })),
+        ...compareSlugs.map(slug => ({
+            loc: `${site}/compare/${slug}`,
+            changefreq: 'weekly',
+            priority: '0.8'
         }))
     ];
 
