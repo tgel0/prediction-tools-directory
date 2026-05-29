@@ -50,6 +50,14 @@
           </div>
         </div>
         <a
+          href="/compare/polymarket-vs-kalshi"
+          class="text-gray-300 hover:text-neon-green px-3 py-2 rounded-md text-sm font-medium transition-colors font-mono {activeRoute.startsWith('/compare/')
+            ? 'text-neon-green'
+            : ''}"
+        >
+          /COMPARE
+        </a>
+        <a
           href="/submit"
           class="text-gray-300 hover:text-neon-blue px-3 py-2 rounded-md text-sm font-medium transition-colors font-mono {activeRoute ===
           '/submit'
@@ -132,6 +140,13 @@
         on:click={() => (isMenuOpen = false)}
       >
         /DIRECTORY
+      </a>
+      <a
+        href="/compare/polymarket-vs-kalshi"
+        class="block text-gray-300 hover:text-neon-green px-3 py-4 text-base font-medium transition-colors font-mono"
+        on:click={() => (isMenuOpen = false)}
+      >
+        /COMPARE
       </a>
       <a
         href="/submit"
