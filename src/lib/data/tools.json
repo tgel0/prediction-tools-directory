@@ -22,7 +22,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-26",
         "blockchain": [
             "Polygon"
         ],
@@ -147,7 +147,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-26",
         "blockchain": [
             "Base"
         ],
@@ -189,7 +189,7 @@
         "status": "acquired",
         "acquiredBy": "predict-fun",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-23",
         "blockchain": [
             "BNB Chain"
         ],
@@ -228,7 +228,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-23",
         "supportedMarkets": [
             "PizzINT"
         ],
@@ -263,7 +263,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-23",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi",
@@ -301,7 +301,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-23",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -337,7 +337,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -372,7 +372,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -408,7 +408,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -444,7 +444,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -479,7 +479,7 @@
         "access": "Invite-only",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -517,7 +517,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -555,7 +555,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -628,7 +628,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-24",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -664,7 +664,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-25",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -699,7 +699,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-18",
+        "lastVerified": "2026-06-25",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -735,7 +735,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-25",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -772,7 +772,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-25",
         "supportedMarkets": [
             "Kalshi"
         ],
@@ -845,7 +845,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-25",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi",
@@ -882,7 +882,7 @@
         "access": "Waitlist",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-25",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -918,7 +918,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-25",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -993,7 +993,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-26",
         "supportedMarkets": [
             "Manifold"
         ],
@@ -1031,7 +1031,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-26",
         "blockchain": [
             "Polkadot",
             "Kusama"
@@ -1070,7 +1070,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-06-19",
+        "lastVerified": "2026-06-26",
         "blockchain": [
             "Solana"
         ],
@@ -1109,7 +1109,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-06-13",
+        "lastVerified": "2026-06-26",
         "blockchain": [
             "Ethereum"
         ],
@@ -1186,7 +1186,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-14",
+        "lastVerified": "2026-06-26",
         "blockchain": [
             "Optimism",
             "Arbitrum",
@@ -1265,7 +1265,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-14",
+        "lastVerified": "2026-06-26",
         "blockchain": [
             "EVM Chains"
         ],
@@ -1304,7 +1304,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-14",
+        "lastVerified": "2026-06-26",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1341,7 +1341,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-14",
+        "lastVerified": "2026-06-26",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1415,7 +1415,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-14",
+        "lastVerified": "2026-06-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1451,7 +1451,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-14",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1487,7 +1487,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-14",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1523,7 +1523,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1559,7 +1559,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1596,7 +1596,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1631,7 +1631,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1668,7 +1668,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1704,7 +1704,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1740,7 +1740,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-21",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1814,7 +1814,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-25",
-        "lastVerified": "2026-06-15",
+        "lastVerified": "2026-06-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1849,7 +1849,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-22",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1885,7 +1885,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-25",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1920,7 +1920,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-25",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-22",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1959,7 +1959,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1993,7 +1993,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-22",
         "blockchain": [
             "Polygon"
         ],
@@ -2068,7 +2068,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2103,7 +2103,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-23",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2138,7 +2138,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-06-16",
+        "lastVerified": "2026-06-23",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2174,7 +2174,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-23",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2208,7 +2208,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-23",
         "blockchain": [
             "BNB Chain"
         ],
@@ -2247,7 +2247,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-06-01",
-        "lastVerified": "2026-06-17",
+        "lastVerified": "2026-06-23",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket"
@@ -2263,6 +2263,428 @@
             "Arbitrage Strategies",
             "Market Making",
             "Event-driven Automation"
+        ]
+    },
+    {
+        "id": "rain-protocol",
+        "name": "Rain Protocol",
+        "slug": "rain-protocol",
+        "shortDescription": "Infrastructure to launch custom prediction market apps on Arbitrum.",
+        "description": "A protocol that provides the infrastructure to launch custom prediction market applications. Built on Arbitrum and backed by Enlivex, Rain Protocol enables anyone to deploy their own prediction market app with full on-chain transparency. The $RAIN token is listed on Gate exchange. Fully on-chain with no black boxes or hidden mechanisms.",
+        "category": "Infrastructure & APIs",
+        "url": "https://rainprotocol.xyz",
+        "xUrl": "https://x.com/Rain__Protocol",
+        "tags": [
+            "Crypto",
+            "Decentralized",
+            "Arbitrum",
+            "Infrastructure",
+            "Permissionless",
+            "Protocol"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Protocol is free to use. $RAIN token available on Gate exchange. Standard Arbitrum gas fees apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "Arbitrum"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Custom Market Creation",
+            "On-chain Resolution",
+            "Permissionless Deployment",
+            "Smart Contract Infrastructure"
+        ]
+    },
+    {
+        "id": "suimarket",
+        "name": "SuiMarket",
+        "slug": "suimarket",
+        "shortDescription": "Prediction market platform on Sui blockchain with weekly prize competitions.",
+        "description": "A prediction market platform built on the Sui blockchain where users can make accurate predictions on politics, sports, and finance to earn USDC rewards. Features weekly prize competitions with $600 prize pools for price prediction contests on crypto assets like BTC, DEEP, and meme coins.",
+        "category": "Platforms",
+        "url": "https://suimarket.io",
+        "xUrl": "https://x.com/SuiMarket_io",
+        "tags": [
+            "Crypto",
+            "Sui",
+            "Decentralized",
+            "Sports",
+            "Finance",
+            "Competitions"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. USDC rewards for accurate predictions. Sui gas fees apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "Sui"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Price Prediction Contests",
+            "Weekly Prize Pools",
+            "USDC Rewards",
+            "Crypto & Sports Markets"
+        ]
+    },
+    {
+        "id": "foregate",
+        "name": "ForeGate",
+        "slug": "foregate",
+        "shortDescription": "Decentralized prediction market for sports and real-world events.",
+        "description": "A decentralized prediction market platform for sports and real-world events, backed by football legend Michael Owen. Features a $100K prize pool campaign with OKX for the World Cup. Users can predict outcomes on FIFA World Cup matches and other major sporting events with USDT rewards.",
+        "category": "Platforms",
+        "url": "https://foregate.com",
+        "xUrl": "https://x.com/Fore_Gate",
+        "tags": [
+            "Crypto",
+            "Decentralized",
+            "Sports",
+            "Real-world Events",
+            "BNB Chain",
+            "Rewards"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to predict. Prize pools and rewards for accurate predictions. BNB Chain gas fees apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "BNB Chain"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Sports Predictions",
+            "Real-world Events",
+            "Prize Pools",
+            "OKX Partnership",
+            "USDT Rewards"
+        ]
+    },
+    {
+        "id": "noasight",
+        "name": "NoaSight",
+        "slug": "noasight",
+        "shortDescription": "Decentralized prediction markets on Sui with DAO governance and NFT achievements.",
+        "description": "A decentralized prediction market platform on the Sui blockchain featuring DAO governance, an oracle network, and NFT achievement badges. Users can trade on diverse events from sports to politics, crypto markets to weather. Features automated market making, community-driven market creation, and rewards for accurate predictions and oracle participation.",
+        "category": "Platforms",
+        "url": "https://noasight.xyz",
+        "xUrl": "https://x.com/NoaSight",
+        "tags": [
+            "Crypto",
+            "Sui",
+            "Decentralized",
+            "DAO",
+            "NFT",
+            "Oracle",
+            "DeFi"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to trade. Sui gas fees apply. Rewards for accurate predictions and oracle participation.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "Sui"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Automated Market Making",
+            "DAO Governance",
+            "Oracle Network",
+            "NFT Achievement System",
+            "Community Market Creation",
+            "Permissionless Trading"
+        ]
+    },
+    {
+        "id": "cobot",
+        "name": "Cobot",
+        "slug": "cobot",
+        "shortDescription": "AI trading companion aggregating Polymarket, Kalshi, and more.",
+        "description": "An AI-powered trading companion that aggregates prediction markets from Polymarket, Kalshi, and beyond. Features whale feed tracking, AI signals, a newsroom, and one-click execution across platforms. Built for mobile with autonomous trading agents that can monitor markets and execute trades around the clock. Powered by OpenServ AI.",
+        "category": "AI Agents & Bots",
+        "url": "https://cobot.gg",
+        "xUrl": "https://x.com/cobotgg",
+        "tags": [
+            "AI Trading Bots",
+            "Aggregation",
+            "Cross-platform",
+            "Mobile",
+            "Automation",
+            "Signals"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. $COBOT token available. Premium features may apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [],
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web",
+            "Mobile",
+            "iOS",
+            "Android"
+        ],
+        "features": [
+            "AI Trading Agents",
+            "Whale Feed Tracking",
+            "AI Signals",
+            "News Aggregation",
+            "One-click Execution",
+            "Cross-platform Aggregation",
+            "Mobile App"
+        ]
+    },
+    {
+        "id": "mirai",
+        "name": "Mirai",
+        "slug": "mirai",
+        "shortDescription": "First unified prediction market aggregator on BNB Chain.",
+        "description": "The first unified platform on BNB Chain bringing together prediction markets from Entrave, Polymarket, Kalshi, Darkbet, and Opinion Labs. One app with shared order books, enabling deeper liquidity and better odds for everyone from retail traders to whales.",
+        "category": "Infrastructure & APIs",
+        "url": "https://mirai.bet",
+        "xUrl": "https://x.com/miraibnb",
+        "tags": [
+            "Aggregation",
+            "BNB Chain",
+            "Cross-platform",
+            "Unified",
+            "Liquidity",
+            "Crypto"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. BNB Chain gas fees apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "BNB Chain"
+        ],
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi",
+            "Opinion Trade"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Multi-platform Aggregation",
+            "Shared Order Books",
+            "Unified Interface",
+            "Cross-market Liquidity",
+            "Best Price Routing"
+        ]
+    },
+    {
+        "id": "bravado",
+        "name": "Bravado",
+        "slug": "bravado",
+        "shortDescription": "Professional trading terminal for Polymarket, backed by Polymarket.",
+        "description": "An institutional-grade professional trading terminal for Polymarket, backed by Polymarket itself. Features real-time order flow, whale tracking, copy trading, LP automations, and advanced order types including Iceberg, TWAP, and trailing stops. Non-custodial with Privy wallet security. Also offers Trade API and Data API for developers.",
+        "category": "Trading Terminals",
+        "url": "https://bravadotrade.com",
+        "xUrl": "https://x.com/bravadotrade",
+        "tags": [
+            "Advanced UI",
+            "Professional",
+            "Trading Terminal",
+            "Copy Trading",
+            "API",
+            "Whale Tracking",
+            "Polymarket"
+        ],
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free to use. API access and advanced features may have tiered pricing.",
+        "access": "Waitlist",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "Polygon"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Advanced Order Types",
+            "Copy Trading",
+            "LP Automations",
+            "Whale Tracking",
+            "Real-time Order Flow",
+            "Market Analytics",
+            "Trade API",
+            "Data API",
+            "Backtesting",
+            "Non-custodial"
+        ]
+    },
+    {
+        "id": "foresee",
+        "name": "Foresee",
+        "slug": "foresee",
+        "shortDescription": "Social prediction layer on Solana powered by Jupiter and Polymarket.",
+        "description": "A prediction market on Solana where users can trade their beliefs on news, crypto, and events. Powered by Jupiter Exchange and Polymarket, Foresee acts as a social prediction layer where every trade is a belief about the future. Features referral volume campaigns with $SKR token rewards. Built during the Solana x Colosseum Cypherpunk Hackathon.",
+        "category": "Platforms",
+        "url": "https://foresee.lol",
+        "xUrl": "https://x.com/foreseelol",
+        "tags": [
+            "Crypto",
+            "Solana",
+            "Social",
+            "Decentralized",
+            "News",
+            "Events"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to trade. Solana gas fees apply. $SKR token rewards for referrals.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "Solana"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Social Predictions",
+            "Referral Rewards",
+            "Jupiter Integration",
+            "News & Crypto Markets",
+            "Token Incentives"
+        ]
+    },
+    {
+        "id": "yinyang",
+        "name": "YinYang",
+        "slug": "yinyang",
+        "shortDescription": "Celebrity micro-predictions market on BNB Chain.",
+        "description": "A celebrity-focused micro-predictions market on BNB Chain where users can bet on celebrity life events. Endorsed by celebrities and run by the community. Features the $YIN token which saw 2000%+ growth. Part of the BNB Chain prediction market ecosystem with planned CEX listings and celebrity reveals.",
+        "category": "Platforms",
+        "url": "https://yinyang.bet",
+        "xUrl": "https://x.com/yinyangdat",
+        "tags": [
+            "Crypto",
+            "BNB Chain",
+            "Entertainment",
+            "Social",
+            "Celebrity",
+            "Micro-predictions"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. BNB Chain gas fees apply. $YIN token available.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "BNB Chain"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Celebrity Event Predictions",
+            "Micro-predictions",
+            "Community-driven",
+            "Token Rewards",
+            "Telegram Community"
+        ]
+    },
+    {
+        "id": "futarchy",
+        "name": "Futarchy",
+        "slug": "futarchy",
+        "shortDescription": "First futarchy governance protocol on Ethereum.",
+        "description": "The first futarchy implementation on Ethereum, enabling DAOs to govern via prediction markets. Instead of voting on proposals directly, tokenholders bet on outcomes to determine which decisions maximize treasury value. Integrated with Snapshot Labs for advisory futarchy, allowing delegates to see expected market impact before voting. Currently running on GnosisDAO and Kleros proposals.",
+        "category": "Platforms",
+        "url": "https://futarchy.fi",
+        "xUrl": "https://x.com/_futarchy",
+        "tags": [
+            "Ethereum",
+            "DAO",
+            "Futarchy",
+            "Governance",
+            "DeFi",
+            "Protocol"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to participate. Ethereum gas fees apply.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-06-25",
+        "lastVerified": "2026-06-25",
+        "blockchain": [
+            "Ethereum"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Futarchy Governance",
+            "Snapshot Integration",
+            "DAO Proposal Markets",
+            "On-chain Resolution",
+            "Advisory Futarchy"
         ]
     }
 ]
