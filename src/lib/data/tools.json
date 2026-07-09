@@ -2686,5 +2686,44 @@
             "On-chain Resolution",
             "Advisory Futarchy"
         ]
+    },
+    {
+        "id": "predmart",
+        "name": "PredMart",
+        "slug": "predmart",
+        "shortDescription": "Margin account for Polymarket: up to 5x leverage, or borrow USDC against shares.",
+        "description": "PredMart is a non-custodial margin and lending protocol for Polymarket. Traders open leveraged positions with up to 5x in one click, or deposit prediction-market shares as collateral to borrow USDC without closing their trades. Lenders supply USDC to the pool to earn yield. Built on Polygon.",
+        "category": "Platforms",
+        "url": "https://predmart.com",
+        "tags": [
+            "Leverage",
+            "Margin",
+            "Lending",
+            "DeFi",
+            "Polygon"
+        ],
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free to use; protocol fees on borrowing and leveraged positions.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-07-06",
+        "lastVerified": "2026-07-06",
+        "blockchain": [
+            "Polygon"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Up to 5x Leverage",
+            "Borrow USDC Against Shares",
+            "Lending Pool Yield",
+            "Non-custodial",
+            "One-click Leverage"
+        ]
     }
 ]
