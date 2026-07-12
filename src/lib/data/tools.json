@@ -2230,7 +2230,7 @@
         "name": "TurbineFi",
         "slug": "turbinefi",
         "shortDescription": "Build, test, and deploy prediction market bots for Kalshi and Polymarket.",
-        "description": "AI-powered algorithmic trading platform for prediction market trading on Kalshi and Polymarket, enabling users to build, backtest, and deploy thousands of automated trading bots in seconds. Combines trading strategy backtesting, prediction market analytics, and financial trading automation with AI-powered trading tools that generate, optimize, and execute strategies — including arbitrage trading strategies, market-making, and event-driven systems — without writing a single line of code.",
+        "description": "AI-powered algorithmic trading platform for prediction market trading on Kalshi and Polymarket, enabling users to build, backtest, and deploy thousands of automated trading bots in seconds. Combines trading strategy backtesting, prediction market analytics, and financial trading automation with AI-powered trading tools that generate, optimize, and execute strategies \u2014 including arbitrage trading strategies, market-making, and event-driven systems \u2014 without writing a single line of code.",
         "category": "AI Agents & Bots",
         "url": "https://www.turbinefi.com",
         "xUrl": "https://x.com/TurbineFi",
@@ -2724,6 +2724,7 @@
             "Lending Pool Yield",
             "Non-custodial",
             "One-click Leverage"
-        ]
+        ],
+        "xUrl": "https://x.com/sev_kach"
     }
 ]
