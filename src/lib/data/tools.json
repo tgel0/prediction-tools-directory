@@ -2230,7 +2230,7 @@
         "name": "TurbineFi",
         "slug": "turbinefi",
         "shortDescription": "Build, test, and deploy prediction market bots for Kalshi and Polymarket.",
-        "description": "AI-powered algorithmic trading platform for prediction market trading on Kalshi and Polymarket, enabling users to build, backtest, and deploy thousands of automated trading bots in seconds. Combines trading strategy backtesting, prediction market analytics, and financial trading automation with AI-powered trading tools that generate, optimize, and execute strategies \u2014 including arbitrage trading strategies, market-making, and event-driven systems \u2014 without writing a single line of code.",
+        "description": "AI-powered algorithmic trading platform for prediction market trading on Kalshi and Polymarket, enabling users to build, backtest, and deploy thousands of automated trading bots in seconds. Combines trading strategy backtesting, prediction market analytics, and financial trading automation with AI-powered trading tools that generate, optimize, and execute strategies — including arbitrage trading strategies, market-making, and event-driven systems — without writing a single line of code.",
         "category": "AI Agents & Bots",
         "url": "https://www.turbinefi.com",
         "xUrl": "https://x.com/TurbineFi",
@@ -2726,5 +2726,42 @@
             "One-click Leverage"
         ],
         "xUrl": "https://x.com/sev_kach"
+    },
+    {
+        "id": "polywise",
+        "name": "Polywise",
+        "slug": "polywise",
+        "shortDescription": "Free Duolingo-style learning game for prediction markets.",
+        "description": "A free, game-like course that teaches beginners how prediction markets work: reading prices as probabilities, judging edge and expected value, understanding fees and resolution criteria — built on case studies from real Polymarket markets. Includes a free payout/edge calculator and a 40-term plain-English glossary. Browser-based, no account or deposit required.",
+        "category": "Information & OSINT",
+        "url": "https://polywise.tyki.app",
+        "xUrl": "https://polywise.tyki.app",
+        "tags": [
+            "Education",
+            "Beginner",
+            "Learning Game",
+            "Calculator",
+            "Glossary"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Completely free. No account, no deposit, no paid tier.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-07-22",
+        "lastVerified": "2026-07-22",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Bite-sized lessons",
+            "Payout & edge calculator",
+            "40-term glossary",
+            "Real market case studies"
+        ]
     }
 ]
