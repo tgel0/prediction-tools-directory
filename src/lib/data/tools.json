@@ -2726,5 +2726,42 @@
             "One-click Leverage"
         ],
         "xUrl": "https://x.com/sev_kach"
+    },
+    {
+        "id": "polywise",
+        "name": "Polywise",
+        "slug": "polywise",
+        "shortDescription": "Free Duolingo-style learning game for prediction markets.",
+        "description": "A free, game-like course that teaches beginners how prediction markets work: reading prices as probabilities, judging edge and expected value, understanding fees and resolution criteria — built on case studies from real Polymarket markets. Includes a free payout/edge calculator and a 40-term plain-English glossary. Browser-based, no account or deposit required.",
+        "category": "Information & OSINT",
+        "url": "https://polywise.tyki.app",
+        "xUrl": "https://polywise.tyki.app",
+        "tags": [
+            "Education",
+            "Beginner",
+            "Learning Game",
+            "Calculator",
+            "Glossary"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Completely free. No account, no deposit, no paid tier.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-07-22",
+        "lastVerified": "2026-07-22",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Bite-sized lessons",
+            "Payout & edge calculator",
+            "40-term glossary",
+            "Real market case studies"
+        ]
     }
 ]
