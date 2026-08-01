@@ -1,2767 +1,2917 @@
 [
-    {
-        "id": "polymarket",
-        "name": "Polymarket",
-        "slug": "polymarket",
-        "shortDescription": "Decentralized prediction market on Polygon for real-world events.",
-        "description": "A decentralized prediction market platform that enables individuals to speculate on the outcomes of future real-world events. Built on the Polygon blockchain, it offers transparent, peer-to-peer trading across politics, sports, and economics.",
-        "category": "Platforms",
-        "url": "https://polymarket.com",
-        "xUrl": "https://x.com/Polymarket",
-        "tags": [
-            "Crypto",
-            "Decentralized",
-            "Polygon",
-            "Binary Markets",
-            "Real-world Events",
-            "AMM"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Resolution fee (~2%) on winning positions. Standard Polygon gas fees.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "Polygon"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web",
-            "iOS",
-            "Android"
-        ],
-        "features": [
-            "Binary Markets",
-            "Order Book",
-            "Limit Orders",
-            "AMM Pools",
-            "Permissionless Market Creation",
-            "Fiat On-ramp",
-            "Referral Program"
-        ]
-    },
-    {
-        "id": "kalshi",
-        "name": "Kalshi",
-        "slug": "kalshi",
-        "shortDescription": "First federally regulated event contract exchange in the US.",
-        "description": "The first federally regulated exchange in the United States dedicated specifically to trading on the outcome of real-world events. Regulated by the CFTC, Kalshi allows users to purchase 'event contracts' on everything from economic indicators to entertainment results.",
-        "category": "Platforms",
-        "url": "https://kalshi.com",
-        "xUrl": "https://x.com/Kalshi",
-        "tags": [
-            "Regulated",
-            "US",
-            "Fiat",
-            "CFTC",
-            "Event Contracts"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free to sign up. 0.3% transaction fee per contract. API free for personal use.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-05-01",
-        "supportedMarkets": [
-            "Kalshi"
-        ],
-        "platform": [
-            "Web",
-            "iOS",
-            "Android"
-        ],
-        "features": [
-            "Binary Event Contracts",
-            "Order Book",
-            "Limit Orders",
-            "Market Orders",
-            "Portfolio Dashboard",
-            "P&L Tracking",
-            "API Access",
-            "KYC/AML Compliant"
-        ]
-    },
-    {
-        "id": "predict-fun",
-        "name": "Predict",
-        "slug": "predict-fun",
-        "shortDescription": "Blast-native prediction market with yield-generating positions. Acquired Probable in March 2026.",
-        "description": "A Blast-native prediction market leveraging Layer 2 capabilities to offer yield on positions. Users can trade on politics, sports, and crypto while earning native yield and points towards potential airdrops. In March 2026, Predict.fun acquired Probable, expanding its reach on BNB Chain.",
-        "category": "Platforms",
-        "url": "https://predict.fun",
-        "xUrl": "https://x.com/predictdotfun",
-        "tags": [
-            "Crypto",
-            "Blast L2",
-            "Yield",
-            "Airdrop"
-        ],
-        "isActive": true,
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to trade. Yield generated on positions via Blast L2. Acquired Probable in March 2026.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "Blast L2",
-            "BNB Chain"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Yield-bearing Positions",
-            "Blast Points",
-            "Market Trading",
-            "Airdrop Potential"
-        ]
-    },
-    {
-        "id": "limitless",
-        "name": "Limitless",
-        "slug": "limitless",
-        "shortDescription": "Decentralized prediction market with daily outcome payouts built on Base.",
-        "description": "A decentralized prediction market platform built on the Base network that allows users to trade binary yes/no contracts on the outcome of future events. Limitless differentiates itself with short-term fast price markets, daily payouts, and instant settlements with no liquidation risk or hidden fees.",
-        "category": "Platforms",
-        "url": "https://limitless.exchange",
-        "xUrl": "https://x.com/trylimitless",
-        "tags": [
-            "Crypto",
-            "Decentralized",
-            "Daily Payouts",
-            "Base"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to trade. No hidden fees. Daily payout settlements with instant settlement.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "Base"
-        ],
-        "supportedMarkets": [
-            "Limitless"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Binary Contracts",
-            "Daily Payouts",
-            "Instant Settlement",
-            "No Liquidation Risk",
-            "No Hidden Fees"
-        ]
-    },
-    {
-        "id": "probable",
-        "name": "Probable",
-        "slug": "probable",
-        "shortDescription": "Crypto-native prediction platform on BNB Chain with zero trading fees. Acquired by Predict.fun in March 2026.",
-        "description": "A crypto-native, zero-fee prediction platform built on the BNB Chain using a CLOB trading system and UMA-based settlement. Probable Markets offers frictionless deposits and withdrawals, enabling users to forecast outcomes across crypto, sports, and global events. NOTE: Probable was acquired by Predict.fun in March 2026 and its users migrated to the Predict.fun platform.",
-        "category": "Platforms",
-        "url": "https://probable.markets",
-        "xUrl": "https://x.com/0xProbable",
-        "tags": [
-            "Crypto",
-            "BNB Chain",
-            "Zero Fees",
-            "Acquired",
-            "CLOB"
-        ],
-        "isActive": false,
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Zero trading fees. Acquired by Predict.fun in March 2026.",
-        "access": "Public",
-        "status": "acquired",
-        "acquiredBy": "predict-fun",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-07-24",
-        "blockchain": [
-            "BNB Chain"
-        ],
-        "supportedMarkets": [
-            "Probable"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Zero Fee Trading",
-            "CLOB Trading",
-            "UMA Settlement",
-            "Crypto Markets",
-            "Sports Markets"
-        ]
-    },
-    {
-        "id": "pizzint-watch",
-        "name": "PizzINT.watch",
-        "slug": "pizzint-watch",
-        "shortDescription": "Real-Time Military Tension Indicator.",
-        "description": "The Pentagon Pizza Index (PizzINT) tracks real-time pizza shop popularity around the Pentagon as an unconventional OSINT indicator of military activity. Monitor the Pizza DEFCON level and discover when unusual activity might be brewing.",
-        "category": "Information & OSINT",
-        "url": "https://www.pizzint.watch",
-        "xUrl": "https://x.com/pizzintwatch",
-        "tags": [
-            "OSINT",
-            "Alternative Data",
-            "Geopolitics",
-            "Pizza Index"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free real-time military tension indicator.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-24",
-        "supportedMarkets": [
-            "PizzINT"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "OSINT Indicator",
-            "Military Activity Tracking",
-            "Pizza DEFCON Level",
-            "Alternative Data"
-        ]
-    },
-    {
-        "id": "prediction-hunt",
-        "name": "Prediction Hunt",
-        "slug": "prediction-hunt",
-        "shortDescription": "Compare Odds Across Every Platform.",
-        "description": "Compare prediction market odds across Kalshi, Polymarket, PredictIt, and ProphetX. Live arbitrage alerts and cross-platform price comparison.",
-        "category": "Analysis Tools",
-        "url": "https://predictionhunt.com",
-        "xUrl": "https://x.com/PredictionHunt",
-        "tags": [
-            "Arbitrage",
-            "Aggregator",
-            "Multi-platform",
-            "Odds"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free cross-platform odds comparison and arbitrage alerts.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-24",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi",
-            "PredictIt",
-            "ProphetX"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Cross-platform Odds Comparison",
-            "Arbitrage Alerts",
-            "Price Tracking",
-            "Multi-platform Coverage"
-        ]
-    },
-    {
-        "id": "probex",
-        "name": "ProbEx",
-        "slug": "probex",
-        "shortDescription": "Real-time prediction markets intelligence with AI-powered news analysis.",
-        "description": "An intelligence dashboard that tracks live odds from Kalshi and Polymarket, enhanced with AI-powered news analysis to provide context for market movements.",
-        "category": "Analysis Tools",
-        "url": "https://probex.markets",
-        "xUrl": "https://x.com/ProbabilityEx",
-        "tags": [
-            "AI",
-            "News",
-            "Analytics",
-            "Dashboard"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free intelligence dashboard with AI-powered news analysis.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-24",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "AI News Analysis",
-            "Real-time Odds",
-            "Market Context",
-            "Cross-platform Dashboard"
-        ]
-    },
-    {
-        "id": "predictshark",
-        "name": "Predict Shark Analytics",
-        "slug": "predictshark",
-        "shortDescription": "Real-time insights into Polymarket trading activity.",
-        "description": "Real-time insights into Polymarket trading activity, market trends, and trader performance.",
-        "category": "Market Intelligence",
-        "url": "https://predictshark.io",
-        "xUrl": "https://x.com/predictshark",
-        "tags": [
-            "Analytics",
-            "Polymarket",
-            "Live Feed",
-            "Trends"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Real-time Polymarket analytics dashboard.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Real-time Analytics",
-            "Market Trends",
-            "Trader Performance Tracking",
-            "Live Feed"
-        ]
-    },
-    {
-        "id": "polysights",
-        "name": "Polysights",
-        "slug": "polysights",
-        "shortDescription": "Intelligence and strategy layer for prediction markets.",
-        "description": "Polysights is an analytics and execution platform focused on layering tools on top of the entire prediction market industry. It is building the ultimate intelligence and strategy layer for prediction markets.",
-        "category": "Market Intelligence",
-        "url": "https://polysights.xyz",
-        "xUrl": "https://x.com/Polysights",
-        "tags": [
-            "Analytics",
-            "AI",
-            "Data Visualization",
-            "Strategy"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Advanced analytics and strategy layer.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Analytics Dashboard",
-            "Data Visualization",
-            "Strategy Tools",
-            "Cross-platform Intel"
-        ]
-    },
-    {
-        "id": "polyfactual",
-        "name": "Polyfactual",
-        "slug": "polyfactual",
-        "shortDescription": "AI-Powered Prediction Market Research.",
-        "description": "Premium interactive webapp for deep research on prediction markets.",
-        "category": "Market Intelligence",
-        "url": "https://polyfactual.com",
-        "xUrl": "https://x.com/polyfactual",
-        "tags": [
-            "AI Research",
-            "Market Intelligence",
-            "Risk Analysis",
-            "Premium"
-        ],
-        "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "Premium subscription for deep research features.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "AI-powered Research",
-            "Deep Market Analysis",
-            "Risk Analysis",
-            "Interactive Webapp"
-        ]
-    },
-    {
-        "id": "polym-trade",
-        "name": "Polym.trade",
-        "slug": "polym-trade",
-        "shortDescription": "Mobile-first Polymarket trading terminal with instant market access and AI insights.",
-        "description": "Polym Trade is the first mobile trading terminal built specifically for Polymarket. Designed for mobile-first traders, the platform offers seamless market access, real-time data, and AI-powered insights to help users make informed decisions. With intuitive UI, smart trend analysis, and lightning-fast execution, it brings the full power of the leading decentralized prediction market to your fingertips.",
-        "category": "Trading Terminals",
-        "url": "https://polym.trade",
-        "xUrl": "https://x.com/polymtrade",
-        "tags": [
-            "Trading Terminal",
-            "Mobile First",
-            "Advanced UI",
-            "AI Insights"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Web app with mobile-first design.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Mobile-first Trading",
-            "Real-time Data",
-            "AI-powered Insights",
-            "Trend Analysis"
-        ]
-    },
-    {
-        "id": "thetradefox",
-        "name": "The Trade Fox",
-        "slug": "thetradefox",
-        "shortDescription": "Institutional-grade aggregator and prime brokerage for Kalshi and Polymarket.",
-        "description": "An aggregator and prime brokerage solution offering unified access to multiple prediction markets. It focuses on integrating multiple prediction markets, like Kalshi and Polymarket, into one single interface. The platform provides advanced trading tools, leverage options, and aggregated insights designed specifically for serious professional traders and institutional use.",
-        "category": "Trading Terminals",
-        "url": "https://thetradefox.com",
-        "xUrl": "https://x.com/tradefoxai",
-        "tags": [
-            "Aggregator",
-            "Prime Brokerage",
-            "Leverage",
-            "Institutional"
-        ],
-        "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "Custom pricing for professional/institutional users. Leverage options available.",
-        "access": "Invite-only",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Prime Brokerage",
-            "Leverage",
-            "Unified Cross-platform Access",
-            "Institutional Tools",
-            "Advanced Aggregation"
-        ]
-    },
-    {
-        "id": "betmoar",
-        "name": "Betmoar",
-        "slug": "betmoar",
-        "shortDescription": "Pro-trading interface, UMA oracle dashboard, and Polymarket Discord bot.",
-        "description": "A comprehensive professional trading interface and the dominant Discord bot for prediction market communities. It provides advanced market views with transaction analysis, an integrated news terminal built specifically for prediction markets with text-to-speech alerts, and a deep UMA dashboard that tracks unrevealed voters and disputed markets. As the official bot provider for Polymarket, Betmoar seamlessly integrates the trading experience directly into Discord servers.",
-        "category": "AI Agents & Bots",
-        "url": "https://www.betmoar.fun",
-        "xUrl": "https://x.com/betmoardotfun",
-        "tags": [
-            "Trading Terminal",
-            "UMA Oracle",
-            "Trader Tracking",
-            "Discord Bot",
-            "News"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free tier with basic features. Premium subscription for advanced tools and alerts.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web",
-            "Discord"
-        ],
-        "features": [
-            "Discord Bot",
-            "UMA Oracle Dashboard",
-            "News Terminal",
-            "TTS Alerts",
-            "Transaction Analysis",
-            "Trader Tracking"
-        ]
-    },
-    {
-        "id": "synthesis",
-        "name": "SynthesisTrade",
-        "slug": "synthesis",
-        "shortDescription": "Advanced trading terminal for prediction markets with focus on liquidity.",
-        "description": "A sophisticated trading interface for prediction markets offering advanced tools for liquidity analysis, price discovery, and rapid execution.",
-        "category": "Trading Terminals",
-        "url": "https://synthesis.trade",
-        "xUrl": "https://x.com/SynthesisTrade",
-        "tags": [
-            "Trading Terminal",
-            "Liquidity Analysis",
-            "Execution",
-            "Cross-platform"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Advanced trading features available.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Liquidity Analysis",
-            "Price Discovery",
-            "Rapid Execution",
-            "Advanced Trading Interface"
-        ]
-    },
-    {
-        "id": "stand-trade",
-        "name": "Stand.trade",
-        "slug": "stand-trade",
-        "shortDescription": "Pro trading terminal with automated trades and real-time cross-platform feeds.",
-        "description": "An advanced professional trading prediction market terminal bringing powerful tools to traders across both Polymarket and Kalshi. It features automated trades, real-time trade feeds, professional-style trading interfaces, and comprehensive wallet tracking all integrated into a single place to help you find alpha and maximize opportunities.",
-        "category": "Trading Terminals",
-        "url": "https://www.stand.trade",
-        "xUrl": "https://x.com/StandDOTtrade",
-        "tags": [
-            "Market Scanner",
-            "Opportunity Finder",
-            "Alpha Gen",
-            "Cross-platform"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Professional trading features included.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-05-01",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Automated Trades",
-            "Real-time Trade Feeds",
-            "Wallet Tracking",
-            "Market Scanner",
-            "Opportunity Finder"
-        ]
-    },
-    {
-        "id": "polydata",
-        "name": "Polydata",
-        "slug": "polydata",
-        "shortDescription": "Advanced analytics dashboard for Polymarket volume, OI, and leaderboards.",
-        "description": "A comprehensive analytics platform for Polymarket that tracks volume, open interest, trader leaderboards, and wallet activity. It provides deep insights into the Polymarket ecosystem and builder activity.",
-        "category": "Market Intelligence",
-        "url": "https://www.polydata.cc",
-        "xUrl": "https://x.com/polydata_cc",
-        "tags": [
-            "Analytics",
-            "Polymarket",
-            "Leaderboard",
-            "Volume"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free dashboard. Advanced metrics available.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-25",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Volume Tracking",
-            "Open Interest Tracking",
-            "Trader Leaderboards",
-            "Wallet Activity",
-            "Builder Tracking"
-        ]
-    },
-    {
-        "id": "fireplace",
-        "name": "Fireplace",
-        "slug": "fireplace",
-        "shortDescription": "Social prediction market aggregator turning news into betting opportunities.",
-        "description": "A social-first prediction market aggregator that allows users to bet on headlines and engage with friends. It aggregates markets from various platforms like Polymarket, offering a unified and social betting experience.",
-        "category": "Information & OSINT",
-        "url": "https://fireplace.gg",
-        "xUrl": "https://x.com/fireplacegg",
-        "tags": [
-            "Aggregator",
-            "Social",
-            "News",
-            "Community"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free social prediction market aggregator.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-26",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Social Betting",
-            "News-based Markets",
-            "Friend Engagement",
-            "Market Aggregation"
-        ]
-    },
-    {
-        "id": "pigeon-trade",
-        "name": "Pigeon",
-        "slug": "pigeon-trade",
-        "shortDescription": "AI quant platform for automated prediction market strategies.",
-        "description": "An AI-driven quantitative trading platform for prediction markets. It offers automated strategies, portfolio management, and advanced research tools for crypto, sports, and current events.",
-        "category": "AI Agents & Bots",
-        "url": "https://pigeon.trade",
-        "xUrl": "https://x.com/pigeon_trade",
-        "tags": [
-            "AI Quant",
-            "Auto-Trading",
-            "Strategies",
-            "Portfolio"
-        ],
-        "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "Subscription-based AI quant platform. Pricing available on request.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-26",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "AI Quant Strategies",
-            "Automated Trading",
-            "Portfolio Management",
-            "Research Tools"
-        ]
-    },
-    {
-        "id": "copytrade",
-        "name": "CopyTrade",
-        "slug": "copytrade",
-        "shortDescription": "Copy trading platform mirroring top Polymarket traders across multiple categories.",
-        "description": "A dedicated copy trading interface for Polymarket, allowing users to automatically mirror the moves of profitable traders. Features include a leader dashboard, watchlist tracking, real-time wallet insights, and comprehensive PnL monitoring (1D, 7D, 30D). Users can filter top performers by categories such as Politics, Sport, Crypto, and Culture to find the best strategies to replicate.",
-        "category": "AI Agents & Bots",
-        "url": "https://www.copytrade.gg",
-        "xUrl": "https://x.com/copytrade_gg",
-        "tags": [
-            "Copy Trading",
-            "Leaderboard",
-            "Automation",
-            "PnL"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free to browse. Premium features for automated copy trading.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-26",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Copy Trading",
-            "Leader Dashboard",
-            "Watchlist Tracking",
-            "Real-time Wallet Insights",
-            "PnL Monitoring",
-            "Category Filtering"
-        ]
-    },
-    {
-        "id": "kalshinomics",
-        "name": "Kalshinomics",
-        "slug": "kalshinomics",
-        "shortDescription": "Prediction Markets, Simplified.",
-        "description": "Real-time prediction market data, analytics, and trading insights. Track market trends, analyze trading patterns, and make informed decisions on Kalshi markets.",
-        "category": "Information & OSINT",
-        "url": "https://kalshinomics.com",
-        "xUrl": "https://x.com/Kalshinomics",
-        "tags": [
-            "Analytics",
-            "Filters",
-            "Curated Markets",
-            "Kalshi"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free real-time Kalshi market data and analytics.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-10",
-        "lastVerified": "2026-07-26",
-        "supportedMarkets": [
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Real-time Data",
-            "Market Filters",
-            "Curated Markets",
-            "Analytics",
-            "Trend Tracking"
-        ]
-    },
-    {
-        "id": "betonwars",
-        "name": "BetOnWars",
-        "slug": "betonwars",
-        "shortDescription": "The World's First Online War Room.",
-        "description": "Real-time OSINT from 280+ sources in 15+ languages. Track wars, trade predictions, follow insiders. Where information becomes profit. Join the War Room where smart money bets on geopolitics.",
-        "category": "Information & OSINT",
-        "url": "https://www.betonwars.fun",
-        "xUrl": "https://x.com/BetOnWars",
-        "tags": [
-            "OSINT",
-            "Geopolitics",
-            "War Predictions",
-            "Multi-source"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free OSINT aggregation. Premium for advanced war room features.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-05-01",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "OSINT Aggregation",
-            "280+ Sources",
-            "15+ Languages",
-            "Geopolitical Tracking",
-            "Insider Tracking"
-        ]
-    },
-    {
-        "id": "arbbets",
-        "name": "ArbBets",
-        "slug": "arbbets",
-        "shortDescription": "Prediction Markets Arbitrage & Positive EV Plays.",
-        "description": "Prediction markets arbitrage finder. Find arbitrage opportunities across Polymarket, Kalshi, and Opinion prediction markets with API and data.",
-        "category": "Analysis Tools",
-        "url": "https://getarbitragebets.com",
-        "xUrl": "https://x.com/ArbBets20",
-        "tags": [
-            "Arbitrage",
-            "Scanner",
-            "Positive EV",
-            "API"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free arbitrage finder with API and data access.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-26",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi",
-            "Opinion"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Arbitrage Scanner",
-            "Positive EV Detection",
-            "API Access",
-            "Cross-platform Scanning"
-        ]
-    },
-    {
-        "id": "kiyotaka",
-        "name": "Kiyotaka",
-        "slug": "kiyotaka",
-        "shortDescription": "Advanced Trading Platform.",
-        "description": "Advanced trading platform for professional traders with real-time analytics and automation.",
-        "category": "Market Intelligence",
-        "url": "https://kiyotaka.ai",
-        "xUrl": "https://x.com/kiyotaka_ai",
-        "tags": [
-            "AI",
-            "Analytics",
-            "Prediction Market",
-            "Advance Trading"
-        ],
-        "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "Subscription-based advanced trading platform.",
-        "access": "Waitlist",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-26",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Real-time Analytics",
-            "Automation",
-            "Professional Trading Tools",
-            "Advanced Charts"
-        ]
-    },
-    {
-        "id": "oddpool",
-        "name": "Oddpool",
-        "slug": "oddpool",
-        "shortDescription": "Compare Kalshi & Polymarket Odds in Real Time.",
-        "description": "Compare real-time odds across Kalshi and Polymarket. Track prediction market prices, find arbitrage opportunities, and follow whale trades on every events.",
-        "category": "Analysis Tools",
-        "url": "https://www.oddpool.com",
-        "xUrl": "https://x.com/oddpool_alerts",
-        "tags": [
-            "Analytics",
-            "Arbitrage",
-            "Aggregator",
-            "Whale"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free real-time odds comparison and whale tracking.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-26",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Real-time Odds Comparison",
-            "Arbitrage Detection",
-            "Whale Trade Tracking",
-            "Price Monitoring"
-        ]
-    },
-    {
-        "id": "sportstensor",
-        "name": "Sportstensor",
-        "slug": "sportstensor",
-        "shortDescription": "Decentralized AI network for sports prediction on Bittensor.",
-        "description": "A decentralized artificial intelligence network designed for sports prediction operating as Subnet 41 on the Bittensor blockchain. It aggregates numerous independent forecasts into a single, more accurate meta-model to discover predictable patterns in sports betting markets.",
-        "category": "Platforms",
-        "url": "https://www.sportstensor.com",
-        "xUrl": "https://x.com/sportstensor",
-        "tags": [
-            "AI",
-            "Bittensor",
-            "Sports",
-            "Decentralized",
-            "Meta-model"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Subnet on Bittensor network.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-05-01",
-        "blockchain": [
-            "Bittensor"
-        ],
-        "supportedMarkets": [
-            "Sportstensor"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "AI Sports Prediction",
-            "Decentralized AI",
-            "Meta-model Aggregation",
-            "Bittensor Subnet 41"
-        ]
-    },
-    {
-        "id": "manifold",
-        "name": "Manifold",
-        "slug": "manifold",
-        "shortDescription": "Play-money social prediction market with user-created markets.",
-        "description": "A play-money social prediction market platform where users can trade on real-world events, create their own custom markets, and compete on leaderboards. It uses a virtual currency called 'Mana' which can be redeemed for charitable donations.",
-        "category": "Platforms",
-        "url": "https://manifold.markets",
-        "xUrl": "https://x.com/ManifoldMarkets",
-        "tags": [
-            "Play Money",
-            "User Generated",
-            "Social",
-            "Charity"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Play-money virtual currency (Mana) redeemable for charitable donations.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-07-31",
-        "supportedMarkets": [
-            "Manifold"
-        ],
-        "platform": [
-            "Web",
-            "iOS",
-            "Android"
-        ],
-        "features": [
-            "User-created Markets",
-            "Play-money Trading",
-            "Leaderboards",
-            "Charitable Donations",
-            "Social Features"
-        ]
-    },
-    {
-        "id": "zeitgeist",
-        "name": "Zeitgeist",
-        "slug": "zeitgeist",
-        "shortDescription": "Decentralized prediction market and futarchy protocol on Polkadot.",
-        "description": "An evolving decentralized prediction market and futarchy protocol built as a parachain on Polkadot/Kusama. It harnesses collective wisdom by enabling users to create and trade on prediction markets.",
-        "category": "Platforms",
-        "url": "https://zeitgeist.pm",
-        "xUrl": "https://x.com/ZeitgeistPM",
-        "tags": [
-            "Polkadot",
-            "Decentralized",
-            "Futarchy",
-            "Parachain"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Gas fees on Polkadot/Kusama.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-07-27",
-        "blockchain": [
-            "Polkadot",
-            "Kusama"
-        ],
-        "supportedMarkets": [
-            "Zeitgeist"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Decentralized Prediction Markets",
-            "Futarchy Protocol",
-            "Parachain",
-            "User-created Markets"
-        ]
-    },
-    {
-        "id": "hedgehog",
-        "name": "Hedgehog",
-        "slug": "hedgehog",
-        "shortDescription": "Permissionless prediction markets on Solana with high-speed execution.",
-        "description": "A decentralized, permissionless prediction market platform on Solana that enables users to create, participate in, and trade on markets across categories like politics, sports, and crypto. It leverages Solana's high throughput for fast and cost-efficient interactions.",
-        "category": "Platforms",
-        "url": "https://hedgehog.markets",
-        "xUrl": "https://x.com/HedgehogMarket",
-        "tags": [
-            "Solana",
-            "Crypto",
-            "Fast Execution",
-            "Permissionless"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to trade. Solana gas fees apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-07-27",
-        "blockchain": [
-            "Solana"
-        ],
-        "supportedMarkets": [
-            "Hedgehog"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Permissionless Markets",
-            "High-speed Execution",
-            "Crypto Markets",
-            "Politics Markets",
-            "Sports Markets"
-        ]
-    },
-    {
-        "id": "augur",
-        "name": "Augur",
-        "slug": "augur",
-        "shortDescription": "Decentralized, trustless prediction market protocol on Ethereum.",
-        "description": "The original decentralized prediction market protocol built on Ethereum. It allows users to create their own markets on any topic and trade without a central authority, serving as a foundational infrastructure for decentralized forecasting.",
-        "category": "Platforms",
-        "url": "https://augur.net",
-        "xUrl": "https://x.com/AugurProject",
-        "tags": [
-            "Ethereum",
-            "Decentralized",
-            "Protocol",
-            "Oracle"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Ethereum gas fees required for on-chain interactions.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-07-27",
-        "blockchain": [
-            "Ethereum"
-        ],
-        "supportedMarkets": [
-            "Augur"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Trustless Protocol",
-            "Permissionless Market Creation",
-            "Decentralized Oracle",
-            "Peer-to-peer Trading"
-        ]
-    },
-    {
-        "id": "forecast-trader",
-        "name": "IBKR ForecastTrader",
-        "slug": "forecast-trader",
-        "shortDescription": "Regulated forecast contracts from Interactive Brokers.",
-        "description": "A regulated platform by Interactive Brokers offering exchange-listed forecast and event contracts on political, economic, financial, and climate events. It provides a secure environment for trading real-world outcomes with limited risk.",
-        "category": "Platforms",
-        "url": "https://forecasttrader.interactivebrokers.com",
-        "xUrl": "https://x.com/IBKR",
-        "tags": [
-            "Regulated",
-            "US",
-            "TradFi",
-            "IBKR",
-            "Brokerage"
-        ],
-        "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "Requires Interactive Brokers account. Standard IBKR commission structure applies to forecast contracts.",
-        "access": "Invite-only",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-05-01",
-        "supportedMarkets": [
-            "IBKR ForecastTrader"
-        ],
-        "platform": [
-            "Web",
-            "Desktop"
-        ],
-        "features": [
-            "Regulated Forecast Contracts",
-            "Limited Risk",
-            "Exchange-listed",
-            "Political Markets",
-            "Economic Markets",
-            "Climate Markets"
-        ]
-    },
-    {
-        "id": "thales",
-        "name": "Thales Market",
-        "slug": "thales",
-        "shortDescription": "Parimutuel prediction markets on Optimism, Arbitrum, and Base.",
-        "description": "A decentralized protocol offering parimutuel markets, enabling peer-to-peer prediction markets and sports betting on Ethereum L2s like Optimism, Arbitrum, and Base. It acts as a liquidity and settlement layer, utilizing Chainlink Data Feeds for trustless resolution.",
-        "category": "Platforms",
-        "url": "https://thalesmarket.io",
-        "xUrl": "https://x.com/thalesmarket",
-        "tags": [
-            "DeFi",
-            "Parimutuel",
-            "Optimism",
-            "Chainlink"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Gas fees on Optimism/Arbitrum/Base.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-27",
-        "blockchain": [
-            "Optimism",
-            "Arbitrum",
-            "Base"
-        ],
-        "supportedMarkets": [
-            "Thales"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Parimutuel Markets",
-            "Peer-to-peer",
-            "Chainlink Data Feeds",
-            "Liquidity Layer"
-        ]
-    },
-    {
-        "id": "sx-bet",
-        "name": "SX Bet",
-        "slug": "sx-bet",
-        "shortDescription": "Largest blockchain sports betting exchange with peer-to-peer trading.",
-        "description": "A peer-to-peer sports betting exchange built on the SX Network. It offers deep liquidity, low fees, and non-custodial betting on a wide range of sports. Users can earn SX tokens through 'Bet Mining'.",
-        "category": "Platforms",
-        "url": "https://sx.bet",
-        "xUrl": "https://x.com/SX_Bet",
-        "tags": [
-            "Sports",
-            "Crypto",
-            "Exchange",
-            "Bet Mining"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Low fees on peer-to-peer bets. SX token rewards via Bet Mining.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-27",
-        "blockchain": [
-            "SX Network"
-        ],
-        "supportedMarkets": [
-            "SX Bet"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Peer-to-peer Sports Betting",
-            "Deep Liquidity",
-            "Non-custodial",
-            "Bet Mining Rewards",
-            "Low Fees"
-        ]
-    },
-    {
-        "id": "azuro",
-        "name": "Azuro",
-        "slug": "azuro",
-        "shortDescription": "Liquidity layer and infrastructure for decentralized prediction markets.",
-        "description": "A decentralized protocol providing the base layer infrastructure and liquidity for prediction markets on EVM-compatible chains. It uses a unique LiquidityTree system and vAMMs to support sports betting, attention markets, and other prediction apps seamlessly.",
-        "category": "Platforms",
-        "url": "https://azuro.org",
-        "xUrl": "https://x.com/azuroprotocol",
-        "tags": [
-            "Infrastructure",
-            "Liquidity",
-            "DAO",
-            "vAMM"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Protocol fees apply per bet. Liquidity providers earn from betting volume.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-27",
-        "blockchain": [
-            "EVM Chains"
-        ],
-        "supportedMarkets": [
-            "Azuro"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "LiquidityTree",
-            "vAMM",
-            "Sports Betting",
-            "Attention Markets",
-            "Liquidity Provision"
-        ]
-    },
-    {
-        "id": "pmx-trade",
-        "name": "PMX",
-        "slug": "pmx-trade",
-        "shortDescription": "High-speed Telegram trading bot for Polymarket and market tracking.",
-        "description": "A fast and responsive Telegram-native trading bot that lets you effortlessly trade, copy-trade, and track Polymarket positions directly from chat. The interface includes easy filtering for active, resolved, and trending markets, enabling users to execute strategies securely and swiftly without needing to leave their messaging app.",
-        "category": "AI Agents & Bots",
-        "url": "https://pmx.trade",
-        "xUrl": "https://x.com/pmx_trade",
-        "tags": [
-            "Telegram",
-            "Bot",
-            "Copy Trading",
-            "Mobile"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free basic trading. Premium features for advanced copy trading and alerts.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-27",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Telegram",
-            "Web"
-        ],
-        "features": [
-            "Telegram Trading Bot",
-            "Copy Trading",
-            "Market Tracking",
-            "Market Filtering",
-            "Position Management"
-        ]
-    },
-    {
-        "id": "okbet",
-        "name": "OkBet",
-        "slug": "okbet",
-        "shortDescription": "The multiplatform prediction market platform.",
-        "description": "The multiplatform prediction market platform with social and copy-trading features built into groups.",
-        "category": "Platforms",
-        "url": "https://okbet.trade",
-        "xUrl": "https://x.com/tryokbet",
-        "tags": [
-            "Telegram",
-            "Social",
-            "Analytics",
-            "Multi-platform"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Telegram-native platform.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-27",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Telegram"
-        ],
-        "features": [
-            "Multiplatform Access",
-            "Social Features",
-            "Copy Trading",
-            "Groups",
-            "Analytics"
-        ]
-    },
-    {
-        "id": "parsec",
-        "name": "Parsec",
-        "slug": "parsec",
-        "shortDescription": "Advanced analytics and AI assistant for Polymarket. SHUT DOWN February 2026.",
-        "description": "Advanced Polymarket search and analytics with filters, summaries, and an AI assistant. NOTE: Parsec shut down operations in February 2026 after five years. The platform is no longer available.",
-        "category": "Market Intelligence",
-        "url": "https://parsec.fi",
-        "xUrl": "https://x.com/parsec_finance",
-        "tags": [
-            "Analytics",
-            "AI",
-            "Search",
-            "Shut Down"
-        ],
-        "isActive": false,
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Was free. Platform shut down February 2026.",
-        "access": "Public",
-        "status": "shut-down",
-        "addedDate": "2026-03-01",
-        "lastVerified": "2026-05-01",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Market Search",
-            "Analytics",
-            "AI Assistant",
-            "Market Summaries",
-            "Filters"
-        ]
-    },
-    {
-        "id": "hashdive",
-        "name": "HashDive",
-        "slug": "hashdive",
-        "shortDescription": "Powerful Polymarket Analytics platform.",
-        "description": "Hashdive is a powerful Polymarket Analytics platform for deep market and wallet analytics including PnL, positions, scoring, and trends.",
-        "category": "Market Intelligence",
-        "url": "https://hashdive.com",
-        "xUrl": "https://x.com/hash_dive",
-        "tags": [
-            "Wallet Tracking",
-            "PnL",
-            "Research",
-            "Analytics"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free Polymarket analytics platform.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Wallet Analytics",
-            "PnL Tracking",
-            "Position Analysis",
-            "Scoring System",
-            "Trend Analysis"
-        ]
-    },
-    {
-        "id": "predicting-top",
-        "name": "PredictingTop",
-        "slug": "predicting-top",
-        "shortDescription": "Top Polymarket & Kalshi Traders Leaderboard.",
-        "description": "Track the top prediction market traders on a live leaderboard. Compare real-time P&L performance, profit stats, and trading activity from Polymarket and Kalshi's best traders. Find top traders and their wallet addresses.",
-        "category": "Market Intelligence",
-        "url": "https://predicting.top",
-        "xUrl": "https://x.com/predictingtop",
-        "tags": [
-            "Leaderboard",
-            "Cross-platform",
-            "Performance",
-            "PnL"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free leaderboard. Real-time trader performance tracking.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Trader Leaderboard",
-            "Cross-platform P&L",
-            "Wallet Address Tracking",
-            "Performance Stats"
-        ]
-    },
-    {
-        "id": "polyalert",
-        "name": "PolyAlert",
-        "slug": "polyalert",
-        "shortDescription": "Polymarket Alerts, Analytics & Paper Trading.",
-        "description": "Get real-time Polymarket alerts and analytics for whale trades, insider activity, price movements & trader positions. Test your strategies with paper trading.",
-        "category": "AI Agents & Bots",
-        "url": "https://polyalerthub.com",
-        "xUrl": "https://x.com/PolyAlertHub",
-        "tags": [
-            "Alerts",
-            "Portfolio",
-            "Whale Tracking",
-            "Paper Trading"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free alerts. Premium tier for advanced analytics and paper trading.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Real-time Alerts",
-            "Whale Trade Tracking",
-            "Price Movement Alerts",
-            "Paper Trading",
-            "Portfolio Tracking"
-        ]
-    },
-    {
-        "id": "predictfolio",
-        "name": "PredictFolio",
-        "slug": "predictfolio",
-        "shortDescription": "Polymarket Analytics by PredictFolio.",
-        "description": "Discover top Polymarket traders, monitor real-time PnL, and benchmark your performance with PredictFolio's dashboards and editorial coverage.",
-        "category": "Market Intelligence",
-        "url": "http://predictfolio.com",
-        "xUrl": "https://x.com/PredictFolio",
-        "tags": [
-            "Portfolio",
-            "Benchmarking",
-            "Tracking",
-            "Editorial"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free analytics and editorial coverage.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-15",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Top Trader Discovery",
-            "Real-time PnL",
-            "Performance Benchmarking",
-            "Editorial Coverage",
-            "Dashboards"
-        ]
-    },
-    {
-        "id": "polycool",
-        "name": "PolyCool",
-        "slug": "polycool",
-        "shortDescription": "Copy Top Polymarket Traders in One Tap.",
-        "description": "The mobile app to copy top Polymarket traders. Insider signals, smart feed, and one-tap trading.",
-        "category": "AI Agents & Bots",
-        "url": "https://polycool.live",
-        "xUrl": "https://x.com/PolycoolApp",
-        "tags": [
-            "Wallet Tracking",
-            "Insiders",
-            "Copy Trading",
-            "Mobile"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. One-tap copy trading mobile app.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web",
-            "Mobile"
-        ],
-        "features": [
-            "Copy Trading",
-            "One-tap Trading",
-            "Insider Signals",
-            "Smart Feed",
-            "Mobile App"
-        ]
-    },
-    {
-        "id": "brosonpm",
-        "name": "BrosOnPM",
-        "slug": "brosonpm",
-        "shortDescription": "Polymarket Track & Copy.",
-        "description": "Track and copy large Polymarket prediction market trades in real-time. See what the whales are betting on. Lightweight tracker that surfaces trades, win rates, and whale-style wallet stats.",
-        "category": "Market Intelligence",
-        "url": "https://brosonpm.trade",
-        "xUrl": "https://x.com/BrosOnPM",
-        "tags": [
-            "Stats",
-            "Win Rate",
-            "Whale Tracking",
-            "Trades"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free whale tracking and copy trading insights.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Whale Trade Tracking",
-            "Win Rate Analysis",
-            "Trader Stats",
-            "Real-time Trades"
-        ]
-    },
-    {
-        "id": "goldsky",
-        "name": "Goldsky",
-        "slug": "goldsky",
-        "shortDescription": "Real-time data indexing for Polymarket.",
-        "description": "Data indexing and streams for Polymarket datasets like orders, fills, OI, balances, and positions.",
-        "category": "Infrastructure & APIs",
-        "url": "https://goldsky.com",
-        "xUrl": "https://x.com/goldskyio",
-        "tags": [
-            "API",
-            "Data",
-            "Infrastructure",
-            "Indexing"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free tier available. Paid plans for higher volume and dedicated support.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Data Indexing",
-            "Real-time Streams",
-            "Orders Data",
-            "OI Data",
-            "Balances",
-            "Position Tracking"
-        ]
-    },
-    {
-        "id": "adjacent-news",
-        "name": "Adjacent News",
-        "slug": "adjacent-news",
-        "shortDescription": "Forward Looking News.",
-        "description": "Forward Looking News - Driven by Prediction Markets and Forecasting Platforms. API layer for market data, context, and multi-platform coverage.",
-        "category": "Information & OSINT",
-        "url": "https://adj.news",
-        "xUrl": "https://x.com/AdjacentNews",
-        "tags": [
-            "News",
-            "API",
-            "Context",
-            "Forward-looking"
-        ],
-        "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "API-based pricing. Contact for enterprise access.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-28",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "API Layer",
-            "Market Data",
-            "Multi-platform Coverage",
-            "News Context"
-        ]
-    },
-    {
-        "id": "forcazt",
-        "name": "Forcazt",
-        "slug": "forcazt",
-        "shortDescription": "Next-gen Prediction Market Platform.",
-        "description": "Next-gen Prediction Market Platform. Prediction-market analytics and aggregation layer with routing and data pipelines.",
-        "category": "Market Intelligence",
-        "url": "https://forcazt.xyz",
-        "xUrl": "https://x.com/forcazt_xyz",
-        "tags": [
-            "Aggregation",
-            "Routing",
-            "Cross-platform",
-            "Analytics"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free analytics and aggregation layer.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Market Aggregation",
-            "Data Pipelines",
-            "Cross-platform Routing",
-            "Analytics"
-        ]
-    },
-    {
-        "id": "polyrouter",
-        "name": "PolyRouter",
-        "slug": "polyrouter",
-        "shortDescription": "Unified API aggregator for prediction markets.",
-        "description": "Unified API aggregator that standardizes prediction market data across multiple venues.",
-        "category": "Infrastructure & APIs",
-        "url": "https://polyrouter.io",
-        "xUrl": "https://x.com/polyrouter",
-        "tags": [
-            "API",
-            "Aggregator",
-            "Dev Tools",
-            "Standardization"
-        ],
-        "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "API-based pricing for developers integrating prediction market data.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web",
-            "API"
-        ],
-        "features": [
-            "Unified API",
-            "Cross-platform Aggregation",
-            "Data Standardization",
-            "Developer Tools"
-        ]
-    },
-    {
-        "id": "matchr",
-        "name": "Matchr",
-        "slug": "matchr",
-        "shortDescription": "Cross-Platform Prediction Markets. SHUT DOWN.",
-        "description": "Search and compare prediction markets across Polymarket and Kalshi. Find matched markets, compare odds, and track prices in real-time. NOTE: Matchr appears to be shut down as of April 2026 (HTTP 402).",
-        "category": "Market Intelligence",
-        "url": "https://matchr.xyz",
-        "xUrl": "https://x.com/matchrxyz",
-        "tags": [
-            "Arbitrage",
-            "Routing",
-            "Best Price",
-            "Shut Down"
-        ],
-        "isActive": false,
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Was free. Platform shut down as of April 2026 (HTTP 402).",
-        "access": "Public",
-        "status": "shut-down",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Cross-platform Search",
-            "Odds Comparison",
-            "Price Tracking",
-            "Arbitrage Discovery"
-        ]
-    },
-    {
-        "id": "polyscalping",
-        "name": "PolyScalping",
-        "slug": "polyscalping",
-        "shortDescription": "Track scalping opportunities, spreads, and market data.",
-        "description": "Track scalping opportunities, spreads, and market data on Polymarket in real-time with alerts and ROI calculators.",
-        "category": "Analysis Tools",
-        "url": "https://polyscalping.org",
-        "xUrl": "https://x.com/PolyScalping",
-        "tags": [
-            "Scalping",
-            "Arbitrage",
-            "Alerts",
-            "Spreads"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free scalping opportunity tracker with alerts.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-25",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Scalping Opportunities",
-            "Spread Tracking",
-            "Real-time Alerts",
-            "ROI Calculator"
-        ]
-    },
-    {
-        "id": "chance",
-        "name": "Chance",
-        "slug": "chance",
-        "shortDescription": "Unified platform to discover, evaluate & trade across prediction markets.",
-        "description": "A unified platform that empowers you to discover, evaluate & trade across every prediction market, all from a single, enhanced interface.",
-        "category": "Trading Terminals",
-        "url": "https://chance.cc",
-        "xUrl": "https://x.com/Chance_",
-        "tags": [
-            "Aggregator",
-            "Unified",
-            "Trading Terminal",
-            "Discovery"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Unified discovery and trading platform.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Unified Trading",
-            "Cross-platform Discovery",
-            "Enhanced Interface",
-            "Market Evaluation"
-        ]
-    },
-    {
-        "id": "polytale",
-        "name": "PolyTale",
-        "slug": "polytale",
-        "shortDescription": "AI Powered Polymarket Intelligence.",
-        "description": "An intelligent AI agent delivering smart trading insights & analysis across all markets. It operates as a prediction market research AI agent on Twitter, providing real-time market insights and whale tracking.",
-        "category": "AI Agents & Bots",
-        "url": "https://polytale.live",
-        "xUrl": "https://x.com/polytaleai",
-        "tags": [
-            "AI",
-            "Twitter Agent",
-            "Research",
-            "Analysis"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. AI agent provides market insights via Twitter.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-25",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Twitter"
-        ],
-        "features": [
-            "AI Agent",
-            "Real-time Market Insights",
-            "Whale Tracking",
-            "Twitter-based Analysis"
-        ]
-    },
-    {
-        "id": "nevua-markets",
-        "name": "Nevua Markets",
-        "slug": "nevua-markets",
-        "shortDescription": "Prediction Markets Watchlists and Alerts.",
-        "description": "Create Prediction Markets watchlists and get real-time alerts in Telegram, Discord, via Webhook, and more.",
-        "category": "Market Intelligence",
-        "url": "https://nevua.markets",
-        "xUrl": "https://x.com/NevuaMarkets",
-        "tags": [
-            "Alerts",
-            "Watchlist",
-            "Real-time",
-            "Multi-platform"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free basic alerts. Premium for advanced watchlists and more alert destinations.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-25",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web",
-            "Telegram",
-            "Discord"
-        ],
-        "features": [
-            "Market Watchlists",
-            "Real-time Alerts",
-            "Telegram Alerts",
-            "Discord Alerts",
-            "Webhook Support"
-        ]
-    },
-    {
-        "id": "polyterminal-x",
-        "name": "PolyTerminalX",
-        "slug": "polyterminal-x",
-        "shortDescription": "Professional trading desk interface for Polymarket.",
-        "description": "Built for speed and feels much more like a professional trading desk.",
-        "category": "Trading Terminals",
-        "url": "https://x.com/PolyTerminalX",
-        "xUrl": "https://x.com/PolyTerminalX",
-        "tags": [
-            "Trading Terminal",
-            "Professional",
-            "Speed",
-            "Polymarket"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Professional-level trading desk interface.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-03-20",
-        "lastVerified": "2026-07-29",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Professional Trading Desk",
-            "High-speed Execution",
-            "Advanced Order Types"
-        ]
-    },
-    {
-        "id": "robin",
-        "name": "Robin",
-        "slug": "robin",
-        "shortDescription": "Yield-bearing prediction market platform on Polymarket.",
-        "description": "A yield-bearing prediction market platform enabling users to earn DeFi yields on Polymarket positions through automated capital deployment and delta-neutral strategies.",
-        "category": "Platforms",
-        "url": "https://robin.markets",
-        "xUrl": "https://x.com/robinmarketsxyz",
-        "tags": [
-            "DeFi",
-            "Yield",
-            "Automation",
-            "Polymarket"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. Earn yield on Polymarket positions through DeFi strategies.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-04-01",
-        "lastVerified": "2026-07-29",
-        "blockchain": [
-            "Polygon"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Yield-bearing Positions",
-            "Delta-neutral Strategies",
-            "Automated Capital Deployment",
-            "DeFi Integration"
-        ]
-    },
-    {
-        "id": "markium",
-        "name": "Markium",
-        "slug": "markium",
-        "shortDescription": "Data analytics and trading platform for prediction markets.",
-        "description": "Comprehensive data analytics and trading platform for prediction markets that provides market aggregation, wallet analytics, leaderboards, and watchlist alerts.",
-        "category": "Market Intelligence",
-        "url": "https://markiumpro.com",
-        "xUrl": "https://x.com/markiumpro",
-        "tags": [
-            "Analytics",
-            "Trading",
-            "Leaderboard",
-            "Watchlist"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free analytics dashboard with comprehensive features.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-04-01",
-        "lastVerified": "2026-05-01",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Market Aggregation",
-            "Wallet Analytics",
-            "Leaderboards",
-            "Watchlist Alerts",
-            "Trading Interface"
-        ]
-    },
-    {
-        "id": "prediedge",
-        "name": "Prediedge",
-        "slug": "prediedge",
-        "shortDescription": "Professional Polymarket Intelligence.",
-        "description": "PrediEdge - Professional Polymarket intelligence. Track whale trades, unusual activity, and market movements before they happen.",
-        "category": "Market Intelligence",
-        "url": "https://prediedge.com",
-        "xUrl": "https://x.com/prediedge",
-        "tags": [
-            "Whale Tracking",
-            "Analytics",
-            "Signals",
-            "Intelligence"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free Polymarket intelligence and whale tracking.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-04-01",
-        "lastVerified": "2026-07-30",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Whale Trade Detection",
-            "Unusual Activity Alerts",
-            "Market Movement Tracking",
-            "Pro Intelligence"
-        ]
-    },
-    {
-        "id": "polysimplr",
-        "name": "Polysimplr",
-        "slug": "polysimplr",
-        "shortDescription": "AI-powered interface that simplifies and makes prediction markets accessible.",
-        "description": "An intuitive, user-friendly Polymarket interface designed with powerful AI tools to make prediction markets more accessible for all. Trade smarter with AI-powered insights, simplified interfaces, real-time market intelligence, and dedicated chat functionality that helps both novices and pros discover and execute opportunities more efficiently.",
-        "category": "Trading Terminals",
-        "url": "https://www.polysimplr.com",
-        "xUrl": "https://x.com/polysimplr",
-        "tags": [
-            "Interface",
-            "AI",
-            "Chat",
-            "Simplified"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. AI-powered features included.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-04-01",
-        "lastVerified": "2026-07-30",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "AI-powered Insights",
-            "Simplified Interface",
-            "Real-time Intelligence",
-            "Chat Functionality"
-        ]
-    },
-    {
-        "id": "polynoob",
-        "name": "PolyNoob",
-        "slug": "polynoob",
-        "shortDescription": "The Ultimate Guide to Polymarket and Beyond.",
-        "description": "PolyNoob is the ultimate guide to Polymarket and prediction markets. Discover glossaries, strategies, definitions, and news updates.",
-        "category": "Information & OSINT",
-        "url": "https://polynoob.com",
-        "xUrl": "https://x.com/Polynoob_",
-        "tags": [
-            "Education",
-            "Guide",
-            "Beginner",
-            "Glossary"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free educational guide to Polymarket and prediction markets.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-04-01",
-        "lastVerified": "2026-07-30",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Educational Guide",
-            "Glossary",
-            "Strategies",
-            "News Updates",
-            "Beginner-friendly"
-        ]
-    },
-    {
-        "id": "tonyblairxbt",
-        "name": "TonyBlairXBT",
-        "slug": "tonyblairxbt",
-        "shortDescription": "Technical analysis of big trades.",
-        "description": "Breaks down the tape and explains the technical side of the big trades.",
-        "category": "Information & OSINT",
-        "url": "https://x.com/tonyblairxbt",
-        "xUrl": "https://x.com/tonyblairxbt",
-        "tags": [
-            "Technical Analysis",
-            "Education",
-            "Commentary",
-            "Twitter"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to follow. Educational trade analysis on X/Twitter.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-04-01",
-        "lastVerified": "2026-07-30",
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Twitter"
-        ],
-        "features": [
-            "Trade Breakdowns",
-            "Technical Analysis",
-            "Educational Commentary"
-        ]
-    },
-    {
-        "id": "opinion-trade",
-        "name": "Opinion",
-        "slug": "opinion-trade",
-        "shortDescription": "Decentralized prediction market and oracle protocol on BNB Chain.",
-        "description": "A decentralized prediction market and oracle protocol that allows users to trade 'Yes/No' contracts on real-world events. Features an AI oracle, on-chain order book, and an incentive system for liquidity providers.",
-        "category": "Platforms",
-        "url": "https://opinion.trade",
-        "xUrl": "https://x.com/opinionlabsxyz",
-        "tags": [
-            "Crypto",
-            "BNB Chain",
-            "DeFi",
-            "AI Oracle"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to trade. BNB Chain gas fees apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-04-01",
-        "lastVerified": "2026-07-30",
-        "blockchain": [
-            "BNB Chain"
-        ],
-        "supportedMarkets": [
-            "Opinion Trade"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "AI Oracle",
-            "On-chain Order Book",
-            "Liquidity Provider Incentives",
-            "Yes/No Contracts"
-        ]
-    },
-    {
-        "id": "turbinefi",
-        "name": "TurbineFi",
-        "slug": "turbinefi",
-        "shortDescription": "Build, test, and deploy prediction market bots for Kalshi and Polymarket.",
-        "description": "AI-powered algorithmic trading platform for prediction market trading on Kalshi and Polymarket, enabling users to build, backtest, and deploy thousands of automated trading bots in seconds. Combines trading strategy backtesting, prediction market analytics, and financial trading automation with AI-powered trading tools that generate, optimize, and execute strategies — including arbitrage trading strategies, market-making, and event-driven systems — without writing a single line of code.",
-        "category": "AI Agents & Bots",
-        "url": "https://www.turbinefi.com",
-        "xUrl": "https://x.com/TurbineFi",
-        "tags": [
-            "AI Trading Bots",
-            "Backtesting",
-            "Automation",
-            "Arbitrage",
-            "Market Making"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free trial and preview options; paid plans for advanced bot automation.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-01",
-        "lastVerified": "2026-07-30",
-        "supportedMarkets": [
-            "Kalshi",
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "No-code Strategy Builder",
-            "AI Strategy Generation",
-            "Strategy Backtesting",
-            "Automated Bot Deployment",
-            "Arbitrage Strategies",
-            "Market Making",
-            "Event-driven Automation"
-        ]
-    },
-    {
-        "id": "rain-protocol",
-        "name": "Rain Protocol",
-        "slug": "rain-protocol",
-        "shortDescription": "Infrastructure to launch custom prediction market apps on Arbitrum.",
-        "description": "A protocol that provides the infrastructure to launch custom prediction market applications. Built on Arbitrum and backed by Enlivex, Rain Protocol enables anyone to deploy their own prediction market app with full on-chain transparency. The $RAIN token is listed on Gate exchange. Fully on-chain with no black boxes or hidden mechanisms.",
-        "category": "Infrastructure & APIs",
-        "url": "https://rainprotocol.xyz",
-        "xUrl": "https://x.com/Rain__Protocol",
-        "tags": [
-            "Crypto",
-            "Decentralized",
-            "Arbitrum",
-            "Infrastructure",
-            "Permissionless",
-            "Protocol"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Protocol is free to use. $RAIN token available on Gate exchange. Standard Arbitrum gas fees apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-30",
-        "blockchain": [
-            "Arbitrum"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Custom Market Creation",
-            "On-chain Resolution",
-            "Permissionless Deployment",
-            "Smart Contract Infrastructure"
-        ]
-    },
-    {
-        "id": "suimarket",
-        "name": "SuiMarket",
-        "slug": "suimarket",
-        "shortDescription": "Prediction market platform on Sui blockchain with weekly prize competitions.",
-        "description": "A prediction market platform built on the Sui blockchain where users can make accurate predictions on politics, sports, and finance to earn USDC rewards. Features weekly prize competitions with $600 prize pools for price prediction contests on crypto assets like BTC, DEEP, and meme coins.",
-        "category": "Platforms",
-        "url": "https://suimarket.io",
-        "xUrl": "https://x.com/SuiMarket_io",
-        "tags": [
-            "Crypto",
-            "Sui",
-            "Decentralized",
-            "Sports",
-            "Finance",
-            "Competitions"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. USDC rewards for accurate predictions. Sui gas fees apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-30",
-        "blockchain": [
-            "Sui"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Price Prediction Contests",
-            "Weekly Prize Pools",
-            "USDC Rewards",
-            "Crypto & Sports Markets"
-        ]
-    },
-    {
-        "id": "foregate",
-        "name": "ForeGate",
-        "slug": "foregate",
-        "shortDescription": "Decentralized prediction market for sports and real-world events.",
-        "description": "A decentralized prediction market platform for sports and real-world events, backed by football legend Michael Owen. Features a $100K prize pool campaign with OKX for the World Cup. Users can predict outcomes on FIFA World Cup matches and other major sporting events with USDT rewards.",
-        "category": "Platforms",
-        "url": "https://foregate.com",
-        "xUrl": "https://x.com/Fore_Gate",
-        "tags": [
-            "Crypto",
-            "Decentralized",
-            "Sports",
-            "Real-world Events",
-            "BNB Chain",
-            "Rewards"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to predict. Prize pools and rewards for accurate predictions. BNB Chain gas fees apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "BNB Chain"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Sports Predictions",
-            "Real-world Events",
-            "Prize Pools",
-            "OKX Partnership",
-            "USDT Rewards"
-        ]
-    },
-    {
-        "id": "noasight",
-        "name": "NoaSight",
-        "slug": "noasight",
-        "shortDescription": "Decentralized prediction markets on Sui with DAO governance and NFT achievements.",
-        "description": "A decentralized prediction market platform on the Sui blockchain featuring DAO governance, an oracle network, and NFT achievement badges. Users can trade on diverse events from sports to politics, crypto markets to weather. Features automated market making, community-driven market creation, and rewards for accurate predictions and oracle participation.",
-        "category": "Platforms",
-        "url": "https://noasight.xyz",
-        "xUrl": "https://x.com/NoaSight",
-        "tags": [
-            "Crypto",
-            "Sui",
-            "Decentralized",
-            "DAO",
-            "NFT",
-            "Oracle",
-            "DeFi"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to trade. Sui gas fees apply. Rewards for accurate predictions and oracle participation.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "Sui"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Automated Market Making",
-            "DAO Governance",
-            "Oracle Network",
-            "NFT Achievement System",
-            "Community Market Creation",
-            "Permissionless Trading"
-        ]
-    },
-    {
-        "id": "cobot",
-        "name": "Cobot",
-        "slug": "cobot",
-        "shortDescription": "AI trading companion aggregating Polymarket, Kalshi, and more.",
-        "description": "An AI-powered trading companion that aggregates prediction markets from Polymarket, Kalshi, and beyond. Features whale feed tracking, AI signals, a newsroom, and one-click execution across platforms. Built for mobile with autonomous trading agents that can monitor markets and execute trades around the clock. Powered by OpenServ AI.",
-        "category": "AI Agents & Bots",
-        "url": "https://cobot.gg",
-        "xUrl": "https://x.com/cobotgg",
-        "tags": [
-            "AI Trading Bots",
-            "Aggregation",
-            "Cross-platform",
-            "Mobile",
-            "Automation",
-            "Signals"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. $COBOT token available. Premium features may apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-31",
-        "blockchain": [],
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web",
-            "Mobile",
-            "iOS",
-            "Android"
-        ],
-        "features": [
-            "AI Trading Agents",
-            "Whale Feed Tracking",
-            "AI Signals",
-            "News Aggregation",
-            "One-click Execution",
-            "Cross-platform Aggregation",
-            "Mobile App"
-        ]
-    },
-    {
-        "id": "mirai",
-        "name": "Mirai",
-        "slug": "mirai",
-        "shortDescription": "First unified prediction market aggregator on BNB Chain.",
-        "description": "The first unified platform on BNB Chain bringing together prediction markets from Entrave, Polymarket, Kalshi, Darkbet, and Opinion Labs. One app with shared order books, enabling deeper liquidity and better odds for everyone from retail traders to whales.",
-        "category": "Infrastructure & APIs",
-        "url": "https://mirai.bet",
-        "xUrl": "https://x.com/miraibnb",
-        "tags": [
-            "Aggregation",
-            "BNB Chain",
-            "Cross-platform",
-            "Unified",
-            "Liquidity",
-            "Crypto"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. BNB Chain gas fees apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-06-25",
-        "blockchain": [
-            "BNB Chain"
-        ],
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi",
-            "Opinion Trade"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Multi-platform Aggregation",
-            "Shared Order Books",
-            "Unified Interface",
-            "Cross-market Liquidity",
-            "Best Price Routing"
-        ]
-    },
-    {
-        "id": "bravado",
-        "name": "Bravado",
-        "slug": "bravado",
-        "shortDescription": "Professional trading terminal for Polymarket, backed by Polymarket.",
-        "description": "An institutional-grade professional trading terminal for Polymarket, backed by Polymarket itself. Features real-time order flow, whale tracking, copy trading, LP automations, and advanced order types including Iceberg, TWAP, and trailing stops. Non-custodial with Privy wallet security. Also offers Trade API and Data API for developers.",
-        "category": "Trading Terminals",
-        "url": "https://bravadotrade.com",
-        "xUrl": "https://x.com/bravadotrade",
-        "tags": [
-            "Advanced UI",
-            "Professional",
-            "Trading Terminal",
-            "Copy Trading",
-            "API",
-            "Whale Tracking",
-            "Polymarket"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free to use. API access and advanced features may have tiered pricing.",
-        "access": "Waitlist",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "Polygon"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Advanced Order Types",
-            "Copy Trading",
-            "LP Automations",
-            "Whale Tracking",
-            "Real-time Order Flow",
-            "Market Analytics",
-            "Trade API",
-            "Data API",
-            "Backtesting",
-            "Non-custodial"
-        ]
-    },
-    {
-        "id": "foresee",
-        "name": "Foresee",
-        "slug": "foresee",
-        "shortDescription": "Social prediction layer on Solana powered by Jupiter and Polymarket.",
-        "description": "A prediction market on Solana where users can trade their beliefs on news, crypto, and events. Powered by Jupiter Exchange and Polymarket, Foresee acts as a social prediction layer where every trade is a belief about the future. Features referral volume campaigns with $SKR token rewards. Built during the Solana x Colosseum Cypherpunk Hackathon.",
-        "category": "Platforms",
-        "url": "https://foresee.lol",
-        "xUrl": "https://x.com/foreseelol",
-        "tags": [
-            "Crypto",
-            "Solana",
-            "Social",
-            "Decentralized",
-            "News",
-            "Events"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to trade. Solana gas fees apply. $SKR token rewards for referrals.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-06-25",
-        "blockchain": [
-            "Solana"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Social Predictions",
-            "Referral Rewards",
-            "Jupiter Integration",
-            "News & Crypto Markets",
-            "Token Incentives"
-        ]
-    },
-    {
-        "id": "yinyang",
-        "name": "YinYang",
-        "slug": "yinyang",
-        "shortDescription": "Celebrity micro-predictions market on BNB Chain.",
-        "description": "A celebrity-focused micro-predictions market on BNB Chain where users can bet on celebrity life events. Endorsed by celebrities and run by the community. Features the $YIN token which saw 2000%+ growth. Part of the BNB Chain prediction market ecosystem with planned CEX listings and celebrity reveals.",
-        "category": "Platforms",
-        "url": "https://yinyang.bet",
-        "xUrl": "https://x.com/yinyangdat",
-        "tags": [
-            "Crypto",
-            "BNB Chain",
-            "Entertainment",
-            "Social",
-            "Celebrity",
-            "Micro-predictions"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to use. BNB Chain gas fees apply. $YIN token available.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "BNB Chain"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Celebrity Event Predictions",
-            "Micro-predictions",
-            "Community-driven",
-            "Token Rewards",
-            "Telegram Community"
-        ]
-    },
-    {
-        "id": "futarchy",
-        "name": "Futarchy",
-        "slug": "futarchy",
-        "shortDescription": "First futarchy governance protocol on Ethereum.",
-        "description": "The first futarchy implementation on Ethereum, enabling DAOs to govern via prediction markets. Instead of voting on proposals directly, tokenholders bet on outcomes to determine which decisions maximize treasury value. Integrated with Snapshot Labs for advisory futarchy, allowing delegates to see expected market impact before voting. Currently running on GnosisDAO and Kleros proposals.",
-        "category": "Platforms",
-        "url": "https://futarchy.fi",
-        "xUrl": "https://x.com/_futarchy",
-        "tags": [
-            "Ethereum",
-            "DAO",
-            "Futarchy",
-            "Governance",
-            "DeFi",
-            "Protocol"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Free to participate. Ethereum gas fees apply.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-06-25",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "Ethereum"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Futarchy Governance",
-            "Snapshot Integration",
-            "DAO Proposal Markets",
-            "On-chain Resolution",
-            "Advisory Futarchy"
-        ]
-    },
-    {
-        "id": "predmart",
-        "name": "PredMart",
-        "slug": "predmart",
-        "shortDescription": "Margin account for Polymarket: up to 5x leverage, or borrow USDC against shares.",
-        "description": "PredMart is a non-custodial margin and lending protocol for Polymarket. Traders open leveraged positions with up to 5x in one click, or deposit prediction-market shares as collateral to borrow USDC without closing their trades. Lenders supply USDC to the pool to earn yield. Built on Polygon.",
-        "category": "Platforms",
-        "url": "https://predmart.com",
-        "tags": [
-            "Leverage",
-            "Margin",
-            "Lending",
-            "DeFi",
-            "Polygon"
-        ],
-        "isPromoted": false,
-        "pricing": "Freemium",
-        "pricingDetails": "Free to use; protocol fees on borrowing and leveraged positions.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-07-06",
-        "lastVerified": "2026-07-31",
-        "blockchain": [
-            "Polygon"
-        ],
-        "supportedMarkets": [
-            "Polymarket"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Up to 5x Leverage",
-            "Borrow USDC Against Shares",
-            "Lending Pool Yield",
-            "Non-custodial",
-            "One-click Leverage"
-        ],
-        "xUrl": "https://x.com/sev_kach"
-    },
-    {
-        "id": "polywise",
-        "name": "Polywise",
-        "slug": "polywise",
-        "shortDescription": "Free Duolingo-style learning game for prediction markets.",
-        "description": "A free, game-like course that teaches beginners how prediction markets work: reading prices as probabilities, judging edge and expected value, understanding fees and resolution criteria — built on case studies from real Polymarket markets. Includes a free payout/edge calculator and a 40-term plain-English glossary. Browser-based, no account or deposit required.",
-        "category": "Information & OSINT",
-        "url": "https://polywise.tyki.app",
-        "xUrl": "https://polywise.tyki.app",
-        "tags": [
-            "Education",
-            "Beginner",
-            "Learning Game",
-            "Calculator",
-            "Glossary"
-        ],
-        "isPromoted": false,
-        "pricing": "Free",
-        "pricingDetails": "Completely free. No account, no deposit, no paid tier.",
-        "access": "Public",
-        "status": "active",
-        "addedDate": "2026-07-22",
-        "lastVerified": "2026-07-22",
-        "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
-        ],
-        "platform": [
-            "Web"
-        ],
-        "features": [
-            "Bite-sized lessons",
-            "Payout & edge calculator",
-            "40-term glossary",
-            "Real market case studies"
-        ]
-    }
+  {
+    "id": "polymarket",
+    "name": "Polymarket",
+    "slug": "polymarket",
+    "shortDescription": "Decentralized prediction market on Polygon for real-world events.",
+    "description": "A decentralized prediction market platform that enables individuals to speculate on the outcomes of future real-world events. Built on the Polygon blockchain, it offers transparent, peer-to-peer trading across politics, sports, and economics.",
+    "category": "Platforms",
+    "url": "https://polymarket.com",
+    "xUrl": "https://x.com/Polymarket",
+    "tags": [
+      "Crypto",
+      "Decentralized",
+      "Polygon",
+      "Binary Markets",
+      "Real-world Events",
+      "AMM"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Resolution fee (~2%) on winning positions. Standard Polygon gas fees.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "Polygon"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "features": [
+      "Binary Markets",
+      "Order Book",
+      "Limit Orders",
+      "AMM Pools",
+      "Permissionless Market Creation",
+      "Fiat On-ramp",
+      "Referral Program"
+    ]
+  },
+  {
+    "id": "kalshi",
+    "name": "Kalshi",
+    "slug": "kalshi",
+    "shortDescription": "First federally regulated event contract exchange in the US.",
+    "description": "The first federally regulated exchange in the United States dedicated specifically to trading on the outcome of real-world events. Regulated by the CFTC, Kalshi allows users to purchase 'event contracts' on everything from economic indicators to entertainment results.",
+    "category": "Platforms",
+    "url": "https://kalshi.com",
+    "xUrl": "https://x.com/Kalshi",
+    "tags": [
+      "Regulated",
+      "US",
+      "Fiat",
+      "CFTC",
+      "Event Contracts"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free to sign up. 0.3% transaction fee per contract. API free for personal use.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-05-01",
+    "supportedMarkets": [
+      "Kalshi"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "features": [
+      "Binary Event Contracts",
+      "Order Book",
+      "Limit Orders",
+      "Market Orders",
+      "Portfolio Dashboard",
+      "P&L Tracking",
+      "API Access",
+      "KYC/AML Compliant"
+    ]
+  },
+  {
+    "id": "predict-fun",
+    "name": "Predict",
+    "slug": "predict-fun",
+    "shortDescription": "Blast-native prediction market with yield-generating positions. Acquired Probable in March 2026.",
+    "description": "A Blast-native prediction market leveraging Layer 2 capabilities to offer yield on positions. Users can trade on politics, sports, and crypto while earning native yield and points towards potential airdrops. In March 2026, Predict.fun acquired Probable, expanding its reach on BNB Chain.",
+    "category": "Platforms",
+    "url": "https://predict.fun",
+    "xUrl": "https://x.com/predictdotfun",
+    "tags": [
+      "Crypto",
+      "Blast L2",
+      "Yield",
+      "Airdrop"
+    ],
+    "isActive": true,
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to trade. Yield generated on positions via Blast L2. Acquired Probable in March 2026.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "Blast L2",
+      "BNB Chain"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Yield-bearing Positions",
+      "Blast Points",
+      "Market Trading",
+      "Airdrop Potential"
+    ]
+  },
+  {
+    "id": "limitless",
+    "name": "Limitless",
+    "slug": "limitless",
+    "shortDescription": "Decentralized prediction market with daily outcome payouts built on Base.",
+    "description": "A decentralized prediction market platform built on the Base network that allows users to trade binary yes/no contracts on the outcome of future events. Limitless differentiates itself with short-term fast price markets, daily payouts, and instant settlements with no liquidation risk or hidden fees.",
+    "category": "Platforms",
+    "url": "https://limitless.exchange",
+    "xUrl": "https://x.com/trylimitless",
+    "tags": [
+      "Crypto",
+      "Decentralized",
+      "Daily Payouts",
+      "Base"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to trade. No hidden fees. Daily payout settlements with instant settlement.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "Base"
+    ],
+    "supportedMarkets": [
+      "Limitless"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Binary Contracts",
+      "Daily Payouts",
+      "Instant Settlement",
+      "No Liquidation Risk",
+      "No Hidden Fees"
+    ]
+  },
+  {
+    "id": "probable",
+    "name": "Probable",
+    "slug": "probable",
+    "shortDescription": "Crypto-native prediction platform on BNB Chain with zero trading fees. Acquired by Predict.fun in March 2026.",
+    "description": "A crypto-native, zero-fee prediction platform built on the BNB Chain using a CLOB trading system and UMA-based settlement. Probable Markets offers frictionless deposits and withdrawals, enabling users to forecast outcomes across crypto, sports, and global events. NOTE: Probable was acquired by Predict.fun in March 2026 and its users migrated to the Predict.fun platform.",
+    "category": "Platforms",
+    "url": "https://probable.markets",
+    "xUrl": "https://x.com/0xProbable",
+    "tags": [
+      "Crypto",
+      "BNB Chain",
+      "Zero Fees",
+      "Acquired",
+      "CLOB"
+    ],
+    "isActive": false,
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Zero trading fees. Acquired by Predict.fun in March 2026.",
+    "access": "Public",
+    "status": "acquired",
+    "acquiredBy": "predict-fun",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-07-24",
+    "blockchain": [
+      "BNB Chain"
+    ],
+    "supportedMarkets": [
+      "Probable"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Zero Fee Trading",
+      "CLOB Trading",
+      "UMA Settlement",
+      "Crypto Markets",
+      "Sports Markets"
+    ]
+  },
+  {
+    "id": "pizzint-watch",
+    "name": "PizzINT.watch",
+    "slug": "pizzint-watch",
+    "shortDescription": "Real-Time Military Tension Indicator.",
+    "description": "The Pentagon Pizza Index (PizzINT) tracks real-time pizza shop popularity around the Pentagon as an unconventional OSINT indicator of military activity. Monitor the Pizza DEFCON level and discover when unusual activity might be brewing.",
+    "category": "Information & OSINT",
+    "url": "https://www.pizzint.watch",
+    "xUrl": "https://x.com/pizzintwatch",
+    "tags": [
+      "OSINT",
+      "Alternative Data",
+      "Geopolitics",
+      "Pizza Index"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free real-time military tension indicator.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-24",
+    "supportedMarkets": [
+      "PizzINT"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "OSINT Indicator",
+      "Military Activity Tracking",
+      "Pizza DEFCON Level",
+      "Alternative Data"
+    ]
+  },
+  {
+    "id": "prediction-hunt",
+    "name": "Prediction Hunt",
+    "slug": "prediction-hunt",
+    "shortDescription": "Compare Odds Across Every Platform.",
+    "description": "Compare prediction market odds across Kalshi, Polymarket, PredictIt, and ProphetX. Live arbitrage alerts and cross-platform price comparison.",
+    "category": "Analysis Tools",
+    "url": "https://predictionhunt.com",
+    "xUrl": "https://x.com/PredictionHunt",
+    "tags": [
+      "Arbitrage",
+      "Aggregator",
+      "Multi-platform",
+      "Odds"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free cross-platform odds comparison and arbitrage alerts.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-24",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi",
+      "PredictIt",
+      "ProphetX"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Cross-platform Odds Comparison",
+      "Arbitrage Alerts",
+      "Price Tracking",
+      "Multi-platform Coverage"
+    ]
+  },
+  {
+    "id": "probex",
+    "name": "ProbEx",
+    "slug": "probex",
+    "shortDescription": "Real-time prediction markets intelligence with AI-powered news analysis.",
+    "description": "An intelligence dashboard that tracks live odds from Kalshi and Polymarket, enhanced with AI-powered news analysis to provide context for market movements.",
+    "category": "Analysis Tools",
+    "url": "https://probex.markets",
+    "xUrl": "https://x.com/ProbabilityEx",
+    "tags": [
+      "AI",
+      "News",
+      "Analytics",
+      "Dashboard"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free intelligence dashboard with AI-powered news analysis.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-24",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "AI News Analysis",
+      "Real-time Odds",
+      "Market Context",
+      "Cross-platform Dashboard"
+    ]
+  },
+  {
+    "id": "predictshark",
+    "name": "Predict Shark Analytics",
+    "slug": "predictshark",
+    "shortDescription": "Real-time insights into Polymarket trading activity.",
+    "description": "Real-time insights into Polymarket trading activity, market trends, and trader performance.",
+    "category": "Market Intelligence",
+    "url": "https://predictshark.io",
+    "xUrl": "https://x.com/predictshark",
+    "tags": [
+      "Analytics",
+      "Polymarket",
+      "Live Feed",
+      "Trends"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Real-time Polymarket analytics dashboard.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Real-time Analytics",
+      "Market Trends",
+      "Trader Performance Tracking",
+      "Live Feed"
+    ]
+  },
+  {
+    "id": "polysights",
+    "name": "Polysights",
+    "slug": "polysights",
+    "shortDescription": "Intelligence and strategy layer for prediction markets.",
+    "description": "Polysights is an analytics and execution platform focused on layering tools on top of the entire prediction market industry. It is building the ultimate intelligence and strategy layer for prediction markets.",
+    "category": "Market Intelligence",
+    "url": "https://polysights.xyz",
+    "xUrl": "https://x.com/Polysights",
+    "tags": [
+      "Analytics",
+      "AI",
+      "Data Visualization",
+      "Strategy"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Advanced analytics and strategy layer.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Analytics Dashboard",
+      "Data Visualization",
+      "Strategy Tools",
+      "Cross-platform Intel"
+    ]
+  },
+  {
+    "id": "polyfactual",
+    "name": "Polyfactual",
+    "slug": "polyfactual",
+    "shortDescription": "AI-Powered Prediction Market Research.",
+    "description": "Premium interactive webapp for deep research on prediction markets.",
+    "category": "Market Intelligence",
+    "url": "https://polyfactual.com",
+    "xUrl": "https://x.com/polyfactual",
+    "tags": [
+      "AI Research",
+      "Market Intelligence",
+      "Risk Analysis",
+      "Premium"
+    ],
+    "isPromoted": false,
+    "pricing": "Paid",
+    "pricingDetails": "Premium subscription for deep research features.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "AI-powered Research",
+      "Deep Market Analysis",
+      "Risk Analysis",
+      "Interactive Webapp"
+    ]
+  },
+  {
+    "id": "polym-trade",
+    "name": "Polym.trade",
+    "slug": "polym-trade",
+    "shortDescription": "Mobile-first Polymarket trading terminal with instant market access and AI insights.",
+    "description": "Polym Trade is the first mobile trading terminal built specifically for Polymarket. Designed for mobile-first traders, the platform offers seamless market access, real-time data, and AI-powered insights to help users make informed decisions. With intuitive UI, smart trend analysis, and lightning-fast execution, it brings the full power of the leading decentralized prediction market to your fingertips.",
+    "category": "Trading Terminals",
+    "url": "https://polym.trade",
+    "xUrl": "https://x.com/polymtrade",
+    "tags": [
+      "Trading Terminal",
+      "Mobile First",
+      "Advanced UI",
+      "AI Insights"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Web app with mobile-first design.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Mobile-first Trading",
+      "Real-time Data",
+      "AI-powered Insights",
+      "Trend Analysis"
+    ]
+  },
+  {
+    "id": "thetradefox",
+    "name": "The Trade Fox",
+    "slug": "thetradefox",
+    "shortDescription": "Institutional-grade aggregator and prime brokerage for Kalshi and Polymarket.",
+    "description": "An aggregator and prime brokerage solution offering unified access to multiple prediction markets. It focuses on integrating multiple prediction markets, like Kalshi and Polymarket, into one single interface. The platform provides advanced trading tools, leverage options, and aggregated insights designed specifically for serious professional traders and institutional use.",
+    "category": "Trading Terminals",
+    "url": "https://thetradefox.com",
+    "xUrl": "https://x.com/tradefoxai",
+    "tags": [
+      "Aggregator",
+      "Prime Brokerage",
+      "Leverage",
+      "Institutional"
+    ],
+    "isPromoted": false,
+    "pricing": "Paid",
+    "pricingDetails": "Custom pricing for professional/institutional users. Leverage options available.",
+    "access": "Invite-only",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Prime Brokerage",
+      "Leverage",
+      "Unified Cross-platform Access",
+      "Institutional Tools",
+      "Advanced Aggregation"
+    ]
+  },
+  {
+    "id": "betmoar",
+    "name": "Betmoar",
+    "slug": "betmoar",
+    "shortDescription": "Pro-trading interface, UMA oracle dashboard, and Polymarket Discord bot.",
+    "description": "A comprehensive professional trading interface and the dominant Discord bot for prediction market communities. It provides advanced market views with transaction analysis, an integrated news terminal built specifically for prediction markets with text-to-speech alerts, and a deep UMA dashboard that tracks unrevealed voters and disputed markets. As the official bot provider for Polymarket, Betmoar seamlessly integrates the trading experience directly into Discord servers.",
+    "category": "AI Agents & Bots",
+    "url": "https://www.betmoar.fun",
+    "xUrl": "https://x.com/betmoardotfun",
+    "tags": [
+      "Trading Terminal",
+      "UMA Oracle",
+      "Trader Tracking",
+      "Discord Bot",
+      "News"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free tier with basic features. Premium subscription for advanced tools and alerts.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web",
+      "Discord"
+    ],
+    "features": [
+      "Discord Bot",
+      "UMA Oracle Dashboard",
+      "News Terminal",
+      "TTS Alerts",
+      "Transaction Analysis",
+      "Trader Tracking"
+    ]
+  },
+  {
+    "id": "synthesis",
+    "name": "SynthesisTrade",
+    "slug": "synthesis",
+    "shortDescription": "Advanced trading terminal for prediction markets with focus on liquidity.",
+    "description": "A sophisticated trading interface for prediction markets offering advanced tools for liquidity analysis, price discovery, and rapid execution.",
+    "category": "Trading Terminals",
+    "url": "https://synthesis.trade",
+    "xUrl": "https://x.com/SynthesisTrade",
+    "tags": [
+      "Trading Terminal",
+      "Liquidity Analysis",
+      "Execution",
+      "Cross-platform"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Advanced trading features available.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Liquidity Analysis",
+      "Price Discovery",
+      "Rapid Execution",
+      "Advanced Trading Interface"
+    ]
+  },
+  {
+    "id": "stand-trade",
+    "name": "Stand.trade",
+    "slug": "stand-trade",
+    "shortDescription": "Pro trading terminal with automated trades and real-time cross-platform feeds.",
+    "description": "An advanced professional trading prediction market terminal bringing powerful tools to traders across both Polymarket and Kalshi. It features automated trades, real-time trade feeds, professional-style trading interfaces, and comprehensive wallet tracking all integrated into a single place to help you find alpha and maximize opportunities.",
+    "category": "Trading Terminals",
+    "url": "https://www.stand.trade",
+    "xUrl": "https://x.com/StandDOTtrade",
+    "tags": [
+      "Market Scanner",
+      "Opportunity Finder",
+      "Alpha Gen",
+      "Cross-platform"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Professional trading features included.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-05-01",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Automated Trades",
+      "Real-time Trade Feeds",
+      "Wallet Tracking",
+      "Market Scanner",
+      "Opportunity Finder"
+    ]
+  },
+  {
+    "id": "polydata",
+    "name": "Polydata",
+    "slug": "polydata",
+    "shortDescription": "Advanced analytics dashboard for Polymarket volume, OI, and leaderboards.",
+    "description": "A comprehensive analytics platform for Polymarket that tracks volume, open interest, trader leaderboards, and wallet activity. It provides deep insights into the Polymarket ecosystem and builder activity.",
+    "category": "Market Intelligence",
+    "url": "https://www.polydata.cc",
+    "xUrl": "https://x.com/polydata_cc",
+    "tags": [
+      "Analytics",
+      "Polymarket",
+      "Leaderboard",
+      "Volume"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free dashboard. Advanced metrics available.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-25",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Volume Tracking",
+      "Open Interest Tracking",
+      "Trader Leaderboards",
+      "Wallet Activity",
+      "Builder Tracking"
+    ]
+  },
+  {
+    "id": "fireplace",
+    "name": "Fireplace",
+    "slug": "fireplace",
+    "shortDescription": "Social prediction market aggregator turning news into betting opportunities.",
+    "description": "A social-first prediction market aggregator that allows users to bet on headlines and engage with friends. It aggregates markets from various platforms like Polymarket, offering a unified and social betting experience.",
+    "category": "Information & OSINT",
+    "url": "https://fireplace.gg",
+    "xUrl": "https://x.com/fireplacegg",
+    "tags": [
+      "Aggregator",
+      "Social",
+      "News",
+      "Community"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free social prediction market aggregator.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-26",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Social Betting",
+      "News-based Markets",
+      "Friend Engagement",
+      "Market Aggregation"
+    ]
+  },
+  {
+    "id": "pigeon-trade",
+    "name": "Pigeon",
+    "slug": "pigeon-trade",
+    "shortDescription": "AI quant platform for automated prediction market strategies.",
+    "description": "An AI-driven quantitative trading platform for prediction markets. It offers automated strategies, portfolio management, and advanced research tools for crypto, sports, and current events.",
+    "category": "AI Agents & Bots",
+    "url": "https://pigeon.trade",
+    "xUrl": "https://x.com/pigeon_trade",
+    "tags": [
+      "AI Quant",
+      "Auto-Trading",
+      "Strategies",
+      "Portfolio"
+    ],
+    "isPromoted": false,
+    "pricing": "Paid",
+    "pricingDetails": "Subscription-based AI quant platform. Pricing available on request.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-26",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "AI Quant Strategies",
+      "Automated Trading",
+      "Portfolio Management",
+      "Research Tools"
+    ]
+  },
+  {
+    "id": "copytrade",
+    "name": "CopyTrade",
+    "slug": "copytrade",
+    "shortDescription": "Copy trading platform mirroring top Polymarket traders across multiple categories.",
+    "description": "A dedicated copy trading interface for Polymarket, allowing users to automatically mirror the moves of profitable traders. Features include a leader dashboard, watchlist tracking, real-time wallet insights, and comprehensive PnL monitoring (1D, 7D, 30D). Users can filter top performers by categories such as Politics, Sport, Crypto, and Culture to find the best strategies to replicate.",
+    "category": "AI Agents & Bots",
+    "url": "https://www.copytrade.gg",
+    "xUrl": "https://x.com/copytrade_gg",
+    "tags": [
+      "Copy Trading",
+      "Leaderboard",
+      "Automation",
+      "PnL"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free to browse. Premium features for automated copy trading.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-26",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Copy Trading",
+      "Leader Dashboard",
+      "Watchlist Tracking",
+      "Real-time Wallet Insights",
+      "PnL Monitoring",
+      "Category Filtering"
+    ]
+  },
+  {
+    "id": "kalshinomics",
+    "name": "Kalshinomics",
+    "slug": "kalshinomics",
+    "shortDescription": "Prediction Markets, Simplified.",
+    "description": "Real-time prediction market data, analytics, and trading insights. Track market trends, analyze trading patterns, and make informed decisions on Kalshi markets.",
+    "category": "Information & OSINT",
+    "url": "https://kalshinomics.com",
+    "xUrl": "https://x.com/Kalshinomics",
+    "tags": [
+      "Analytics",
+      "Filters",
+      "Curated Markets",
+      "Kalshi"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free real-time Kalshi market data and analytics.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-10",
+    "lastVerified": "2026-07-26",
+    "supportedMarkets": [
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Real-time Data",
+      "Market Filters",
+      "Curated Markets",
+      "Analytics",
+      "Trend Tracking"
+    ]
+  },
+  {
+    "id": "betonwars",
+    "name": "BetOnWars",
+    "slug": "betonwars",
+    "shortDescription": "The World's First Online War Room.",
+    "description": "Real-time OSINT from 280+ sources in 15+ languages. Track wars, trade predictions, follow insiders. Where information becomes profit. Join the War Room where smart money bets on geopolitics.",
+    "category": "Information & OSINT",
+    "url": "https://www.betonwars.fun",
+    "xUrl": "https://x.com/BetOnWars",
+    "tags": [
+      "OSINT",
+      "Geopolitics",
+      "War Predictions",
+      "Multi-source"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free OSINT aggregation. Premium for advanced war room features.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-05-01",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "OSINT Aggregation",
+      "280+ Sources",
+      "15+ Languages",
+      "Geopolitical Tracking",
+      "Insider Tracking"
+    ]
+  },
+  {
+    "id": "arbbets",
+    "name": "ArbBets",
+    "slug": "arbbets",
+    "shortDescription": "Prediction Markets Arbitrage & Positive EV Plays.",
+    "description": "Prediction markets arbitrage finder. Find arbitrage opportunities across Polymarket, Kalshi, and Opinion prediction markets with API and data.",
+    "category": "Analysis Tools",
+    "url": "https://getarbitragebets.com",
+    "xUrl": "https://x.com/ArbBets20",
+    "tags": [
+      "Arbitrage",
+      "Scanner",
+      "Positive EV",
+      "API"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free arbitrage finder with API and data access.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-26",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi",
+      "Opinion"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Arbitrage Scanner",
+      "Positive EV Detection",
+      "API Access",
+      "Cross-platform Scanning"
+    ]
+  },
+  {
+    "id": "kiyotaka",
+    "name": "Kiyotaka",
+    "slug": "kiyotaka",
+    "shortDescription": "Advanced Trading Platform.",
+    "description": "Advanced trading platform for professional traders with real-time analytics and automation.",
+    "category": "Market Intelligence",
+    "url": "https://kiyotaka.ai",
+    "xUrl": "https://x.com/kiyotaka_ai",
+    "tags": [
+      "AI",
+      "Analytics",
+      "Prediction Market",
+      "Advance Trading"
+    ],
+    "isPromoted": false,
+    "pricing": "Paid",
+    "pricingDetails": "Subscription-based advanced trading platform.",
+    "access": "Waitlist",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-26",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Real-time Analytics",
+      "Automation",
+      "Professional Trading Tools",
+      "Advanced Charts"
+    ]
+  },
+  {
+    "id": "oddpool",
+    "name": "Oddpool",
+    "slug": "oddpool",
+    "shortDescription": "Compare Kalshi & Polymarket Odds in Real Time.",
+    "description": "Compare real-time odds across Kalshi and Polymarket. Track prediction market prices, find arbitrage opportunities, and follow whale trades on every events.",
+    "category": "Analysis Tools",
+    "url": "https://www.oddpool.com",
+    "xUrl": "https://x.com/oddpool_alerts",
+    "tags": [
+      "Analytics",
+      "Arbitrage",
+      "Aggregator",
+      "Whale"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free real-time odds comparison and whale tracking.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-26",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Real-time Odds Comparison",
+      "Arbitrage Detection",
+      "Whale Trade Tracking",
+      "Price Monitoring"
+    ]
+  },
+  {
+    "id": "sportstensor",
+    "name": "Sportstensor",
+    "slug": "sportstensor",
+    "shortDescription": "Decentralized AI network for sports prediction on Bittensor.",
+    "description": "A decentralized artificial intelligence network designed for sports prediction operating as Subnet 41 on the Bittensor blockchain. It aggregates numerous independent forecasts into a single, more accurate meta-model to discover predictable patterns in sports betting markets.",
+    "category": "Platforms",
+    "url": "https://www.sportstensor.com",
+    "xUrl": "https://x.com/sportstensor",
+    "tags": [
+      "AI",
+      "Bittensor",
+      "Sports",
+      "Decentralized",
+      "Meta-model"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Subnet on Bittensor network.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-05-01",
+    "blockchain": [
+      "Bittensor"
+    ],
+    "supportedMarkets": [
+      "Sportstensor"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "AI Sports Prediction",
+      "Decentralized AI",
+      "Meta-model Aggregation",
+      "Bittensor Subnet 41"
+    ]
+  },
+  {
+    "id": "manifold",
+    "name": "Manifold",
+    "slug": "manifold",
+    "shortDescription": "Play-money social prediction market with user-created markets.",
+    "description": "A play-money social prediction market platform where users can trade on real-world events, create their own custom markets, and compete on leaderboards. It uses a virtual currency called 'Mana' which can be redeemed for charitable donations.",
+    "category": "Platforms",
+    "url": "https://manifold.markets",
+    "xUrl": "https://x.com/ManifoldMarkets",
+    "tags": [
+      "Play Money",
+      "User Generated",
+      "Social",
+      "Charity"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Play-money virtual currency (Mana) redeemable for charitable donations.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-07-31",
+    "supportedMarkets": [
+      "Manifold"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "features": [
+      "User-created Markets",
+      "Play-money Trading",
+      "Leaderboards",
+      "Charitable Donations",
+      "Social Features"
+    ]
+  },
+  {
+    "id": "zeitgeist",
+    "name": "Zeitgeist",
+    "slug": "zeitgeist",
+    "shortDescription": "Decentralized prediction market and futarchy protocol on Polkadot.",
+    "description": "An evolving decentralized prediction market and futarchy protocol built as a parachain on Polkadot/Kusama. It harnesses collective wisdom by enabling users to create and trade on prediction markets.",
+    "category": "Platforms",
+    "url": "https://zeitgeist.pm",
+    "xUrl": "https://x.com/ZeitgeistPM",
+    "tags": [
+      "Polkadot",
+      "Decentralized",
+      "Futarchy",
+      "Parachain"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Gas fees on Polkadot/Kusama.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-07-27",
+    "blockchain": [
+      "Polkadot",
+      "Kusama"
+    ],
+    "supportedMarkets": [
+      "Zeitgeist"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Decentralized Prediction Markets",
+      "Futarchy Protocol",
+      "Parachain",
+      "User-created Markets"
+    ]
+  },
+  {
+    "id": "hedgehog",
+    "name": "Hedgehog",
+    "slug": "hedgehog",
+    "shortDescription": "Permissionless prediction markets on Solana with high-speed execution.",
+    "description": "A decentralized, permissionless prediction market platform on Solana that enables users to create, participate in, and trade on markets across categories like politics, sports, and crypto. It leverages Solana's high throughput for fast and cost-efficient interactions.",
+    "category": "Platforms",
+    "url": "https://hedgehog.markets",
+    "xUrl": "https://x.com/HedgehogMarket",
+    "tags": [
+      "Solana",
+      "Crypto",
+      "Fast Execution",
+      "Permissionless"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to trade. Solana gas fees apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-07-27",
+    "blockchain": [
+      "Solana"
+    ],
+    "supportedMarkets": [
+      "Hedgehog"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Permissionless Markets",
+      "High-speed Execution",
+      "Crypto Markets",
+      "Politics Markets",
+      "Sports Markets"
+    ]
+  },
+  {
+    "id": "augur",
+    "name": "Augur",
+    "slug": "augur",
+    "shortDescription": "Decentralized, trustless prediction market protocol on Ethereum.",
+    "description": "The original decentralized prediction market protocol built on Ethereum. It allows users to create their own markets on any topic and trade without a central authority, serving as a foundational infrastructure for decentralized forecasting.",
+    "category": "Platforms",
+    "url": "https://augur.net",
+    "xUrl": "https://x.com/AugurProject",
+    "tags": [
+      "Ethereum",
+      "Decentralized",
+      "Protocol",
+      "Oracle"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Ethereum gas fees required for on-chain interactions.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-07-27",
+    "blockchain": [
+      "Ethereum"
+    ],
+    "supportedMarkets": [
+      "Augur"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Trustless Protocol",
+      "Permissionless Market Creation",
+      "Decentralized Oracle",
+      "Peer-to-peer Trading"
+    ]
+  },
+  {
+    "id": "forecast-trader",
+    "name": "IBKR ForecastTrader",
+    "slug": "forecast-trader",
+    "shortDescription": "Regulated forecast contracts from Interactive Brokers.",
+    "description": "A regulated platform by Interactive Brokers offering exchange-listed forecast and event contracts on political, economic, financial, and climate events. It provides a secure environment for trading real-world outcomes with limited risk.",
+    "category": "Platforms",
+    "url": "https://forecasttrader.interactivebrokers.com",
+    "xUrl": "https://x.com/IBKR",
+    "tags": [
+      "Regulated",
+      "US",
+      "TradFi",
+      "IBKR",
+      "Brokerage"
+    ],
+    "isPromoted": false,
+    "pricing": "Paid",
+    "pricingDetails": "Requires Interactive Brokers account. Standard IBKR commission structure applies to forecast contracts.",
+    "access": "Invite-only",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-05-01",
+    "supportedMarkets": [
+      "IBKR ForecastTrader"
+    ],
+    "platform": [
+      "Web",
+      "Desktop"
+    ],
+    "features": [
+      "Regulated Forecast Contracts",
+      "Limited Risk",
+      "Exchange-listed",
+      "Political Markets",
+      "Economic Markets",
+      "Climate Markets"
+    ]
+  },
+  {
+    "id": "thales",
+    "name": "Thales Market",
+    "slug": "thales",
+    "shortDescription": "Parimutuel prediction markets on Optimism, Arbitrum, and Base.",
+    "description": "A decentralized protocol offering parimutuel markets, enabling peer-to-peer prediction markets and sports betting on Ethereum L2s like Optimism, Arbitrum, and Base. It acts as a liquidity and settlement layer, utilizing Chainlink Data Feeds for trustless resolution.",
+    "category": "Platforms",
+    "url": "https://thalesmarket.io",
+    "xUrl": "https://x.com/thalesmarket",
+    "tags": [
+      "DeFi",
+      "Parimutuel",
+      "Optimism",
+      "Chainlink"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Gas fees on Optimism/Arbitrum/Base.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-27",
+    "blockchain": [
+      "Optimism",
+      "Arbitrum",
+      "Base"
+    ],
+    "supportedMarkets": [
+      "Thales"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Parimutuel Markets",
+      "Peer-to-peer",
+      "Chainlink Data Feeds",
+      "Liquidity Layer"
+    ]
+  },
+  {
+    "id": "sx-bet",
+    "name": "SX Bet",
+    "slug": "sx-bet",
+    "shortDescription": "Largest blockchain sports betting exchange with peer-to-peer trading.",
+    "description": "A peer-to-peer sports betting exchange built on the SX Network. It offers deep liquidity, low fees, and non-custodial betting on a wide range of sports. Users can earn SX tokens through 'Bet Mining'.",
+    "category": "Platforms",
+    "url": "https://sx.bet",
+    "xUrl": "https://x.com/SX_Bet",
+    "tags": [
+      "Sports",
+      "Crypto",
+      "Exchange",
+      "Bet Mining"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Low fees on peer-to-peer bets. SX token rewards via Bet Mining.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-27",
+    "blockchain": [
+      "SX Network"
+    ],
+    "supportedMarkets": [
+      "SX Bet"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Peer-to-peer Sports Betting",
+      "Deep Liquidity",
+      "Non-custodial",
+      "Bet Mining Rewards",
+      "Low Fees"
+    ]
+  },
+  {
+    "id": "azuro",
+    "name": "Azuro",
+    "slug": "azuro",
+    "shortDescription": "Liquidity layer and infrastructure for decentralized prediction markets.",
+    "description": "A decentralized protocol providing the base layer infrastructure and liquidity for prediction markets on EVM-compatible chains. It uses a unique LiquidityTree system and vAMMs to support sports betting, attention markets, and other prediction apps seamlessly.",
+    "category": "Platforms",
+    "url": "https://azuro.org",
+    "xUrl": "https://x.com/azuroprotocol",
+    "tags": [
+      "Infrastructure",
+      "Liquidity",
+      "DAO",
+      "vAMM"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Protocol fees apply per bet. Liquidity providers earn from betting volume.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-27",
+    "blockchain": [
+      "EVM Chains"
+    ],
+    "supportedMarkets": [
+      "Azuro"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "LiquidityTree",
+      "vAMM",
+      "Sports Betting",
+      "Attention Markets",
+      "Liquidity Provision"
+    ]
+  },
+  {
+    "id": "pmx-trade",
+    "name": "PMX",
+    "slug": "pmx-trade",
+    "shortDescription": "High-speed Telegram trading bot for Polymarket and market tracking.",
+    "description": "A fast and responsive Telegram-native trading bot that lets you effortlessly trade, copy-trade, and track Polymarket positions directly from chat. The interface includes easy filtering for active, resolved, and trending markets, enabling users to execute strategies securely and swiftly without needing to leave their messaging app.",
+    "category": "AI Agents & Bots",
+    "url": "https://pmx.trade",
+    "xUrl": "https://x.com/pmx_trade",
+    "tags": [
+      "Telegram",
+      "Bot",
+      "Copy Trading",
+      "Mobile"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free basic trading. Premium features for advanced copy trading and alerts.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-27",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Telegram",
+      "Web"
+    ],
+    "features": [
+      "Telegram Trading Bot",
+      "Copy Trading",
+      "Market Tracking",
+      "Market Filtering",
+      "Position Management"
+    ]
+  },
+  {
+    "id": "okbet",
+    "name": "OkBet",
+    "slug": "okbet",
+    "shortDescription": "The multiplatform prediction market platform.",
+    "description": "The multiplatform prediction market platform with social and copy-trading features built into groups.",
+    "category": "Platforms",
+    "url": "https://okbet.trade",
+    "xUrl": "https://x.com/tryokbet",
+    "tags": [
+      "Telegram",
+      "Social",
+      "Analytics",
+      "Multi-platform"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Telegram-native platform.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-27",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Telegram"
+    ],
+    "features": [
+      "Multiplatform Access",
+      "Social Features",
+      "Copy Trading",
+      "Groups",
+      "Analytics"
+    ]
+  },
+  {
+    "id": "parsec",
+    "name": "Parsec",
+    "slug": "parsec",
+    "shortDescription": "Advanced analytics and AI assistant for Polymarket. SHUT DOWN February 2026.",
+    "description": "Advanced Polymarket search and analytics with filters, summaries, and an AI assistant. NOTE: Parsec shut down operations in February 2026 after five years. The platform is no longer available.",
+    "category": "Market Intelligence",
+    "url": "https://parsec.fi",
+    "xUrl": "https://x.com/parsec_finance",
+    "tags": [
+      "Analytics",
+      "AI",
+      "Search",
+      "Shut Down"
+    ],
+    "isActive": false,
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Was free. Platform shut down February 2026.",
+    "access": "Public",
+    "status": "shut-down",
+    "addedDate": "2026-03-01",
+    "lastVerified": "2026-05-01",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Market Search",
+      "Analytics",
+      "AI Assistant",
+      "Market Summaries",
+      "Filters"
+    ]
+  },
+  {
+    "id": "hashdive",
+    "name": "HashDive",
+    "slug": "hashdive",
+    "shortDescription": "Powerful Polymarket Analytics platform.",
+    "description": "Hashdive is a powerful Polymarket Analytics platform for deep market and wallet analytics including PnL, positions, scoring, and trends.",
+    "category": "Market Intelligence",
+    "url": "https://hashdive.com",
+    "xUrl": "https://x.com/hash_dive",
+    "tags": [
+      "Wallet Tracking",
+      "PnL",
+      "Research",
+      "Analytics"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free Polymarket analytics platform.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Wallet Analytics",
+      "PnL Tracking",
+      "Position Analysis",
+      "Scoring System",
+      "Trend Analysis"
+    ]
+  },
+  {
+    "id": "predicting-top",
+    "name": "PredictingTop",
+    "slug": "predicting-top",
+    "shortDescription": "Top Polymarket & Kalshi Traders Leaderboard.",
+    "description": "Track the top prediction market traders on a live leaderboard. Compare real-time P&L performance, profit stats, and trading activity from Polymarket and Kalshi's best traders. Find top traders and their wallet addresses.",
+    "category": "Market Intelligence",
+    "url": "https://predicting.top",
+    "xUrl": "https://x.com/predictingtop",
+    "tags": [
+      "Leaderboard",
+      "Cross-platform",
+      "Performance",
+      "PnL"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free leaderboard. Real-time trader performance tracking.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Trader Leaderboard",
+      "Cross-platform P&L",
+      "Wallet Address Tracking",
+      "Performance Stats"
+    ]
+  },
+  {
+    "id": "polyalert",
+    "name": "PolyAlert",
+    "slug": "polyalert",
+    "shortDescription": "Polymarket Alerts, Analytics & Paper Trading.",
+    "description": "Get real-time Polymarket alerts and analytics for whale trades, insider activity, price movements & trader positions. Test your strategies with paper trading.",
+    "category": "AI Agents & Bots",
+    "url": "https://polyalerthub.com",
+    "xUrl": "https://x.com/PolyAlertHub",
+    "tags": [
+      "Alerts",
+      "Portfolio",
+      "Whale Tracking",
+      "Paper Trading"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free alerts. Premium tier for advanced analytics and paper trading.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Real-time Alerts",
+      "Whale Trade Tracking",
+      "Price Movement Alerts",
+      "Paper Trading",
+      "Portfolio Tracking"
+    ]
+  },
+  {
+    "id": "predictfolio",
+    "name": "PredictFolio",
+    "slug": "predictfolio",
+    "shortDescription": "Polymarket Analytics by PredictFolio.",
+    "description": "Discover top Polymarket traders, monitor real-time PnL, and benchmark your performance with PredictFolio's dashboards and editorial coverage.",
+    "category": "Market Intelligence",
+    "url": "http://predictfolio.com",
+    "xUrl": "https://x.com/PredictFolio",
+    "tags": [
+      "Portfolio",
+      "Benchmarking",
+      "Tracking",
+      "Editorial"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free analytics and editorial coverage.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-15",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Top Trader Discovery",
+      "Real-time PnL",
+      "Performance Benchmarking",
+      "Editorial Coverage",
+      "Dashboards"
+    ]
+  },
+  {
+    "id": "polycool",
+    "name": "PolyCool",
+    "slug": "polycool",
+    "shortDescription": "Copy Top Polymarket Traders in One Tap.",
+    "description": "The mobile app to copy top Polymarket traders. Insider signals, smart feed, and one-tap trading.",
+    "category": "AI Agents & Bots",
+    "url": "https://polycool.live",
+    "xUrl": "https://x.com/PolycoolApp",
+    "tags": [
+      "Wallet Tracking",
+      "Insiders",
+      "Copy Trading",
+      "Mobile"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. One-tap copy trading mobile app.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web",
+      "Mobile"
+    ],
+    "features": [
+      "Copy Trading",
+      "One-tap Trading",
+      "Insider Signals",
+      "Smart Feed",
+      "Mobile App"
+    ]
+  },
+  {
+    "id": "brosonpm",
+    "name": "BrosOnPM",
+    "slug": "brosonpm",
+    "shortDescription": "Polymarket Track & Copy.",
+    "description": "Track and copy large Polymarket prediction market trades in real-time. See what the whales are betting on. Lightweight tracker that surfaces trades, win rates, and whale-style wallet stats.",
+    "category": "Market Intelligence",
+    "url": "https://brosonpm.trade",
+    "xUrl": "https://x.com/BrosOnPM",
+    "tags": [
+      "Stats",
+      "Win Rate",
+      "Whale Tracking",
+      "Trades"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free whale tracking and copy trading insights.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Whale Trade Tracking",
+      "Win Rate Analysis",
+      "Trader Stats",
+      "Real-time Trades"
+    ]
+  },
+  {
+    "id": "goldsky",
+    "name": "Goldsky",
+    "slug": "goldsky",
+    "shortDescription": "Real-time data indexing for Polymarket.",
+    "description": "Data indexing and streams for Polymarket datasets like orders, fills, OI, balances, and positions.",
+    "category": "Infrastructure & APIs",
+    "url": "https://goldsky.com",
+    "xUrl": "https://x.com/goldskyio",
+    "tags": [
+      "API",
+      "Data",
+      "Infrastructure",
+      "Indexing"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free tier available. Paid plans for higher volume and dedicated support.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Data Indexing",
+      "Real-time Streams",
+      "Orders Data",
+      "OI Data",
+      "Balances",
+      "Position Tracking"
+    ]
+  },
+  {
+    "id": "adjacent-news",
+    "name": "Adjacent News",
+    "slug": "adjacent-news",
+    "shortDescription": "Forward Looking News.",
+    "description": "Forward Looking News - Driven by Prediction Markets and Forecasting Platforms. API layer for market data, context, and multi-platform coverage.",
+    "category": "Information & OSINT",
+    "url": "https://adj.news",
+    "xUrl": "https://x.com/AdjacentNews",
+    "tags": [
+      "News",
+      "API",
+      "Context",
+      "Forward-looking"
+    ],
+    "isPromoted": false,
+    "pricing": "Paid",
+    "pricingDetails": "API-based pricing. Contact for enterprise access.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-28",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "API Layer",
+      "Market Data",
+      "Multi-platform Coverage",
+      "News Context"
+    ]
+  },
+  {
+    "id": "forcazt",
+    "name": "Forcazt",
+    "slug": "forcazt",
+    "shortDescription": "Next-gen Prediction Market Platform.",
+    "description": "Next-gen Prediction Market Platform. Prediction-market analytics and aggregation layer with routing and data pipelines.",
+    "category": "Market Intelligence",
+    "url": "https://forcazt.xyz",
+    "xUrl": "https://x.com/forcazt_xyz",
+    "tags": [
+      "Aggregation",
+      "Routing",
+      "Cross-platform",
+      "Analytics"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free analytics and aggregation layer.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Market Aggregation",
+      "Data Pipelines",
+      "Cross-platform Routing",
+      "Analytics"
+    ]
+  },
+  {
+    "id": "polyrouter",
+    "name": "PolyRouter",
+    "slug": "polyrouter",
+    "shortDescription": "Unified API aggregator for prediction markets.",
+    "description": "Unified API aggregator that standardizes prediction market data across multiple venues.",
+    "category": "Infrastructure & APIs",
+    "url": "https://polyrouter.io",
+    "xUrl": "https://x.com/polyrouter",
+    "tags": [
+      "API",
+      "Aggregator",
+      "Dev Tools",
+      "Standardization"
+    ],
+    "isPromoted": false,
+    "pricing": "Paid",
+    "pricingDetails": "API-based pricing for developers integrating prediction market data.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web",
+      "API"
+    ],
+    "features": [
+      "Unified API",
+      "Cross-platform Aggregation",
+      "Data Standardization",
+      "Developer Tools"
+    ]
+  },
+  {
+    "id": "matchr",
+    "name": "Matchr",
+    "slug": "matchr",
+    "shortDescription": "Cross-Platform Prediction Markets. SHUT DOWN.",
+    "description": "Search and compare prediction markets across Polymarket and Kalshi. Find matched markets, compare odds, and track prices in real-time. NOTE: Matchr appears to be shut down as of April 2026 (HTTP 402).",
+    "category": "Market Intelligence",
+    "url": "https://matchr.xyz",
+    "xUrl": "https://x.com/matchrxyz",
+    "tags": [
+      "Arbitrage",
+      "Routing",
+      "Best Price",
+      "Shut Down"
+    ],
+    "isActive": false,
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Was free. Platform shut down as of April 2026 (HTTP 402).",
+    "access": "Public",
+    "status": "shut-down",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Cross-platform Search",
+      "Odds Comparison",
+      "Price Tracking",
+      "Arbitrage Discovery"
+    ]
+  },
+  {
+    "id": "polyscalping",
+    "name": "PolyScalping",
+    "slug": "polyscalping",
+    "shortDescription": "Track scalping opportunities, spreads, and market data.",
+    "description": "Track scalping opportunities, spreads, and market data on Polymarket in real-time with alerts and ROI calculators.",
+    "category": "Analysis Tools",
+    "url": "https://polyscalping.org",
+    "xUrl": "https://x.com/PolyScalping",
+    "tags": [
+      "Scalping",
+      "Arbitrage",
+      "Alerts",
+      "Spreads"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free scalping opportunity tracker with alerts.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Scalping Opportunities",
+      "Spread Tracking",
+      "Real-time Alerts",
+      "ROI Calculator"
+    ]
+  },
+  {
+    "id": "chance",
+    "name": "Chance",
+    "slug": "chance",
+    "shortDescription": "Unified platform to discover, evaluate & trade across prediction markets.",
+    "description": "A unified platform that empowers you to discover, evaluate & trade across every prediction market, all from a single, enhanced interface.",
+    "category": "Trading Terminals",
+    "url": "https://chance.cc",
+    "xUrl": "https://x.com/Chance_",
+    "tags": [
+      "Aggregator",
+      "Unified",
+      "Trading Terminal",
+      "Discovery"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Unified discovery and trading platform.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Unified Trading",
+      "Cross-platform Discovery",
+      "Enhanced Interface",
+      "Market Evaluation"
+    ]
+  },
+  {
+    "id": "polytale",
+    "name": "PolyTale",
+    "slug": "polytale",
+    "shortDescription": "AI Powered Polymarket Intelligence.",
+    "description": "An intelligent AI agent delivering smart trading insights & analysis across all markets. It operates as a prediction market research AI agent on Twitter, providing real-time market insights and whale tracking.",
+    "category": "AI Agents & Bots",
+    "url": "https://polytale.live",
+    "xUrl": "https://x.com/polytaleai",
+    "tags": [
+      "AI",
+      "Twitter Agent",
+      "Research",
+      "Analysis"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. AI agent provides market insights via Twitter.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Twitter"
+    ],
+    "features": [
+      "AI Agent",
+      "Real-time Market Insights",
+      "Whale Tracking",
+      "Twitter-based Analysis"
+    ]
+  },
+  {
+    "id": "nevua-markets",
+    "name": "Nevua Markets",
+    "slug": "nevua-markets",
+    "shortDescription": "Prediction Markets Watchlists and Alerts.",
+    "description": "Create Prediction Markets watchlists and get real-time alerts in Telegram, Discord, via Webhook, and more.",
+    "category": "Market Intelligence",
+    "url": "https://nevua.markets",
+    "xUrl": "https://x.com/NevuaMarkets",
+    "tags": [
+      "Alerts",
+      "Watchlist",
+      "Real-time",
+      "Multi-platform"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free basic alerts. Premium for advanced watchlists and more alert destinations.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web",
+      "Telegram",
+      "Discord"
+    ],
+    "features": [
+      "Market Watchlists",
+      "Real-time Alerts",
+      "Telegram Alerts",
+      "Discord Alerts",
+      "Webhook Support"
+    ]
+  },
+  {
+    "id": "polyterminal-x",
+    "name": "PolyTerminalX",
+    "slug": "polyterminal-x",
+    "shortDescription": "Professional trading desk interface for Polymarket.",
+    "description": "Built for speed and feels much more like a professional trading desk.",
+    "category": "Trading Terminals",
+    "url": "https://x.com/PolyTerminalX",
+    "xUrl": "https://x.com/PolyTerminalX",
+    "tags": [
+      "Trading Terminal",
+      "Professional",
+      "Speed",
+      "Polymarket"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Professional-level trading desk interface.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-03-20",
+    "lastVerified": "2026-07-29",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Professional Trading Desk",
+      "High-speed Execution",
+      "Advanced Order Types"
+    ]
+  },
+  {
+    "id": "robin",
+    "name": "Robin",
+    "slug": "robin",
+    "shortDescription": "Yield-bearing prediction market platform on Polymarket.",
+    "description": "A yield-bearing prediction market platform enabling users to earn DeFi yields on Polymarket positions through automated capital deployment and delta-neutral strategies.",
+    "category": "Platforms",
+    "url": "https://robin.markets",
+    "xUrl": "https://x.com/robinmarketsxyz",
+    "tags": [
+      "DeFi",
+      "Yield",
+      "Automation",
+      "Polymarket"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. Earn yield on Polymarket positions through DeFi strategies.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-04-01",
+    "lastVerified": "2026-07-29",
+    "blockchain": [
+      "Polygon"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Yield-bearing Positions",
+      "Delta-neutral Strategies",
+      "Automated Capital Deployment",
+      "DeFi Integration"
+    ]
+  },
+  {
+    "id": "markium",
+    "name": "Markium",
+    "slug": "markium",
+    "shortDescription": "Data analytics and trading platform for prediction markets.",
+    "description": "Comprehensive data analytics and trading platform for prediction markets that provides market aggregation, wallet analytics, leaderboards, and watchlist alerts.",
+    "category": "Market Intelligence",
+    "url": "https://markiumpro.com",
+    "xUrl": "https://x.com/markiumpro",
+    "tags": [
+      "Analytics",
+      "Trading",
+      "Leaderboard",
+      "Watchlist"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free analytics dashboard with comprehensive features.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-04-01",
+    "lastVerified": "2026-05-01",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Market Aggregation",
+      "Wallet Analytics",
+      "Leaderboards",
+      "Watchlist Alerts",
+      "Trading Interface"
+    ]
+  },
+  {
+    "id": "prediedge",
+    "name": "Prediedge",
+    "slug": "prediedge",
+    "shortDescription": "Professional Polymarket Intelligence.",
+    "description": "PrediEdge - Professional Polymarket intelligence. Track whale trades, unusual activity, and market movements before they happen.",
+    "category": "Market Intelligence",
+    "url": "https://prediedge.com",
+    "xUrl": "https://x.com/prediedge",
+    "tags": [
+      "Whale Tracking",
+      "Analytics",
+      "Signals",
+      "Intelligence"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free Polymarket intelligence and whale tracking.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-04-01",
+    "lastVerified": "2026-07-30",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Whale Trade Detection",
+      "Unusual Activity Alerts",
+      "Market Movement Tracking",
+      "Pro Intelligence"
+    ]
+  },
+  {
+    "id": "polysimplr",
+    "name": "Polysimplr",
+    "slug": "polysimplr",
+    "shortDescription": "AI-powered interface that simplifies and makes prediction markets accessible.",
+    "description": "An intuitive, user-friendly Polymarket interface designed with powerful AI tools to make prediction markets more accessible for all. Trade smarter with AI-powered insights, simplified interfaces, real-time market intelligence, and dedicated chat functionality that helps both novices and pros discover and execute opportunities more efficiently.",
+    "category": "Trading Terminals",
+    "url": "https://www.polysimplr.com",
+    "xUrl": "https://x.com/polysimplr",
+    "tags": [
+      "Interface",
+      "AI",
+      "Chat",
+      "Simplified"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. AI-powered features included.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-04-01",
+    "lastVerified": "2026-07-30",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "AI-powered Insights",
+      "Simplified Interface",
+      "Real-time Intelligence",
+      "Chat Functionality"
+    ]
+  },
+  {
+    "id": "polynoob",
+    "name": "PolyNoob",
+    "slug": "polynoob",
+    "shortDescription": "The Ultimate Guide to Polymarket and Beyond.",
+    "description": "PolyNoob is the ultimate guide to Polymarket and prediction markets. Discover glossaries, strategies, definitions, and news updates.",
+    "category": "Information & OSINT",
+    "url": "https://polynoob.com",
+    "xUrl": "https://x.com/Polynoob_",
+    "tags": [
+      "Education",
+      "Guide",
+      "Beginner",
+      "Glossary"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free educational guide to Polymarket and prediction markets.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-04-01",
+    "lastVerified": "2026-07-30",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Educational Guide",
+      "Glossary",
+      "Strategies",
+      "News Updates",
+      "Beginner-friendly"
+    ]
+  },
+  {
+    "id": "tonyblairxbt",
+    "name": "TonyBlairXBT",
+    "slug": "tonyblairxbt",
+    "shortDescription": "Technical analysis of big trades.",
+    "description": "Breaks down the tape and explains the technical side of the big trades.",
+    "category": "Information & OSINT",
+    "url": "https://x.com/tonyblairxbt",
+    "xUrl": "https://x.com/tonyblairxbt",
+    "tags": [
+      "Technical Analysis",
+      "Education",
+      "Commentary",
+      "Twitter"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to follow. Educational trade analysis on X/Twitter.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-04-01",
+    "lastVerified": "2026-07-30",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Twitter"
+    ],
+    "features": [
+      "Trade Breakdowns",
+      "Technical Analysis",
+      "Educational Commentary"
+    ]
+  },
+  {
+    "id": "opinion-trade",
+    "name": "Opinion",
+    "slug": "opinion-trade",
+    "shortDescription": "Decentralized prediction market and oracle protocol on BNB Chain.",
+    "description": "A decentralized prediction market and oracle protocol that allows users to trade 'Yes/No' contracts on real-world events. Features an AI oracle, on-chain order book, and an incentive system for liquidity providers.",
+    "category": "Platforms",
+    "url": "https://opinion.trade",
+    "xUrl": "https://x.com/opinionlabsxyz",
+    "tags": [
+      "Crypto",
+      "BNB Chain",
+      "DeFi",
+      "AI Oracle"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to trade. BNB Chain gas fees apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-04-01",
+    "lastVerified": "2026-07-30",
+    "blockchain": [
+      "BNB Chain"
+    ],
+    "supportedMarkets": [
+      "Opinion Trade"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "AI Oracle",
+      "On-chain Order Book",
+      "Liquidity Provider Incentives",
+      "Yes/No Contracts"
+    ]
+  },
+  {
+    "id": "turbinefi",
+    "name": "TurbineFi",
+    "slug": "turbinefi",
+    "shortDescription": "Build, test, and deploy prediction market bots for Kalshi and Polymarket.",
+    "description": "AI-powered algorithmic trading platform for prediction market trading on Kalshi and Polymarket, enabling users to build, backtest, and deploy thousands of automated trading bots in seconds. Combines trading strategy backtesting, prediction market analytics, and financial trading automation with AI-powered trading tools that generate, optimize, and execute strategies — including arbitrage trading strategies, market-making, and event-driven systems — without writing a single line of code.",
+    "category": "AI Agents & Bots",
+    "url": "https://www.turbinefi.com",
+    "xUrl": "https://x.com/TurbineFi",
+    "tags": [
+      "AI Trading Bots",
+      "Backtesting",
+      "Automation",
+      "Arbitrage",
+      "Market Making"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free trial and preview options; paid plans for advanced bot automation.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-01",
+    "lastVerified": "2026-07-30",
+    "supportedMarkets": [
+      "Kalshi",
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "No-code Strategy Builder",
+      "AI Strategy Generation",
+      "Strategy Backtesting",
+      "Automated Bot Deployment",
+      "Arbitrage Strategies",
+      "Market Making",
+      "Event-driven Automation"
+    ]
+  },
+  {
+    "id": "rain-protocol",
+    "name": "Rain Protocol",
+    "slug": "rain-protocol",
+    "shortDescription": "Infrastructure to launch custom prediction market apps on Arbitrum.",
+    "description": "A protocol that provides the infrastructure to launch custom prediction market applications. Built on Arbitrum and backed by Enlivex, Rain Protocol enables anyone to deploy their own prediction market app with full on-chain transparency. The $RAIN token is listed on Gate exchange. Fully on-chain with no black boxes or hidden mechanisms.",
+    "category": "Infrastructure & APIs",
+    "url": "https://rainprotocol.xyz",
+    "xUrl": "https://x.com/Rain__Protocol",
+    "tags": [
+      "Crypto",
+      "Decentralized",
+      "Arbitrum",
+      "Infrastructure",
+      "Permissionless",
+      "Protocol"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Protocol is free to use. $RAIN token available on Gate exchange. Standard Arbitrum gas fees apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-30",
+    "blockchain": [
+      "Arbitrum"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Custom Market Creation",
+      "On-chain Resolution",
+      "Permissionless Deployment",
+      "Smart Contract Infrastructure"
+    ]
+  },
+  {
+    "id": "suimarket",
+    "name": "SuiMarket",
+    "slug": "suimarket",
+    "shortDescription": "Prediction market platform on Sui blockchain with weekly prize competitions.",
+    "description": "A prediction market platform built on the Sui blockchain where users can make accurate predictions on politics, sports, and finance to earn USDC rewards. Features weekly prize competitions with $600 prize pools for price prediction contests on crypto assets like BTC, DEEP, and meme coins.",
+    "category": "Platforms",
+    "url": "https://suimarket.io",
+    "xUrl": "https://x.com/SuiMarket_io",
+    "tags": [
+      "Crypto",
+      "Sui",
+      "Decentralized",
+      "Sports",
+      "Finance",
+      "Competitions"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. USDC rewards for accurate predictions. Sui gas fees apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-30",
+    "blockchain": [
+      "Sui"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Price Prediction Contests",
+      "Weekly Prize Pools",
+      "USDC Rewards",
+      "Crypto & Sports Markets"
+    ]
+  },
+  {
+    "id": "foregate",
+    "name": "ForeGate",
+    "slug": "foregate",
+    "shortDescription": "Decentralized prediction market for sports and real-world events.",
+    "description": "A decentralized prediction market platform for sports and real-world events, backed by football legend Michael Owen. Features a $100K prize pool campaign with OKX for the World Cup. Users can predict outcomes on FIFA World Cup matches and other major sporting events with USDT rewards.",
+    "category": "Platforms",
+    "url": "https://foregate.com",
+    "xUrl": "https://x.com/Fore_Gate",
+    "tags": [
+      "Crypto",
+      "Decentralized",
+      "Sports",
+      "Real-world Events",
+      "BNB Chain",
+      "Rewards"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to predict. Prize pools and rewards for accurate predictions. BNB Chain gas fees apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "BNB Chain"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Sports Predictions",
+      "Real-world Events",
+      "Prize Pools",
+      "OKX Partnership",
+      "USDT Rewards"
+    ]
+  },
+  {
+    "id": "noasight",
+    "name": "NoaSight",
+    "slug": "noasight",
+    "shortDescription": "Decentralized prediction markets on Sui with DAO governance and NFT achievements.",
+    "description": "A decentralized prediction market platform on the Sui blockchain featuring DAO governance, an oracle network, and NFT achievement badges. Users can trade on diverse events from sports to politics, crypto markets to weather. Features automated market making, community-driven market creation, and rewards for accurate predictions and oracle participation.",
+    "category": "Platforms",
+    "url": "https://noasight.xyz",
+    "xUrl": "https://x.com/NoaSight",
+    "tags": [
+      "Crypto",
+      "Sui",
+      "Decentralized",
+      "DAO",
+      "NFT",
+      "Oracle",
+      "DeFi"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to trade. Sui gas fees apply. Rewards for accurate predictions and oracle participation.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "Sui"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Automated Market Making",
+      "DAO Governance",
+      "Oracle Network",
+      "NFT Achievement System",
+      "Community Market Creation",
+      "Permissionless Trading"
+    ]
+  },
+  {
+    "id": "cobot",
+    "name": "Cobot",
+    "slug": "cobot",
+    "shortDescription": "AI trading companion aggregating Polymarket, Kalshi, and more.",
+    "description": "An AI-powered trading companion that aggregates prediction markets from Polymarket, Kalshi, and beyond. Features whale feed tracking, AI signals, a newsroom, and one-click execution across platforms. Built for mobile with autonomous trading agents that can monitor markets and execute trades around the clock. Powered by OpenServ AI.",
+    "category": "AI Agents & Bots",
+    "url": "https://cobot.gg",
+    "xUrl": "https://x.com/cobotgg",
+    "tags": [
+      "AI Trading Bots",
+      "Aggregation",
+      "Cross-platform",
+      "Mobile",
+      "Automation",
+      "Signals"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. $COBOT token available. Premium features may apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-31",
+    "blockchain": [],
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web",
+      "Mobile",
+      "iOS",
+      "Android"
+    ],
+    "features": [
+      "AI Trading Agents",
+      "Whale Feed Tracking",
+      "AI Signals",
+      "News Aggregation",
+      "One-click Execution",
+      "Cross-platform Aggregation",
+      "Mobile App"
+    ]
+  },
+  {
+    "id": "mirai",
+    "name": "Mirai",
+    "slug": "mirai",
+    "shortDescription": "First unified prediction market aggregator on BNB Chain.",
+    "description": "The first unified platform on BNB Chain bringing together prediction markets from Entrave, Polymarket, Kalshi, Darkbet, and Opinion Labs. One app with shared order books, enabling deeper liquidity and better odds for everyone from retail traders to whales.",
+    "category": "Infrastructure & APIs",
+    "url": "https://mirai.bet",
+    "xUrl": "https://x.com/miraibnb",
+    "tags": [
+      "Aggregation",
+      "BNB Chain",
+      "Cross-platform",
+      "Unified",
+      "Liquidity",
+      "Crypto"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. BNB Chain gas fees apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-06-25",
+    "blockchain": [
+      "BNB Chain"
+    ],
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi",
+      "Opinion Trade"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Multi-platform Aggregation",
+      "Shared Order Books",
+      "Unified Interface",
+      "Cross-market Liquidity",
+      "Best Price Routing"
+    ]
+  },
+  {
+    "id": "bravado",
+    "name": "Bravado",
+    "slug": "bravado",
+    "shortDescription": "Professional trading terminal for Polymarket, backed by Polymarket.",
+    "description": "An institutional-grade professional trading terminal for Polymarket, backed by Polymarket itself. Features real-time order flow, whale tracking, copy trading, LP automations, and advanced order types including Iceberg, TWAP, and trailing stops. Non-custodial with Privy wallet security. Also offers Trade API and Data API for developers.",
+    "category": "Trading Terminals",
+    "url": "https://bravadotrade.com",
+    "xUrl": "https://x.com/bravadotrade",
+    "tags": [
+      "Advanced UI",
+      "Professional",
+      "Trading Terminal",
+      "Copy Trading",
+      "API",
+      "Whale Tracking",
+      "Polymarket"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free to use. API access and advanced features may have tiered pricing.",
+    "access": "Waitlist",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "Polygon"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Advanced Order Types",
+      "Copy Trading",
+      "LP Automations",
+      "Whale Tracking",
+      "Real-time Order Flow",
+      "Market Analytics",
+      "Trade API",
+      "Data API",
+      "Backtesting",
+      "Non-custodial"
+    ]
+  },
+  {
+    "id": "foresee",
+    "name": "Foresee",
+    "slug": "foresee",
+    "shortDescription": "Social prediction layer on Solana powered by Jupiter and Polymarket.",
+    "description": "A prediction market on Solana where users can trade their beliefs on news, crypto, and events. Powered by Jupiter Exchange and Polymarket, Foresee acts as a social prediction layer where every trade is a belief about the future. Features referral volume campaigns with $SKR token rewards. Built during the Solana x Colosseum Cypherpunk Hackathon.",
+    "category": "Platforms",
+    "url": "https://foresee.lol",
+    "xUrl": "https://x.com/foreseelol",
+    "tags": [
+      "Crypto",
+      "Solana",
+      "Social",
+      "Decentralized",
+      "News",
+      "Events"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to trade. Solana gas fees apply. $SKR token rewards for referrals.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-06-25",
+    "blockchain": [
+      "Solana"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Social Predictions",
+      "Referral Rewards",
+      "Jupiter Integration",
+      "News & Crypto Markets",
+      "Token Incentives"
+    ]
+  },
+  {
+    "id": "yinyang",
+    "name": "YinYang",
+    "slug": "yinyang",
+    "shortDescription": "Celebrity micro-predictions market on BNB Chain.",
+    "description": "A celebrity-focused micro-predictions market on BNB Chain where users can bet on celebrity life events. Endorsed by celebrities and run by the community. Features the $YIN token which saw 2000%+ growth. Part of the BNB Chain prediction market ecosystem with planned CEX listings and celebrity reveals.",
+    "category": "Platforms",
+    "url": "https://yinyang.bet",
+    "xUrl": "https://x.com/yinyangdat",
+    "tags": [
+      "Crypto",
+      "BNB Chain",
+      "Entertainment",
+      "Social",
+      "Celebrity",
+      "Micro-predictions"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to use. BNB Chain gas fees apply. $YIN token available.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "BNB Chain"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Celebrity Event Predictions",
+      "Micro-predictions",
+      "Community-driven",
+      "Token Rewards",
+      "Telegram Community"
+    ]
+  },
+  {
+    "id": "futarchy",
+    "name": "Futarchy",
+    "slug": "futarchy",
+    "shortDescription": "First futarchy governance protocol on Ethereum.",
+    "description": "The first futarchy implementation on Ethereum, enabling DAOs to govern via prediction markets. Instead of voting on proposals directly, tokenholders bet on outcomes to determine which decisions maximize treasury value. Integrated with Snapshot Labs for advisory futarchy, allowing delegates to see expected market impact before voting. Currently running on GnosisDAO and Kleros proposals.",
+    "category": "Platforms",
+    "url": "https://futarchy.fi",
+    "xUrl": "https://x.com/_futarchy",
+    "tags": [
+      "Ethereum",
+      "DAO",
+      "Futarchy",
+      "Governance",
+      "DeFi",
+      "Protocol"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Free to participate. Ethereum gas fees apply.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-06-25",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "Ethereum"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Futarchy Governance",
+      "Snapshot Integration",
+      "DAO Proposal Markets",
+      "On-chain Resolution",
+      "Advisory Futarchy"
+    ]
+  },
+  {
+    "id": "predmart",
+    "name": "PredMart",
+    "slug": "predmart",
+    "shortDescription": "Margin account for Polymarket: up to 5x leverage, or borrow USDC against shares.",
+    "description": "PredMart is a non-custodial margin and lending protocol for Polymarket. Traders open leveraged positions with up to 5x in one click, or deposit prediction-market shares as collateral to borrow USDC without closing their trades. Lenders supply USDC to the pool to earn yield. Built on Polygon.",
+    "category": "Platforms",
+    "url": "https://predmart.com",
+    "tags": [
+      "Leverage",
+      "Margin",
+      "Lending",
+      "DeFi",
+      "Polygon"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free to use; protocol fees on borrowing and leveraged positions.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-07-06",
+    "lastVerified": "2026-07-31",
+    "blockchain": [
+      "Polygon"
+    ],
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Up to 5x Leverage",
+      "Borrow USDC Against Shares",
+      "Lending Pool Yield",
+      "Non-custodial",
+      "One-click Leverage"
+    ],
+    "xUrl": "https://x.com/sev_kach"
+  },
+  {
+    "id": "polywise",
+    "name": "Polywise",
+    "slug": "polywise",
+    "shortDescription": "Free Duolingo-style learning game for prediction markets.",
+    "description": "A free, game-like course that teaches beginners how prediction markets work: reading prices as probabilities, judging edge and expected value, understanding fees and resolution criteria — built on case studies from real Polymarket markets. Includes a free payout/edge calculator and a 40-term plain-English glossary. Browser-based, no account or deposit required.",
+    "category": "Information & OSINT",
+    "url": "https://polywise.tyki.app",
+    "xUrl": "https://polywise.tyki.app",
+    "tags": [
+      "Education",
+      "Beginner",
+      "Learning Game",
+      "Calculator",
+      "Glossary"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "pricingDetails": "Completely free. No account, no deposit, no paid tier.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-07-22",
+    "lastVerified": "2026-07-22",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Bite-sized lessons",
+      "Payout & edge calculator",
+      "40-term glossary",
+      "Real market case studies"
+    ]
+  },
+  {
+    "id": "polymaster",
+    "name": "PolyMaster",
+    "slug": "polymaster",
+    "shortDescription": "Prediction market intelligence platform with on-chain analytics and copy trading.",
+    "description": "PolyMaster is a prediction market intelligence platform built for Polymarket. It combines transparent on-chain analytics, trader evaluation, and automated copy execution to help users identify repeatable trading skill, not just historical profitability. By providing deeper context beyond leaderboard rankings, PolyMaster helps traders make more informed decisions and is currently free to use.",
+    "category": "Market Intelligence",
+    "url": "https://polymasterbot.com",
+    "xUrl": "https://x.com/PolyMasterHQ",
+    "tags": [
+      "Prediction Markets",
+      "Polymarket",
+      "Trader Analytics",
+      "Wallet Analytics",
+      "Copy Trading",
+      "Market Intelligence",
+      "On-chain Analytics"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-07-30",
+    "lastVerified": "2026-08-01",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "On-chain analytics",
+      "Trader evaluation",
+      "Automated copy execution",
+      "Leaderboard context"
+    ]
+  },
+  {
+    "id": "traderbear",
+    "name": "TraderBear",
+    "slug": "traderbear",
+    "shortDescription": "Paper-first AI trading agent and virtual pet for prediction markets.",
+    "description": "TraderBear is a paper-first AI trading agent and virtual pet for prediction markets. It turns plain-English research and trading goals into explicit strategies and simulated trades, with risk controls and transparent reasoning. Live execution is unavailable at signup and remains gated behind sustained qualification and user-selected permissions.",
+    "category": "AI Agents & Bots",
+    "url": "https://trader-bear.com/",
+    "xUrl": "https://trader-bear.com/",
+    "tags": [
+      "AI Agent",
+      "Paper Trading",
+      "Prediction Markets",
+      "Risk Controls",
+      "Natural Language"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-07-24",
+    "lastVerified": "2026-08-01",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Paper trading",
+      "Natural language strategy creation",
+      "Risk controls",
+      "Transparent reasoning"
+    ]
+  },
+  {
+    "id": "alphascope",
+    "name": "Alphascope",
+    "slug": "alphascope",
+    "shortDescription": "AI-powered prediction market research workspace for traders and researchers.",
+    "description": "Alphascope is an AI-powered prediction market research workspace for traders and researchers. It combines live odds, AI forecasts, news-impact analysis, alerts, and cross-platform context across Polymarket, Kalshi, Manifold, and Opinion.",
+    "category": "Market Intelligence",
+    "url": "https://www.alphascope.app/",
+    "xUrl": "https://x.com/xalphascope",
+    "tags": [
+      "AI",
+      "Research",
+      "Analytics",
+      "Live Odds",
+      "Forecasts",
+      "Polymarket",
+      "Kalshi"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-07-21",
+    "lastVerified": "2026-08-01",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi",
+      "Manifold",
+      "Opinion"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Live odds",
+      "AI forecasts",
+      "News-impact analysis",
+      "Alerts",
+      "Cross-platform context"
+    ]
+  },
+  {
+    "id": "polymarket-pulse",
+    "name": "Polymarket Pulse",
+    "slug": "polymarket-pulse",
+    "shortDescription": "Observe-only intelligence layer for Polymarket with Telegram alerts.",
+    "description": "Polymarket Pulse is an observe-only intelligence layer for Polymarket. It surfaces live market movers, personal watchlists, quality-gated threshold alerts, and Trader Follow notifications in Telegram without wallet connection, custody, or trade execution.",
+    "category": "Market Intelligence",
+    "url": "https://polymarketpulse.app/telegram-bot",
+    "xUrl": "https://polymarketpulse.app",
+    "tags": [
+      "Polymarket",
+      "Alerts",
+      "Watchlists",
+      "Market Intelligence",
+      "Telegram"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-07-13",
+    "lastVerified": "2026-08-01",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web",
+      "Telegram"
+    ],
+    "features": [
+      "Live market movers",
+      "Personal watchlists",
+      "Threshold alerts",
+      "Trader Follow notifications"
+    ]
+  }
 ]
