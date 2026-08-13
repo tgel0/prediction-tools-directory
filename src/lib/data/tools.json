@@ -1757,6 +1757,48 @@
     ]
   },
   {
+    "id": "polyorderbooks",
+    "name": "PolyOrderbooks",
+    "slug": "polyorderbooks",
+    "shortDescription": "Historical Polymarket L2 order book, price, and liquidity data API.",
+    "description": "REST API and official Python SDK for historical Polymarket order books, prices, and liquidity metrics. Access L2 bid/ask depth for backtesting, execution analysis, and market research.",
+    "category": "Infrastructure & APIs",
+    "url": "https://polyorderbooks.com",
+    "xUrl": "https://x.com/polyorderbooks",
+    "tags": [
+      "API",
+      "Historical Data",
+      "Order Book",
+      "L2",
+      "Polymarket",
+      "Backtesting",
+      "Python SDK"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "pricingDetails": "Free Starter tier. Pro and Scale subscriptions; Enterprise S3 bulk exports for custom limits.",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-08-13",
+    "lastVerified": "2026-08-13",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web",
+      "API"
+    ],
+    "features": [
+      "Historical L2 Order Books",
+      "Price History",
+      "Liquidity Metrics",
+      "REST API",
+      "Python SDK",
+      "Enterprise S3 Export",
+      "Backtesting Data"
+    ]
+  },
+  {
     "id": "matchr",
     "name": "Matchr",
     "slug": "matchr",
