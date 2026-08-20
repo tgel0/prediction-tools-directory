@@ -1740,7 +1740,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1778,7 +1778,7 @@
         "access": "Public",
         "status": "shut-down",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1814,7 +1814,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-25",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1849,7 +1849,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1885,7 +1885,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-25",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1920,7 +1920,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-25",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1959,7 +1959,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1993,7 +1993,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-08-18",
+        "lastVerified": "2026-08-20",
         "blockchain": [
             "Polygon"
         ],
@@ -2068,7 +2068,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2103,7 +2103,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2138,7 +2138,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2174,7 +2174,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-20",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -2208,7 +2208,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-04-01",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-20",
         "blockchain": [
             "BNB Chain"
         ],
