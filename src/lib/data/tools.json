@@ -2913,5 +2913,42 @@
             "Threshold alerts",
             "Trader Follow notifications"
         ]
+    },
+    {
+        "id": "clstr-news",
+        "name": "CLSTR news",
+        "slug": "clstr-news",
+        "shortDescription": "News, not noise: 100k+ articles/day deduplicated into situations with timelines. Free, no key.",
+        "description": "CLSTR reads 100,000+ articles a day from 40,000+ sources in 170+ countries and deduplicates them into single events, then links related events into ongoing situations with a maintained summary and a full timeline. An agent can answer what has happened over the last six weeks, not just what a single headline says right now.",
+        "category": "Information & OSINT",
+        "url": "https://clstr.news/",
+        "xUrl": "https://x.com/clstr_news",
+        "tags": [
+            "CLSTR",
+            "News",
+            "Situation monitor",
+            "News aggregation",
+            "News API",
+            "News MCP"
+        ],
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free for basic usage, paid tiers for advanced features",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-08-23",
+        "lastVerified": "2026-08-23",
+        "platform": [
+            "Web",
+            "API",
+            "MCP"
+        ],
+        "features": [
+            "Automatic topic monitoring",
+            "Semantic search",
+            "Aggregated news history",
+            "API",
+            "MCP"
+        ]
     }
 ]
