@@ -2518,6 +2518,42 @@
         ]
     },
     {
+        "id": "polymarketscan-api",
+        "name": "PolymarketScan API",
+        "slug": "polymarketscan-api",
+        "shortDescription": "No-auth API and Agent API for Polymarket wallet and trade data.",
+        "description": "Developer API for Polymarket wallet, trade, and market data from PolymarketScan, documented at https://polymarketscan.org/api, plus an Agent API and MCP endpoint for AI agents at https://polymarketscan.org/agents. No authentication or signup required.",
+        "category": "Infrastructure & APIs",
+        "url": "https://polymarketscan.org/api",
+        "xUrl": "https://polymarketscan.org/",
+        "tags": [
+            "API",
+            "Data",
+            "MCP",
+            "Agents"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free, no signup or API key required.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-08-28",
+        "lastVerified": "2026-08-28",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "API"
+        ],
+        "features": [
+            "REST API",
+            "Agent API",
+            "MCP Endpoint",
+            "No Authentication",
+            "Wallet and Trade Data"
+        ]
+    },
+    {
         "id": "bravado",
         "name": "Bravado",
         "slug": "bravado",
@@ -2912,6 +2948,42 @@
             "Personal watchlists",
             "Threshold alerts",
             "Trader Follow notifications"
+        ]
+    },
+    {
+        "id": "polymarketscan",
+        "name": "PolymarketScan",
+        "slug": "polymarketscan",
+        "shortDescription": "Independent Polymarket explorer for wallets, trades, and whale prints.",
+        "description": "An independent explorer that keeps a public record of Polymarket trades, wallets, and markets. It includes a whale tracker at https://polymarketscan.org/whale-tracker, a best traders leaderboard at https://polymarketscan.org/best-polymarket-traders, and an airdrop checker at https://polymarketscan.org/airdrop. Free to use with no signup.",
+        "category": "Market Intelligence",
+        "url": "https://polymarketscan.org/",
+        "xUrl": "https://polymarketscan.org/",
+        "tags": [
+            "Whale Tracking",
+            "Wallet Tracking",
+            "Leaderboard",
+            "Analytics"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. No signup required.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-08-28",
+        "lastVerified": "2026-08-28",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Whale Print Tracking",
+            "Wallet Records",
+            "Trader Leaderboards",
+            "Airdrop Checker",
+            "Market Explorer"
         ]
     }
 ]
