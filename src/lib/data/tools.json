@@ -2913,5 +2913,46 @@
             "Threshold alerts",
             "Trader Follow notifications"
         ]
+    },
+    {
+        "id": "predictions-io",
+        "name": "Predictions.io",
+        "slug": "predictions-io",
+        "shortDescription": "Cross-venue analytics comparing Kalshi and Polymarket odds in topic-based lobbies.",
+        "description": "Predictions.io is a cross-venue prediction-market analytics platform that groups markets from Kalshi and Polymarket into topic-based lobbies so the same question can be compared side by side. It adds whale-trade tracking, an odds converter, and a fee calculator, plus a public API for developers. Predictions.io does not hold funds or execute trades.",
+        "category": "Analysis Tools",
+        "url": "https://predictions.io",
+        "xUrl": "https://x.com/predictions__io",
+        "xHandle": "@predictions__io",
+        "tags": [
+            "Kalshi",
+            "Polymarket",
+            "Analytics",
+            "Odds Comparison",
+            "Whale Tracking"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-09-20",
+        "lastVerified": "2026-09-20",
+        "supportedMarkets": [
+            "Kalshi",
+            "Polymarket"
+        ],
+        "platform": [
+            "Web",
+            "iOS",
+            "Android"
+        ],
+        "features": [
+            "Cross-venue odds comparison",
+            "Topic-based lobbies",
+            "Whale-trade tracking",
+            "Odds converter",
+            "Fee calculator",
+            "Public API"
+        ]
     }
 ]
