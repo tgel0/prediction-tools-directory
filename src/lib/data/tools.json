@@ -2913,5 +2913,42 @@
             "Threshold alerts",
             "Trader Follow notifications"
         ]
+    },
+    {
+        "id": "polybot",
+        "name": "PolyBot",
+        "slug": "polybot",
+        "shortDescription": "Polymarket trading in Telegram with copy trading, limit orders, and automated strategies.",
+        "description": "PolyBot is a Telegram bot for trading on Polymarket, with market and limit orders, copy trading, automated strategies, and alerts. Users can configure trade sizing and risk controls. Trading involves risk and geographic restrictions apply.",
+        "category": "AI Agents & Bots",
+        "url": "https://polybot.trading/",
+        "xUrl": "https://x.com/TradePolyBot",
+        "tags": [
+            "Polymarket",
+            "Telegram",
+            "Copy Trading",
+            "Automation"
+        ],
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "1% fee on successful trades.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-09-21",
+        "lastVerified": "2026-09-21",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Telegram"
+        ],
+        "features": [
+            "Market Orders",
+            "Limit Orders",
+            "Copy Trading",
+            "Automated Strategies",
+            "Alerts",
+            "Configurable Trade Sizing"
+        ]
     }
 ]
