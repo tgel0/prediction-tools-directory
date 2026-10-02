@@ -2913,5 +2913,49 @@
             "Threshold alerts",
             "Trader Follow notifications"
         ]
+    },
+    {
+        "id": "polytrace",
+        "name": "PolyTrace",
+        "slug": "polytrace",
+        "shortDescription": "Research tracked $1K+ Polymarket fills with market context, wallet evidence, and explicit coverage.",
+        "description": "PolyTrace organizes a tracked subset of public Polymarket fills worth $1K+ and links them to market and proxy-wallet evidence. It publishes live activity, Outcome-level signals, wallet performance context, weekly reports, and an optional Chrome extension while stating coverage and freshness limits explicitly.",
+        "category": "Market Intelligence",
+        "url": "https://polytrace.app/polymarket-whale-tracker",
+        "xUrl": "https://x.com/PolyTraceHQ",
+        "xHandle": "@PolyTraceHQ",
+        "websiteName": "PolyTrace",
+        "tags": [
+            "Polymarket",
+            "Whale Tracking",
+            "Wallet Analytics",
+            "Market Intelligence",
+            "Research",
+            "Browser Extension"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free public research site and Chrome extension.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-08-21",
+        "lastVerified": "2026-08-21",
+        "blockchain": [
+            "Polygon"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web",
+            "Chrome Extension"
+        ],
+        "features": [
+            "Tracked $1K+ fill activity",
+            "Outcome-level whale signals",
+            "Proxy-wallet performance evidence",
+            "Weekly whale-flow reports",
+            "Chrome extension"
+        ]
     }
 ]
