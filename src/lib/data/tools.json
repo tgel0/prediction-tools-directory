@@ -3075,5 +3075,234 @@
       "API",
       "MCP"
     ]
+  },
+  {
+    "id": "conviction-lens",
+    "name": "Conviction Lens",
+    "slug": "conviction-lens",
+    "shortDescription": "Reconstructs public Polymarket wallet histories with verified PnL, win rate, drawdown and position detail.",
+    "description": "Conviction Lens reconstructs complete public Polymarket wallet histories so traders can compare verified PnL, profit factor, win rate, drawdown, open positions and return concentration. Every published profile passes completeness and reconciliation checks. It does not connect to wallets, execute trades or recommend positions.",
+    "category": "Market Intelligence",
+    "url": "https://convictionlens.com",
+    "xUrl": "https://x.com/convictionlens",
+    "tags": [
+      "Polymarket",
+      "Trader Analytics",
+      "Wallet Tracking",
+      "Verified PnL",
+      "Drawdown",
+      "Leaderboards",
+      "Market Research"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-08-11",
+    "lastVerified": "2026-10-02",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Verified PnL Profiles",
+      "Profit Factor",
+      "Win Rate Analytics",
+      "Drawdown Tracking",
+      "Completeness Checks"
+    ]
+  },
+  {
+    "id": "prediction-bubbles",
+    "name": "Prediction Bubbles",
+    "slug": "prediction-bubbles",
+    "shortDescription": "Live Polymarket and Kalshi odds on one board, sized by volume - see where the venues disagree.",
+    "description": "Live odds from Polymarket and Kalshi on one board, sized by volume and colored by probability. The one place you can see where the two venues disagree. Free, no signup, with an embeddable widget and a public JSON feed.",
+    "category": "Market Intelligence",
+    "url": "https://predictionbubbles.net",
+    "xUrl": "https://x.com/predictionbubbl",
+    "tags": [
+      "Prediction Markets",
+      "Crypto",
+      "Data",
+      "Analytics",
+      "Live Odds",
+      "Embeddable Widget"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-08-17",
+    "lastVerified": "2026-10-02",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Cross-Venue Odds Board",
+      "Volume-Sized Bubbles",
+      "Public JSON Feed",
+      "Embeddable Widget",
+      "No Signup"
+    ]
+  },
+  {
+    "id": "polyrama",
+    "name": "Polyrama",
+    "slug": "polyrama",
+    "shortDescription": "Real-time Polymarket and Kalshi terminal: live odds, wallet analytics, signals, backtests and an MCP server.",
+    "description": "Polyrama is a real-time prediction-market terminal for Polymarket and Kalshi. It combines live odds, cross-venue market search, public-wallet analytics, trader leaderboards, whale and mispricing signals, historical backtests, REST API access, and an open-source MCP server for AI agents.",
+    "category": "Market Intelligence",
+    "url": "https://polyrama.io",
+    "xUrl": "https://polyrama.io",
+    "tags": [
+      "Polymarket",
+      "Kalshi",
+      "Analytics",
+      "Live Odds",
+      "Trader Tracking",
+      "Signals",
+      "Backtesting",
+      "MCP"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-08-18",
+    "lastVerified": "2026-10-02",
+    "supportedMarkets": [
+      "Polymarket",
+      "Kalshi"
+    ],
+    "platform": [
+      "Web",
+      "REST API",
+      "MCP"
+    ],
+    "features": [
+      "Cross-Venue Market Search",
+      "Wallet Analytics",
+      "Whale Signals",
+      "Historical Backtests",
+      "Open-Source MCP Server"
+    ]
+  },
+  {
+    "id": "sonist",
+    "name": "Sonist",
+    "slug": "sonist",
+    "shortDescription": "Automates live mention-market trades on Kalshi and Polymarket from real-time audio and caption feeds.",
+    "description": "Sonist automates live mention-market trading on Kalshi and Polymarket. It brings markets from both exchanges into one interface and monitors live audio, subtitle feeds, or accessibility captions for configured words, letting users choose the lowest-latency source available for each event. When Sonist finds a match, it applies the user's risk limits and sends the trade through their exchange account within a price ceiling that guarantees a profit.",
+    "category": "AI Agents & Bots",
+    "url": "https://sonist.tech",
+    "xUrl": "https://sonist.tech",
+    "tags": [
+      "AI Trading Bots",
+      "Automation",
+      "Cross Platform",
+      "Live Audio",
+      "Real Time Data",
+      "Risk Controls"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-08-31",
+    "lastVerified": "2026-10-02",
+    "supportedMarkets": [
+      "Kalshi",
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Live Audio Monitoring",
+      "Subtitle/Caption Feeds",
+      "Low-Latency Source Selection",
+      "Configurable Risk Limits",
+      "Price-Ceiling Order Placement"
+    ]
+  },
+  {
+    "id": "polyscope",
+    "name": "Polyscope",
+    "slug": "polyscope",
+    "shortDescription": "Polymarket analytics: find profitable wallets, track smart money and compare trader performance.",
+    "description": "PolyScope is an analytics and research platform for Polymarket traders. It helps users discover profitable wallets, track smart money activity, compare trader performance across categories such as politics, sports, and crypto, and study market behavior using on-chain data. PolyScope also publishes research, guides, and data-driven insights designed to make prediction markets easier to analyze and understand.",
+    "category": "Analysis Tools",
+    "url": "https://polyscope.pro/smart-money/",
+    "xUrl": "https://x.com/AbelNFTs",
+    "tags": [
+      "Polymarket",
+      "Wallet Analytics",
+      "Smart Money",
+      "Trader Performance",
+      "On-Chain Data",
+      "Research"
+    ],
+    "isPromoted": false,
+    "pricing": "Free",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-09-15",
+    "lastVerified": "2026-10-02",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Profitable Wallet Discovery",
+      "Smart Money Tracking",
+      "Trader Performance Comparison",
+      "On-Chain Market Study",
+      "Research & Guides"
+    ]
+  },
+  {
+    "id": "vultax",
+    "name": "Vultax",
+    "slug": "vultax",
+    "shortDescription": "Compares public Polymarket wallets across dated position snapshots on up to eight measured axes.",
+    "description": "Vultax Trader Radar compares public Polymarket wallets within dated position snapshots on up to eight measured axes. Each card shows its underlying figures, and unavailable measurements are omitted rather than scored as zero. The board is free to browse, while deeper trader positions and trades require a paid plan.",
+    "category": "Analysis Tools",
+    "url": "https://vultax.com/features/trader-radar",
+    "xUrl": "https://vultax.com/features/trader-radar",
+    "tags": [
+      "Polymarket",
+      "Wallet Analytics",
+      "Prediction Markets",
+      "Trader Research",
+      "Position Snapshots"
+    ],
+    "isPromoted": false,
+    "pricing": "Freemium",
+    "access": "Public",
+    "status": "active",
+    "addedDate": "2026-09-25",
+    "lastVerified": "2026-10-02",
+    "supportedMarkets": [
+      "Polymarket"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "features": [
+      "Trader Radar Snapshots",
+      "Eight Measured Axes",
+      "Transparent Underlying Figures",
+      "Free Board Browse",
+      "Paid Trader Depth"
+    ]
   }
 ]
