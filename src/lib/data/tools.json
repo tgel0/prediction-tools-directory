@@ -40,8 +40,7 @@
             "Limit Orders",
             "AMM Pools",
             "Permissionless Market Creation",
-            "Fiat On-ramp",
-            "Referral Program"
+            "Fiat On-ramp"
         ]
     },
     {
@@ -121,9 +120,7 @@
         ],
         "features": [
             "Yield-bearing Positions",
-            "Blast Points",
-            "Market Trading",
-            "Airdrop Potential"
+            "Market Trading"
         ]
     },
     {
@@ -1240,7 +1237,6 @@
             "Peer-to-peer Sports Betting",
             "Deep Liquidity",
             "Non-custodial",
-            "Bet Mining Rewards",
             "Low Fees"
         ]
     },
@@ -1449,7 +1445,7 @@
         "pricing": "Free",
         "pricingDetails": "Free leaderboard. Real-time trader performance tracking.",
         "access": "Public",
-        "status": "active",
+        "status": "shut-down",
         "addedDate": "2026-03-15",
         "lastVerified": "2026-10-03",
         "supportedMarkets": [
@@ -1883,7 +1879,7 @@
         "pricing": "Free",
         "pricingDetails": "Free to use. AI agent provides market insights via Twitter.",
         "access": "Public",
-        "status": "active",
+        "status": "shut-down",
         "addedDate": "2026-03-25",
         "lastVerified": "2026-09-19",
         "supportedMarkets": [
@@ -2339,9 +2335,6 @@
             "Web"
         ],
         "features": [
-            "Price Prediction Contests",
-            "Weekly Prize Pools",
-            "USDC Rewards",
             "Crypto & Sports Markets"
         ]
     },
@@ -2381,9 +2374,7 @@
         "features": [
             "Sports Predictions",
             "Real-world Events",
-            "Prize Pools",
-            "OKX Partnership",
-            "USDT Rewards"
+            "Prize Pools"
         ]
     },
     {
@@ -2599,10 +2590,8 @@
         ],
         "features": [
             "Social Predictions",
-            "Referral Rewards",
             "Jupiter Integration",
-            "News & Crypto Markets",
-            "Token Incentives"
+            "News & Crypto Markets"
         ]
     },
     {
@@ -2951,7 +2940,7 @@
             "Chrome Extension"
         ],
         "features": [
-            "Tracked $1K+ fill activity",
+            "Whale Fill Tracking",
             "Outcome-level whale signals",
             "Proxy-wallet performance evidence",
             "Weekly whale-flow reports",
@@ -3339,8 +3328,82 @@
             "HIP-4 Native Outcomes",
             "Leveraged Event Markets",
             "Unified Margin With Perps",
-            "Low-Fee Taker Model",
-            "Liquidity Reward Programs"
+            "Low-Fee Taker Model"
+        ]
+    },
+    {
+        "id": "bot-for-kalshi",
+        "name": "Bot for Kalshi",
+        "slug": "bot-for-kalshi",
+        "shortDescription": "Turns plain-English Kalshi trading rules into inspectable, review-first workflows.",
+        "description": "Bot for Kalshi turns plain-English Kalshi trading rules into inspectable workflows. Users review Paper activity before choosing live execution through their own Kalshi account. The hosted product is independent of Kalshi and requires a verified Kalshi account and API key, including for Paper trading.",
+        "category": "AI Agents & Bots",
+        "url": "https://www.botforkalshi.com/",
+        "xUrl": "https://www.botforkalshi.com/",
+        "tags": [
+            "Kalshi",
+            "Trading Bots",
+            "No-Code",
+            "Automation",
+            "Paper Trading"
+        ],
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Complete plan $99/month. No free trial.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-10-07",
+        "lastVerified": "2026-10-10",
+        "supportedMarkets": [
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Plain-English Rule Builder",
+            "Inspectable Workflows",
+            "Paper Trading Mode",
+            "Kalshi API Execution"
+        ]
+    },
+    {
+        "id": "polkamarkt",
+        "name": "Polkamarkt",
+        "slug": "polkamarkt",
+        "shortDescription": "SORA-based binary prediction markets with KUSD collateral and pari-mutuel settlement.",
+        "description": "Polkamarkt is a SORA-based binary prediction-market platform using KUSD collateral and XOR network fees, with dynamic pari-mutuel settlement. Available at polkamarkt.com and integrated into Polkaswap. Trading fees apply.",
+        "category": "Platforms",
+        "url": "https://polkamarkt.com",
+        "xUrl": "https://polkamarkt.com",
+        "tags": [
+            "SORA",
+            "KUSD",
+            "Parimutuel",
+            "Binary Markets",
+            "Prediction Markets"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Trading fees apply; XOR network fees on SORA.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-10-05",
+        "lastVerified": "2026-10-10",
+        "blockchain": [
+            "SORA"
+        ],
+        "supportedMarkets": [
+            "Polkamarkt"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Binary Prediction Markets",
+            "KUSD Collateral",
+            "Pari-Mutuel Settlement",
+            "Polkaswap Integration"
         ]
     }
 ]
