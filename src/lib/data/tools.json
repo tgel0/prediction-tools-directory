@@ -3743,6 +3743,10 @@
             {
                 "label": "KXBTC15M shadow record",
                 "url": "https://strikeping.com/demo/kalshi-btc"
+            },
+            {
+                "label": "Spot-alert record",
+                "url": "https://strikeping.com/record"
             }
         ]
     },
