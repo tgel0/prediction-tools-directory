@@ -3876,5 +3876,69 @@
             "Odds Converter, No-Vig and Fee Calculator",
             "Read-Only by Construction"
         ]
+    },
+    {
+        "id": "predictionmarket-tools",
+        "name": "PredictionMarket.tools",
+        "slug": "predictionmarket-tools",
+        "shortDescription": "Free Polymarket and Kalshi tool directory, comparisons, calculators, and guides.",
+        "description": "Find Polymarket and Kalshi tools by category and compare platforms. Includes payout and odds calculators, API guides, and a runnable paper trading bot tutorial. The site does not place trades.",
+        "category": "Information & OSINT",
+        "url": "https://www.predictionmarket.tools/",
+        "xUrl": "https://x.com/SimiStern",
+        "websiteName": "PredictionMarket.tools",
+        "tags": [
+            "Polymarket",
+            "Kalshi",
+            "Directory",
+            "Education",
+            "Calculators"
+        ],
+        "pricing": "Free",
+        "pricingDetails": "Directory, guides, comparisons and calculators are free to use.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-10-25",
+        "lastVerified": "2026-10-25",
+        "blockchain": [],
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "goodFor": [
+            "Finding prediction market tools",
+            "Comparing platforms",
+            "Learning to build a paper trading bot"
+        ],
+        "notGoodFor": [
+            "Placing live trades",
+            "Trade signals"
+        ],
+        "features": [
+            "Tool directory",
+            "Platform comparisons",
+            "Payout calculator",
+            "Odds converter",
+            "API guides",
+            "Paper trading tutorial"
+        ],
+        "links": [
+            {
+                "label": "About and editor",
+                "url": "https://www.predictionmarket.tools/about"
+            },
+            {
+                "label": "Calculators",
+                "url": "https://www.predictionmarket.tools/utilities"
+            },
+            {
+                "label": "Bot tutorial",
+                "url": "https://www.predictionmarket.tools/how-to-build-prediction-market-bot"
+            }
+        ],
+        "isPromoted": false
     }
 ]
