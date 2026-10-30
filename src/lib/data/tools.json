@@ -3434,7 +3434,7 @@
         "name": "Bot for Kalshi",
         "slug": "bot-for-kalshi",
         "shortDescription": "Turns plain-English Kalshi trading rules into inspectable, review-first workflows.",
-        "description": "Bot for Kalshi turns plain-English Kalshi trading rules into inspectable workflows. Users review Paper activity before choosing live execution through their own Kalshi account. The hosted product is independent of Kalshi and requires a verified Kalshi account and API key, including for Paper trading.",
+        "description": "Bot for Kalshi turns plain-English Kalshi trading rules into inspectable workflows. Users review Paper activity before choosing live execution through their own Kalshi account. Paper trading runs on public market data and needs no Kalshi API key; a verified Kalshi account and API key are required only for live trading. The hosted product is independent of Kalshi.",
         "category": "AI Agents & Bots",
         "url": "https://www.botforkalshi.com/",
         "xUrl": "https://www.botforkalshi.com/",
