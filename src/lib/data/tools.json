@@ -3940,5 +3940,47 @@
             }
         ],
         "isPromoted": false
+    },
+    {
+        "id": "lucyd",
+        "name": "Lucyd",
+        "slug": "lucyd",
+        "shortDescription": "Bitcoin up/down rounds from 5 minutes to daily, settled onchain with zero fees - live on Sepolia testnet.",
+        "description": "Lucyd runs Bitcoin up-or-down prediction rounds with lengths from five minutes to a full day. Each round settles through a smart contract that reads the Pyth BTC/USD price: above the strike, Up wins, and each winning token pays 1 USDC to the wallet. Trading carries no fees, and a position can be sold back to the order book before settlement. A public API and an MCP server let AI agents read markets and trade directly. The product is live on the Sepolia testnet, so rounds carry no real value yet.",
+        "category": "Platforms",
+        "url": "https://lucyd.trade",
+        "xUrl": "https://x.com/lucydtrade",
+        "tags": [
+            "Bitcoin",
+            "Crypto",
+            "Trading",
+            "AI Agents",
+            "API",
+            "MCP"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free: zero trading fees and no paid tier listed. Live on the Sepolia testnet, so no real funds are at stake.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-10-27",
+        "lastVerified": "2026-10-30",
+        "supportedMarkets": [
+            "Lucyd"
+        ],
+        "platform": [
+            "Web",
+            "API",
+            "MCP"
+        ],
+        "features": [
+            "Bitcoin Up/Down Rounds",
+            "5-Minute to Daily Durations",
+            "Onchain Smart Contract Settlement",
+            "Pyth BTC/USD Oracle",
+            "Zero Trading Fees",
+            "Public API",
+            "MCP Server for AI Agents"
+        ]
     }
 ]
