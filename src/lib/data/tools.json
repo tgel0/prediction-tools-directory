@@ -1741,22 +1741,24 @@
     },
     {
         "id": "adjacent-news",
-        "name": "Adjacent News",
+        "name": "Adjacent",
         "slug": "adjacent-news",
-        "shortDescription": "Forward Looking News.",
-        "description": "Forward Looking News - Driven by Prediction Markets and Forecasting Platforms. API layer for market data, context, and multi-platform coverage.",
+        "shortDescription": "Index and benchmark provider for political prediction markets, with a public JSON API and MCP tools.",
+        "description": "Adjacent builds rules-based indices and reference rates for political prediction markets and event contracts, quoted on a 50-150 scale where 100 is a 50/50 race and the value minus 50 is the implied win probability, with total-return indices on a base-100 scale. Methodology is published per index, and the same data is served without authentication from a CORS-open JSON API at 15-minute delay and as MCP tools; every index and methodology page is available as markdown on request.",
         "category": "Information & OSINT",
-        "url": "https://adj.news",
-        "xUrl": "https://x.com/AdjacentNews",
+        "url": "https://adjacent.markets",
+        "xUrl": "https://x.com/AdjacentMarkets",
         "tags": [
-            "News",
+            "Prediction Markets",
+            "Indices",
+            "Market Data",
             "API",
-            "Context",
-            "Forward-looking"
+            "MCP",
+            "Politics"
         ],
         "isPromoted": false,
-        "pricing": "Paid",
-        "pricingDetails": "API-based pricing. Contact for enterprise access.",
+        "pricing": "Freemium",
+        "pricingDetails": "Freemium: the public JSON API (15-minute delayed, no auth), the MCP tools and the published indices and methodology are free; real-time access is arranged with Adjacent.",
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
@@ -1766,13 +1768,16 @@
             "Kalshi"
         ],
         "platform": [
-            "Web"
+            "Web",
+            "API",
+            "MCP"
         ],
         "features": [
-            "API Layer",
-            "Market Data",
-            "Multi-platform Coverage",
-            "News Context"
+            "Prediction-Market Indices",
+            "Reference Rates",
+            "Index Methodology",
+            "Public JSON API",
+            "MCP Tools"
         ]
     },
     {
@@ -3981,6 +3986,219 @@
             "Zero Trading Fees",
             "Public API",
             "MCP Server for AI Agents"
+        ]
+    },
+    {
+        "id": "kalshi-eye",
+        "name": "Kalshi Eye",
+        "slug": "kalshi-eye",
+        "shortDescription": "Order-book archive of Kalshi, Polymarket and Limitless with daily Parquet files, an API and MCP.",
+        "description": "Kalshi Eye records every order-book change, trade and settlement on Kalshi, Polymarket and Limitless alongside Chainlink prices, and publishes it as daily Parquet files with an API and an MCP server. Coverage starts 12 October 2026 and is sold in three depths: Explorer ($0, browse markets and download sample days), Research (top of book, trades, 1-minute bars, 1-second snapshots, 250 GB of downloads a month) and Full book (every price level with queue position, Polymarket and Limitless books, 1 TB a month). Every file carries a SHA-256 checksum and the download scripts verify it; S3 sync via aws, rclone or DuckDB is listed as coming soon.",
+        "category": "Infrastructure & APIs",
+        "url": "https://kalshieye.com",
+        "xUrl": "https://x.com/observepredict",
+        "tags": [
+            "Kalshi",
+            "Polymarket",
+            "Limitless",
+            "Order Book",
+            "Historical Data",
+            "API",
+            "MCP"
+        ],
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Freemium: Explorer is $0 for browsing markets and sample days. Research is $39.50/month and Full book $74.50/month at founding prices (list $79/$149), locked for life; yearly billing saves 17%. Institutional licensing covers teams and redistribution.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-02",
+        "lastVerified": "2026-11-02",
+        "supportedMarkets": [
+            "Kalshi",
+            "Polymarket",
+            "Limitless"
+        ],
+        "platform": [
+            "Web",
+            "API",
+            "MCP"
+        ],
+        "features": [
+            "Order-Book Archive",
+            "Daily Parquet Files",
+            "API Access",
+            "MCP Server",
+            "Chainlink Price Feeds",
+            "SHA-256 Verified Downloads"
+        ]
+    },
+    {
+        "id": "outcometick",
+        "name": "outcometick",
+        "slug": "outcometick",
+        "shortDescription": "Tick-level Chainlink settlement feeds and order books for Polymarket and Predict.fun Up/Down markets.",
+        "description": "outcometick collects the Chainlink Data Streams reports that Polymarket and Predict.fun crypto Up/Down markets settle on, tick by tick, with the relay's full-precision values alongside, plus order-book snapshots, per-market strike and outcome and Polymarket trade prints. Collection has run continuously since 8 June 2026; each file carries a SHA-256 checksum, and access is a rolling 30-day window sold per venue or across both. A hosted backtest replays the archive without look-ahead bias and is billed per market-day, and an SDK ships on npm and PyPI.",
+        "category": "Infrastructure & APIs",
+        "url": "https://outcometick.com",
+        "xUrl": "https://x.com/outcometick",
+        "tags": [
+            "Polymarket",
+            "Predict.fun",
+            "Chainlink",
+            "Tick Data",
+            "Historical Data",
+            "Backtesting",
+            "API"
+        ],
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Paid: $10/month for one venue or $18/month for both, each a rolling 30-day window refreshed daily; hosted backtests are billed per market-day from $2.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-02",
+        "lastVerified": "2026-11-02",
+        "supportedMarkets": [
+            "Polymarket",
+            "Predict.fun"
+        ],
+        "platform": [
+            "Web",
+            "API"
+        ],
+        "features": [
+            "Tick-Level Settlement Feeds",
+            "Order-Book Snapshots",
+            "Per-Market Strike and Outcome",
+            "Polymarket Trade Prints",
+            "Hosted Backtesting",
+            "SHA-256 Verified Files"
+        ]
+    },
+    {
+        "id": "synpath",
+        "name": "Synpath",
+        "slug": "synpath",
+        "shortDescription": "Institutional execution, smart order routing and cross-venue risk across 16 prediction-market venues.",
+        "description": "Synpath is execution infrastructure for prediction-market trading desks: one order routed to the best price across venues net of fees, plus stops, iceberg, TWAP, peg, OCO and bracket orders on every connected venue. It lists 16 live venues, among them Kalshi, Polymarket, Polymarket US, Hyperliquid, Opinion, Predict.fun, Limitless, SX Bet, Betfair, Smarkets, Novig, Matchbook, ProphetX, Azuro, Myriad and Gemini. Execution is non-custodial and self-hosted, an open-source SDK ships alongside, and access is an API key or a booked demo.",
+        "category": "Infrastructure & APIs",
+        "url": "https://synpath.dev",
+        "xUrl": "https://x.com/Synpath_Dev",
+        "tags": [
+            "Execution",
+            "Smart Order Routing",
+            "API",
+            "Kalshi",
+            "Polymarket",
+            "Hyperliquid"
+        ],
+        "isPromoted": false,
+        "pricing": "Custom",
+        "pricingDetails": "Custom: API keys are issued by application, with a demo for trading desks. Execution is non-custodial and self-hosted, and the SDK is open source.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-02",
+        "lastVerified": "2026-11-02",
+        "supportedMarkets": [
+            "Kalshi",
+            "Polymarket",
+            "Polymarket US",
+            "Hyperliquid",
+            "Opinion",
+            "Predict.fun",
+            "Limitless"
+        ],
+        "platform": [
+            "Web",
+            "API"
+        ],
+        "features": [
+            "Smart Order Routing",
+            "Advanced Order Types",
+            "Cross-Venue Risk",
+            "Non-Custodial Execution",
+            "Open-Source SDK"
+        ]
+    },
+    {
+        "id": "layer",
+        "name": "Layer",
+        "slug": "layer",
+        "shortDescription": "One API that matches the same bet across Kalshi and Polymarket and places orders for bots and agents.",
+        "description": "Layer resolves which Kalshi and Polymarket US market is the same real-world bet — same game, same line, different wording and ids — and returns matched pairs with a confidence score, so a bot or agent can treat them as one. Prices and order books come back in a single format, and orders are placed and cancelled through one SDK. Matching is hosted by Layer while prices, order books and order traffic flow directly between the caller and each venue, so Layer never holds venue keys. A Python SDK, CLI, sandbox and example bots ship with an API key.",
+        "category": "Infrastructure & APIs",
+        "url": "https://uselayer.sh",
+        "xUrl": "https://x.com/latentink",
+        "tags": [
+            "API",
+            "SDK",
+            "Kalshi",
+            "Polymarket",
+            "Market Matching",
+            "AI Agents"
+        ],
+        "isPromoted": false,
+        "pricingDetails": "No public price list: an API key is issued from the dashboard, matching calls are hosted by Layer, and order flow stays between the caller and each venue.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-02",
+        "lastVerified": "2026-11-02",
+        "supportedMarkets": [
+            "Kalshi",
+            "Polymarket",
+            "Polymarket US",
+            "Hyperliquid"
+        ],
+        "platform": [
+            "Web",
+            "API"
+        ],
+        "features": [
+            "Cross-Venue Market Matching",
+            "Unified Order Books",
+            "Order Placement and Cancels",
+            "Python SDK and CLI",
+            "Sandbox and Example Bots"
+        ]
+    },
+    {
+        "id": "simmer",
+        "name": "Simmer",
+        "slug": "simmer",
+        "shortDescription": "Agent layer for prediction markets: persistent identity, self-custody wallet and cross-venue record.",
+        "description": "Simmer gives a trading agent a persistent account: one identity, one self-custody wallet and a track record spanning Polymarket and Kalshi, with server-side safety rails such as stop-loss and take-profit thresholds set once and monitored on every tick, plus autoresearch loops that iterate on a strategy. An agent registers for an API key, funds a virtual $SIM wallet to trade in simulation, and works through a Python SDK, an MCP server (npm i -g simmer-mcp) and a library of agent skills.",
+        "category": "Infrastructure & APIs",
+        "url": "https://simmer.markets",
+        "xUrl": "https://x.com/simmer_markets",
+        "tags": [
+            "AI Agents",
+            "MCP",
+            "SDK",
+            "Polymarket",
+            "Kalshi",
+            "Simulation"
+        ],
+        "isPromoted": false,
+        "pricingDetails": "No public price list: agents register for an API key and trade in simulation with a virtual $SIM wallet.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-02",
+        "lastVerified": "2026-11-02",
+        "supportedMarkets": [
+            "Polymarket",
+            "Kalshi"
+        ],
+        "platform": [
+            "Web",
+            "API",
+            "MCP"
+        ],
+        "features": [
+            "Agent Identity and Wallet",
+            "Cross-Venue Track Record",
+            "Server-Side Stop-Loss and Take-Profit",
+            "Python SDK",
+            "MCP Server",
+            "Agent Skills Library"
         ]
     }
 ]
