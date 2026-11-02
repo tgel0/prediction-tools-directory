@@ -708,7 +708,7 @@
         "description": "A comprehensive analytics platform for Polymarket that tracks volume, open interest, trader leaderboards, and wallet activity. It provides deep insights into the Polymarket ecosystem and builder activity.",
         "category": "Market Intelligence",
         "url": "https://www.polydata.cc",
-        "xUrl": "https://x.com/polydata_cc",
+        "xUrl": "https://x.com/polydataHQ",
         "tags": [
             "Analytics",
             "Polymarket",
@@ -2833,7 +2833,7 @@
         "pricing": "Free",
         "pricingDetails": "Completely free. No account, no deposit, no paid tier.",
         "access": "Public",
-        "status": "active",
+        "status": "shut-down",
         "addedDate": "2026-07-22",
         "lastVerified": "2026-10-21",
         "supportedMarkets": [
