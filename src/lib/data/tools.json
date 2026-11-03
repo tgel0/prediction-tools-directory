@@ -4200,5 +4200,115 @@
             "MCP Server",
             "Agent Skills Library"
         ]
+    },
+    {
+        "id": "kairos",
+        "name": "Kairos",
+        "slug": "kairos",
+        "shortDescription": "Trading terminal that merges Kalshi and Polymarket order books into one low-latency desk.",
+        "description": "Kairos puts Kalshi and Polymarket on one desk: quotes, fills and news arrive over a single socket rather than a polling loop, each venue's order book is merged in the browser, and the vendor says it ingests feeds from colocated infrastructure for sub-second data. Execution sits in the same window as positions and P&L, and a separate enterprise API exposes the same market data and routing to desks that want it. The team announced a seed round led by a16z crypto, and the site's press bar lists Fortune.",
+        "category": "Trading Terminals",
+        "url": "https://kairos.trade",
+        "xUrl": "https://x.com/KairosTradeX",
+        "tags": [
+            "Trading Terminal",
+            "Kalshi",
+            "Polymarket",
+            "Low Latency",
+            "API"
+        ],
+        "isPromoted": false,
+        "pricingDetails": "No public price list: the terminal is open to sign up, and the enterprise API is licensed separately.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-03",
+        "lastVerified": "2026-11-03",
+        "supportedMarkets": [
+            "Kalshi",
+            "Polymarket"
+        ],
+        "platform": [
+            "Web",
+            "API"
+        ],
+        "features": [
+            "Streaming Order Books",
+            "Merged Multi-Venue Book",
+            "Execution and P&L",
+            "Enterprise API"
+        ]
+    },
+    {
+        "id": "share",
+        "name": "Share",
+        "slug": "share",
+        "shortDescription": "Consumer app for Polymarket and Hyperliquid markets, with both venues priced side by side.",
+        "description": "Share is a consumer app for prediction markets: one account and one portfolio, with markets from Polymarket and Hyperliquid's HIP-4 shown side by side and the better price visible before you trade. It runs on web and mobile, covers sports, politics, crypto, eSports, elections and geopolitics, and keeps cash and position value on the same screen. The account began in 2025 as a social app for sharing on-chain trades; the prediction-market product arrived in September 2026, so older coverage describes a different product.",
+        "category": "Trading Terminals",
+        "url": "https://share.xyz",
+        "xUrl": "https://x.com/sharexyz",
+        "tags": [
+            "Trading Terminal",
+            "Polymarket",
+            "Hyperliquid",
+            "Mobile App"
+        ],
+        "isPromoted": false,
+        "pricingDetails": "No platform fee is stated; the pitch is venue pricing rather than a subscription, and the app's points programme is a promotion rather than a product feature.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-03",
+        "lastVerified": "2026-11-03",
+        "supportedMarkets": [
+            "Polymarket",
+            "Hyperliquid"
+        ],
+        "platform": [
+            "Web",
+            "Mobile"
+        ],
+        "features": [
+            "Cross-Venue Price Comparison",
+            "Polymarket and Hyperliquid Accounts",
+            "Mobile and Web Apps",
+            "Portfolio and Cash View"
+        ]
+    },
+    {
+        "id": "protrade",
+        "name": "ProTrade",
+        "slug": "protrade",
+        "shortDescription": "Polymarket terminal for in-play sport with back-and-lay ladders, hotkeys and one-click hedging.",
+        "description": "ProTrade is a trading terminal built on Polymarket liquidity for in-play sport: back and lay ladders for football and tennis, keyboard execution, one-click hedging and live P&L, with the order book shown rung by rung rather than summarised. Accounts are imported self-custody wallets rather than deposits, and the site carries Polymarket's verified builder badge. The taker fee is 0.05%, waived above $600k of monthly volume, and the interface ships in English and Portuguese.",
+        "category": "Trading Terminals",
+        "url": "https://protrade.tech",
+        "xUrl": "https://x.com/protrade_tech",
+        "tags": [
+            "Trading Terminal",
+            "Polymarket",
+            "Sports",
+            "Ladder",
+            "Hotkeys"
+        ],
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "0.05% taker fee, waived above $600k of monthly volume. No subscription.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-03",
+        "lastVerified": "2026-11-03",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Back and Lay Ladders",
+            "Keyboard Execution",
+            "One-Click Hedging",
+            "Live P&L",
+            "Self-Custody"
+        ]
     }
 ]
