@@ -3,9 +3,9 @@
 
   // This page is a monthly edition. Bump EDITION + LAST_UPDATED together, re-check every
   // source below, and update NEXT_EDITION. See "How this page is kept current".
-  const EDITION = 'October 2026';
-  const LAST_UPDATED = '2026-10-21';
-  const NEXT_EDITION = '2026-11-01';
+  const EDITION = 'November 2026';
+  const LAST_UPDATED = '2026-11-03';
+  const NEXT_EDITION = '2026-12-01';
 
   type Source = {
     id: string;
@@ -24,7 +24,7 @@
       short: 'Kalshi fee schedule',
       label: 'Kalshi — Fee schedule (live page)',
       url: 'https://kalshi.com/fee-schedule',
-      date: '2026-10-21',
+      date: '2026-11-03',
       note: 'Standard taker multiplier 1, fee range $0.07–$1.75 per 100 contracts. Page listed "no upcoming fee changes scheduled" when read.'
     },
     {
@@ -32,7 +32,7 @@
       short: 'Kalshi fee PDF',
       label: 'Kalshi — Fee Schedule (PDF)',
       url: 'https://kalshi.com/docs/kalshi-fee-schedule.pdf',
-      date: '2026-10-21',
+      date: '2026-11-03',
       note: 'Document states "Last updated and effective: July 7, 2026".'
     },
     {
@@ -40,29 +40,30 @@
       short: 'Kalshi API docs',
       label: 'Kalshi — API documentation (REST, WebSocket, FIX)',
       url: 'https://docs.kalshi.com/',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'kalshi-intl',
       short: 'Kalshi international',
       label: 'Kalshi Help Center — Can I trade on Kalshi from outside the United States?',
       url: 'https://help.kalshi.com/en/articles/14026044-can-i-trade-on-kalshi-from-outside-the-united-states',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'kalshi-member-agreement',
       short: 'Kalshi Member Agreement',
       label: 'Kalshi — Member Agreement (restricted jurisdictions)',
       url: 'https://kalshi.com/docs/kalshi-member-agreement.pdf',
-      date: '2026-10-21',
-      note: 'The restricted list lives in Section VI and changes between versions; check the version date on the PDF.'
+      date: '2026-11-03',
+      note: 'Version dated 2026-10-01. The restricted list is Section VI and runs to 55 jurisdictions this version; it changes between versions, so check the version date on the PDF.'
     },
     {
       id: 'kalshi-lip',
       short: 'Kalshi liquidity programme',
       label: 'Kalshi Help Center — Liquidity Incentive Program',
       url: 'https://help.kalshi.com/en/articles/13823851-liquidity-incentive-program',
-      date: '2026-10-21'
+      date: '2026-11-03',
+      note: 'Program end date 2027-01-01. US members only — international users are ineligible for rewards.'
     },
     {
       id: 'coindesk-states',
@@ -70,72 +71,74 @@
       label: 'CoinDesk — "Kalshi off-limits in multiple states"',
       url: 'https://www.coindesk.com/news-analysis/2026/08/21/kalshi-off-limits-in-multiple-states-as-prediction-markets-cftc-team-up-for-battle',
       date: '2026-10-21',
-      note: 'Article published 2026-08-22.'
+      note: 'Article published 2026-08-22. The publisher now blocks automated re-reads, so this is the last date it was read.'
     },
     {
       id: 'pm-fees',
       short: 'Polymarket fees',
       label: 'Polymarket Documentation — Fees (category table)',
       url: 'https://docs.polymarket.com/trading/fees',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'pm-geo',
       short: 'Polymarket geoblocks',
       label: 'Polymarket Documentation — Geographic Restrictions',
       url: 'https://docs.polymarket.com/api-reference/geoblock',
-      date: '2026-10-21'
+      date: '2026-11-03',
+      note: 'Three tiers: full block, close-only on frontend and API, close-only on the frontend. More than forty jurisdictions sit in the first two.'
     },
     {
       id: 'pm-rebates',
       short: 'Polymarket maker rebates',
       label: 'Polymarket Documentation — Maker Rebates Program',
       url: 'https://docs.polymarket.com/programs/maker-rebates',
-      date: '2026-10-21'
+      date: '2026-11-03',
+      note: 'Rebates paid daily in pUSD, funded by taker fees; category shares run 15% (sports) to 25% (most others), 20% on crypto and none on combos.'
     },
     {
       id: 'pm-api',
       short: 'Polymarket API docs',
       label: 'Polymarket Documentation — APIs, SDKs and tools',
       url: 'https://docs.polymarket.com/',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'pm-markets',
       short: 'Polymarket markets',
       label: 'Polymarket — live markets',
       url: 'https://polymarket.com/markets',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'pm-us-fees',
       short: 'Polymarket US fee schedule',
       label: 'Polymarket US Documentation — Fee Schedule',
       url: 'https://docs.polymarket.us/fees',
-      date: '2026-10-21',
-      note: 'Taker coefficient 0.0695 (Table Tennis 0.10), maker rebate tiers, weekly taker rebates.'
+      date: '2026-11-03',
+      note: 'Taker coefficient 0.0695 (Table Tennis 0.10), maker rebate tiers from $10m of prior-month maker volume, weekly taker rebates. Combo curve coefficient raised from 0.06 to 0.085 at 10pm ET on 2026-10-28.'
     },
     {
       id: 'pm-us-docs',
       short: 'Polymarket US docs',
       label: 'Polymarket US Documentation',
       url: 'https://docs.polymarket.us/',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'rh-fees',
       short: 'Robinhood event contracts overview',
       label: 'Robinhood Help Center — Event contracts overview',
       url: 'https://robinhood.com/us/en/support/articles/event-contracts-overview/',
-      date: '2026-10-21',
-      note: 'Probability-weighted commission from 2026-06-01; eligibility and state restrictions on the same page.'
+      date: '2026-11-03',
+      note: 'Probability-weighted commission from 2026-06-01; Maryland, Michigan and Nevada residents cannot trade sports contracts. Eligibility and state restrictions on the same page.'
     },
     {
       id: 'rh-trading',
       short: 'Robinhood trading event contracts',
       label: 'Robinhood Help Center — Trading event contracts',
       url: 'https://robinhood.com/us/en/support/articles/trading-event-contracts/',
-      date: '2026-10-21',
+      date: '2026-11-03',
       note: 'States prediction markets are mobile-app only, view-only on web, and not available in Robinhood Legend.'
     },
     {
@@ -143,29 +146,29 @@
       short: 'Robinhood event contract mechanics',
       label: 'Robinhood Help Center — How event contracts work',
       url: 'https://robinhood.com/us/en/support/articles/how-event-contracts-work/',
-      date: '2026-10-21',
-      note: 'Lists the exchange partners in the disclosures.'
+      date: '2026-11-03',
+      note: 'Disclosures name KalshiEX, ForecastEX, Rothera and NADEX. The event-contracts overview on the same site also names Crypto.com Derivatives North America, so the two pages do not list the same partners.'
     },
     {
       id: 'rh-launch',
       short: 'Robinhood prediction markets launch',
       label: 'Robinhood Newsroom — Robinhood Launches Prediction Markets Hub (2025-03-17)',
       url: 'https://robinhood.com/us/en/newsroom/robinhood-prediction-markets-hub',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'rh-football',
       short: 'Robinhood football launch',
       label: 'Robinhood Newsroom — Pro and College Football Prediction Markets (2025-08-19)',
       url: 'https://robinhood.com/newsroom/pro-and-college-football-prediction-markets',
-      date: '2026-10-21'
+      date: '2026-11-03'
     },
     {
       id: 'rh-cryptocom',
       short: 'Robinhood / Crypto.com routing',
       label: 'Robinhood Newsroom — Teams Up With Crypto.com and OG.com (2026-09-08)',
       url: 'https://robinhood.com/us/en/newsroom/robinhood-cryptocom/',
-      date: '2026-10-21',
+      date: '2026-11-03',
       note: 'Football contracts routed to OG.com from 2026-09-08; Rothera routing began in June 2026.'
     },
     {
@@ -173,7 +176,7 @@
       short: 'Robinhood Legend market data',
       label: 'Robinhood Help Center — Market data sources for Robinhood Legend',
       url: 'https://robinhood.com/us/en/support/articles/market-data-sources-for-robinhood-legend/',
-      date: '2026-10-21',
+      date: '2026-11-03',
       note: 'States event contract positions do not appear in Legend.'
     },
     {
@@ -181,7 +184,7 @@
       short: 'Robinhood developer docs',
       label: 'Robinhood — Developer documentation (Crypto Trading API)',
       url: 'https://docs.robinhood.com/',
-      date: '2026-10-21',
+      date: '2026-11-03',
       note: 'Covers the Robinhood Crypto Trading API only. No event-contract section.'
     },
     {
@@ -189,7 +192,7 @@
       short: 'Robinhood prediction markets library',
       label: 'Robinhood Learn — Prediction markets explained',
       url: 'https://robinhood.com/us/en/learn/prediction-markets/',
-      date: '2026-10-21',
+      date: '2026-11-03',
       note: 'Its category guides (sports, politics, economics, climate, entertainment, technology, education, crypto) are the basis for the market-types column.'
     }
   ];
@@ -238,12 +241,12 @@
       markets: 'Elections and midterms, politics, sports, culture, crypto, commodities, climate, economics, finance, tech and science, mentions.',
       marketSources: ['kalshi-fees'],
       eligibility:
-        'US residents, plus the countries its Member Agreement allows — the restricted list is inside that document, not on the marketing site. Sports contracts are blocked in several US states.',
+        'US residents, plus the countries its Member Agreement still allows — the restricted list is Section VI of that document, not the marketing site, and runs to 55 jurisdictions in the current version, the UK, France, Germany, Italy and Australia among them. Sports contracts are blocked in several US states where regulators have won court orders.',
       eligibilitySources: ['kalshi-intl', 'kalshi-member-agreement', 'coindesk-states'],
       liquidity:
-        'Runs a Liquidity Incentive Program, and keeps maker fees at zero on most of the book — a signal it is buying depth rather than charging for it.',
+        'Runs a Liquidity Incentive Program — US members only, and dated to end 2027-01-01 — and keeps maker fees at zero on most of the book, a signal it is buying depth rather than charging for it.',
       liquiditySources: ['kalshi-lip', 'kalshi-fees'],
-      api: 'Yes. Documented predictions API with REST, WebSocket and FIX, plus a demo environment.',
+      api: 'Yes. REST, WebSocket and FIX for event contracts, plus a demo environment and a second API set for its perpetual futures.',
       apiSources: ['kalshi-api'],
       watchOut: 'Per-series fee exceptions and state blocks both change; read the schedule and the app, not a summary.'
     },
@@ -262,10 +265,10 @@
       markets: 'Politics, geopolitics, sports, crypto, economics, finance, culture, tech, weather.',
       marketSources: ['pm-fees', 'pm-markets'],
       eligibility:
-        'Outside the US, and only in countries its geoblock list still serves — the UK, France, Germany, Australia and Brazil are all restricted. Opening an account takes an email address or a wallet.',
+        'Outside the US, and only in the jurisdictions its geoblock still serves. More than forty are close-only or fully blocked — the UK, France, Germany, Italy, Poland, Belgium, Australia, Brazil and Singapore among them — and Ireland, Japan, the Netherlands and South Korea are close-only on the frontend while the API stays open. An email address or a wallet is enough to open an account.',
       eligibilitySources: ['pm-geo'],
       liquidity:
-        'Taker fees fund a maker rebate paid daily in pUSD, so quoting is compensated rather than charged.',
+        'Taker fees fund a maker rebate paid daily in pUSD — 25% of the fee in most categories, 20% in crypto, 15% in sports and nothing on combos — and takers earn a tiered rebate of 3% to 50% by 30-day weighted volume.',
       liquiditySources: ['pm-rebates'],
       api: 'Yes. Documented CLOB API with SDKs; the same docs cover market data and order placement.',
       apiSources: ['pm-api'],
@@ -279,21 +282,21 @@
       product: 'CFTC-regulated US venue',
       accent: 'neon-green',
       bestFor: 'US traders who want Polymarket-style markets in USD with KYC and no wallet.',
-      fees: '0.0695 × contracts × p × (1 − p) — $1.74 per 100 at 50¢; table tennis 0.10',
+      fees: '0.0695 × contracts × p × (1 − p) — $1.74 per 100 at 50¢; table tennis 0.10; a 50¢ combo costs $2.00',
       feeNote:
-        'Maker rebate runs from −0.0035 to −0.0104 by volume tier and is applied at the trade; taker rebates are paid weekly by tier.',
+        'Combos take a second curve that adds 0.085 × (1 − p)⁴ to the same expression, raised from 0.06 on 2026-10-28. Maker rebate runs from −0.0035 to −0.0104 by volume tier and is applied at the trade, but the bottom tier — under $10m of prior-month maker volume — pays nothing. Taker rebates are paid weekly by tier.',
       feeSources: ['pm-us-fees'],
       markets: 'Sports including table tennis, crypto, politics and economics — the categories its own fee schedule prices.',
       marketSources: ['pm-us-fees'],
       eligibility: 'US residents, with identity verification and a USD account.',
       eligibilitySources: ['pm-us-docs', 'pm-us-fees'],
       liquidity:
-        'Pays makers a tiered rebate and takers a weekly rebate, both scaled to the previous month’s volume.',
+        'Pays makers a tiered rebate and takers a weekly rebate, both scaled to the previous month’s volume; combo fills earn no maker rebate at all.',
       liquiditySources: ['pm-us-fees'],
       api: 'Yes, but separate from the international docs — Polymarket US publishes its own documentation site.',
       apiSources: ['pm-us-docs'],
       watchOut:
-        'The US fee schedule was replaced on 2026-10-19, so any comparison written before that date quotes numbers that no longer apply.'
+        'The fee schedule was rewritten on 2026-10-19 and the combo curve rose again on 2026-10-28, so any comparison written before those dates quotes numbers that no longer apply.'
     },
     {
       slug: 'robinhood',
@@ -307,13 +310,13 @@
       feeNote:
         'The cap binds across roughly 28¢–72¢, so the commission is $1.00 per 100 there with or without Gold. Partners add their own fee, up to about $0.01 per contract, on opening and closing.',
       feeSources: ['rh-fees'],
-      markets: 'Sports and football, politics and elections, economics and financial data, crypto, climate and weather, commodities, entertainment, technology and education.',
+      markets: 'Sports and football, politics and elections, economics and financial data, crypto, climate and weather, commodities, entertainment, technology and education, plus custom combos of up to 10 legs on football and basketball.',
       marketSources: ['rh-learn', 'rh-fees'],
       eligibility:
-        'US residents 18+, with an individual brokerage account plus a separately approved derivatives account. Maryland and Nevada residents cannot trade sports contracts; Michigan residents could not open new ones from 2026-09-09.',
+        'US residents 18+, with an individual brokerage account plus a separately approved derivatives account. Maryland, Michigan and Nevada residents cannot trade sports contracts.',
       eligibilitySources: ['rh-fees'],
       liquidity:
-        'Routes orders to KalshiEX, ForecastEX, Rothera and NADEX instead of running a book — 13.6 billion contracts traded in Q2 2026 across those venues.',
+        'Routes orders to KalshiEX, ForecastEX, Rothera and NADEX — and, for a selection of football contracts since 2026-09-08, to Crypto.com’s Derivatives North America, which trades as OG.com — instead of running a book. 13.6 billion contracts traded on Robinhood in Q2 2026.',
       liquiditySources: ['rh-how', 'rh-cryptocom'],
       api: 'No. There is no published event-contract API, and trading is mobile-app only — view-only on web, absent from Legend.',
       apiSources: ['rh-trading', 'rh-legend', 'rh-docs'],
@@ -425,31 +428,34 @@
     </h2>
     <div class="border-l-2 border-neon-green pl-5 space-y-3 font-mono text-sm text-gray-300 leading-relaxed">
       <p>
-        Robinhood has priced commissions by probability since 2026-06-01 rather than charging a flat
-        rate, which changes the cost of every trade away from 50¢
+        Polymarket US made combos dearer. The coefficient on the second term of its combo curve went
+        from 0.06 to 0.085 at 10pm ET on 2026-10-28, so a 100-contract combo at 50¢ now costs $2.00
+        rather than $1.92, and a 10¢ combo $1.18 rather than $1.02. The standard 0.0695 taker
+        coefficient did not move
+        <a href={src['pm-us-fees'].url} target="_blank" rel="noopener noreferrer"
+          class="text-neon-green underline decoration-dotted underline-offset-2">(Polymarket US, {src['pm-us-fees'].date})</a>.
+        Its maker rebate is tiered as well: a maker under $10m of prior-month volume now gets nothing
+        back, where every maker used to receive a flat rebate.
+      </p>
+      <p>
+        Robinhood closed Michigan. Maryland, Michigan and Nevada residents cannot trade sports
+        contracts at all — Michigan had been close-only since September
         <a href={src['rh-fees'].url} target="_blank" rel="noopener noreferrer"
           class="text-neon-green underline decoration-dotted underline-offset-2">(Robinhood, {src['rh-fees'].date})</a>.
-        It also started routing football contracts to Crypto.com and OG.com on 2026-09-08, alongside
-        Kalshi, ForecastEX and Rothera
-        <a href={src['rh-cryptocom'].url} target="_blank" rel="noopener noreferrer"
-          class="text-neon-green underline decoration-dotted underline-offset-2">(Robinhood, {src['rh-cryptocom'].date})</a>.
+        Polymarket's geoblock page now sorts jurisdictions into three tiers — full block, close-only
+        on frontend and API, and close-only on the frontend — with more than forty in the first two
+        <a href={src['pm-geo'].url} target="_blank" rel="noopener noreferrer"
+          class="text-neon-green underline decoration-dotted underline-offset-2">(Polymarket, {src['pm-geo'].date})</a>.
       </p>
       <p>
-        Polymarket US replaced its fee schedule on 2026-10-19, with a 0.0695 taker coefficient and
-        volume-tiered maker rebates <a href={src['pm-us-fees'].url} target="_blank" rel="noopener noreferrer"
-          class="text-neon-green underline decoration-dotted underline-offset-2">(Polymarket US, {src['pm-us-fees'].date})</a>.
-        Kalshi's schedule listed no upcoming fee changes when we read it, and its standard taker
-        multiplier is still 1 <a href={src['kalshi-fees'].url} target="_blank" rel="noopener noreferrer"
+        Kalshi held still on price: the schedule listed no upcoming changes, the standard taker
+        multiplier is still 1, and the fee PDF is still the 2026-07-07 version
+        <a href={src['kalshi-fees'].url} target="_blank" rel="noopener noreferrer"
           class="text-neon-green underline decoration-dotted underline-offset-2">(Kalshi, {src['kalshi-fees'].date})</a>.
-      </p>
-      <p>
-        Access moved too. Michigan residents could not open new sports event contracts at Robinhood
-        from 2026-09-09 <a href={src['rh-fees'].url} target="_blank" rel="noopener noreferrer"
-          class="text-neon-green underline decoration-dotted underline-offset-2">(Robinhood, {src['rh-fees'].date})</a>,
-        and state-level sports blocks now apply to more than one venue
-        <a href={src['coindesk-states'].url} target="_blank" rel="noopener noreferrer"
-          class="text-neon-green underline decoration-dotted underline-offset-2">(CoinDesk, published 2026-08-22)</a>.
-        Treat eligibility as the first question, not the last.
+        Its Member Agreement names 55 restricted jurisdictions, India among them
+        <a href={src['kalshi-member-agreement'].url} target="_blank" rel="noopener noreferrer"
+          class="text-neon-green underline decoration-dotted underline-offset-2">(Kalshi, {src['kalshi-member-agreement'].date})</a>,
+        and the Liquidity Incentive Program is US-only and dated to end 2027-01-01.
       </p>
     </div>
   </section>
