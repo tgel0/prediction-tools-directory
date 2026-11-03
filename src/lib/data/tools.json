@@ -4200,5 +4200,49 @@
             "MCP Server",
             "Agent Skills Library"
         ]
+    },
+    {
+        "id": "melbo",
+        "name": "Melbo",
+        "slug": "melbo",
+        "shortDescription": "Melbo is a prediction market app. Trade Yes or No shares on elections, sports, crypto and the economy; a share's price shows the market's probability.",
+        "description": "Melbo is a prediction market app for real-world events in politics, sports, esports, crypto and the economy. Each market is a Yes/No question, and a share's price is the market's probability: 63¢ means 63%. Melbo never holds user funds: the wallet is created at sign-up, belongs to the user and can be exported to any Web3 wallet. Trades settle on Polygon through smart contracts of a third-party decentralized liquidity protocol, and a decentralized oracle resolves each market by rules published in advance. Sign in with email, Google or Telegram, with no extension and no seed phrase. Deposits and withdrawals in USDC on Polygon, no fiat. Trading involves risk.",
+        "category": "Trading Terminals",
+        "url": "https://melbo.io",
+        "xUrl": "https://x.com/melbo_io",
+        "tags": [
+            "Crypto",
+            "Polygon",
+            "Binary Markets",
+            "Real-world Events",
+            "Non-custodial"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use. Market orders: 1% platform fee plus a liquidity provider fee that depends on category and price. Limit orders, deposits, withdrawals and payouts: no fee; network gas is paid by Melbo. Source: melbo.io/en/fees.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-03",
+        "lastVerified": "2026-11-03",
+        "blockchain": [
+            "Polygon"
+        ],
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "eligibility": "Adults only. Not available in restricted jurisdictions, see Terms §3.2 (melbo.io/en/terms). Sign-up with email, Google or Telegram. Source: melbo.io/en/terms, checked 2026-11-03.",
+        "features": [
+            "Yes/No Shares on Real-World Events",
+            "Non-custodial Embedded Wallet",
+            "Email, Google or Telegram Sign-in",
+            "USDC on Polygon",
+            "Trades from $1",
+            "Gas Paid by Melbo",
+            "18 Languages",
+            "24/7 Chat Support"
+        ]
     }
 ]
