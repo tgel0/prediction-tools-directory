@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { PageData } from "./$types";
     import ToolCard from "$lib/components/ToolCard.svelte";
+    import { BEST_OF_EDITION } from "$lib/data/best-of";
 
     export let data: PageData;
     $: ({ categoryName, filteredTools, categorySlug, description } = data);
@@ -108,7 +109,7 @@
                 href="/best/prediction-market-platforms"
                 class="text-neon-green underline decoration-dotted underline-offset-2 hover:text-white transition-colors"
             >
-                Best prediction market platforms — October 2026
+                Best prediction market platforms — {BEST_OF_EDITION}
             </a>
             <span class="text-gray-500">
                 — fees on the same trade, who can trade where, liquidity signals and API access, each with a source and a date checked.

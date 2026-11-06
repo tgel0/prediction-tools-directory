@@ -1,5 +1,6 @@
 <script lang="ts">
-    import tools from "$lib/data/tools.json";
+    import tools from '$lib/data/tools.json';
+    import { BEST_OF_EDITION } from '$lib/data/best-of';
     import ToolCard from "$lib/components/ToolCard.svelte";
     import { CATEGORIES, categoryToSlug } from "$lib/data/schema";
 
@@ -100,7 +101,7 @@
                 class="inline-flex items-center space-x-2 border border-terminal-slate hover:border-neon-green text-gray-400 hover:text-neon-green font-mono text-xs uppercase px-4 py-2 transition-colors"
             >
                 <span class="text-neon-green">⊞</span>
-                <span>Best platforms — October 2026 edition</span>
+                <span>Best platforms — {BEST_OF_EDITION} edition</span>
             </a>
             <a
                 href="/compare/polymarket-vs-kalshi"

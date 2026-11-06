@@ -246,7 +246,9 @@
             "Limitless"
         ],
         "platform": [
-            "Web"
+            "Web",
+            "API",
+            "MCP"
         ],
         "features": [
             "Binary Contracts",
@@ -254,8 +256,10 @@
             "Instant Settlement",
             "No Liquidation Risk",
             "No Hidden Fees",
-            "Custom Market Packs"
-        ]
+            "Custom Market Packs",
+            "MCP Server"
+        ],
+        "apiAccess": "Yes. REST API and an official MCP server: an MCP client can read markets, order books and price history and propose orders, which are approved in the browser."
     },
     {
         "id": "probable",
@@ -705,7 +709,7 @@
         "name": "Polydata",
         "slug": "polydata",
         "shortDescription": "Advanced analytics dashboard for Polymarket volume, OI, and leaderboards.",
-        "description": "A comprehensive analytics platform for Polymarket that tracks volume, open interest, trader leaderboards, and wallet activity. It provides deep insights into the Polymarket ecosystem and builder activity.",
+        "description": "A comprehensive analytics platform for Polymarket that tracks volume, open interest, trader leaderboards, and wallet activity. It provides deep insights into the Polymarket ecosystem and builder activity. NOTE: The domain registration expired in November 2026 — polydata.cc now serves the registrar's renewal page and the HTTPS handshake fails.",
         "category": "Market Intelligence",
         "url": "https://www.polydata.cc",
         "xUrl": "https://x.com/polydataHQ",
@@ -719,9 +723,9 @@
         "pricing": "Free",
         "pricingDetails": "Free dashboard. Advanced metrics available.",
         "access": "Public",
-        "status": "active",
+        "status": "shut-down",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-10-18",
+        "lastVerified": "2026-11-03",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -1417,7 +1421,7 @@
         "name": "OkBet",
         "slug": "okbet",
         "shortDescription": "The multiplatform prediction market platform.",
-        "description": "The multiplatform prediction market platform with social and copy-trading features built into groups.",
+        "description": "The multiplatform prediction market platform with social and copy-trading features built into groups. NOTE: The host has returned 503 \"Service Suspended\" since November 2026, and the account has not posted since 26 February 2026.",
         "category": "Platforms",
         "url": "https://okbet.trade",
         "xUrl": "https://x.com/tryokbet",
@@ -1431,9 +1435,9 @@
         "pricing": "Free",
         "pricingDetails": "Free to use. Telegram-native platform.",
         "access": "Public",
-        "status": "active",
+        "status": "shut-down",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-11-01",
+        "lastVerified": "2026-11-03",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -1615,9 +1619,10 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-15",
-        "lastVerified": "2026-11-06",
+        "lastVerified": "2026-11-03",
         "supportedMarkets": [
-            "Polymarket"
+            "Polymarket",
+            "Pascal.trade"
         ],
         "platform": [
             "Web"
@@ -1627,7 +1632,9 @@
             "Real-time PnL",
             "Performance Benchmarking",
             "Editorial Coverage",
-            "Dashboards"
+            "Dashboards",
+            "Pascal.trade Wallets",
+            "Yearly Activity Export (PDF/CSV)"
         ]
     },
     {
@@ -4309,6 +4316,43 @@
             "One-Click Hedging",
             "Live P&L",
             "Self-Custody"
+        ]
+    },
+    {
+        "id": "melbo",
+        "name": "Melbo",
+        "slug": "melbo",
+        "shortDescription": "Non-custodial prediction market app on Polygon with email, Google or Telegram sign-in.",
+        "description": "Melbo is a consumer prediction market app: Yes/No markets on politics, sport, esports, crypto and the economy, priced so a share at 63¢ implies a 63% probability. The wallet is created at sign-up, belongs to the user and can be exported, so Melbo never holds funds; deposits and withdrawals are USDC on Polygon with no fiat rail. Orders settle through the smart contracts of a third-party decentralised liquidity protocol and each market resolves against rules published in advance. The interface ships in 18 languages and opens in Russian by default.",
+        "category": "Platforms",
+        "url": "https://melbo.io",
+        "xUrl": "https://x.com/melbo_io",
+        "tags": [
+            "Crypto",
+            "Polygon",
+            "Binary Markets",
+            "Non-custodial"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free to use apart from trading fees: 1% platform fee on market (taker) orders, zero on limit orders, plus a liquidity fee paid to the underlying protocol's providers. Deposits, withdrawals and payouts carry no fee, and network gas is paid by Melbo.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-03",
+        "lastVerified": "2026-11-03",
+        "platform": [
+            "Web"
+        ],
+        "blockchain": [
+            "Polygon"
+        ],
+        "eligibility": "Adults only, and not available in the restricted jurisdictions listed in the Terms. Sign-up with email, Google or Telegram; no browser extension or seed phrase.",
+        "features": [
+            "Yes/No Markets",
+            "Non-custodial Wallet",
+            "Email, Google or Telegram Sign-in",
+            "USDC on Polygon",
+            "Limit Orders"
         ]
     }
 ]

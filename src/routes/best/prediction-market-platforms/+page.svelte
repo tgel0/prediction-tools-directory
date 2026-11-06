@@ -1,11 +1,13 @@
 <script lang="ts">
   import tools from '$lib/data/tools.json';
+  import { BEST_OF_EDITION, BEST_OF_NEXT_EDITION } from '$lib/data/best-of';
 
-  // This page is a monthly edition. Bump EDITION + LAST_UPDATED together, re-check every
-  // source below, and update NEXT_EDITION. See "How this page is kept current".
-  const EDITION = 'November 2026';
+  // This page is a monthly edition. Bump BEST_OF_EDITION (src/lib/data/best-of.ts) and
+  // LAST_UPDATED together, re-check every source below, and update BEST_OF_NEXT_EDITION.
+  // Every link label reads the same constants, so no other page can drift behind this one.
+  const EDITION = BEST_OF_EDITION;
   const LAST_UPDATED = '2026-11-03';
-  const NEXT_EDITION = '2026-12-01';
+  const NEXT_EDITION = BEST_OF_NEXT_EDITION;
 
   type Source = {
     id: string;
