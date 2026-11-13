@@ -552,7 +552,9 @@
             "Real-time Data",
             "AI-powered Insights",
             "Trend Analysis",
-            "Limit Orders (GTC/GTD/FAK/FOK)"
+            "Limit Orders (GTC/GTD/FAK/FOK)",
+            "Perps Trading",
+            "15-Minute Crypto Markets"
         ]
     },
     {
@@ -1750,7 +1752,7 @@
         "id": "adjacent-news",
         "name": "Adjacent",
         "slug": "adjacent-news",
-        "shortDescription": "Index and benchmark provider for political prediction markets, with a public JSON API and MCP tools.",
+        "shortDescription": "Index and benchmark provider for prediction markets and event contracts, with a public JSON API and MCP tools.",
         "description": "Adjacent builds rules-based indices and reference rates for political prediction markets and event contracts, quoted on a 50-150 scale where 100 is a 50/50 race and the value minus 50 is the implied win probability, with total-return indices on a base-100 scale. Methodology is published per index, and the same data is served without authentication from a CORS-open JSON API at 15-minute delay and as MCP tools; every index and methodology page is available as markdown on request.",
         "category": "Information & OSINT",
         "url": "https://adjacent.markets",
@@ -1769,7 +1771,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-20",
-        "lastVerified": "2026-11-10",
+        "lastVerified": "2026-11-13",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -2579,7 +2581,7 @@
         "name": "Mirai",
         "slug": "mirai",
         "shortDescription": "First unified prediction market aggregator on BNB Chain.",
-        "description": "The first unified platform on BNB Chain bringing together prediction markets from Entrave, Polymarket, Kalshi, Darkbet, and Opinion Labs. One app with shared order books, enabling deeper liquidity and better odds for everyone from retail traders to whales.",
+        "description": "The first unified platform on BNB Chain bringing together prediction markets from Entrave, Polymarket, Kalshi, Darkbet, and Opinion Labs. One app with shared order books, enabling deeper liquidity and better odds for everyone from retail traders to whales. NOTE: The domain expired in November 2026 — mirai.bet now serves the registrar's \"Your domain is expired\" page and the site's content is unavailable.",
         "category": "Infrastructure & APIs",
         "url": "http://mirai.bet",
         "xUrl": "https://x.com/miraibnb",
@@ -2595,9 +2597,9 @@
         "pricing": "Free",
         "pricingDetails": "Free to use. BNB Chain gas fees apply.",
         "access": "Public",
-        "status": "active",
+        "status": "shut-down",
         "addedDate": "2026-06-25",
-        "lastVerified": "2026-11-07",
+        "lastVerified": "2026-11-13",
         "blockchain": [
             "BNB Chain"
         ],
@@ -4353,6 +4355,81 @@
             "Email, Google or Telegram Sign-in",
             "USDC on Polygon",
             "Limit Orders"
+        ]
+    },
+    {
+        "id": "ticktilt",
+        "name": "TickTilt",
+        "slug": "ticktilt",
+        "shortDescription": "Live lean signals for Kalshi's 15-minute BTC, ETH, XRP and SOL Up/Down rounds.",
+        "description": "TickTilt shows a live read on which way Kalshi's 15-minute BTC, ETH, XRP and SOL Up/Down rounds are leaning, coloured by how often similar setups finished each way, with a scorecard of the last 48 BTC rounds and a by-lead-size view of whether the leader holds. Its guides explain how a round settles — Kalshi averages the final 60 seconds on the CF Benchmarks real-time index and ties go Up — so a late spike only counts partly. It is a live read only: no account, no orders, and no affiliation with Kalshi beyond plain links to the venue.",
+        "category": "Analysis Tools",
+        "url": "https://ticktilt.com",
+        "xUrl": "https://ticktilt.com",
+        "tags": [
+            "Kalshi",
+            "Crypto",
+            "15-Minute Markets",
+            "Signals",
+            "Free"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free. No account, no signup and no referral links.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-13",
+        "lastVerified": "2026-11-13",
+        "supportedMarkets": [
+            "Kalshi"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Live Lean Signals",
+            "15-Minute Round Coverage",
+            "Round History Scorecard",
+            "Settlement Explainers"
+        ]
+    },
+    {
+        "id": "print-watch",
+        "name": "Print Watch",
+        "slug": "print-watch",
+        "shortDescription": "Pre-release odds boards for CPI, jobs and FOMC, with a record of what markets priced.",
+        "description": "Print Watch puts the odds board for each macro release in one place before the number lands — CPI, non-farm payrolls and the FOMC decision — with Kalshi and Polymarket prices side by side and CME FedWatch alongside the rate decision. After the release it keeps a page per print showing what the markets priced against what actually printed, an accuracy record by series, and a calendar of what is coming. Free and no account; the only email is an optional weekly note.",
+        "category": "Market Intelligence",
+        "url": "https://getprintwatch.com",
+        "xUrl": "https://getprintwatch.com",
+        "tags": [
+            "Kalshi",
+            "Polymarket",
+            "Macro",
+            "CPI",
+            "FOMC",
+            "Odds Comparison"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Free, no signup. A weekly email note about the coming prints is optional.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-13",
+        "lastVerified": "2026-11-13",
+        "supportedMarkets": [
+            "Kalshi",
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Pre-Release Odds Boards",
+            "Kalshi vs Polymarket Comparison",
+            "CME FedWatch Integration",
+            "Post-Release Accuracy Archive",
+            "Release Calendar"
         ]
     }
 ]
