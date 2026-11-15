@@ -4431,5 +4431,186 @@
             "Post-Release Accuracy Archive",
             "Release Calendar"
         ]
+    },
+    {
+        "id": "myriad",
+        "name": "Myriad",
+        "slug": "myriad",
+        "shortDescription": "Prediction markets across crypto, sport, politics and culture, with a Chrome extension.",
+        "description": "Myriad runs its own prediction markets across crypto, sport, politics, the economy, gaming and culture, with a leaderboard and a news tab beside the market list. Each market is a Yes/No pair quoted as a percentage, and resolved markets stay visible with their outcomes and volume. A Chrome extension overlays the same markets on social feeds so a reader can take a position without leaving the page. Markets are open to browse without an account.",
+        "category": "Platforms",
+        "url": "https://myriad.markets",
+        "xUrl": "https://x.com/MyriadMarkets",
+        "tags": [
+            "Prediction Market",
+            "Crypto",
+            "Sports",
+            "Politics",
+            "Chrome Extension"
+        ],
+        "isPromoted": false,
+        "pricingDetails": "No published fee schedule: markets are free to browse, the extension adds points for participation, and trading terms sit in the site's own market rules.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-15",
+        "lastVerified": "2026-11-15",
+        "supportedMarkets": [
+            "Myriad"
+        ],
+        "platform": [
+            "Web",
+            "Chrome extension"
+        ],
+        "features": [
+            "Prediction Markets",
+            "Chrome Extension",
+            "Leaderboard",
+            "Market Categories"
+        ]
+    },
+    {
+        "id": "kuest",
+        "name": "Kuest",
+        "slug": "kuest",
+        "shortDescription": "White-label prediction-market infrastructure: your brand, your markets, Kuest's engine.",
+        "description": "Kuest is white-label prediction-market infrastructure. An operator chooses the markets, brings an audience and runs the venue under its own brand, domain and logo, while Kuest supplies the trading engine behind it. The operator keeps 30% of trading fees by default, configurable between 20% and 45%, and the product ships in 11 languages with a no-code setup that runs from branding to deployment. A live demo market is open to try, and the underlying protocol is open source.",
+        "category": "Infrastructure & APIs",
+        "url": "https://kuest.com",
+        "xUrl": "https://x.com/kuest",
+        "tags": [
+            "White Label",
+            "Infrastructure",
+            "Market Creation",
+            "Open Source"
+        ],
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free to start; production infrastructure is usage-based. Operators keep 30% of trading fees by default, configurable between 20% and 45%.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-15",
+        "lastVerified": "2026-11-15",
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "White-Label Markets",
+            "Operator Fee Share",
+            "Open-Source Protocol",
+            "No-Code Setup",
+            "11 Languages"
+        ]
+    },
+    {
+        "id": "orcalayer",
+        "name": "OrcaLayer",
+        "slug": "orcalayer",
+        "shortDescription": "Data layer over Polymarket: wallet lookup, whale analytics and smart-money alerts.",
+        "description": "OrcaLayer is a data layer over Polymarket. Look up any Polygon wallet and read its positions and results without connecting anything, then move to whale, leaderboard and trader-comparison views built on 1.5 billion indexed fills and 200,000 tracked wallets. Sonar raises real-time alerts when a tracked wallet enters, adds to or unwinds a position, with farmer filtering and NegRisk correction, and esports and weather views sit alongside the core analytics. The same data is available through a REST API, and wallet lookup needs no account.",
+        "category": "Market Intelligence",
+        "url": "https://orcalayer.com",
+        "xUrl": "https://x.com/orcalayer",
+        "tags": [
+            "Polymarket",
+            "Analytics",
+            "Whale Tracking",
+            "API",
+            "Polygon"
+        ],
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free wallet lookup with no signup; the REST API and alert features are sold on the pricing page.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-15",
+        "lastVerified": "2026-11-15",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web",
+            "API"
+        ],
+        "features": [
+            "Wallet Lookup",
+            "Whale Analytics",
+            "Smart-Money Alerts",
+            "REST API",
+            "Esports Analytics",
+            "Leaderboard"
+        ]
+    },
+    {
+        "id": "spreadcore",
+        "name": "SpreadCore",
+        "slug": "spreadcore",
+        "shortDescription": "Scans nine-plus bookmakers against Polymarket and executes both legs of the arb.",
+        "description": "SpreadCore watches nine or more bookmakers against Polymarket in real time and surfaces the forks where the two prices disagree after fees and rebates, in-play and pre-match. For each one it calculates the hedge, shows the locked profit, and places both legs from one terminal: a limit order on Polymarket and the matching stake at the bookmaker. The pitch is execution speed, because these gaps close in seconds and the site claims sub-second updates with direct execution.",
+        "category": "Trading Terminals",
+        "url": "https://spreadcore.xyz",
+        "xUrl": "https://x.com/SpreadCore_xyz",
+        "tags": [
+            "Arbitrage",
+            "Sportsbook",
+            "Polymarket",
+            "Terminal",
+            "Execution"
+        ],
+        "isPromoted": false,
+        "pricing": "Paid",
+        "pricingDetails": "Free trial, then a paid subscription; tiers are listed on the site's pricing page.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-15",
+        "lastVerified": "2026-11-15",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Bookmaker Scanning",
+            "Hedge Calculation",
+            "Two-Leg Execution",
+            "Live and Pre-Match"
+        ]
+    },
+    {
+        "id": "0xinsider",
+        "name": "0xInsider",
+        "slug": "0xinsider",
+        "shortDescription": "Polymarket sports and esports desk that grades wallets and follows the profitable money.",
+        "description": "0xInsider reads Polymarket's sports and esports markets through the wallets rather than the odds: wallets are graded S to F on settled profit, and each game shows which side the profitable ones hold. It publishes a daily pick with a public record, a feed of trades over $10,000 as they fill, a flag list for unusual trades, and a sharp-money-flow figure for both sides. A free account gets one pick and one alert a day; Pro is $99 a month for the full trade feed.",
+        "category": "Market Intelligence",
+        "url": "https://0xinsider.com",
+        "xUrl": "https://x.com/0xinsiderdotcom",
+        "tags": [
+            "Polymarket",
+            "Sports",
+            "Esports",
+            "Wallet Analytics",
+            "API"
+        ],
+        "isPromoted": false,
+        "pricing": "Freemium",
+        "pricingDetails": "Free: one pick a day and one alert. Pro $99/month for the full large-trade feed.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-15",
+        "lastVerified": "2026-11-15",
+        "supportedMarkets": [
+            "Polymarket"
+        ],
+        "platform": [
+            "Web"
+        ],
+        "features": [
+            "Wallet Grading (S-F)",
+            "Pick of the Day",
+            "Large Trade Feed",
+            "Sharp Money Flow",
+            "Suspicious Trade Flags"
+        ]
     }
 ]
