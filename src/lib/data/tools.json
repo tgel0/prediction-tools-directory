@@ -4612,5 +4612,115 @@
             "Sharp Money Flow",
             "Suspicious Trade Flags"
         ]
+    },
+    {
+        "id": "pmxt",
+        "name": "PMXT",
+        "slug": "pmxt",
+        "shortDescription": "One API over Polymarket, Kalshi and other venues — 'CCXT for prediction markets'.",
+        "description": "PMXT wraps the prediction-market venues in a single interface, in the way CCXT did for crypto exchanges: the same calls read markets and place orders across Polymarket, Kalshi and the others it supports, so code written against one venue does not need rewriting for the next. The project is TypeScript, open source on GitHub with 2,200 stars, and ships an MCP server and a starter app alongside the SDK.",
+        "category": "Infrastructure & APIs",
+        "url": "https://pmxt.dev",
+        "xUrl": "https://pmxt.dev",
+        "tags": [
+            "API",
+            "SDK",
+            "TypeScript",
+            "MCP",
+            "Open Source",
+            "Multi-Venue"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Open source on GitHub (pmxt-dev/pmxt); no hosted price list is published on the site.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-19",
+        "lastVerified": "2026-11-19",
+        "platform": [
+            "API"
+        ],
+        "features": [
+            "Unified Trading API",
+            "TypeScript SDK",
+            "MCP Server",
+            "Cross-Venue Abstraction"
+        ]
+    },
+    {
+        "id": "oracle3",
+        "name": "Oracle3",
+        "slug": "oracle3",
+        "shortDescription": "Open-source trading engine and MCP server that hunts fee-adjusted arbitrage across related markets.",
+        "description": "Oracle3 looks for no-arbitrage violations between related event contracts after fees, and can act on what it finds: it trades live on Kalshi, Polymarket and Solana, or on paper, under pre-trade risk limits. It ships as 13 MCP tools, a JSON CLI and a set of agent skills, with 600-plus tests in the Python repository. 569 stars and still moving — the last push was 2026-11-16.",
+        "category": "Infrastructure & APIs",
+        "url": "https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent",
+        "xUrl": "https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent",
+        "tags": [
+            "MCP",
+            "Open Source",
+            "Arbitrage",
+            "AI Agents",
+            "Python"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Open source on GitHub; no hosted pricing.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-19",
+        "lastVerified": "2026-11-19",
+        "supportedMarkets": [
+            "Kalshi",
+            "Polymarket"
+        ],
+        "platform": [
+            "API",
+            "MCP"
+        ],
+        "features": [
+            "Fee-Adjusted Arbitrage Detection",
+            "MCP Server (13 tools)",
+            "Live and Paper Trading",
+            "Pre-Trade Risk Limits",
+            "JSON CLI"
+        ]
+    },
+    {
+        "id": "kalshi-trading-bot-cli",
+        "name": "Kalshi Trading Bot CLI",
+        "slug": "kalshi-trading-bot-cli",
+        "shortDescription": "AI-native CLI: research a Kalshi market, estimate the probability, trade the edge.",
+        "description": "OctagonAI's CLI takes a Kalshi market through a full loop: deep research on the underlying event, an independent probability estimate, the edge that estimate implies against the live order book, and then execution sized by Kelly and gated by a five-part risk engine. It is TypeScript and open source, with 417 stars, and runs from the terminal rather than a dashboard.",
+        "category": "AI Agents & Bots",
+        "url": "https://github.com/OctagonAI/kalshi-trading-bot-cli",
+        "xUrl": "https://github.com/OctagonAI/kalshi-trading-bot-cli",
+        "tags": [
+            "Kalshi",
+            "CLI",
+            "AI Agents",
+            "Open Source",
+            "Trading Bot"
+        ],
+        "isPromoted": false,
+        "pricing": "Free",
+        "pricingDetails": "Open source on GitHub; you pay the venue's own fees.",
+        "access": "Public",
+        "status": "active",
+        "addedDate": "2026-11-19",
+        "lastVerified": "2026-11-19",
+        "supportedMarkets": [
+            "Kalshi"
+        ],
+        "platform": [
+            "API"
+        ],
+        "features": [
+            "AI Research to Trade",
+            "Probability Estimation",
+            "Edge Calculation",
+            "Kelly Sizing",
+            "Risk Gates"
+        ]
     }
 ]
