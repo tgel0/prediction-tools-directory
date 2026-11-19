@@ -451,8 +451,8 @@
         "id": "polysights",
         "name": "Polysights",
         "slug": "polysights",
-        "shortDescription": "Intelligence and strategy layer for prediction markets.",
-        "description": "Polysights is an analytics and execution platform focused on layering tools on top of the entire prediction market industry. It is building the ultimate intelligence and strategy layer for prediction markets.",
+        "shortDescription": "Intelligence layer for Polymarket traders: analytics, insider finder and a terminal.",
+        "description": "Polysights is an intelligence layer for Polymarket traders: a markets browser, trader analytics with PnL, drawdown, calendar, win-rate and category breakdowns, an Insider Finder that traces which wallets were early to a market, a research section and a trading terminal, all behind one account.",
         "category": "Market Intelligence",
         "url": "https://polysights.xyz",
         "xUrl": "https://x.com/Polysights",
@@ -468,19 +468,19 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-19",
         "supportedMarkets": [
-            "Polymarket",
-            "Kalshi"
+            "Polymarket"
         ],
         "platform": [
             "Web"
         ],
         "features": [
-            "Analytics Dashboard",
-            "Data Visualization",
-            "Strategy Tools",
-            "Cross-platform Intel"
+            "Markets Browser",
+            "Trader Analytics",
+            "Insider Finder",
+            "Trading Terminal",
+            "Research"
         ]
     },
     {
@@ -3302,7 +3302,7 @@
         "description": "Sonist automates live mention-market trading on Kalshi and Polymarket. It brings markets from both exchanges into one interface and monitors live audio, subtitle feeds, or accessibility captions for configured words, letting users choose the lowest-latency source available for each event. When Sonist finds a match, it applies the user's risk limits and sends the trade through their exchange account within a price ceiling that guarantees a profit.",
         "category": "AI Agents & Bots",
         "url": "https://sonist.tech",
-        "xUrl": "https://sonist.tech",
+        "xUrl": "https://x.com/sonisttrade",
         "tags": [
             "AI Trading Bots",
             "Automation",
@@ -3316,7 +3316,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-08-31",
-        "lastVerified": "2026-11-16",
+        "lastVerified": "2026-11-19",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket"
@@ -3373,24 +3373,24 @@
         "id": "vultax",
         "name": "Vultax",
         "slug": "vultax",
-        "shortDescription": "Compares public Polymarket wallets across dated position snapshots on up to eight measured axes.",
-        "description": "Vultax Trader Radar compares public Polymarket wallets within dated position snapshots on up to eight measured axes. Each card shows its underlying figures, and unavailable measurements are omitted rather than scored as zero. The board is free to browse, while deeper trader positions and trades require a paid plan.",
-        "category": "Analysis Tools",
-        "url": "https://vultax.com/features/trader-radar",
-        "xUrl": "https://vultax.com/features/trader-radar",
+        "shortDescription": "Independent prediction-market research desk with a terminal, regulation tracker and wallet comparison.",
+        "description": "Vultax is an independent research desk for prediction markets and crypto: research notes, a published track record, a data archive and a methodology page, plus regulation tracked by country and US state, a lawsuit tracker and a \"legal in my country?\" lookup. A terminal adds trader analytics, backtesting and market-integrity checks for wash trading and spoofing. Trader Radar, its wallet comparison, lines up public Polymarket wallets on up to eight measured axes, shows the underlying figures and omits unmeasured axes rather than scoring them zero.",
+        "category": "Market Intelligence",
+        "url": "https://vultax.com/",
+        "xUrl": "https://x.com/VultaxHQ",
         "tags": [
+            "Research",
+            "Regulation",
             "Polymarket",
             "Wallet Analytics",
-            "Prediction Markets",
-            "Trader Research",
-            "Position Snapshots"
+            "Terminal"
         ],
         "isPromoted": false,
         "pricing": "Freemium",
         "access": "Public",
         "status": "active",
         "addedDate": "2026-09-25",
-        "lastVerified": "2026-11-16",
+        "lastVerified": "2026-11-19",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -3398,11 +3398,12 @@
             "Web"
         ],
         "features": [
-            "Trader Radar Snapshots",
-            "Eight Measured Axes",
-            "Transparent Underlying Figures",
-            "Free Board Browse",
-            "Paid Trader Depth"
+            "Research Notes",
+            "Regulation and Lawsuit Tracker",
+            "Trading Terminal",
+            "Backtesting",
+            "Market Integrity Checks",
+            "Trader Radar"
         ]
     },
     {
