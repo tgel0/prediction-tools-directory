@@ -22,7 +22,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-11-21",
+        "lastVerified": "2026-11-22",
         "blockchain": [
             "Polygon"
         ],
@@ -82,7 +82,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-11-21",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi"
         ],
@@ -200,7 +200,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-10",
-        "lastVerified": "2026-11-21",
+        "lastVerified": "2026-11-22",
         "blockchain": [
             "Blast L2",
             "BNB Chain"
@@ -238,7 +238,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-11-21",
+        "lastVerified": "2026-11-22",
         "blockchain": [
             "Base"
         ],
@@ -1092,7 +1092,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-03-01",
-        "lastVerified": "2026-11-21",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Manifold"
         ],
@@ -3429,7 +3429,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-10-04",
-        "lastVerified": "2026-11-21",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Hyperliquid HIP-4"
         ],
@@ -3979,7 +3979,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-10-27",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Lucyd"
         ],
@@ -4022,7 +4022,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-02",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket",
@@ -4066,7 +4066,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-02",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Polymarket",
             "Predict.fun"
@@ -4107,7 +4107,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-02",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket",
@@ -4151,7 +4151,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-02",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket",
@@ -4192,7 +4192,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-02",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Polymarket",
             "Kalshi"
@@ -4232,7 +4232,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-03",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket"
@@ -4268,7 +4268,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-03",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Polymarket",
             "Hyperliquid"
@@ -4306,7 +4306,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-03",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -4342,7 +4342,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-03",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "platform": [
             "Web"
         ],
@@ -4380,7 +4380,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-13",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi"
         ],
@@ -4417,7 +4417,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-13",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket"
@@ -4454,7 +4454,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-15",
-        "lastVerified": "2026-11-17",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Myriad"
         ],
@@ -4490,7 +4490,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-15",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-22",
         "platform": [
             "Web"
         ],
@@ -4524,7 +4524,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-15",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -4563,7 +4563,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-15",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -4599,7 +4599,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-15",
-        "lastVerified": "2026-11-18",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Polymarket"
         ],
@@ -4637,7 +4637,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-19",
-        "lastVerified": "2026-11-19",
+        "lastVerified": "2026-11-22",
         "platform": [
             "API"
         ],
@@ -4670,7 +4670,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-19",
-        "lastVerified": "2026-11-19",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi",
             "Polymarket"
@@ -4709,7 +4709,7 @@
         "access": "Public",
         "status": "active",
         "addedDate": "2026-11-19",
-        "lastVerified": "2026-11-19",
+        "lastVerified": "2026-11-22",
         "supportedMarkets": [
             "Kalshi"
         ],
