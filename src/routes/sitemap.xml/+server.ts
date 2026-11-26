@@ -44,7 +44,24 @@ export async function GET() {
 
     const categories = [...new Set(tools.map(tool => tool.category))];
 
-    const urlEntries = [
+    // <lastmod> is optional in the sitemap protocol, so pages without a data-backed date
+    // (static, editorial, reference) simply omit it. Tool pages use the record's
+    // lastVerified; categories and compare pages use the newest lastVerified of their
+    // members, so a re-verified tool also bumps the pages that list it.
+    const newestVerified = (list: { lastVerified?: string }[]) =>
+        list.reduce((max, t) => (t.lastVerified && t.lastVerified > max ? t.lastVerified : max), '');
+
+    const comparePairsList = comparePairs();
+    const compareBySlug = new Map(comparePairsList.map((pair) => [pair.slug, pair]));
+
+    type UrlEntry = {
+        loc: string;
+        changefreq: string;
+        priority: string;
+        lastmod?: string;
+    };
+
+    const urlEntries: UrlEntry[] = [
         ...pages.map(page => ({
             loc: `${site}${page}`,
             changefreq: 'daily',
@@ -53,18 +70,24 @@ export async function GET() {
         ...categories.map(category => ({
             loc: `${site}/category/${categoryToSlug(category)}`,
             changefreq: 'weekly',
-            priority: '0.8'
+            priority: '0.8',
+            lastmod: newestVerified(tools.filter(tool => tool.category === category))
         })),
         ...tools.map(tool => ({
             loc: `${site}/tool/${tool.slug}`,
             changefreq: 'weekly',
-            priority: '0.9'
+            priority: '0.9',
+            lastmod: tool.lastVerified ?? ''
         })),
-        ...compareSlugs.map(slug => ({
-            loc: `${site}/compare/${slug}`,
-            changefreq: 'weekly',
-            priority: '0.8'
-        })),
+        ...compareSlugs.map(slug => {
+            const pair = compareBySlug.get(slug);
+            return {
+                loc: `${site}/compare/${slug}`,
+                changefreq: 'weekly',
+                priority: '0.8',
+                lastmod: pair ? newestVerified([pair.a, pair.b]) : ''
+            };
+        }),
         ...editorialPages.map(page => ({
             loc: `${site}${page}`,
             changefreq: 'monthly',
@@ -82,7 +105,8 @@ export async function GET() {
 ${urlEntries.map(entry => `  <url>
     <loc>${escapeXml(entry.loc)}</loc>
     <changefreq>${entry.changefreq}</changefreq>
-    <priority>${entry.priority}</priority>
+    <priority>${entry.priority}</priority>${entry.lastmod ? `
+    <lastmod>${entry.lastmod}</lastmod>` : ''}
   </url>`).join('\n')}
 </urlset>`;
 
